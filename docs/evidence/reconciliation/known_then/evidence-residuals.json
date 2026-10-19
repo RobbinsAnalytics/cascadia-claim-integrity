@@ -1,0 +1,1765 @@
+{
+ "not_validly_bound": [
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL077-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-061a7053d9e6c8253cd355065734ab09c1a410313c13dc767c3ff918cbebd128",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-09T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1090-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-070496f2873975fe61aed19cff9c5810f5c5a5fccfbc88a50e3824efecec520d",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-04T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL082-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-081012bbbd7e9de974abcd363c15a166168e60fded56d1264cd52327161743a8",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-11T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1048-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-0816a142b1e6ede94f85d4ab0d2cb43962984806ad5fbe60b6107424264a1169",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-13T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL085-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-0968ff8d44a24baf3dc2f2a23cb8890d9f1181e4c2773b9c26837733f14b85f1",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-13T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1045-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-09d0c6316f9c213f178613e86923ef82f78dd3e05aac960b72578e7529e1ea4f",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-12T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1075-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-0c5b1cf6212eb307445fb0d72735b74ab8a71c7a5e4f6ca75e5ccee2ac721a70",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-27T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1006-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-0d2cbebc00f6a06625edc58c9f7d222a66ac0637899ba96d015ca667995d2882",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-23T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1049-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-1119eea43caa52eebb6b9131556f7565450d854edea731fe07930a2dd1e748a6",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-14T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1031-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-126fb1e4c4a1325b75c19e83563e9f2bb542dbeb23395e802f4ed4b8d6788837",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-05T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL065-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-1954a5147aec6156012c7da111a5c191c0d895b97a7a27db6ff087c15905cc6a",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-03T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1085-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-1c664a7c82713315c74b17627be525b764f32efc72fc0d058896333b9ecc2156",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-02T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1039-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-2a1533ab0d6a5f0548a77c19d7708f2d7e55d53449354d4273031bc337602680",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-09T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1018-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3258fcc1529eed2cd8e53266bebe3e537c04b813ef0730424db21eb6558fbd2b",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-29T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1057-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-33d65d0a668b9918c26dbc268b0e406c1be857d37bb2f77df86dde6c1cb66bcc",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-18T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL022-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-33e0b0aed9656e8f0fb0e416d531e8a4a3a5d54a5ea31afad3ecdfba8eb6bf94",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-11T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1043-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-343f8ea3abd7a6b11ee4c5cae25b47dc304d02f317af81f0cc5eaaf6602fc8fa",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-11T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1019-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-36ef4c48c5723da255f2e917116089af74d1c5001fff298582b94cb1a379a399",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-30T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL097-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3b3552259ec121c9250708bb0bde7f7f24e46c4141d113754d9d309ca15f95ca",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-19T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL028-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3b84de3ffc79030cbb24e72184edce817674659b9c07aaa7eb7c3b9da052cae6",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-14T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1021-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3d12674eccb8ea51c0db9ea8ef6a4e04d3e10b54f23203c6613c4f5c3baac507",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-31T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1051-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3da036794ca550d4a4b17f98a0c563de1b0d479e7f871392bb8894de69ee777e",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-15T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1042-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3e5d1fc0a3980d55ef7734cba535f4752ffda9273c38c468534481e00ca542b9",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-10T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL035-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3f23d64629a4cb80fbf304186e10a213130382ca0e98404e1724c5e5c9ff1a4e",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-18T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1055-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-3ffff22abd5aa160154dc63d97908a26691506276c5ab99e3f3dcfef5f91534a",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-17T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "originating",
+   "bound_deliveries": [],
+   "business_timing": "effective_after_T",
+   "component_ids": [],
+   "disposition": "not_yet_received",
+   "effective_at": "2026-07-16T14:00:00Z",
+   "forwarder": null,
+   "grain": "record",
+   "id": "RSP-4a9e3427305dc2eddd52eb0c063c0e4b64e59bb9aae563cd652e7373da6d13d7",
+   "issuer": "SYN-R01",
+   "original_artifact_id": "ART-8f5e437e486b570fae79ba6cef48e10612cb06e0a487495f02868da1bf502750",
+   "outcome": "accepted",
+   "reason": "received after K",
+   "received_at": "2026-07-16T15:00:00Z",
+   "stage": "syntax"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1066-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-4e1dbd9d63c2ba23479b141db96b8990a5a5a1b1d2fbd3d0dbab10c2aa8dac18",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-22T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "originating",
+   "bound_deliveries": [],
+   "business_timing": "effective_after_T",
+   "component_ids": [],
+   "disposition": "not_yet_received",
+   "effective_at": "2026-07-16T12:00:00Z",
+   "forwarder": null,
+   "grain": "record",
+   "id": "RSP-4f70943b9a956ecefd821b785b1b3b54ae1fb43cf75516d073845d09f1bc4bf4",
+   "issuer": "SYN-R01",
+   "original_artifact_id": "ART-8b2579a5f1819c6f631218aa16ff2c187be5b24d52f7e9b54a5bc75d61818ba0",
+   "outcome": "accepted",
+   "reason": "received after K",
+   "received_at": "2026-07-16T13:00:00Z",
+   "stage": "transport"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1099-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-52316726f94c7f0074feb62893999cc2a266652df1be3ad39a13d4b1fa1d09ce",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-09T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1073-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5841be60ed90ae72b036d878733c8e54ca4dd088c80d5052a112f96459bf4916",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-26T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "originating",
+   "bound_deliveries": [],
+   "business_timing": "effective_after_T",
+   "component_ids": [],
+   "disposition": "not_yet_received",
+   "effective_at": "2026-07-17T12:00:00Z",
+   "forwarder": null,
+   "grain": "record",
+   "id": "RSP-596ef9a830f294e411f723098e12600ed8ad4db97b952b9d1d5bacc57e0f59b9",
+   "issuer": "SYN-R01",
+   "original_artifact_id": "ART-ab3d8b86c6426fa8d849cccc9bd2a095646c9ff6a4bcc42dadbca43099bb2f96",
+   "outcome": "rejected",
+   "reason": "received after K",
+   "received_at": "2026-07-18T12:00:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL070-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5d1246cdec49f837245880a63faabbd9a2e6d743ab41425113dd1d4e218e7d4e",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-05T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1096-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5d1c5375909b44bf9c02a7e8ebeaad8b9b853d90515a19c6af73c7bf1a1b61a2",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-07T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL041-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5d7dd990540d4be1581cc93349e84c8b838cac525d20768c3e1ffae8c611d233",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-21T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL047-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5ecb9edf0c059499b482f8b19688147b3ae4a2f86fca3593988c596614183e7d",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-24T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL037-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5f822e93e6cf710a77332ffb17896663c10c5cb162af040e6764dcead499eb17",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-19T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1015-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-5feaf32bef05269681d6ae5aeaa477f087580821fef93ba3b8c1c9b0c9e95376",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-28T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL031-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-673f7894159d2fd64e7d136bc6a95452933d05543241e052c9250d5065036573",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-16T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1030-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-7328455e19ba84e0ce2c459318a13c18de8d220205b8a8b8e62756084fae177f",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-04T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL055-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-7a871485b66d5a626777b52d4ba53764e5539ad672e9850d6cf8e18eb97e8fbc",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-28T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL052-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-7b72f50ba85b2d27aaba23c0dfc3c43c9e435de784d99c65e0b30785704821b8",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-26T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL067-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-7c553ced6d70aa27805ae4af98536ad211333b953e9dcafcd224e13aa9f22b0f",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-04T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1091-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-7e65ae0a03f50a607ffce02b9ffcc88a9018203fb7c762b78a37d11f89cab725",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-05T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL083-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-810483ed037536ff9a61872e780467ec538f85066a88ce82088c8c5424cb2e1a",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-12T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL071-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-84e2b2bfd0e97e7c403f947bf8bea3d2d83c2e602c1fc15c46695ac3339b9a73",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-06T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1007-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-85decb71412bca7d5b1a98e03d6f560b6678994fc03a9997b0dd69834a8cc1f5",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-24T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL076-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-86cbab492ce1b29040e5d225bfe85cc64887397f0ed9d1fabdb7b9a2697a8107",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-08T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1054-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-86e815cad5c0a7e950b906ab4979e82e375d63a030c2e2efaa3e3d2e107e49db",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-16T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1060-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-88658fbed83334ea419b58eeb1f8595570ef6fdcc32bf199f4963ca5ebf543c6",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-19T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL058-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-8b5743dd9d0f71dd5384eabdbd6467b797d5bf7040962114bb8be2caac869fd7",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-29T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1001-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-8f5b5ca6c4aabd61fcc9f3706a4855fd6734da9751fa5c73edc181eef3250925",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-21T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1093-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-90e949b437068815cf84bed14c4ac8ce30606f5425d05d2df8cda6cb9e76ce54",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-06T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL064-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-925a503a82579fe2fb4f97654706a89b3c2c06b6fb741280159f7564eea7102d",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-02T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1003-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-930fc947006ec7f539ad3a170a61902e61a23668ba2e570aaee1c121289f90f7",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-22T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1033-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-94a46b3f807911dad7206f6110f352c67dcf38ae58dba0ece2434d8a84b21acb",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-06T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1067-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-9a753b4a3d520bea7d870fd620509cbaeab6e78daa6d5ac1f232548b77c87ffe",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-23T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1103-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-9b6c5bce40ee5d8877c3cb4d87daf3bba0ab463a0f667d7355c61db41553ec8a",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-12T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1087-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-9bdf7994746a517cb34e5d50da4557dbd809c03455df4790412cf07d0fb26c55",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-03T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1025-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-9d71ce7b2c998e3d62bfda35b6db2abe356bb9d7f799a6cafdf9c4be0843ec2c",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-02T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1081-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-9dd5bcddfbfa9a943ae3c1bc293dcaeb8ccce277a6e472561f5339609a4edbd7",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-30T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL091-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-a1826f29d9b3df88de3957d6dab144880918892e72e1037c1bb30016b2596bfa",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-16T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL095-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-a4016a15808cb232973116867b4ea3eb448fa06fb2aebdbdd1d111f4a30a776a",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-18T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1024-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-ab5da82290078545fcd8441d36c68dcff4089c21946e72acf53c47e80395c5c1",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-01T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1013-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-ac2e79a3567ccd1a2edf8a46fececdc0b3b0b106e7b85c58d1a570f40a4ab65c",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-27T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL061-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-ada7468be5eeb0b6773b1af7c483c7600c02d97491273ad30ff97ecf3f5e72fd",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-01T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1084-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-ae8e87d2bcffe66e7c26e0b5eec512efb534807707b0ba44f6de3a862a539ed8",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-01T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL040-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-af30525079eece4d325e238a264ce05a6afa2c1b45965ec8c8bac1a270a02c12",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-20T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL089-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-b072d2758d595d6c616217bcbb4831e264a9a54c9c2ff849169605c05ed8ffe1",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-15T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1037-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-b2de0c6bcfedf483b69fe620ef0ee7412a8da2b3501306de8a068dd0922f9bf5",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-08T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL043-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-b46f5abbd9c2f7d1b4a43c58c7a79216478889a130c40b2ab9dca5bc6ecbddaf",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-22T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL088-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-b960b0b73011cbd0f1c145fc17335e6ac83ae8b31d022d4376dc44ab112aff66",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-14T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL079-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-bdefb30be70f2af180cb561151589c218210cc35e92883227854511f4442ed0d",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-10T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1078-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-be6596447f56725e9e872259eefed5935a22a31a8f0ce9c0ec30e671936c8da3",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-28T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL025-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-c8093f57b48f290c65a3ee2f5ee045f1412c0d803844d2c1988ac854bb1c5fb9",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-13T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1079-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-d39ef91a1ac6b6745fbc8857135e8c08f5972692860ba2db3664af6a694bc72f",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-29T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1069-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-d614b2907ea273b93c583d0471959936c7a8638705eb235a828fbe5bda61b736",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-24T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1009-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-da63787ad59a3493037857d45dc23348fce97e986a331b86a4a18320e2735858",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-25T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1097-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-da8af8c10abf45d5460e15d05234389f7fab5462b53a64478ff0a30071f3c730",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-07-08T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL053-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-da92a903fe103fdca99bdfcce7de1413f0112b44b63209bd408fe3007c9498cc",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-27T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1036-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-dc3609782b14a9e456130d82e662a02c9f88284aa30988743fcf8b07ec9b3b86",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-07T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL059-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-de24f05427b46c7057869e7c2432c73a0a7bb00876acd7e42e0e7699e2065f89",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-30T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL049-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-e3a25610eefaa7a9ad22676cac1a5faadd823864fe0d9579aab90ae4154e9986",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-25T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1072-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-e8e09ca1984804537437ebe60a1dc8435933ddc7c901b5caebecb11650f42a66",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-25T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1012-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-e9c2dd418f9a6af64923b1d1cfa871061397dbbd2bf28e02db5d24a661d69520",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-26T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL094-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-ebe7095052158a7e245bc3fd6d9765e96044fcdaab7197cac9c8a5f0baec76a9",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-17T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1063-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-ec906423e2fd9dce087b6e8f047098bb06201072ff3a27e6de4499b3850fef8b",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-21T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL034-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-f15562ab43dda48fd0a4bcba237a200c6139805b058e1f7c0a399aa87fc2d7c6",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-17T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1027-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-f27100bf7bffb604cad5075db68b9a73a686352f77fbdf5da45b9b136e0b375b",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-03T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL029-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-f493756d5db6ab5fc17061780eaed291aa8c286013e08cd8deba00adbcc59aac",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-15T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL1061-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-f9a5dfcc1e6cf11a30ace4791084537b454784798246b5f5ba8f86b3f5d102cb",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-06-20T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL046-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-f9b0a1321d9044d8063d4886f41f9f8efb05494a570b3f8684c4b74376f90f3c",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-04-23T11:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL073-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-fdcb998d7c8ecf59cc50df26b758aba356899429db4c95d5c2e4458c55eb1fc2",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-07T10:30:00Z",
+   "stage": "final"
+  },
+  {
+   "basis": "aggregate_assertion",
+   "bound_deliveries": [
+    "D-SYN-C05:SYN-R05:encounter:SYN-C05:CL100-1-1"
+   ],
+   "business_timing": "undetermined",
+   "component_ids": [],
+   "disposition": "too_broad",
+   "effective_at": null,
+   "forwarder": null,
+   "grain": "aggregate",
+   "id": "RSP-fe3d5032331c1d833d683c268dfe97b03b2d394af315097f158f574ec1415c59",
+   "issuer": "SYN-C05-CONTACT",
+   "original_artifact_id": null,
+   "outcome": "unresolved",
+   "reason": "aggregate statement without record membership",
+   "received_at": "2026-05-20T11:30:00Z",
+   "stage": "final"
+  }
+ ]
+}

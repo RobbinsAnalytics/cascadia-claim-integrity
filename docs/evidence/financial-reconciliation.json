@@ -1,0 +1,470 @@
+{
+ "build": "data/derived/bulk-c4",
+ "positions": {
+  "current_later": {
+   "M17": {
+    "allowed_amount": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 7998,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 4002
+    },
+    "events_by_type": {
+     "allowed_amount": {
+      "event_count": 7998,
+      "gross_negative": "0.00",
+      "gross_positive": "279930.00",
+      "net": "279930.00"
+     },
+     "member_collection": {
+      "event_count": 6000,
+      "gross_negative": "0.00",
+      "gross_positive": "0.00",
+      "net": "0.00"
+     },
+     "member_responsibility": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "60000.00",
+      "net": "60000.00"
+     },
+     "payer_paid": {
+      "event_count": 6000,
+      "gross_negative": "0.00",
+      "gross_positive": "120000.00",
+      "net": "120000.00"
+     },
+     "settlement": {
+      "event_count": 12001,
+      "gross_negative": "-20.00",
+      "gross_positive": "240000.00",
+      "net": "239980.00"
+     },
+     "supplier_cost": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "323506.52",
+      "net": "323506.52"
+     },
+     "vendor_payment": {
+      "event_count": 7999,
+      "gross_negative": "0.00",
+      "gross_positive": "143982.00",
+      "net": "143982.00"
+     }
+    },
+    "member_collection": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 6000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 6000
+    },
+    "member_responsibility": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 12000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 0
+    },
+    "payer_paid": {
+     "conflicting": 1,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 6000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 5999
+    },
+    "settlement_totals": {
+     "allocated_total": "143982.00",
+     "event_count": 12001,
+     "event_total": "239980.00",
+     "gross_negative": "-20.00",
+     "gross_positive": "240000.00",
+     "residual": "0.00",
+     "unapplied_total": "95998.00"
+    },
+    "settlements": {
+     "balanced": 12001,
+     "count": 12001,
+     "unbalanced": 0
+    },
+    "submitted_charge": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 40,
+     "expected_slots": 12040,
+     "known": 11998,
+     "not_applicable": 0,
+     "not_yet_expected": 0,
+     "unknown": 2
+    },
+    "supplier_cost": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 12000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 0
+    },
+    "vendor_payment": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 7999,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 4001
+    }
+   },
+   "settlements": {
+    "balanced": 12001,
+    "count": 12001,
+    "reversals": [
+     "SYN-C01:F000001-settlement-reversal:v1"
+    ],
+    "unbalanced": []
+   },
+   "slot_states": {
+    "allowed_amount|known": 7998,
+    "allowed_amount|not_applicable": 40,
+    "allowed_amount|unknown": 4002,
+    "member_collection|known": 6000,
+    "member_collection|not_applicable": 40,
+    "member_collection|unknown": 6000,
+    "member_responsibility|known": 12000,
+    "member_responsibility|not_applicable": 40,
+    "payer_paid|conflicting": 1,
+    "payer_paid|known": 6000,
+    "payer_paid|not_applicable": 40,
+    "payer_paid|unknown": 5999,
+    "submitted_charge|evidenced_derived_zero": 40,
+    "submitted_charge|known": 11998,
+    "submitted_charge|unknown": 2,
+    "supplier_cost|known": 12000,
+    "supplier_cost|not_applicable": 40,
+    "vendor_payment|known": 7999,
+    "vendor_payment|not_applicable": 40,
+    "vendor_payment|unknown": 4001
+   }
+  },
+  "known_then": {
+   "M17": {
+    "allowed_amount": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 7998,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 4002
+    },
+    "events_by_type": {
+     "allowed_amount": {
+      "event_count": 7998,
+      "gross_negative": "0.00",
+      "gross_positive": "279930.00",
+      "net": "279930.00"
+     },
+     "member_collection": {
+      "event_count": 6000,
+      "gross_negative": "0.00",
+      "gross_positive": "0.00",
+      "net": "0.00"
+     },
+     "member_responsibility": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "60000.00",
+      "net": "60000.00"
+     },
+     "payer_paid": {
+      "event_count": 6000,
+      "gross_negative": "0.00",
+      "gross_positive": "120000.00",
+      "net": "120000.00"
+     },
+     "settlement": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "240000.00",
+      "net": "240000.00"
+     },
+     "supplier_cost": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "323506.52",
+      "net": "323506.52"
+     },
+     "vendor_payment": {
+      "event_count": 7999,
+      "gross_negative": "0.00",
+      "gross_positive": "143982.00",
+      "net": "143982.00"
+     }
+    },
+    "member_collection": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 6000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 6000
+    },
+    "member_responsibility": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 12000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 0
+    },
+    "payer_paid": {
+     "conflicting": 1,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 6000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 5999
+    },
+    "settlement_totals": {
+     "allocated_total": "143982.00",
+     "event_count": 12000,
+     "event_total": "240000.00",
+     "gross_negative": "0.00",
+     "gross_positive": "240000.00",
+     "residual": "0.00",
+     "unapplied_total": "96018.00"
+    },
+    "settlements": {
+     "balanced": 12000,
+     "count": 12000,
+     "unbalanced": 0
+    },
+    "submitted_charge": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 40,
+     "expected_slots": 12040,
+     "known": 11998,
+     "not_applicable": 0,
+     "not_yet_expected": 0,
+     "unknown": 2
+    },
+    "supplier_cost": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 12000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 0
+    },
+    "vendor_payment": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 7999,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 4001
+    }
+   },
+   "settlements": {
+    "balanced": 12000,
+    "count": 12000,
+    "reversals": [],
+    "unbalanced": []
+   },
+   "slot_states": {
+    "allowed_amount|known": 7998,
+    "allowed_amount|not_applicable": 40,
+    "allowed_amount|unknown": 4002,
+    "member_collection|known": 6000,
+    "member_collection|not_applicable": 40,
+    "member_collection|unknown": 6000,
+    "member_responsibility|known": 12000,
+    "member_responsibility|not_applicable": 40,
+    "payer_paid|conflicting": 1,
+    "payer_paid|known": 6000,
+    "payer_paid|not_applicable": 40,
+    "payer_paid|unknown": 5999,
+    "submitted_charge|evidenced_derived_zero": 40,
+    "submitted_charge|known": 11998,
+    "submitted_charge|unknown": 2,
+    "supplier_cost|known": 12000,
+    "supplier_cost|not_applicable": 40,
+    "vendor_payment|known": 7999,
+    "vendor_payment|not_applicable": 40,
+    "vendor_payment|unknown": 4001
+   }
+  },
+  "restated_then": {
+   "M17": {
+    "allowed_amount": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 7998,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 4002
+    },
+    "events_by_type": {
+     "allowed_amount": {
+      "event_count": 7998,
+      "gross_negative": "0.00",
+      "gross_positive": "279930.00",
+      "net": "279930.00"
+     },
+     "member_collection": {
+      "event_count": 6000,
+      "gross_negative": "0.00",
+      "gross_positive": "0.00",
+      "net": "0.00"
+     },
+     "member_responsibility": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "60000.00",
+      "net": "60000.00"
+     },
+     "payer_paid": {
+      "event_count": 6000,
+      "gross_negative": "0.00",
+      "gross_positive": "120000.00",
+      "net": "120000.00"
+     },
+     "settlement": {
+      "event_count": 12001,
+      "gross_negative": "-20.00",
+      "gross_positive": "240000.00",
+      "net": "239980.00"
+     },
+     "supplier_cost": {
+      "event_count": 12000,
+      "gross_negative": "0.00",
+      "gross_positive": "323506.52",
+      "net": "323506.52"
+     },
+     "vendor_payment": {
+      "event_count": 7999,
+      "gross_negative": "0.00",
+      "gross_positive": "143982.00",
+      "net": "143982.00"
+     }
+    },
+    "member_collection": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 6000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 6000
+    },
+    "member_responsibility": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 12000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 0
+    },
+    "payer_paid": {
+     "conflicting": 1,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 6000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 5999
+    },
+    "settlement_totals": {
+     "allocated_total": "143982.00",
+     "event_count": 12001,
+     "event_total": "239980.00",
+     "gross_negative": "-20.00",
+     "gross_positive": "240000.00",
+     "residual": "0.00",
+     "unapplied_total": "95998.00"
+    },
+    "settlements": {
+     "balanced": 12001,
+     "count": 12001,
+     "unbalanced": 0
+    },
+    "submitted_charge": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 40,
+     "expected_slots": 12040,
+     "known": 11998,
+     "not_applicable": 0,
+     "not_yet_expected": 0,
+     "unknown": 2
+    },
+    "supplier_cost": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 12000,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 0
+    },
+    "vendor_payment": {
+     "conflicting": 0,
+     "evidenced_derived_zero": 0,
+     "expected_slots": 12040,
+     "known": 7999,
+     "not_applicable": 40,
+     "not_yet_expected": 0,
+     "unknown": 4001
+    }
+   },
+   "settlements": {
+    "balanced": 12001,
+    "count": 12001,
+    "reversals": [
+     "SYN-C01:F000001-settlement-reversal:v1"
+    ],
+    "unbalanced": []
+   },
+   "slot_states": {
+    "allowed_amount|known": 7998,
+    "allowed_amount|not_applicable": 40,
+    "allowed_amount|unknown": 4002,
+    "member_collection|known": 6000,
+    "member_collection|not_applicable": 40,
+    "member_collection|unknown": 6000,
+    "member_responsibility|known": 12000,
+    "member_responsibility|not_applicable": 40,
+    "payer_paid|conflicting": 1,
+    "payer_paid|known": 6000,
+    "payer_paid|not_applicable": 40,
+    "payer_paid|unknown": 5999,
+    "submitted_charge|evidenced_derived_zero": 40,
+    "submitted_charge|known": 11998,
+    "submitted_charge|unknown": 2,
+    "supplier_cost|known": 12000,
+    "supplier_cost|not_applicable": 40,
+    "vendor_payment|known": 7999,
+    "vendor_payment|not_applicable": 40,
+    "vendor_payment|unknown": 4001
+   }
+  }
+ },
+ "rules": "Typed amounts are never pooled. For each settlement, applied plus unapplied equals the signed amount. Unknown is never zero; a reversal keeps its original.",
+ "schema_version": "financial-reconciliation-1"
+}

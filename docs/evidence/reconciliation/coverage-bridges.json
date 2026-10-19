@@ -1,0 +1,25 @@
+{
+ "known_then_to_restated_then": {
+  "added_to_accepted": 0,
+  "denominator_delta": 0,
+  "from": "known_then",
+  "removed_from_accepted": 0,
+  "rows": [],
+  "to": "restated_then"
+ },
+ "note": "Known then and restated then share T; their difference is evidence known later. Current later moves T.",
+ "restated_then_to_current_later": {
+  "added_to_accepted": 0,
+  "denominator_delta": 0,
+  "from": "restated_then",
+  "removed_from_accepted": 0,
+  "rows": [
+   {
+    "from": "not_submitted",
+    "leg": "SYN-C01:S000001",
+    "to": "rejected"
+   }
+  ],
+  "to": "current_later"
+ }
+}

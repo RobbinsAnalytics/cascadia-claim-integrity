@@ -1,0 +1,338 @@
+{
+  "boundary": "Re-derived from raw frozen inputs and approved contracts; never imports src/cci or any builder module; reads no data/derived output; the publication is read only for comparison after derivation.",
+  "counts": {
+    "both": 22173,
+    "expected_keys": 22173,
+    "matched": 22173,
+    "mismatched": 0,
+    "missing_from_publication": 0,
+    "published_keys": 22173,
+    "unexpected_in_publication": 0
+  },
+  "diagnoses_after_comparison": [],
+  "inputs": [
+    {
+      "path": "data/raw/responses-v1/operational/produced/responses.jsonl",
+      "sha256": "021d3dd6b94c77afbcd5fe399b225ef0b222f62ceebe406e6331fc10edae19d1"
+    },
+    {
+      "path": "data/raw/source-v1/census.jsonl",
+      "sha256": "e9d7a88acdc9c817ea131c7bf7fbf07602f9f322269fc226f18600501763b60a"
+    },
+    {
+      "path": "data/raw/source-v1/client_notes.jsonl",
+      "sha256": "70c88ab67afbebefeee9bc49a4653a6a56ef4d7094971f2aeac6db2132c3cded"
+    },
+    {
+      "path": "data/raw/source-v1/financial_events.jsonl",
+      "sha256": "fc0638c8377688e73a8cfe0ad752144b9ff514859d9420a5d601936f8b04cc5c"
+    },
+    {
+      "path": "data/raw/source-v1/membership.json",
+      "sha256": "88a5ad79ce439a1671617d425a6fc7f80500fb1171d570959451f9a81201a169"
+    },
+    {
+      "path": "data/raw/source-v1/payment_allocations.jsonl",
+      "sha256": "01272b9d76a88bc44a449a35ae8ef7dd795505c6b70fba2fb423300218432127"
+    },
+    {
+      "path": "data/raw/source-v1/references.jsonl",
+      "sha256": "c51d6de0afce36beba6d1edf83bad73887997d65908cd3a98f16da540e7ba78f"
+    },
+    {
+      "path": "data/raw/source-v1/requests.jsonl",
+      "sha256": "1f63408729f3eda288db93cf4781f8c93832d9c39247f4b9fb421fdfae56aa54"
+    },
+    {
+      "path": "data/raw/source-v1/service_observations.jsonl",
+      "sha256": "748c7b02751083c99fbae44f0ad20940d8366a81450f51a006296e196972d6b3"
+    },
+    {
+      "path": "data/raw/source-v1/source-manifest.json",
+      "sha256": "5883f3fc9683f0cad4a1479c9ebae7f34fe2313fb325c77d83d0482e50ee592f"
+    },
+    {
+      "path": "data/raw/submissions-v1/replacement-decisions.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/submissions-v1/submissions.json",
+      "sha256": "7a6005805a0aa7cb9897101ded3b7aa0171ace394f9905e101ec504be5e57c5e"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/config/generation.json",
+      "sha256": "65aa4363d5b2e0b72e77af7c30560f7f423225731b5a8925d63bdcedf58a9db7"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/domain-decisions.md",
+      "sha256": "05536875db1488162f1f19b55699db8e4ebfbcae519fb69478a3b1db6cd2940c"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/evidence-policies.json",
+      "sha256": "450b893338bf5db00db25a8c59eeb510c0f2476005f4aa27ebc4063516751311"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/field-mapping.md",
+      "sha256": "5579414b05c6427c00fd5fcd6e0a5247107d753813881049dd5fc8bb21b370ff"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/financial-semantics.md",
+      "sha256": "831bc8c483a479a2e0de150227e4488d181601ef8188ae0627816950bc888725"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/metric-contracts.json",
+      "sha256": "a53f53b985fbbd835b031b8c8c3c3e4862f5520bc6c2e2989201f9cf6a61652a"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/profiles.json",
+      "sha256": "0b6fa5c78d49654fdf446cc610920115d785e45ad12d780a1e4a52d12ef6357a"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/response-addendum.md",
+      "sha256": "aaf1472eed0116d977fd745435370840b01d1c5daa2e0377f8dd8582888ad923"
+    },
+    {
+      "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/source-schema.json",
+      "sha256": "cbb68ed22bdc9c2555a1753511823fc264dbbce48033a48c626969543bc60079"
+    },
+    {
+      "path": "governance/decision-record.md",
+      "sha256": "3ecabf62645337407d1b899fa48cb17b0b2fe23a908d8cc02a230bd4078dcfdf"
+    },
+    {
+      "path": "governance/metric_register.md",
+      "sha256": "f2f5cb7b62fe1b3a2040582d08d15be028c46aa598243e436ee064bd865aa89a"
+    },
+    {
+      "path": "governance/small-gate/output-contract.md",
+      "sha256": "053cdf4a47e19fa111b120923f9d24a7d7d6cca15d8c011e5cee53a938d11375"
+    },
+    {
+      "path": "src/verify_small_paths.py",
+      "sha256": "a285e60249bcac4789ef5f9c50d8887fe07df01b77cb2b70ea93c43d3fb765e9"
+    }
+  ],
+  "interpretations": [
+    "Client filters for every measure except M08 are ALL, P-A, P-B, P-C and SYN-C01..SYN-C06; every submeasure is published for every client filter, including zero-population combinations (for example M15 audit_submission for SYN-C01), because a zero count is an exact result and a zero denominator is 'Not applicable', not an absent cell.",
+    "Stages for M15 and M19 are all three registered stages for every client filter and period.",
+    "Periods are assigned from the request service_date (completed legs and P/U/F units through the census row's request; P-C cancelled items through their own request; claim versions through the first sorted source item). FULL keeps only service dates inside 2026-04-01..2026-06-29.",
+    "units_missing_field:<field> members are data-derived: per stage, every field that is missing or conflicting on a blocked or conflicting readiness row at any of the three positions; each member is published at every position, client filter and period (zero where absent). M13 reason:<reason> uses the contract's closed six-reason precedence list and stage:<stage> the two contract terminal rejection stages; M17 <type> uses the seven contract slot types (register 1.0.1); M05 follow_up:<state> uses all five registered states.",
+    "Responses are available when received_at <= K and their business effect qualifies when effective_at is non-null and <= T. A submission is a historical fact at Q when submitted_at <= T and <= K. Evidence binds only through an exact member binding (all thirteen binding fields equal to the frozen submission). Receiver evidence is authoritative only when its issuer, basis and forwarder match the target's evidence policy and its original artifact hashes to original_artifact_sha256.",
+    "Coverage scope: record grain covers every line in the member's required_components; component grain covers the listed component_ids; aggregate grain covers no outcome. For M16 basis an aggregate assertion is attributed only to the lines of its explicitly listed member (not to the whole batch).",
+    "Unit outcome (M01, M02, M04, M07, M16): accepted when a qualifying originating or forwarded final acceptance covers the unit's line in its exact scoped submission and no qualifying rejection covers it; rejected symmetrically; conflicted when both; otherwise unresolved. Client assertions (response record assertions and record-scope client notes) never set an outcome. No voids exist (replacement-decisions.jsonl is empty), so voided is always 0.",
+    "M02 (register 1.0.1) precedence over the leg's units: conflicted, missing_claim (no claim version at T containing the item), not_submitted (no submission fact at Q), voided (never: no voids), rejected, partial_required_components, client_asserted_only (some unit's outcome basis is record_specific_client_assertion), no_evidence (every unit's basis is no_usable_evidence), unresolved (otherwise, including aggregate-only legs).",
+    "M03/M13 state per S encounter family (client:recipient:purpose:family): conflicted if any required line has both qualifying acceptance and qualifying final rejection; else rejected if any qualifying terminal rejection (final or syntax); else accepted if every required line has qualifying acceptance; else unresolved. M13 stage is syntax_acknowledgment when a syntax rejection qualifies, otherwise encounter_decision; with no reason text every reason is other_terminal_rejection.",
+    "M04: a unit is covered at its own deadline (trigger + 168 h) when a qualifying acceptance has effective_at <= that deadline (received by K) and no qualifying rejection is effective by it, under a submission fact at Q. All units of a leg share census completed_at, so partly_due is structurally 0.",
+    "M05: obligations are (S delivery, stage) pairs whose policy expectation is expected; receipts are authoritative receiver rows of that stage bound to the delivery and received by min(T, K); due runs from the first delivery's submitted_at. justifiably_cancelled applies to an unreceived encounter_decision obligation after a qualifying-received syntax rejection. later_resolution counts pending or overdue obligations with a receipt received in (T, K]. Untimed (register 1.0.1): one row per delivery from the encounter_decision expectation only. Follow-up (120 h) is satisfied by authoritative final evidence or a record assertion bound to the delivery and received by min(T, K); aggregate assertions and client notes (not delivery-bound) do not satisfy it.",
+    "M06: preparation items are blocked and conflicting readiness rows at T at every stage; onset = max(trigger, claim version available_at); governed deadline trigger + 24 h (initial) or + 48 h (submission stages); receipt and follow-up items are M05 overdue obligations aged from their due time; encounter_rejection items (register 1.0.1) are rejected U units aged from the earliest received qualifying rejecting row. governed_overdue counts preparation items past their deadline plus every receipt and follow-up overdue item. timing_undetermined counts every rejection item (no established deadline) plus any item with an unknown or post-T onset.",
+    "M07: a unit is covered from the earliest effective_at of its qualifying acceptance (received by K); the leg's instant is the latest unit instant; elapsed from census completed_at; quantiles are nearest-rank over accepted legs.",
+    "M08: raw_rows counts every row in the frozen operational file (position independent); received_after_K the subset received after K; every other submeasure is computed over the rows received by K. Duplicates use original artifact identity plus hash plus exact binding (assertions: canonical content without id and received_at); duplicate_effects_prevented equals the duplicate rows suppressed. too_broad counts aggregate-grain rows; bound_to_submission_after_T counts available rows bound to a submission made after T.",
+    "M11/M12 candidates (register 1.0.1) are S families with at least one required line covered by a qualifying final acceptance, all definitively active in v1 (indeterminate 0). payload_to_claim compares every payload line (line set, code, units vs quantity, charge, category, service date, start, end) with the bound claim version; claim_to_source compares the bound version with the source truth at Q (the newest version available by K, header evaluated with references effective by T) under the M18 field grain. conforming needs both layers conforming; mismatch is any mismatch in either; otherwise unassessable.",
+    "M14: the version at T is the newest family version available by T containing the item; numerator, missing, partially_allocated, conflicting and applicability_unresolved partition P (register 1.0.1: unresolved-applicability units only in applicability_unresolved). claim_headers counts distinct families with a version at T covering a unit in the filter (unresolved units included).",
+    "M15 states and M06 preparation rows come from the separately authored verify_small_paths readiness re-derivation (version at T, facts received by T, grouped transmissions blocked by any not-ready sibling). denominator is the stage population; distinct_blocked_units counts blocked plus conflicting rows (register 1.0.1).",
+    "M17: slot states follow output contract 0.2.2 with events current at K and effective by T; the submitted_charge initial slot uses the item's claim version at T (decision 3), known only when every own line charge is supported. Settlements are current settlement or refund_adjustment events with known amounts whose effect qualifies at T; allocations are current at K with effective_at <= T; balanced means applied + unapplied == amount exactly; totals are signed USD sums.",
+    "M18: one version per family (newest available by T) compared with the newest version available by K under output contract 0.2.2's field grain; a field is unassessable when the source truth is missing or conflicting; a version whose items are all applicability-unresolved is unassessable.",
+    "M19: the earliest established ready instant over all versions available by T, where a version counts only if it was still the newest version at its ready instant; submission stages require every unit of the grouped transmission; P-B waits for the end of the UTC service date; hours = ready instant - trigger, six places, nearest rank. never_ready_or_censored = stage population minus ready."
+  ],
+  "limitations": [
+    "Separately authored by an agent session briefed by the builder session; author exposure is not ruled out. It is not an independent evaluator in the plan section 15 sense.",
+    "For the clusters pinned in register 1.0.1 (M02 precedence and states, M05 untimed grain, M06 rejection grain and timing_undetermined, M11/M12 candidate population, M14 unresolved units, M15 distinct_blocked_units, M16 evidence basis, M17 slot types), the register was amended AFTER this verifier's first report (attempt 1, preserved at governance/rederivation-attempts/attempt-1-register-1.0.0.json) to state the builder's implemented reading. Agreement on those clusters is therefore agreement with an amended definition, not independent confirmation of the original 1.0.0 wording.",
+    "This re-run was briefed by the coordinator with the 1.0.1 dispositions; the verifier author had seen the publication's attempt-1 values when implementing 1.0.1.",
+    "Reuses src/verify_small_paths.py (an earlier separately authored verifier by the same orchestration) for population, claim version replay, header field support and readiness; a shared misreading there would not be detected here.",
+    "The frozen submission manifest is taken as the actual submission record; the first-attempt chronology that produced it is not re-derived here.",
+    "No file-system access control enforced the read boundary; the boundary is self-declared."
+  ],
+  "mismatches": [],
+  "missing_from_publication": [],
+  "per_measure": {
+    "M01": {
+      "both": 360,
+      "expected": 360,
+      "matched": 360,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 360,
+      "unexpected": 0
+    },
+    "M02": {
+      "both": 1200,
+      "expected": 1200,
+      "matched": 1200,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 1200,
+      "unexpected": 0
+    },
+    "M03": {
+      "both": 150,
+      "expected": 150,
+      "matched": 150,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 150,
+      "unexpected": 0
+    },
+    "M04": {
+      "both": 720,
+      "expected": 720,
+      "matched": 720,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 720,
+      "unexpected": 0
+    },
+    "M05": {
+      "both": 900,
+      "expected": 900,
+      "matched": 900,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 900,
+      "unexpected": 0
+    },
+    "M06": {
+      "both": 390,
+      "expected": 390,
+      "matched": 390,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 390,
+      "unexpected": 0
+    },
+    "M07": {
+      "both": 600,
+      "expected": 600,
+      "matched": 600,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 600,
+      "unexpected": 0
+    },
+    "M08": {
+      "both": 33,
+      "expected": 33,
+      "matched": 33,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 33,
+      "unexpected": 0
+    },
+    "M11": {
+      "both": 240,
+      "expected": 240,
+      "matched": 240,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 240,
+      "unexpected": 0
+    },
+    "M12": {
+      "both": 90,
+      "expected": 90,
+      "matched": 90,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 90,
+      "unexpected": 0
+    },
+    "M13": {
+      "both": 270,
+      "expected": 270,
+      "matched": 270,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 270,
+      "unexpected": 0
+    },
+    "M14": {
+      "both": 900,
+      "expected": 900,
+      "matched": 900,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 900,
+      "unexpected": 0
+    },
+    "M15": {
+      "both": 5640,
+      "expected": 5640,
+      "matched": 5640,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 5640,
+      "unexpected": 0
+    },
+    "M16": {
+      "both": 1800,
+      "expected": 1800,
+      "matched": 1800,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 1800,
+      "unexpected": 0
+    },
+    "M17": {
+      "both": 6480,
+      "expected": 6480,
+      "matched": 6480,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 6480,
+      "unexpected": 0
+    },
+    "M18": {
+      "both": 960,
+      "expected": 960,
+      "matched": 960,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 960,
+      "unexpected": 0
+    },
+    "M19": {
+      "both": 1440,
+      "expected": 1440,
+      "matched": 1440,
+      "mismatched": 0,
+      "missing": 0,
+      "published": 1440,
+      "unexpected": 0
+    }
+  },
+  "published": {
+    "path": "governance/published-measures.json",
+    "sha256": "45355df7ace65cdaf88c63aeef8cbd576d697bb1533cefdbb779d7acf92b4c28"
+  },
+  "register_1_0_1_amendments_implemented": [
+    "M02: order conflicted, missing_claim, not_submitted, voided, rejected, partial_required_components, client_asserted_only (some unit's outcome basis is record_specific_client_assertion), no_evidence (every unit's basis is no_usable_evidence), unresolved (the rest, including aggregate-only legs).",
+    "M05: untimed counted once per delivery at the encounter_decision stage only; per-stage and follow-up states include justifiably_cancelled.",
+    "M06: one encounter_rejection item per rejected U unit (onset = earliest received qualifying rejecting row); every rejection item counts in timing_undetermined (no established deadline) and still ages for the median.",
+    "M11/M12: a candidate is an S family with at least one required line covered by qualifying final acceptance.",
+    "M13: closed six-reason list and two terminal stages, zero-filled (unchanged from attempt 1).",
+    "M14: applicability-unresolved units are counted only in applicability_unresolved (five states partition P).",
+    "M15: denominator published per stage; distinct_blocked_units = blocked plus conflicting; field family = union over positions of blocking fields per stage, zero-filled (unchanged from attempt 1).",
+    "M16: basis is the basis of the outcome evidence: receiver basis only when a qualifying final accepted or rejected decision supplies the outcome (a final row whose outcome is unresolved, or one not effective by T, supplies no outcome); otherwise record assertion, then listed aggregate assertion, else no_usable_evidence. The 1.0.1 text 'the final decision that supplies its outcome' is read this way because the decision record states the clause pins the implemented rule.",
+    "M17: refund_adjustment is not an expected slot; seven slot types.",
+    "M19: earliest established ready instant across versions (unchanged from attempt 1; the builder was corrected)."
+  ],
+  "register_version": "1.1.0",
+  "replacement_decisions_rows": 0,
+  "result": "pass",
+  "sanity": {
+    "current_later": {
+      "encounter_families_with_two_deliveries": 0
+    },
+    "known_then": {
+      "encounter_families_with_two_deliveries": 0
+    },
+    "restated_then": {
+      "encounter_families_with_two_deliveries": 0
+    }
+  },
+  "schema": "rederivation-1",
+  "unexpected_in_publication": [],
+  "verifier": {
+    "path": "src/validate_measures.py",
+    "sha256": "bf0ad148b049ebd7360eddf51ca48049be192f9260da8adb91b25e13eaeb541a"
+  }
+}

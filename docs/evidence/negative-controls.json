@@ -1,0 +1,6326 @@
+{
+ "application_revision": "254c5a87a8ebc1503403f59674a689ddae13441b",
+ "boundary": "Public development evidence. These instances and their clean pairs were disclosed before the controls were written; they are not blind evaluation.",
+ "by_mode": [
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF01",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 4,
+   "instances": 4,
+   "missed": 0,
+   "mode": "SF02",
+   "not_executed": 0,
+   "reached": 4,
+   "tripped": 4
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF03",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF04",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF05",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF06",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF07",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF08",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 5,
+   "instances": 5,
+   "missed": 0,
+   "mode": "SF09",
+   "not_executed": 0,
+   "reached": 5,
+   "tripped": 5
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF10",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF11",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF12",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF13",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF14",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF15",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF16",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF17",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF18",
+   "not_executed": 1,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF19",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 5,
+   "instances": 5,
+   "missed": 0,
+   "mode": "SF20",
+   "not_executed": 0,
+   "reached": 5,
+   "tripped": 5
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF21",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 5,
+   "instances": 5,
+   "missed": 0,
+   "mode": "SF22",
+   "not_executed": 0,
+   "reached": 5,
+   "tripped": 5
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF23",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF24",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF25",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF26",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF27",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF28",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF29",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF30",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF31",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF32",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF33",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF34",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF35",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF36",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  }
+ ],
+ "controls_sha256": "88a9510884e5dcf6b2f1b20996ce7a7112e79387d9439fafea1331e89ac13851",
+ "fault_registry_sha256": "64fc0b4fe465e9740bc0a88674312a8528f6784ff4d4fedd5077c69aa001049c",
+ "results": [
+  {
+   "clean_id": "SF01-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "preparation_population_complete",
+      "detail": "expected unit has no constructed claim allocation at T",
+      "grain": "p_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|LEG-A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "preparation_population_complete",
+    "service_universe_accounted"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G01#missing_construction",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF01-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF01",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 1,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "cd40a37548ad7a3b97e8e398cb64060acef1ee8bc0d3db841ac78e369d1e565f",
+   "target_reachability": {
+    "evidence": {
+     "P_units": 1,
+     "claims_in_clean_build": 2,
+     "claims_in_mutated_build": 0
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF01-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "service_universe_accounted",
+      "detail": "unit ready since 2026-01-01T09:00:00Z has no submitted report by T",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|LEG-A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "preparation_population_complete",
+    "service_universe_accounted"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G01#ready_later",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF01-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF01",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "bb6797b8cb57312f869bc0e925610f516cd6c8157c188bc2c9c8d7f6c97d341f",
+   "target_reachability": {
+    "evidence": {
+     "clean_submissions": 1,
+     "ready_units": 1,
+     "submissions": 0
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF02-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "response_obligation_due",
+      "detail": "encounter_decision overdue since 2026-01-01T05:00:00Z",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_obligation_due"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G03#after_due",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF02-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF02",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "372acb7b9601dad38cfa6a800fe82833e96be3ae140304333631bb024e787dd0",
+   "target_reachability": {
+    "evidence": {
+     "clean_receipt_hour": 5,
+     "mutated_responses": 0
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF02-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "alert_class": "business_state",
+      "check_id": "response_obligation_due",
+      "detail": "mutant: overdue at 4.999",
+      "grain": "obligation",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_obligation_due"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G03#before_due",
+   "harness_kind": "control mutant with synthesized output: the defective control's alert is constructed, not executed; executed are the real registered control on the legitimate condition (clean pair) and the evaluator's rule against the constructed alert",
+   "instance_id": "SF02-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF02",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "T": "4.999h",
+    "due": "2026-01-01T05:00:00Z",
+    "obligation_state": "pending"
+   },
+   "specification_hash": "04e77671a19c9a50548ff306a4bf47967a25499a51f727e3245f7cbf9f870004",
+   "target_reachability": {
+    "evidence": {
+     "T": "4.999h",
+     "due": "2026-01-01T05:00:00Z",
+     "obligation_state": "pending"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF02-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "response_obligation_due",
+      "detail": "state satisfied_on_time where the evidence gives satisfied_late",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_obligation_due"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G03#late_inside_alert_window",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF02-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF02",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "74ec6ad10ac9de00ac19593b955a965398e2e92a640467bb9f62afdfd3ca79a9",
+   "target_reachability": {
+    "evidence": {
+     "engine_state": "satisfied_late",
+     "mutated_state": "satisfied_on_time"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF02-04-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "response_obligation_due",
+      "detail": "state satisfied_late where the evidence gives satisfied_on_time",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_obligation_due"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G03#at_due",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF02-04",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF02",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 1,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 1,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "3c6a777ad4560af40a41c908dda86e3b3a871e5063a2964ea3ad09b349d278cd",
+   "target_reachability": {
+    "evidence": {
+     "engine_state": "satisfied_on_time",
+     "mutated_state": "satisfied_late"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF03-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "required_line_evidence_complete",
+      "detail": "a positive batch or transaction status exists but this required component has no line result and its result is overdue",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|mileage|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "required_line_evidence_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G04#missing_line",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF03-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF03",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 1,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "a5027adfdafe59b997c830ef02868051a942ad281ee90ac8e994371c6d7cac43",
+   "target_reachability": {
+    "evidence": {
+     "positive_batch": true,
+     "removed_result": "A-MILE"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF03-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "required_line_evidence_complete",
+      "detail": "no line or record result covers this required component",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|mileage|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "batch_membership_results_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "required_line_evidence_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G04#rejected_line",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF03-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF03",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 1,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 1,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "1b07089d7cc6a6353d3be9ba7214715a091491e4be5da618b9450db03004eca0",
+   "target_reachability": {
+    "evidence": {
+     "A-MILE_raw_outcome": "rejected",
+     "mutated_unit_outcome": "accepted"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF04-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "obligation_transition_valid",
+      "detail": "expected encounter_decision obligation is absent: no governed transition removed it",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "obligation_transition_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G05#accepted_prerequisite",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF04-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF04",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "bfd02da71076de033a708e91fb40517d802d75da84c766fc6935ef55e4fa7a31",
+   "target_reachability": {
+    "evidence": {
+     "suppressed": "final-decision obligation activated by syntax acceptance at hour 2"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF05-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "evidence_binding_unique",
+      "detail": "decision row applied to a unit outside its scoped delivery",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "R1"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "evidence_binding_unique",
+      "detail": "outcome cites R1, whose scope does not name a delivery carrying this unit; acceptance rests on evidence bound to a different scoped target",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C02|SYN-C02:LEG|base|SYN-R02|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "evidence_binding_unique"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G06#account_all_raw",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF05-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF05",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 1,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 1,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "9a80a1f2ea93e9d68306c84cf580b6b649038f64266c4e7ffdf86bd61a169772",
+   "target_reachability": {
+    "evidence": {
+     "bound_row_client": "SYN-C01",
+     "mutated_unit": "SYN-C02|SYN-C02:LEG|base|SYN-R02|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF05-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "evidence_binding_unique",
+      "detail": "decision row applied to a unit outside its scoped delivery; row is treated as bound but its scope does not match any actual submission",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "C1"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "evidence_binding_unique",
+      "detail": "outcome cites C1, whose scope does not name a delivery carrying this unit; acceptance rests on evidence bound to a different scoped target",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|SYN-C01:LEG|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "evidence_binding_unique"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G06#clean_one_per_client",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF05-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF05",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 1,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 1,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "314c1a914531b4dd48c025fc20b8a13948063d6db61c5d017690c16b1c3dbeb5",
+   "target_reachability": {
+    "evidence": {
+     "response_attempt": 2,
+     "submitted_attempt": 1
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF05-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "evidence_binding_unique",
+      "detail": "decision row applied to a unit outside its scoped delivery; row is treated as bound but its scope does not match any actual submission",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "C1"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "evidence_binding_unique",
+      "detail": "outcome cites C1, whose scope does not name a delivery carrying this unit; acceptance rests on evidence bound to a different scoped target",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|SYN-C01:LEG|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "evidence_binding_unique"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G06#clean_one_per_client",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF05-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF05",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 1,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 1,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "9f64161e24be1d9179b1d507a9d2ac0557c16efb500a2a2d52f43f30fbeec0f2",
+   "target_reachability": {
+    "evidence": {
+     "response_version": "V2",
+     "submitted_version": "V1"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF06-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "population_identity_reconciliation",
+      "detail": "landed tape carries 2 distinct entities for one service",
+      "grain": "leg",
+      "position_id": "golden",
+      "subject_id": "A"
+     },
+     {
+      "alert_class": "business_state",
+      "check_id": "population_identity_reconciliation",
+      "detail": "census identity missing from the landed tape",
+      "grain": "leg",
+      "position_id": "golden",
+      "subject_id": "B"
+     }
+    ],
+    "other_controls_alerting": [
+     "source_population_accounted"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "population_identity_reconciliation"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G07#duplicate_compensates_omission",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF06-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF06",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 3,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 3,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "76b27b9731460ee58ba9b9e297c42025cd4c3012dce835ed0e9920b278194f43",
+   "target_reachability": {
+    "evidence": {
+     "landed_keys_mutated": [
+      "A",
+      "C"
+     ],
+     "landed_rows_clean": 3,
+     "landed_rows_mutated": 3
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF07-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "raw_evidence_disposition_complete",
+      "detail": "raw response row has no disposition",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "R2"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "raw_evidence_disposition_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G06#account_all_raw",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF07-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF07",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 1,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 1,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "aac8ac3b3348cb54eeb4f3f94147924180ce39d81535e7872a146517ffccfc98",
+   "target_reachability": {
+    "evidence": {
+     "dropped": "R2"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF07-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "raw_evidence_disposition_complete",
+      "detail": "raw response row has no disposition",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "R3"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "raw_evidence_disposition_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G06#account_all_raw",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF07-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF07",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 1,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 1,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "b542a0162623b99a117103fc93cd1993c0b366ee44709aa6be7b690d42060947",
+   "target_reachability": {
+    "evidence": {
+     "dropped": "R3"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF08-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "knowledge_cutoff_observed",
+      "detail": "acceptance rests on evidence not available or not effective at this position",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|B|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "knowledge_cutoff_observed"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G02#known_then",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF08-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF08",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "a21159881b27c52264537a425a34b058ade9d76371e98d32a56856ae1754c3c6",
+   "target_reachability": {
+    "evidence": {
+     "B_ACCEPT": {
+      "effective_hour": 14,
+      "received_hour": 18
+     },
+     "position": "T=K=16"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF09-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "family_current_acceptance",
+      "detail": "current coverage is unresolved; its attempt lineage (replacement, void, retraction) gives accepted",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "assertion_scope_authority_valid",
+     "required_line_evidence_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "family_current_acceptance"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G08#pending_replacement",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF09-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF09",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "578c3f0985bc447bef6df5c269fe1ad56c6bf982208d6824f91a9b9e72bc5750",
+   "target_reachability": {
+    "evidence": {
+     "engine_outcome": "accepted",
+     "mutated_outcome": "unresolved"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF09-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "family_current_acceptance",
+      "detail": "current coverage is accepted; its attempt lineage (replacement, void, retraction) gives voided",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "family_current_acceptance"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G08#accepted_void",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF09-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF09",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 1
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "9eaa352e76f026069d17477ef6f5d4d2c0ea74e74c5a2bbdd66971acdb7865cb",
+   "target_reachability": {
+    "evidence": {
+     "engine_outcome": "voided",
+     "mutated_outcome": "accepted"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF09-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "family_current_acceptance",
+      "detail": "current coverage is voided; its attempt lineage (replacement, void, retraction) gives accepted",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "required_line_evidence_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "family_current_acceptance"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G08#rejected_void",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF09-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF09",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "590386357136d3d370eed1e6c55224e452ba6efbfbb1af372ba9145563b3c903",
+   "target_reachability": {
+    "evidence": {
+     "engine_outcome": "accepted",
+     "mutated_outcome": "voided"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF09-04-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "family_current_acceptance",
+      "detail": "current coverage is accepted; its attempt lineage (replacement, void, retraction) gives not_accepted",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "required_line_evidence_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "family_current_acceptance"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G08#authoritative_retraction",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF09-04",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF09",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 1,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "1ad017d03bc222f8fcb76dfbfacbd053c18440babcd0d76eb8eeb1a9bc3f26e6",
+   "target_reachability": {
+    "evidence": {
+     "engine_outcome": "unresolved",
+     "mutated_outcome": "accepted"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF09-05-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "family_current_acceptance",
+      "detail": "current coverage is voided; its attempt lineage (replacement, void, retraction) gives accepted; a stale-target void or replacement is not reported as a lineage exception",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "required_line_evidence_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "family_current_acceptance"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G08#stale_target_void",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF09-05",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF09",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "d52f033bd4d0fb0532b7f70267ae7d46706b19c870d9ac45c8dd548d5d957340",
+   "target_reachability": {
+    "evidence": {
+     "engine_outcome": "accepted",
+     "mutated_outcome": "voided"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF10-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "deadline_contract_boundaries",
+      "detail": "due 2026-01-02T05:59:56Z differs from the contract due 2026-01-02T03:59:56Z",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "deadline_contract_boundaries"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G09#before_rule_boundary",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF10-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF10",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "55aa16c8fd01dc5d73300b3e0d6dc6d7850597ce62bce294f8166338f6376fd3",
+   "target_reachability": {
+    "evidence": {
+     "clean_due_hour": 27.999,
+     "mutated_due_hour": 29.999
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF10-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "deadline_contract_boundaries",
+      "detail": "due 2026-01-05T10:00:00Z differs from the contract due 2026-01-05T18:00:00Z",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "deadline_contract_boundaries"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G09#calendar_after",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF10-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF10",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "58b7d1f3b10c8fe53d40bc29d7d9e59aad8b06c818be70d15e302a87206b0a70",
+   "target_reachability": {
+    "evidence": {
+     "clean_due": "2026-01-05T18:00:00Z",
+     "mutated_due": "2026-01-05T10:00:00Z"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF10-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "deadline_contract_boundaries",
+      "detail": "due 2026-01-03T18:00:00Z differs from the contract due 2026-01-05T18:00:00Z",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "deadline_contract_boundaries"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G09#calendar_before",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF10-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF10",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "79a482717e5a020d9e71e85dbb3da3345283bb1eb01e31c10f87da7640f5bd95",
+   "target_reachability": {
+    "evidence": {
+     "clean_due": "2026-01-05T18:00:00Z",
+     "mutated_due": "2026-01-03T18:00:00Z"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF11-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "source_population_accounted",
+      "detail": "census leg has no landed ride observation",
+      "grain": "leg",
+      "position_id": "golden",
+      "subject_id": "B"
+     }
+    ],
+    "other_controls_alerting": [
+     "population_identity_reconciliation"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "source_population_accounted"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G07#incomplete_manifest_rebuilt",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF11-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF11",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 3,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 3,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "55021ea623cf88110b386893912cc2c271cdda3295cf43cc7df323538a14e541",
+   "target_reachability": {
+    "evidence": {
+     "landed_rows_mutated": 2,
+     "manifest_count_matches_landed": true
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF12-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "attempt_outcome": "failed_progress",
+      "result": "fail"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "progress_watermark_contract"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G12#stalled_success",
+   "harness_kind": "operating rule rehearsal: the real src/observe.py rule over the golden clock; no real scheduler, worker or observer exists",
+   "instance_id": "SF12-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "rehearsed against the G12 receipt shape; no real scheduler exists"
+   ],
+   "mechanism": "operations",
+   "mode": "SF12",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "cursor": 3,
+    "exit": 0
+   },
+   "specification_hash": "9b8999886974f739154105eb209ce4bd0e098e293d0539ca8b2c6f2d76b57f17",
+   "target_reachability": {
+    "evidence": {
+     "cursor": 3,
+     "exit": 0
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF12-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "note": "mutant classifies the no-op as stalled",
+      "result": "fail"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "progress_watermark_contract"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G12#declared_noop",
+   "harness_kind": "operating rule rehearsal: the real src/observe.py rule over the golden clock; no real scheduler, worker or observer exists; the mutant's output is synthesized",
+   "instance_id": "SF12-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF12",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "registered": "no_op"
+   },
+   "specification_hash": "6a8da2a1db8704cc993a81ae37a2f70222b5b6ba6b57a76bd50cfbbdccb82184",
+   "target_reachability": {
+    "evidence": {
+     "registered": "no_op"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF12-03-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "note": "mutant demands progress after the final step",
+      "result": "fail"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "progress_watermark_contract"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G12#finite_replay_complete",
+   "harness_kind": "operating rule rehearsal: the real src/observe.py rule over the golden clock; no real scheduler, worker or observer exists; the mutant's output is synthesized",
+   "instance_id": "SF12-03",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "operations",
+   "mode": "SF12",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "finite_replay_complete": true
+   },
+   "specification_hash": "b5ed3e6a6f40fecc53ccc858b949f5359006061028ca99c3b5cbac8be667bb15",
+   "target_reachability": {
+    "evidence": {
+     "finite_replay_complete": true
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF13-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "last_green_hour": 0,
+      "result": "fail",
+      "served_health": "stale_or_unknown",
+      "worker_state": "missing"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "scheduled_run_freshness"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G12#missing_worker",
+   "harness_kind": "operating rule rehearsal: the real src/observe.py rule over the golden clock; no real scheduler, worker or observer exists",
+   "instance_id": "SF13-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "rule-level rehearsal on the G12 clock; a genuine scheduler and separate observer do not exist (operating lane blocked on D10)"
+   ],
+   "mechanism": "operations",
+   "mode": "SF13",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "observer_at": 1.5,
+    "worker_due": 1
+   },
+   "specification_hash": "5a17a63c7e2b3d5d7a1ea52646fa4d937dd0a1941aa191dd8228579f3f5ef424",
+   "target_reachability": {
+    "evidence": {
+     "observer_at": 1.5,
+     "worker_due": 1
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF13-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "served": "stale_or_unknown"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "scheduled_run_freshness"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G12#missing_worker",
+   "harness_kind": "operating rule rehearsal: the real src/observe.py rule over the golden clock; no real scheduler, worker or observer exists",
+   "instance_id": "SF13-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "client-side expiry rule exercised; no real served page or scheduler"
+   ],
+   "mechanism": "operations",
+   "mode": "SF13",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "both_stopped": true
+   },
+   "specification_hash": "8278ddcb974017e02d55ddeb59c223b519431028a31c5a18f10f0e865549aa4d",
+   "target_reachability": {
+    "evidence": {
+     "both_stopped": true
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF14-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "certification_allowed": false,
+      "mismatched_assets": [
+       "data/cells.json"
+      ],
+      "missing_assets": [],
+      "result": "fail"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "release_manifest_consistent"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G13#mixed_assets",
+   "harness_kind": "real src/readback.py against a local HTTP server serving an isolated copy of web/ with one asset replaced",
+   "instance_id": "SF14-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "local isolated preview at 127.0.0.1; public served readback is pending until an authorized release"
+   ],
+   "mechanism": "publication",
+   "mode": "SF14",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "replaced_asset": "data/cells.json"
+   },
+   "specification_hash": "8cea0c6617f36483698e75f25949ce45b36360e189b699a63f061788cf95aa12",
+   "target_reachability": {
+    "evidence": {
+     "replaced_asset": "data/cells.json"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF14-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "certification_allowed": false,
+      "mismatched_assets": [
+       "data/bundle.json"
+      ],
+      "missing_assets": [],
+      "result": "fail"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "release_manifest_consistent"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G13#clean_bundle",
+   "harness_kind": "real src/readback.py against a local HTTP server serving an isolated copy of web/ with one asset replaced",
+   "instance_id": "SF14-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "local isolated preview at 127.0.0.1; public served readback is pending until an authorized release"
+   ],
+   "mechanism": "publication",
+   "mode": "SF14",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "replaced_asset": "data/bundle.json"
+   },
+   "specification_hash": "643d9a450ffb03cff954ed51fc52fbe080fc9b77ea8a4e7bd8e8c05b7285025f",
+   "target_reachability": {
+    "evidence": {
+     "replaced_asset": "data/bundle.json"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF15-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "independent_contract_counterexamples",
+      "detail": "{\"internal_comparison\": \"pass\", \"independent_contract_counterexamples\": \"fail\", \"missing\": [\"P-MILE\"], \"M14\": {\"numerator\": 1, \"denominator\": 2}}"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "independent_contract_counterexamples"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G10#shared_omission",
+   "harness_kind": "contract miniature: a set comparison of builder and comparator component sets over the golden's independent P; not a mutation of the live builder and the independent verifier, so it does not prove live shared-error resistance",
+   "instance_id": "SF15-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "contract miniature: a set comparison of builder and comparator component sets over the golden's independent P; not a mutation of the live builder and the independent verifier, so it does not prove live shared-error resistance"
+   ],
+   "mechanism": "builder_mutant",
+   "mode": "SF15",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "M14": {
+     "denominator": 2,
+     "numerator": 1
+    },
+    "independent_contract_counterexamples": "fail",
+    "internal_comparison": "pass",
+    "missing": [
+     "P-MILE"
+    ]
+   },
+   "specification_hash": "167f0ef0c1e37cc7ceb128db3fadba9581531883987308d324bee90e39b42416",
+   "target_reachability": {
+    "evidence": {
+     "M14": {
+      "denominator": 2,
+      "numerator": 1
+     },
+     "independent_contract_counterexamples": "fail",
+     "internal_comparison": "pass",
+     "missing": [
+      "P-MILE"
+     ]
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF16-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "harness",
+      "detail": "{\"detector_invocation_complete\": \"fail\", \"evaluation_population_complete\": \"pass\", \"false_alarm_budget\": \"pass\"}"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "detector_invocation_complete",
+    "evaluation_population_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G11#disabled_detector",
+   "harness_kind": "evaluator_mutant_on_public_scorer (src/score.py over the exact G11 inputs)",
+   "instance_id": "SF16-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "evaluator",
+   "mode": "SF16",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "caught": [],
+    "caught_on_time": 0,
+    "detected_late": 0,
+    "duplicate_alerts": 0,
+    "false_alarm_rate": {
+     "denominator": 2,
+     "numerator": 0
+    },
+    "false_alarms": [],
+    "future_alerts_after_cutoff": {},
+    "immature_already_alerted": 0,
+    "immature_targets": 1,
+    "late": [],
+    "late_latency_hours": [],
+    "mature_targets": 3,
+    "missed": [
+     "D1",
+     "D2",
+     "D3"
+    ],
+    "on_time_latency_hours": [],
+    "pre_onset_alarms": {},
+    "sensitivity": {
+     "denominator": 3,
+     "numerator": 0
+    },
+    "still_missed": 3,
+    "unmatched_alert_subjects": []
+   },
+   "specification_hash": "b65300a59851940a2c82bf9b0f5ad300fa0022960dad83f1db14fb25a5bbd900",
+   "target_reachability": {
+    "evidence": {
+     "G11": "specified trace"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF16-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "harness",
+      "detail": "{\"detector_invocation_complete\": \"pass\", \"evaluation_population_complete\": \"fail\", \"false_alarm_budget\": \"fail\"}"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "detector_invocation_complete",
+    "evaluation_population_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G11#missing_scoring_row",
+   "harness_kind": "evaluator_mutant_on_public_scorer (src/score.py over the exact G11 inputs)",
+   "instance_id": "SF16-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "evaluator",
+   "mode": "SF16",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "caught": [
+     "D1"
+    ],
+    "caught_on_time": 1,
+    "detected_late": 1,
+    "duplicate_alerts": 1,
+    "false_alarm_rate": {
+     "denominator": 2,
+     "numerator": 1
+    },
+    "false_alarms": [
+     "C1"
+    ],
+    "future_alerts_after_cutoff": {},
+    "immature_already_alerted": 1,
+    "immature_targets": 1,
+    "late": [
+     "D2"
+    ],
+    "late_latency_hours": [
+     3
+    ],
+    "mature_targets": 2,
+    "missed": [],
+    "on_time_latency_hours": [
+     1
+    ],
+    "pre_onset_alarms": {},
+    "sensitivity": {
+     "denominator": 2,
+     "numerator": 1
+    },
+    "still_missed": 0,
+    "unmatched_alert_subjects": []
+   },
+   "specification_hash": "c960c099b7f8f47a7010defb64f6636574c64ebfd4e98ed8e84e4d63ac40e557",
+   "target_reachability": {
+    "evidence": {
+     "G11": "specified trace"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF17-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "harness",
+      "detail": "{\"detector_invocation_complete\": \"pass\", \"evaluation_population_complete\": \"pass\", \"false_alarm_budget\": \"fail\"}"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "false_alarm_budget"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G11#always_alert",
+   "harness_kind": "evaluator_mutant_on_public_scorer (src/score.py over the exact G11 inputs)",
+   "instance_id": "SF17-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "evaluator",
+   "mode": "SF17",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "caught": [
+     "D1",
+     "D2",
+     "D3"
+    ],
+    "caught_on_time": 3,
+    "detected_late": 0,
+    "duplicate_alerts": 0,
+    "false_alarm_rate": {
+     "denominator": 2,
+     "numerator": 2
+    },
+    "false_alarms": [
+     "C1",
+     "C2"
+    ],
+    "future_alerts_after_cutoff": {},
+    "immature_already_alerted": 1,
+    "immature_targets": 1,
+    "late": [],
+    "late_latency_hours": [],
+    "mature_targets": 3,
+    "missed": [],
+    "on_time_latency_hours": [
+     0,
+     0,
+     0
+    ],
+    "pre_onset_alarms": {},
+    "sensitivity": {
+     "denominator": 3,
+     "numerator": 3
+    },
+    "still_missed": 0,
+    "unmatched_alert_subjects": []
+   },
+   "specification_hash": "ed1f10f1c801b1f7a58bdc8127b5f83e5728d95d15ce07ca3e8e241c6b828677",
+   "target_reachability": {
+    "evidence": {
+     "G11": "specified trace"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF17-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "harness",
+      "detail": "{\"mutant_caught_on_time\": 2, \"harness_caught_on_time\": 1, \"harness_duplicates\": 1}"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "false_alarm_budget"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G11#specified_trace",
+   "harness_kind": "evaluator_mutant_on_public_scorer (src/score.py over the exact G11 inputs)",
+   "instance_id": "SF17-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "evaluator",
+   "mode": "SF17",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "caught_on_time": 2,
+    "duplicate_alerts": 0,
+    "sensitivity": {
+     "denominator": 3,
+     "numerator": 2
+    }
+   },
+   "specification_hash": "a990c75c7c0aec8c96c155637c107f6176defcd8ea2705a5268f028e18fcae9c",
+   "target_reachability": {
+    "evidence": {
+     "G11": "specified trace"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF18-01-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": false
+   },
+   "detector_response": {
+    "mutant_or_harness_output": []
+   },
+   "evaluator_judgment": "not_evaluated",
+   "execution_status": "blocked",
+   "expected_check_ids": [
+    "evaluation_access_boundary",
+    "evaluation_population_complete"
+   ],
+   "expected_check_tripped": false,
+   "golden_ref": "G11#key_access_probe",
+   "harness_kind": "evaluator_access_probe",
+   "instance_id": "SF18-01",
+   "kind": "control_or_harness_mutant",
+   "limitations": [
+    "access probe bound to governance/evaluation-custody.json; No custody mechanism is established for the current attempt (No custody mechanism is established. The detector author, the detector runtime and the evaluator share one operating-system account on one workstation, so there). The resource was not touched; absence of evidence is not a denial."
+   ],
+   "mechanism": "evaluator",
+   "mode": "SF18",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "bytes_read": 0,
+    "certifies_boundary": false,
+    "commitment_resources": [
+     "private/evaluation-2"
+    ],
+    "config": "governance/evaluation-custody.json",
+    "configured_resource_attempt": 2,
+    "current_attempt": 2,
+    "detector_identity_can_read_protected_area": null,
+    "handle_opened": false,
+    "resource_identity": "private/evaluation-2",
+    "resource_touched": false,
+    "state": "mechanism_not_established",
+    "statement": "No custody mechanism is established for the current attempt (No custody mechanism is established. The detector author, the detector runtime and the evaluator share one operating-system account on one workstation, so there). The resource was not touched; absence of evidence is not a denial.",
+    "status": "not_evaluated"
+   },
+   "specification_hash": "4339ccdfbdcc7a003cf5df72f2e2f26e46f794d43cea941afecbeb9d6c3b181b",
+   "target_reachability": {
+    "evidence": {
+     "bytes_read": 0,
+     "certifies_boundary": false,
+     "commitment_resources": [
+      "private/evaluation-2"
+     ],
+     "config": "governance/evaluation-custody.json",
+     "configured_resource_attempt": 2,
+     "current_attempt": 2,
+     "detector_identity_can_read_protected_area": null,
+     "handle_opened": false,
+     "resource_identity": "private/evaluation-2",
+     "resource_touched": false,
+     "state": "mechanism_not_established",
+     "statement": "No custody mechanism is established for the current attempt (No custody mechanism is established. The detector author, the detector runtime and the evaluator share one operating-system account on one workstation, so there). The resource was not touched; absence of evidence is not a denial.",
+     "status": "not_evaluated"
+    },
+    "reached": false
+   }
+  },
+  {
+   "clean_id": "SF18-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "harness",
+      "detail": "{\"detector_invocation_complete\": \"pass\", \"evaluation_population_complete\": \"fail\", \"false_alarm_budget\": \"fail\"}"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "evaluation_access_boundary",
+    "evaluation_population_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G11#missing_scoring_row",
+   "harness_kind": "evaluator_mutant_on_public_scorer (src/score.py over the exact G11 inputs)",
+   "instance_id": "SF18-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "evaluator",
+   "mode": "SF18",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "caught": [
+     "D1"
+    ],
+    "caught_on_time": 1,
+    "detected_late": 1,
+    "duplicate_alerts": 1,
+    "false_alarm_rate": {
+     "denominator": 2,
+     "numerator": 1
+    },
+    "false_alarms": [
+     "C1"
+    ],
+    "future_alerts_after_cutoff": {},
+    "immature_already_alerted": 1,
+    "immature_targets": 1,
+    "late": [
+     "D2"
+    ],
+    "late_latency_hours": [
+     3
+    ],
+    "mature_targets": 2,
+    "missed": [],
+    "on_time_latency_hours": [
+     1
+    ],
+    "pre_onset_alarms": {},
+    "sensitivity": {
+     "denominator": 2,
+     "numerator": 1
+    },
+    "still_missed": 0,
+    "unmatched_alert_subjects": []
+   },
+   "specification_hash": "5fc462cb647e22ad1efcdc631f7a6e53f5a22018205c5df246847831ca1dd100",
+   "target_reachability": {
+    "evidence": {
+     "G11": "specified trace"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF19-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "coverage_without_reportable_service",
+      "detail": "accepted family whose source items carry no reporting requirement",
+      "grain": "family",
+      "position_id": "golden",
+      "subject_id": "F-B"
+     },
+     {
+      "alert_class": "business_state",
+      "check_id": "coverage_without_reportable_service",
+      "detail": "accepted family whose source items carry no reporting requirement",
+      "grain": "family",
+      "position_id": "golden",
+      "subject_id": "F-X"
+     }
+    ],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "coverage_without_reportable_service",
+      "detail": "out-of-scope accepted family missing from the M12 residual",
+      "grain": "family",
+      "position_id": "golden",
+      "subject_id": "F-B"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "coverage_without_reportable_service"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G14#complete_residual",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF19-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF19",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 4,
+      "conflicted": 0,
+      "deliveries": 4,
+      "families": 4,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "beec9d5d1a32dd31c2f76bcd0acf41bbd6d3e1894407efcaa1219cbe7840ed11",
+   "target_reachability": {
+    "evidence": {
+     "removed_from_residual": "F-B"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF19-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "alert_class": "business_state",
+      "check_id": "coverage_without_reportable_service",
+      "detail": "mutant: cancelled report counted as over-reporting",
+      "grain": "family",
+      "subject_id": "F-C"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "coverage_without_reportable_service"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G14#complete_residual",
+   "harness_kind": "control mutant with synthesized output: the defective control's alert is constructed, not executed; executed are the real registered control on the legitimate condition (clean pair) and the evaluator's rule against the constructed alert",
+   "instance_id": "SF19-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF19",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "F-C_source_in_U": true
+   },
+   "specification_hash": "0c22e285cfd45b3a03c9bbd969cf4030b6a57824c5bd9a5ecb073c0720e855e2",
+   "target_reachability": {
+    "evidence": {
+     "F-C_source_in_U": true
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF20-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "accepted_payload_matches_census",
+      "detail": "accepted payload units 6.00 differs from the source 5.00",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "claim_service_allocation_balanced"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "accepted_payload_matches_census",
+    "payload_matches_claim_version"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G15#upstream_claim_defect",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF20-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF20",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "5c8aed1a5fb4176af56c7c56df7506c484b6cd69a0ee5cd43e8d683497a8cd77",
+   "target_reachability": {
+    "evidence": {
+     "acceptance": "accepted",
+     "mutated_payload_units": "6.00"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF20-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "accepted_payload_matches_census",
+      "detail": "accepted payload units 6.00 differs from the source 5.00",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "payload_matches_claim_version",
+      "detail": "payload units 6.00 differs from the bound claim line's 5.00",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "claim_submission_snapshot_immutable"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "accepted_payload_matches_census",
+    "payload_matches_claim_version"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G15#downstream_projection_defect",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF20-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF20",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "fa1fedfb19684efb18a6dbf92e9fcf98b74cd38f22d835088d3e6fb3f8cdd94c",
+   "target_reachability": {
+    "evidence": {
+     "acceptance": "accepted",
+     "mutated_payload_units": "6.00"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF20-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "payload_matches_claim_version",
+      "detail": "payload code CCI-BASE differs from the bound claim line's CCI-MILE",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "claim_submission_snapshot_immutable"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "accepted_payload_matches_census",
+    "payload_matches_claim_version"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G15#wrong_category",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF20-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF20",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "19448be3dfed689c70e58f755fcae286c6e01cfe6a25c65e6ab211e3ef1582af",
+   "target_reachability": {
+    "evidence": {
+     "acceptance": "accepted",
+     "mutated_payload_units": "5.00"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF20-04-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "accepted_payload_matches_census",
+      "detail": "accepted payload service_start_at 2026-02-11T16:00:00Z differs from the source 2026-01-01T01:00:00Z",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "payload_matches_claim_version",
+      "detail": "payload service_start_at 2026-02-11T16:00:00Z differs from the bound claim line's 2026-01-01T01:00:00Z",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "claim_submission_snapshot_immutable"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "accepted_payload_matches_census",
+    "payload_matches_claim_version"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G15#wrong_service_time",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF20-04",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF20",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "8c88337cb33f34c55dd3fe261222b9a625d17c0561c9a59e7d3658bf4d0d4069",
+   "target_reachability": {
+    "evidence": {
+     "acceptance": "accepted",
+     "mutated_payload_units": "5.00"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF20-05-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "accepted_payload_matches_census",
+      "detail": "claim_to_source reported conforming for SYN-C01:CL001:v1:L1 although the source supplies no distance for LEG-A",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "accepted_payload_matches_census",
+    "payload_matches_claim_version"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G15#truth_unavailable",
+   "harness_kind": "executed defective comparator over the real comparator's rows, resolved and controlled by the real engine",
+   "instance_id": "SF20-05",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF20",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "clean_M11": {
+     "conforming": 0,
+     "mismatch": 0,
+     "unassessable": 1
+    },
+    "clean_claim_to_source": [
+     "unassessable"
+    ],
+    "mutant_M11": {
+     "conforming": 1,
+     "mismatch": 0,
+     "unassessable": 0
+    },
+    "mutant_claim_to_source": [
+     "conforming"
+    ],
+    "mutant_rows_rewritten": 2,
+    "source_units_absent": true
+   },
+   "registered_controls_on_mutant": [
+    "accepted_payload_matches_census",
+    "claim_service_allocation_balanced"
+   ],
+   "rejected_by": {
+    "independent_source_truth_assertion": {
+     "fabricated_conformance": [
+      "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     ],
+     "rejects": true
+    },
+    "registered_expected_checks": [
+     "accepted_payload_matches_census"
+    ]
+   },
+   "specification_hash": "7657422a350d50d59dfbd910c85dd5e6f716d500e121581b0fcb3725477b1561",
+   "target_reachability": {
+    "evidence": {
+     "clean_M11": {
+      "conforming": 0,
+      "mismatch": 0,
+      "unassessable": 1
+     },
+     "clean_claim_to_source": [
+      "unassessable"
+     ],
+     "mutant_M11": {
+      "conforming": 1,
+      "mismatch": 0,
+      "unassessable": 0
+     },
+     "mutant_claim_to_source": [
+      "conforming"
+     ],
+     "mutant_rows_rewritten": 2,
+     "source_units_absent": true
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF21-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "scoped_coverage_allocation_unique",
+      "detail": "incompatible accepted families ['F1', 'F2'] for one coverage key",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C03|A|mileage|REC-A|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "family_current_acceptance"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "scoped_coverage_allocation_unique"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G16#incompatible_same_scope",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF21-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF21",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 1,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 3,
+      "conflicted": 0,
+      "deliveries": 3,
+      "families": 3,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "1be3f4b31f0fd524f8a9aee208a1c75e82da2f185557b385c63987d03dcc59cd",
+   "target_reachability": {
+    "evidence": {
+     "incompatible_families": [
+      "F1",
+      "F2"
+     ],
+     "mutant": "picked F1"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF21-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "scoped_coverage_allocation_unique",
+      "detail": "mutant: service id recurs across destinations",
+      "subject_id": "SYN-C03|A|mileage|REC-A|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "check_id": "scoped_coverage_allocation_unique",
+      "detail": "mutant: service id recurs across destinations",
+      "subject_id": "SYN-C03|A|mileage|REC-B|oversight|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "check_id": "scoped_coverage_allocation_unique",
+      "detail": "mutant: service id recurs across destinations",
+      "subject_id": "SYN-C03|B|mileage|REC-A|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "check_id": "scoped_coverage_allocation_unique",
+      "detail": "mutant: service id recurs across destinations",
+      "subject_id": "SYN-C03|B|mileage|REC-B|oversight|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "scoped_coverage_allocation_unique"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G16#clean_group_and_targets",
+   "harness_kind": "control mutant with synthesized output: the defective control's alert is constructed, not executed; executed are the real registered control on the legitimate condition (clean pair) and the evaluator's rule against the constructed alert",
+   "instance_id": "SF21-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF21",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "families": 2,
+    "units": 4
+   },
+   "specification_hash": "7b8a48b89ba44721e432762a7f82f583cf733fd122249dd822e4ea4efa9612b0",
+   "target_reachability": {
+    "evidence": {
+     "families": 2,
+     "units": 4
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF22-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "exception_fields_complete",
+      "detail": "required field reason is empty",
+      "grain": "work_item",
+      "position_id": "golden",
+      "subject_id": "WI|ISS-1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "exception_fields_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G17#missing_reason",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF22-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF22",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "436a72b2246edcec929bbe249f997b19088fe5e5f8344d85359f03eb500f77f0",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "SF22-01"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF22-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "exception_fields_complete",
+      "detail": "required field owner_role is empty",
+      "grain": "work_item",
+      "position_id": "golden",
+      "subject_id": "WI|ISS-1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "exception_fields_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G17#missing_owner",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF22-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF22",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "d9cf71da516b84e458223f9e9765ec1967ef308b0365fa82e081bd083e559499",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "SF22-02"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF22-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "exception_fields_complete",
+      "detail": "required field next_action is empty",
+      "grain": "work_item",
+      "position_id": "golden",
+      "subject_id": "WI|ISS-1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "exception_fields_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G17#missing_action",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF22-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF22",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "945f63b130cc7cd6d74786b50c3131850f732e5ed6630fc84ee14aec9a841ffe",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "SF22-03"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF22-04-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "exception_fields_complete",
+      "detail": "governed item has no due time; due None differs from the governing obligation's 2026-01-01T05:00:00Z; due_state 'unknown' where the due time 2026-01-01T05:00:00Z implies 'overdue' at T",
+      "grain": "work_item",
+      "position_id": "golden",
+      "subject_id": "WI|D-F-A-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "exception_fields_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G17#lost_known_due",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF22-04",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF22",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "c69c5d016766953867275db612e4902442c2b7b827849bd5a08e5b97a8797bcb",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "SF22-04"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF22-05-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "exception_fields_complete",
+      "detail": "mutant validator demands a due time",
+      "subject_id": "WI|ISS-1"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "exception_fields_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G17#valid_unknown_due",
+   "harness_kind": "control mutant with synthesized output: the defective control's alert is constructed, not executed; executed are the real registered control on the legitimate condition (clean pair) and the evaluator's rule against the constructed alert",
+   "instance_id": "SF22-05",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF22",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "untimed_items": 1
+   },
+   "specification_hash": "b856ec1331b7241a3bf209bae31e54f184ebf0129f3a92b4b5c1504ac0aeeb4a",
+   "target_reachability": {
+    "evidence": {
+     "untimed_items": 1
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF23-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "business_state",
+      "check_id": "batch_membership_results_complete",
+      "detail": "batch BATCH-1 is positive but transaction TX-B has no result, overdue since 2026-01-01T05:00:00Z",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-F-B-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "required_line_evidence_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "batch_membership_results_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G04#missing_transaction",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF23-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF23",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "104bb65436ccc00210d85244da1f05ab2b16a32ae29c95498f387c7e33a03b45",
+   "target_reachability": {
+    "evidence": {
+     "missing_transaction": "TX-B",
+     "positive_batch": true
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF23-02-C",
+   "clean_pair_result": {
+    "alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "mutant_or_harness_output": [
+     {
+      "check_id": "batch_membership_results_complete",
+      "detail": "mutant: overdue at T=4",
+      "subject_id": "TX-B"
+     }
+    ]
+   },
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "batch_membership_results_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G04#missing_transaction",
+   "harness_kind": "control mutant with synthesized output: the defective control's alert is constructed, not executed; executed are the real registered control on the legitimate condition (clean pair) and the evaluator's rule against the constructed alert",
+   "instance_id": "SF23-02",
+   "kind": "control_or_harness_mutant",
+   "limitations": [],
+   "mechanism": "control_mutant",
+   "mode": "SF23",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "T": 4,
+    "TX-B_due": "2026-01-01T05:00:00Z",
+    "TX-B_obligation_state": "pending"
+   },
+   "specification_hash": "1f22b1101e2762c911c702704fdf304186f989497f68bf32caf416719c3f96e8",
+   "target_reachability": {
+    "evidence": {
+     "T": 4,
+     "TX-B_due": "2026-01-01T05:00:00Z",
+     "TX-B_obligation_state": "pending"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF24-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "population_version_bridge",
+      "detail": "population membership differs from the sources at this position without a new population version and bridge",
+      "grain": "population",
+      "position_id": "golden",
+      "subject_id": "POP-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "preparation_population_complete",
+     "service_universe_accounted"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "population_version_bridge"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G18#same_population_later_knowledge",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF24-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF24",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "82115b246a084b98f3dab8fd8d6de7e4e210e3c9ca6afbad1b88c9d2b735e5d3",
+   "target_reachability": {
+    "evidence": {
+     "POP-1": [
+      "A",
+      "B"
+     ],
+     "silently_used": [
+      "A"
+     ]
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF24-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "population_version_bridge",
+      "detail": "population membership differs from the sources at this position without a new population version and bridge",
+      "grain": "population",
+      "position_id": "golden",
+      "subject_id": "POP-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "preparation_population_complete",
+     "service_universe_accounted"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "population_version_bridge"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G18#evidence_only_restatement",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF24-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF24",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "f99c0ab95b7af79616f6fa8b60de4f1e9f9fdde20ac52bc8e2844ca6100081b0",
+   "target_reachability": {
+    "evidence": {
+     "membership_unchanged_in_sources": true,
+     "mutated_build_membership": [
+      "A"
+     ]
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF25-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_field_support_complete",
+      "detail": "reference support cites no source row",
+      "grain": "claim_field",
+      "position_id": "golden",
+      "subject_id": "SYN-C01:CL001:v1#subscriber_id@LEG-A"
+     }
+    ],
+    "other_controls_alerting": [
+     "readiness_contract_bound"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "claim_field_support_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G01#invented_defaults",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF25-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF25",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "6db4bfc5eff5fb109f8dee2745918ab78f8a39e20df10f522e2805f6e3cf5e42",
+   "target_reachability": {
+    "evidence": {
+     "field": "subscriber_id",
+     "invented": "SUB-DEFAULT"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF25-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_field_support_complete",
+      "detail": "reference support cites no source row",
+      "grain": "claim_field",
+      "position_id": "golden",
+      "subject_id": "SYN-C01:CL001:v1#billing_party_reference@LEG-A"
+     }
+    ],
+    "other_controls_alerting": [
+     "readiness_contract_bound"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "claim_field_support_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G01#invented_defaults",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF25-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF25",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "c29e484c3dff1218429759b467adcc2f5aed1bc854369583da2a5bee42453af4",
+   "target_reachability": {
+    "evidence": {
+     "field": "billing_party_reference",
+     "invented": "PROV-DEFAULT"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF25-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_field_support_complete",
+      "detail": "cited row REF-B:billing:v1 belongs to client SYN-C02",
+      "grain": "claim_field",
+      "position_id": "golden",
+      "subject_id": "SYN-C01:CL001:v1#billing_party_reference@LEG-A"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "claim_field_support_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G23#cross_client_role",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF25-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF25",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "a2bfbb0fdf709fd8e160a43727343a3de977ac00604440147b4ee0d11def336c",
+   "target_reachability": {
+    "evidence": {
+     "into": "SYN-C01 billing",
+     "joined": "REF-B (SYN-C02)"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF26-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_amount_semantics_valid",
+      "detail": "payer_paid 25.00 is not supported by a payer_paid event for this item (cites COST-1:v1)",
+      "grain": "financial_slot",
+      "position_id": "golden",
+      "subject_id": "LEG-A|payer_paid"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "financial_amount_semantics_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G19#cost_relabelled_paid",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF26-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF26",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "05295d445794900fdf815ab964cd2c627e38a1990e6e8a81c77b8c1ab4fc7f20",
+   "target_reachability": {
+    "evidence": {
+     "relabel": "supplier_cost 25.00 -> payer_paid"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF26-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_amount_semantics_valid",
+      "detail": "fact relabels source supplier_cost 25.00 as settlement 25.00",
+      "grain": "financial_fact",
+      "position_id": "golden",
+      "subject_id": "COST-1:v1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "financial_amount_semantics_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G19#cost_relabelled_paid",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF26-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF26",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "63dcda344207e4d7f4e9c1625ef258d2d8f5ef27ece69b6ae5cc4881d4113324",
+   "target_reachability": {
+    "evidence": {
+     "relabel": "supplier_cost 25.00 -> settlement"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF27-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "responsibility_collection_distinct",
+      "detail": "member_collection 5.00 is not supported by a member_collection event for this item (cites RESP-1:v1)",
+      "grain": "financial_slot",
+      "position_id": "golden",
+      "subject_id": "LEG-A|member_collection"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "responsibility_collection_distinct"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G19#responsibility_relabelled_collection",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF27-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF27",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "9da4e0e5a59f4a5b2a03553069a8fa76eb30fcbec25550a52e401bbfdb61e15e",
+   "target_reachability": {
+    "evidence": {
+     "relabel": "member_responsibility 5.00 -> member_collection"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF27-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_event_history_valid",
+      "detail": "an available source financial event is missing from the facts (history erased)",
+      "grain": "financial_fact",
+      "position_id": "golden",
+      "subject_id": "E4:v1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "financial_event_history_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G30#stable_replay",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF27-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF27",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "946252c8220d8a9e153169ac42bf335e204541f7cf72e4ce3f3c1ce44d35eb9c",
+   "target_reachability": {
+    "evidence": {
+     "erased": "E4 reversal of E3"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF28-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 6,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "allocation carries A/mileage onto line for B/mileage",
+      "grain": "allocation",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1:L2|REC-A|encounter"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "allocation carries A/mileage onto line for B/mileage",
+      "grain": "allocation",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1:L2|REC-B|oversight"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "unit allocated more than once in one claim version",
+      "grain": "p_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C03|A|mileage|REC-A|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "unit allocated more than once in one claim version",
+      "grain": "p_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C03|A|mileage|REC-B|oversight|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "unit has no allocation in SYN-C03:CL001:v1, which covers its source item",
+      "grain": "p_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C03|B|mileage|REC-A|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "unit has no allocation in SYN-C03:CL001:v1, which covers its source item",
+      "grain": "p_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C03|B|mileage|REC-B|oversight|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "preparation_population_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "claim_service_allocation_balanced"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G16#duplicate_service_equal_total",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF28-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF28",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "0c089ea40e507b39edf880af71528f843215bb7ce0cd03e529e13f00d2215ab5",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "B allocation replaced by a second A"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF28-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 5,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "allocated 10.00/50.00 differs from line 10.00/20.00",
+      "grain": "allocation",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1:L1|REC-A|encounter"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "allocated 10.00/50.00 differs from line 10.00/20.00",
+      "grain": "allocation",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1:L1|REC-B|oversight"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "allocated 15.00/50.00 differs from line 15.00/30.00",
+      "grain": "allocation",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1:L2|REC-A|encounter"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "allocated 15.00/50.00 differs from line 15.00/30.00",
+      "grain": "allocation",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1:L2|REC-B|oversight"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_service_allocation_balanced",
+      "detail": "one target's allocations total 100.00, above the header 50.00",
+      "grain": "claim_version",
+      "position_id": "golden",
+      "subject_id": "SYN-C03:CL001:v1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "claim_service_allocation_balanced"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G16#header_copied_each_service",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF28-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF28",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 2,
+      "partition": {
+       "accepted": 2,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 2,
+      "families": 2,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "5fe5dba412587ac4f978ea52df66e1e288a11c0d0b95b51b0f4bef22300afb67",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "header 50.00 copied onto each allocation"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF29-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "reporting_disposition_profile_bound",
+      "detail": "profile-required cancelled report is missing from P and U",
+      "grain": "request",
+      "position_id": "golden",
+      "subject_id": "REQ-A"
+     }
+    ],
+    "other_controls_alerting": [
+     "claim_submission_snapshot_immutable",
+     "population_version_bridge",
+     "preparation_population_complete",
+     "readiness_contract_bound",
+     "service_universe_accounted"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "reporting_disposition_profile_bound"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G27#cancelled_dropped",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF29-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF29",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 0,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "3fad18fa2b3b3fa6dd211417efbbf777816e82849a47fd744cbe34afdcb7f46d",
+   "target_reachability": {
+    "evidence": {
+     "dropped": "P-REQ-A and U-REQ-A"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF30-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "readiness_contract_bound",
+      "detail": "ready although this target's required support is absent: vendor_payment_observation",
+      "grain": "readiness",
+      "position_id": "golden",
+      "subject_id": "SYN-C05|A|base|REC-B|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0|encounter_submission"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "readiness_contract_bound"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G28#different_targets",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF30-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF30",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "2f0de12d37672e704c81b3d1814fe8dea6e80d7192e81964d03ccdd354b98211",
+   "target_reachability": {
+    "evidence": {
+     "copied": "REC-A ready to REC-B"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF30-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "readiness_contract_bound",
+      "detail": "ready at 2026-01-01T01:00:00Z is outside the version's availability 2026-01-01T02:00:00Z and T",
+      "grain": "readiness",
+      "position_id": "golden",
+      "subject_id": "SYN-C05|A|base|REC-B|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0|encounter_submission"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "readiness_contract_bound"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G28#late_backdated_payment",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF30-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF30",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "5db89ad1c8ffa9652ff4ddb426117569799480c5e1738087de69183d91fbae06",
+   "target_reachability": {
+    "evidence": {
+     "actual_hour": 9,
+     "backdated_to_hour": 1
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF31-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "assertion_scope_authority_valid",
+      "detail": "assertion used as source evidence of a accepted outcome",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "RSP-SYN-C05-AGG"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "assertion_scope_authority_valid",
+      "detail": "a client assertion was promoted to a source-evidenced accepted outcome; a client assertion or aggregate note was promoted to source-evidenced acceptance",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C05|L-05|base|SYN-R05|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "assertion_scope_authority_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G21#aggregate_promoted",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF31-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF31",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 6,
+      "numerator": 2,
+      "partition": {
+       "accepted": 2,
+       "client_asserted_only": 1,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 2,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 1,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 6,
+      "families": 6,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 4
+     }
+    }
+   },
+   "specification_hash": "95e8ce3e0ce4fbe8141533b0625e3188a46424fda94f75a55093083dcc767018",
+   "target_reachability": {
+    "evidence": {
+     "mutated_unit": "U-05"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF31-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "assertion_scope_authority_valid",
+      "detail": "assertion used as source evidence of a accepted outcome",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "RSP-U-04"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "assertion_scope_authority_valid",
+      "detail": "a client assertion was promoted to a source-evidenced accepted outcome; a client assertion or aggregate note was promoted to source-evidenced acceptance",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C04|L-04|base|SYN-R04|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "assertion_scope_authority_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G21#matched_axes",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF31-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF31",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 6,
+      "numerator": 2,
+      "partition": {
+       "accepted": 2,
+       "client_asserted_only": 1,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 2,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 1,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 6,
+      "families": 6,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 4
+     }
+    }
+   },
+   "specification_hash": "c443deb8282adb38f7106117021ba5c16d967b0210583d064ebf2390f0ae4556",
+   "target_reachability": {
+    "evidence": {
+     "mutated_unit": "U-04"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF31-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "assertion_scope_authority_valid",
+      "detail": "authoritative decision artifact was not recognized as source evidence",
+      "grain": "response",
+      "position_id": "golden",
+      "subject_id": "RSP-U-02"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "assertion_scope_authority_valid",
+      "detail": "an authentic originating acceptance was downgraded to a client assertion; qualifying originating or forwarded acceptance was not recognized",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C02|L-02|base|SYN-R02|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": [
+     "required_line_evidence_complete"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "assertion_scope_authority_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G21#matched_axes",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF31-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF31",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 6,
+      "numerator": 2,
+      "partition": {
+       "accepted": 2,
+       "client_asserted_only": 1,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 2,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 1,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 6,
+      "families": 6,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 4
+     }
+    }
+   },
+   "specification_hash": "bb993f42163a1532ee1f69985ecb0bf465385ab47f8e1e3401998b7f897b322f",
+   "target_reachability": {
+    "evidence": {
+     "mutated_unit": "U-02"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF32-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "response_expectation_visibility_distinct",
+      "detail": "receipt deadline invented for a route whose expectation is structurally_unavailable",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-06-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_expectation_visibility_distinct"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G21#unavailable_false_overdue",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF32-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF32",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 6,
+      "numerator": 2,
+      "partition": {
+       "accepted": 2,
+       "client_asserted_only": 1,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 2,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 1,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 6,
+      "families": 6,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 4
+     }
+    }
+   },
+   "specification_hash": "447882d0ddedf4ee1751c788a0488ca5f57574f9095310b0742a42e443f8f291",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "invented deadline for the unavailable route"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF32-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "response_expectation_visibility_distinct",
+      "detail": "a promised encounter_decision return was recorded without a receipt promise (no_return_promise)",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-F-03-1|encounter_decision"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_expectation_visibility_distinct"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G21#broken_promise_relabelled",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF32-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF32",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 6,
+      "numerator": 2,
+      "partition": {
+       "accepted": 2,
+       "client_asserted_only": 1,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 2,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 1,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 2,
+      "conflicted": 0,
+      "deliveries": 6,
+      "families": 6,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 4
+     }
+    }
+   },
+   "specification_hash": "ad92b2819404174381d408444284ec299ee0395958de53b48cfb8f964540941f",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "promised route relabeled unavailable"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF32-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "response_expectation_visibility_distinct",
+      "detail": "a promised encounter_decision return was recorded without a receipt promise (no_return_promise)",
+      "grain": "obligation",
+      "position_id": "golden",
+      "subject_id": "D-SUB-A-1|encounter_decision"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "response_expectation_visibility_distinct",
+      "detail": "return expectation structurally_unavailable differs from the bound policy's expected",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "response_expectation_visibility_distinct"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G29#former_promise_survives",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF32-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF32",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "c2039ecb4095dab3c6fc692c2f1e2e086b9996263e0792bc0c13857d213356eb",
+   "target_reachability": {
+    "evidence": {
+     "applied_retroactively": "POL-2",
+     "bound_policy": "POL-1"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF33-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_event_history_valid",
+      "detail": "settlement not available or not effective at this position is reconciled; allocation AL-RA:v1 is not a source allocation of this settlement",
+      "grain": "settlement",
+      "position_id": "golden",
+      "subject_id": "SET-2:v1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "financial_event_history_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G20#known_then",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF33-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF33",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 2,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "aa851352c0cd36d1ace2ae3b35e040a6ee46dd0843ae178614e475412cc81d55",
+   "target_reachability": {
+    "evidence": {
+     "applied": "SET-2 (received 10) at K=6"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF33-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_event_history_valid",
+      "detail": "orphan allocations [AL-A:v1, AL-B:v1, AL-UNAPPLIED:v1] target a settlement that is not in the tape",
+      "grain": "settlement",
+      "position_id": "golden",
+      "subject_id": "SET-1:v1"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_event_history_valid",
+      "detail": "reversal of SET-1:v1, whose original is not retained; reversal whose original event was erased",
+      "grain": "settlement",
+      "position_id": "golden",
+      "subject_id": "SET-2:v1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "financial_event_history_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G20#erased_original",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF33-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF33",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 2,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "31ee67f9a4c60cdee71fed45b3b960d6a3db2b312f6d6ab57f6f7614647a2b2d",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "SET-1 deleted after its reversal"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF33-03-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "financial_event_history_valid",
+      "detail": "allocations 160.00 do not reconcile to the signed amount 100.00",
+      "grain": "settlement",
+      "position_id": "golden",
+      "subject_id": "SET-1:v1"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "financial_event_history_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G20#duplicate_allocation",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF33-03",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "data",
+   "mode": "SF33",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 2,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 2,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "c71eb278e5df96b2ce375551222e43f9d7735395a0a05bcdfcb8bf7559307f48",
+   "target_reachability": {
+    "evidence": {
+     "mutation": "AL-A-DUP added"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF34-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "claim_submission_snapshot_immutable",
+      "detail": "submission bound to SYN-C01:CL001:v2, which did not exist when it was submitted",
+      "grain": "delivery",
+      "position_id": "golden",
+      "subject_id": "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "evidence_binding_unique",
+     "family_current_acceptance",
+     "response_obligation_due"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "claim_submission_snapshot_immutable"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G22#submission_rewritten",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF34-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF34",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 1,
+      "partition": {
+       "accepted": 1,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 1,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "28b16950ef50aa4f6901668cfe02adb1b3c7f4fbedf4ba98a2c38f2f7b2b868a",
+   "target_reachability": {
+    "evidence": {
+     "rebound_to": "SYN-C01:CL001:v2",
+     "submitted_hour": 2,
+     "v2_created_hour": 9
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF35-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "stage_namespace_valid",
+      "detail": "a non-decision stage was promoted to encounter acceptance",
+      "grain": "u_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|A|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "stage_namespace_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G24#driver_acceptance_only",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF35-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF35",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 0,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 1,
+      "families": 1,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 1
+     }
+    }
+   },
+   "specification_hash": "0d23ce92db13d9e090aebb77bf8116d6be30e38b3457c9dc9f02d119b881cea5",
+   "target_reachability": {
+    "evidence": {
+     "promoted": "driver-assignment accepted event"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF35-02-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 1,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "stage_namespace_valid",
+      "detail": "a non-financial source row (LEG-A:ride:v1) is used as payer_paid evidence",
+      "grain": "financial_slot",
+      "position_id": "golden",
+      "subject_id": "LEG-A|payer_paid"
+     }
+    ],
+    "other_controls_alerting": []
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "stage_namespace_valid"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G23#permitted_join",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF35-02",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF35",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 1,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 0,
+       "not_submitted": 1,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "2184d662b458cc5889e17acd668343957e04672b8640166ee9ab3a4ab528fbd9",
+   "target_reachability": {
+    "evidence": {
+     "cited": "LEG-A:ride:v1",
+     "normalized": "raw ACPT ride status reused as payer payment evidence"
+    },
+    "reached": true
+   }
+  },
+  {
+   "clean_id": "SF36-01-C",
+   "clean_pair_result": {
+    "expected_check_alerts": [],
+    "quiet": true
+   },
+   "detector_response": {
+    "expected_check_alert_count": 2,
+    "expected_check_alerts": [
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "preparation_population_complete",
+      "detail": "independently expected preparation unit is absent from the build's P",
+      "grain": "p_unit",
+      "position_id": "golden",
+      "subject_id": "SYN-C01|B|base|SYN-R01|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+     },
+     {
+      "alert_class": "analytical_defect",
+      "check_id": "preparation_population_complete",
+      "detail": "M14 denominator 2 differs from the independently expected 3",
+      "grain": "population",
+      "position_id": "golden",
+      "subject_id": "POP-1"
+     }
+    ],
+    "other_controls_alerting": [
+     "financial_amount_semantics_valid",
+     "population_version_bridge"
+    ]
+   },
+   "errors": [],
+   "evaluator_judgment": "pass",
+   "execution_status": "executed",
+   "expected_check_ids": [
+    "preparation_population_complete"
+   ],
+   "expected_check_tripped": true,
+   "golden_ref": "G07#runtime_denominator_suppressed",
+   "harness_kind": "registered controls over an isolated mutated golden miniature",
+   "instance_id": "SF36-01",
+   "kind": "data_or_builder_injection",
+   "limitations": [],
+   "mechanism": "builder_mutant",
+   "mode": "SF36",
+   "must_catch": true,
+   "observation_cutoff": "end of the cited golden position",
+   "operational_state": {
+    "mutated_measures": {
+     "M01": {
+      "C_unresolved": 0,
+      "denominator": 3,
+      "numerator": 0,
+      "partition": {
+       "accepted": 0,
+       "client_asserted_only": 0,
+       "conflicted": 0,
+       "missing_claim": 0,
+       "no_evidence": 1,
+       "not_submitted": 2,
+       "partial_required_components": 0,
+       "rejected": 0,
+       "unresolved": 0,
+       "voided": 0
+      }
+     },
+     "M03": {
+      "accepted": 0,
+      "conflicted": 0,
+      "deliveries": 0,
+      "families": 0,
+      "rejected": 0,
+      "retry_deliveries": 0,
+      "unresolved": 0
+     }
+    }
+   },
+   "specification_hash": "58cae5da8211da974f0ca705045d9649f326fd481cf2e25a8b92fca11e2228b3",
+   "target_reachability": {
+    "evidence": {
+     "independent_P": 3,
+     "runtime_P": 2,
+     "runtime_rate": "2/2"
+    },
+    "reached": true
+   }
+  }
+ ],
+ "run_at": "2026-10-19T19:21:22Z",
+ "schema_version": "negative-controls-1",
+ "summary": {
+  "blocked": 1,
+  "instances": 82,
+  "not_passed": 1,
+  "passed": 81,
+  "status": "blocked",
+  "text": "81 of 82 public instances reached their target, tripped the expected control and left the clean pair quiet; 1 blocked (not evaluated)"
+ },
+ "three_results": "operational_state, detector_response and evaluator_judgment are recorded separately for every instance"
+}

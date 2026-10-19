@@ -1,0 +1,95 @@
+{
+  "schema_version": "completed-checks-record-1",
+  "date": "2026-10-19",
+  "code_revision": "e4346f2a13260cddf19a40d3a1332a1d735c57db",
+  "scope": "Recorded completion results, not a claim that all assurance surfaces pass. This page update presents those results without rerunning held-out evaluation or reader seats.",
+  "records": [
+    {
+      "id": "goldens",
+      "label": "Known-answer cases",
+      "value": "98 passing",
+      "status": "pass",
+      "detail": "No assertion failures were recorded in the executed known-answer cases.",
+      "limit": "Of 102 registered variants, two remain blocked by custody or scheduling and two await publication. The aggregate gate remains nonpassing."
+    },
+    {
+      "id": "rederivation",
+      "label": "Published-cell comparison",
+      "value": "22,173 / 22,173",
+      "status": "pass",
+      "detail": "Every numerical cell matches the separate calculation; register 1.1.0 is aligned.",
+      "limit": "Zero mismatched, missing or unexpected cells. A separate implementation does not establish independent evaluator custody."
+    },
+    {
+      "id": "interactions",
+      "label": "Browser interactions",
+      "value": "20 / 20",
+      "status": "pass",
+      "detail": "Keyboard, filters, exports, chart readouts and the four record-clarity fixes passed the browser checks.",
+      "limit": "Executed browser checks are not independent reader research. Zero new reader seats ran."
+    },
+    {
+      "id": "layouts",
+      "label": "Responsive layout checks",
+      "value": "24 / 24",
+      "status": "pass",
+      "detail": "Recorded layouts passed, including 320 px, 1280 px and both sides of the chart-host branch.",
+      "limit": "Layout checks pass; full chart clearance remains limited by title precision and the reader process."
+    }
+  ],
+  "regressions": [
+    {
+      "name": "engine",
+      "command": "python -B tests/r1/test_engine_r1.py",
+      "exit": 0,
+      "result": "{\"cases\": 52, \"passed\": 52, \"failed\": 0}"
+    },
+    {
+      "name": "assurance",
+      "command": "python -B tests/r1/test_assurance_r1.py",
+      "exit": 0,
+      "result": "34 of 34 cases pass"
+    },
+    {
+      "name": "stories",
+      "command": "python -B tests/r1/test_stories_r1.py",
+      "exit": 0,
+      "result": "48 of 48 cases pass"
+    },
+    {
+      "name": "rules",
+      "command": "python -B tests/small_gate/test_rules.py",
+      "exit": 0,
+      "result": "OK"
+    }
+  ],
+  "regression_summary": "52/52 engine cases, 34/34 assurance cases, 48/48 story and synchronization cases; rules suite passes.",
+  "package_gates": "All nine foundation package gates passed after AMD004/AMD005 installation.",
+  "limits": "81 of 82 public negative controls pass; the custody probe is blocked. Historical, unblinded attempt 2 remains 20 of 26 represented classes meeting must-catch, with 36 registered. No fresh independent evaluation, reader panel or successful scheduled run is claimed.",
+  "sources": [
+    {
+      "path": "governance/test-results.json",
+      "sha256": "435d1fa1e008aa638abfc1674049967208533022ab8ca83781cbc3ddabee26d4"
+    },
+    {
+      "path": "governance/rederivation.json",
+      "sha256": "4cda2ccfe8d609f63229844bd55d1978c61f351620713660902584e1dba1bb97"
+    },
+    {
+      "path": "governance/interaction-results.json",
+      "sha256": "3ac24ac44a230ddaaf32a9089dfe00ca6b02abd6e296cdbcc439daaee1003c0d"
+    },
+    {
+      "path": "governance/limited-surfaces/chart-review-audit.json",
+      "sha256": "4d81aff11eac5162a256856780b312f20e2fa5b1e0fce6068177010133cfed21"
+    },
+    {
+      "path": "governance/candidate-review/closure.json",
+      "sha256": "55dac96287786d5c764cb1db54abd87210fb31e22991313c3a7d9a44421da381"
+    },
+    {
+      "path": "governance/handoff/package-acceptance-amd004-amd005.json",
+      "sha256": "19544de1a62d4d7047ecb5917ca4cc40eb6cd87186391529b145a620757b46fd"
+    }
+  ]
+}

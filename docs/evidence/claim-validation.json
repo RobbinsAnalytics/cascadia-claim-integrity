@@ -1,0 +1,330 @@
+{
+ "build": "data/derived/bulk-c4",
+ "comparison_layers": "source_to_claim (M18) and claim_to_payload (M11) are separate; neither replaces the other",
+ "positions": {
+  "current_later": {
+   "M14": {
+    "applicability_unresolved": 2,
+    "claim_headers": 10041,
+    "conflicting": 0,
+    "denominator": 28040,
+    "explicitly_excluded_requests": 200,
+    "missing": 0,
+    "numerator": 28035,
+    "partially_allocated": 3,
+    "unresolved_requests_outside_P": 120
+   },
+   "M18": {
+    "conforming_versions": 10035,
+    "fields_compared": 312441,
+    "fields_conforming": 312420,
+    "fields_mismatch": 0,
+    "fields_unassessable": 21,
+    "mismatch_versions": 0,
+    "unassessable_versions": 6,
+    "versions": 10041
+   },
+   "applicability_unresolved_units": [
+    "SYN-C06|SYN-C06:S000006|base|SYN-R06|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C06|SYN-C06:S000006|mileage|SYN-R06|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+   ],
+   "construction_states": {
+    "applicability_unresolved": 2,
+    "constructed": 28035,
+    "partially_allocated": 3
+   },
+   "nonconforming_versions": [
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C02",
+     "disposition": "unassessable",
+     "family_id": "SYN-C02:CL005",
+     "id": "SYN-C02:CL005:v1",
+     "source_item_keys": [
+      "SYN-C02:S000005"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C03",
+     "disposition": "unassessable",
+     "family_id": "SYN-C03:CL003",
+     "id": "SYN-C03:CL003:v1",
+     "source_item_keys": [
+      "SYN-C03:S000006"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C04",
+     "disposition": "unassessable",
+     "family_id": "SYN-C04:CL002",
+     "id": "SYN-C04:CL002:v2",
+     "source_item_keys": [
+      "SYN-C04:S000003",
+      "SYN-C04:S000004"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C04",
+     "disposition": "unassessable",
+     "family_id": "SYN-C04:CL003",
+     "id": "SYN-C04:CL003:v2",
+     "source_item_keys": [
+      "SYN-C04:S000005",
+      "SYN-C04:S000006"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C05",
+     "disposition": "unassessable",
+     "family_id": "SYN-C05:CL023",
+     "id": "SYN-C05:CL023:v1",
+     "source_item_keys": [
+      "SYN-C05:S000003"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C06",
+     "disposition": "unassessable",
+     "family_id": "SYN-C06:CL026",
+     "id": "SYN-C06:CL026:v1",
+     "source_item_keys": [
+      "SYN-C06:S000006"
+     ]
+    }
+   ],
+   "partially_allocated_units": [
+    "SYN-C02|SYN-C02:S000005|mileage|SYN-AUDIT|audit|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C02|SYN-C02:S000005|mileage|SYN-R02|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C03|SYN-C03:S000006|mileage|SYN-R03|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+   ]
+  },
+  "known_then": {
+   "M14": {
+    "applicability_unresolved": 2,
+    "claim_headers": 10041,
+    "conflicting": 0,
+    "denominator": 28040,
+    "explicitly_excluded_requests": 200,
+    "missing": 0,
+    "numerator": 28035,
+    "partially_allocated": 3,
+    "unresolved_requests_outside_P": 120
+   },
+   "M18": {
+    "conforming_versions": 10034,
+    "fields_compared": 312441,
+    "fields_conforming": 312419,
+    "fields_mismatch": 0,
+    "fields_unassessable": 22,
+    "mismatch_versions": 0,
+    "unassessable_versions": 7,
+    "versions": 10041
+   },
+   "applicability_unresolved_units": [
+    "SYN-C06|SYN-C06:S000006|base|SYN-R06|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C06|SYN-C06:S000006|mileage|SYN-R06|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+   ],
+   "construction_states": {
+    "applicability_unresolved": 2,
+    "constructed": 28035,
+    "partially_allocated": 3
+   },
+   "nonconforming_versions": [
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C01",
+     "disposition": "unassessable",
+     "family_id": "SYN-C01:CL001",
+     "id": "SYN-C01:CL001:v1",
+     "source_item_keys": [
+      "SYN-C01:S000001"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C02",
+     "disposition": "unassessable",
+     "family_id": "SYN-C02:CL005",
+     "id": "SYN-C02:CL005:v1",
+     "source_item_keys": [
+      "SYN-C02:S000005"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C03",
+     "disposition": "unassessable",
+     "family_id": "SYN-C03:CL003",
+     "id": "SYN-C03:CL003:v1",
+     "source_item_keys": [
+      "SYN-C03:S000006"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C04",
+     "disposition": "unassessable",
+     "family_id": "SYN-C04:CL002",
+     "id": "SYN-C04:CL002:v2",
+     "source_item_keys": [
+      "SYN-C04:S000003",
+      "SYN-C04:S000004"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C04",
+     "disposition": "unassessable",
+     "family_id": "SYN-C04:CL003",
+     "id": "SYN-C04:CL003:v2",
+     "source_item_keys": [
+      "SYN-C04:S000005",
+      "SYN-C04:S000006"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C05",
+     "disposition": "unassessable",
+     "family_id": "SYN-C05:CL023",
+     "id": "SYN-C05:CL023:v1",
+     "source_item_keys": [
+      "SYN-C05:S000003"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C06",
+     "disposition": "unassessable",
+     "family_id": "SYN-C06:CL026",
+     "id": "SYN-C06:CL026:v1",
+     "source_item_keys": [
+      "SYN-C06:S000006"
+     ]
+    }
+   ],
+   "partially_allocated_units": [
+    "SYN-C02|SYN-C02:S000005|mileage|SYN-AUDIT|audit|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C02|SYN-C02:S000005|mileage|SYN-R02|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C03|SYN-C03:S000006|mileage|SYN-R03|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+   ]
+  },
+  "restated_then": {
+   "M14": {
+    "applicability_unresolved": 2,
+    "claim_headers": 10041,
+    "conflicting": 0,
+    "denominator": 28040,
+    "explicitly_excluded_requests": 200,
+    "missing": 0,
+    "numerator": 28035,
+    "partially_allocated": 3,
+    "unresolved_requests_outside_P": 120
+   },
+   "M18": {
+    "conforming_versions": 10034,
+    "fields_compared": 312441,
+    "fields_conforming": 312419,
+    "fields_mismatch": 1,
+    "fields_unassessable": 21,
+    "mismatch_versions": 1,
+    "unassessable_versions": 6,
+    "versions": 10041
+   },
+   "applicability_unresolved_units": [
+    "SYN-C06|SYN-C06:S000006|base|SYN-R06|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C06|SYN-C06:S000006|mileage|SYN-R06|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+   ],
+   "construction_states": {
+    "applicability_unresolved": 2,
+    "constructed": 28035,
+    "partially_allocated": 3
+   },
+   "nonconforming_versions": [
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C01",
+     "disposition": "mismatch",
+     "family_id": "SYN-C01:CL001",
+     "id": "SYN-C01:CL001:v1",
+     "source_item_keys": [
+      "SYN-C01:S000001"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C02",
+     "disposition": "unassessable",
+     "family_id": "SYN-C02:CL005",
+     "id": "SYN-C02:CL005:v1",
+     "source_item_keys": [
+      "SYN-C02:S000005"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C03",
+     "disposition": "unassessable",
+     "family_id": "SYN-C03:CL003",
+     "id": "SYN-C03:CL003:v1",
+     "source_item_keys": [
+      "SYN-C03:S000006"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C04",
+     "disposition": "unassessable",
+     "family_id": "SYN-C04:CL002",
+     "id": "SYN-C04:CL002:v2",
+     "source_item_keys": [
+      "SYN-C04:S000003",
+      "SYN-C04:S000004"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C04",
+     "disposition": "unassessable",
+     "family_id": "SYN-C04:CL003",
+     "id": "SYN-C04:CL003:v2",
+     "source_item_keys": [
+      "SYN-C04:S000005",
+      "SYN-C04:S000006"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C05",
+     "disposition": "unassessable",
+     "family_id": "SYN-C05:CL023",
+     "id": "SYN-C05:CL023:v1",
+     "source_item_keys": [
+      "SYN-C05:S000003"
+     ]
+    },
+    {
+     "active_status": "definitively_active",
+     "client_id": "SYN-C06",
+     "disposition": "unassessable",
+     "family_id": "SYN-C06:CL026",
+     "id": "SYN-C06:CL026:v1",
+     "source_item_keys": [
+      "SYN-C06:S000006"
+     ]
+    }
+   ],
+   "partially_allocated_units": [
+    "SYN-C02|SYN-C02:S000005|mileage|SYN-AUDIT|audit|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C02|SYN-C02:S000005|mileage|SYN-R02|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0",
+    "SYN-C03|SYN-C03:S000006|mileage|SYN-R03|encounter|CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+   ]
+  }
+ },
+ "schema_version": "claim-validation-1"
+}

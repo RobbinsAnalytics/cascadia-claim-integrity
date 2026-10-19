@@ -1,0 +1,2618 @@
+{
+ "build_forward": {
+  "detection_evaluation": {
+   "classes": [
+    {
+     "caught_on_time": 2,
+     "class": "SF01",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 31
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF02",
+     "clean": 2,
+     "duplicates": 1,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 5
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF03",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 4
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF04",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 1,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 0,
+     "class": "SF05",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 2,
+     "unmatched": 4
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF06",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 1,
+     "unmatched": 1
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF07",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF08",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 1,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF10",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 1,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF11",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 1,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF20",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 2
+    },
+    {
+     "caught_on_time": 0,
+     "class": "SF23",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 2,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF24",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 1,
+     "missed": 0,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 1,
+     "class": "SF25",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 1,
+     "unmatched": 8
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF26",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 1
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF27",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF28",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 1
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF29",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF30",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 20
+    },
+    {
+     "caught_on_time": 0,
+     "class": "SF31",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 2,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF32",
+     "clean": 2,
+     "duplicates": 6,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF33",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 0
+    },
+    {
+     "caught_on_time": 0,
+     "class": "SF34",
+     "clean": 2,
+     "duplicates": 0,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 2,
+     "unmatched": 2
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF35",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 12
+    },
+    {
+     "caught_on_time": 2,
+     "class": "SF36",
+     "clean": 2,
+     "duplicates": 2,
+     "false_alarms": 0,
+     "immature": 0,
+     "late": 0,
+     "mature": 2,
+     "missed": 0,
+     "unmatched": 13
+    }
+   ],
+   "status": "scored"
+  }
+ },
+ "completion": {
+  "date": "2026-10-19",
+  "identity_note": "Current presentation identity is bound by the review receipt assets; the unchanged engine/assurance/story regressions retain their recorded earlier revision.",
+  "limits": "81/81 applicable public diagnostics pass; the legacy custody probe remains N/A and not_evaluated. The restricted panel is simulated, not certified blind or human research. Scheduled operation is N/A for this frozen snapshot; public readback becomes required at publication. Detection evaluation is a build-forward candidate, excluded from the current checklist.",
+  "package_gates": "All nine foundation package gates passed after AMD004/AMD005 installation.",
+  "prior_regression_revision": "e4346f2a13260cddf19a40d3a1332a1d735c57db",
+  "records": [
+   {
+    "detail": "All applicable fixture variants pass with 649 of 649 applicable assertions compared.",
+    "id": "goldens",
+    "label": "Known-answer cases",
+    "limit": "Four external-dependency variants are N/A to this build or prepublication phase; all 102 remain accounted for. Public readback becomes required at publication.",
+    "status": "pass",
+    "value": "98 / 98"
+   },
+   {
+    "detail": "Every numerical cell matches the separate calculation; register 1.1.0 is aligned.",
+    "id": "rederivation",
+    "label": "Published-cell comparison",
+    "limit": "Zero mismatched, missing or unexpected cells. A separate implementation does not establish independent evaluator custody.",
+    "status": "pass",
+    "value": "22,173 / 22,173"
+   },
+   {
+    "detail": "Keyboard, filters, exports, chart readouts and the four record-clarity fixes passed the browser checks.",
+    "id": "interactions",
+    "label": "Browser interactions",
+    "limit": "Current browser execution is distinct from the four-seat restricted simulated interpretation review. No human research claim.",
+    "status": "pass",
+    "value": "20 / 20"
+   },
+   {
+    "detail": "Recorded layouts passed, including 320 px, 1280 px and both sides of the chart-host branch.",
+    "id": "layouts",
+    "label": "Responsive layout checks",
+    "limit": "The current chart has an asset-bound review and four restricted simulated returns. No certified-blind or human-usability claim.",
+    "status": "pass",
+    "value": "24 / 24"
+   }
+  ],
+  "regression_summary": "52/52 engine cases, 34/34 assurance cases, 48/48 story and synchronization cases; rules suite passes.",
+  "regressions": [
+   {
+    "command": "python -B tests/r1/test_engine_r1.py",
+    "exit": 0,
+    "name": "engine",
+    "result": "{\"cases\": 52, \"passed\": 52, \"failed\": 0}"
+   },
+   {
+    "command": "python -B tests/r1/test_assurance_r1.py",
+    "exit": 0,
+    "name": "assurance",
+    "result": "34 of 34 cases pass"
+   },
+   {
+    "command": "python -B tests/r1/test_stories_r1.py",
+    "exit": 0,
+    "name": "stories",
+    "result": "48 of 48 cases pass"
+   },
+   {
+    "command": "python -B tests/small_gate/test_rules.py",
+    "exit": 0,
+    "name": "rules",
+    "result": "OK"
+   }
+  ],
+  "schema_version": "completed-checks-record-2",
+  "scope": "Current declared frozen-build scope, with asset-bound chart/restricted reader evidence. Original receipts and strict outcomes are retained as history.",
+  "sources": [
+   {
+    "path": "governance/test-results.json",
+    "sha256": "435d1fa1e008aa638abfc1674049967208533022ab8ca83781cbc3ddabee26d4"
+   },
+   {
+    "path": "governance/rederivation.json",
+    "sha256": "4cda2ccfe8d609f63229844bd55d1978c61f351620713660902584e1dba1bb97"
+   },
+   {
+    "path": "governance/review-2026-10-19/browser-checks.json",
+    "sha256": "9384516ae477d393750d2f9fc9d1c95239305bb933ae09b73efc01dc2d50e6e6"
+   },
+   {
+    "path": "governance/review-2026-10-19/review-receipt.json",
+    "sha256": "b48f85b74e59da49c49c110a917b3def02cf7141cbab925ae4fb0a894a813bea"
+   }
+  ]
+ },
+ "diagnostics": [
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF01",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 4,
+   "instances": 4,
+   "missed": 0,
+   "mode": "SF02",
+   "not_executed": 0,
+   "reached": 4,
+   "tripped": 4
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF03",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF04",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF05",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF06",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF07",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF08",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 5,
+   "instances": 5,
+   "missed": 0,
+   "mode": "SF09",
+   "not_executed": 0,
+   "reached": 5,
+   "tripped": 5
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF10",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF11",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF12",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF13",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF14",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF15",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF16",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF17",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF18",
+   "not_executed": 1,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF19",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 5,
+   "instances": 5,
+   "missed": 0,
+   "mode": "SF20",
+   "not_executed": 0,
+   "reached": 5,
+   "tripped": 5
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF21",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 5,
+   "instances": 5,
+   "missed": 0,
+   "mode": "SF22",
+   "not_executed": 0,
+   "reached": 5,
+   "tripped": 5
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF23",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF24",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF25",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF26",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF27",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF28",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF29",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF30",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF31",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF32",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 3,
+   "instances": 3,
+   "missed": 0,
+   "mode": "SF33",
+   "not_executed": 0,
+   "reached": 3,
+   "tripped": 3
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF34",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  },
+  {
+   "clean_quiet": 2,
+   "instances": 2,
+   "missed": 0,
+   "mode": "SF35",
+   "not_executed": 0,
+   "reached": 2,
+   "tripped": 2
+  },
+  {
+   "clean_quiet": 1,
+   "instances": 1,
+   "missed": 0,
+   "mode": "SF36",
+   "not_executed": 0,
+   "reached": 1,
+   "tripped": 1
+  }
+ ],
+ "items": [
+  {
+   "evidence": "governance/rebuild-receipt.json",
+   "evidence_sha256": "d6b2457010266759a55470075247b5405422e2d0b87207a82ef525158c7770a1",
+   "name": "1 One-command rebuild",
+   "status": "pass",
+   "summary": "clean-workspace rebuild of a9c0a9a7c88b passed; 85 of 89 outputs byte-identical to the candidate build"
+  },
+  {
+   "evidence": "governance/freeze.toml",
+   "evidence_sha256": "dbea8f01082e247e1cadc2fe9d3ef0397666527175fd9aaebf001d51c9c83972",
+   "name": "2 Frozen source",
+   "status": "pass",
+   "summary": "source, submission and response freezes; manifests committed; verified by every rebuild stage"
+  },
+  {
+   "evidence": "governance/source-register.md",
+   "evidence_sha256": "86aebc9c9f76c64efe07759cb5c861c158e4ee62bcd18a71e02bdbca9f9a74a0",
+   "name": "3 Source register",
+   "status": "pass",
+   "summary": "every consumed source registered with origin and hash"
+  },
+  {
+   "evidence": "governance/check-results.json",
+   "evidence_sha256": "eeb84c64849933509018e17b785c1c649f4906a1bf2df735443832ebdcf3c5f6",
+   "name": "4 Row-count validation",
+   "status": "pass",
+   "summary": "284 comparisons at three positions; 0 unexplained differences; 3 disclosed source findings (the withheld landed ride)"
+  },
+  {
+   "evidence": "governance/validation_report.md",
+   "evidence_sha256": "d8d97f691ac3f2ee349db8a56f3b2b119c5390cfd67227740a88e09f3065613d",
+   "name": "5 Validation report",
+   "status": "pass",
+   "summary": "bound to the candidate and the complete required-check registry"
+  },
+  {
+   "evidence": "governance/build-scope-checklist.json",
+   "evidence_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c",
+   "name": "6 Tests as code",
+   "raw_evidence": "governance/test-results.json",
+   "raw_status": "blocked",
+   "status": "pass",
+   "summary": "98/98 applicable fixture variants pass; 649/649 assertions compared. All 102 variants accounted for; external custody, operation and publication dependencies retain separate dispositions."
+  },
+  {
+   "evidence": "governance/rederivation.json",
+   "evidence_sha256": "4cda2ccfe8d609f63229844bd55d1978c61f351620713660902584e1dba1bb97",
+   "name": "7 Independent re-derivation",
+   "status": "pass",
+   "summary": "22173 of 22173 cells matched; 0 mismatched, 0 missing, 0 unexpected; register 1.1.0 (aligned). Separate implementation, not independent evaluator custody."
+  },
+  {
+   "evidence": "governance/build-scope-checklist.json",
+   "evidence_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c",
+   "name": "8 Golden fixtures",
+   "raw_evidence": "governance/test-results.json",
+   "raw_status": "blocked",
+   "status": "pass",
+   "summary": "98/98 applicable fixture variants pass; 649/649 assertions compared. All 102 variants accounted for; external custody, operation and publication dependencies retain separate dispositions."
+  },
+  {
+   "evidence": "governance/build-scope-checklist.json",
+   "evidence_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c",
+   "name": "9 Negative controls",
+   "raw_evidence": "governance/negative-controls.json",
+   "raw_status": "blocked",
+   "status": "pass",
+   "summary": "81/81 applicable public diagnostics pass; SF18-01 independent-custody certification is N/A to the claims made. Its raw access probe remains not_evaluated, not a successful denial."
+  },
+  {
+   "evidence": "governance/build-scope-checklist.json",
+   "evidence_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c",
+   "name": "10 Chart review",
+   "raw_evidence": "governance/chart-review.md",
+   "raw_status": "deferred",
+   "status": "pass",
+   "summary": "V02 chart review complete at the declared frozen-build standard; four restricted simulated reader returns, 6 fixes, no open actionable findings. Current layouts and interactions pass. No certified blindness or human-usability claim. Passing completion is supported by the current asset-bound restricted review receipt, four separate simulated returns, finding dispositions and changed-content rechecks. This is not full independent or certified-blind assurance."
+  },
+  {
+   "evidence": "governance/build-scope-checklist.json",
+   "evidence_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c",
+   "name": "11 Reading panel",
+   "raw_evidence": "governance/panel/r1-13e/dispositions.json",
+   "raw_status": "pass",
+   "status": "pass",
+   "summary": "V02 chart review complete at the declared frozen-build standard; four restricted simulated reader returns, 6 fixes, no open actionable findings. Current layouts and interactions pass. No certified blindness or human-usability claim. Passing completion is supported by the current asset-bound restricted review receipt, four separate simulated returns, finding dispositions and changed-content rechecks. This is not full independent or certified-blind assurance."
+  },
+  {
+   "evidence": "governance/metric_register.md",
+   "evidence_sha256": "f2f5cb7b62fe1b3a2040582d08d15be028c46aa598243e436ee064bd865aa89a",
+   "name": "12 Metric register",
+   "status": "pass",
+   "summary": "register 1.1.0 (2026-10-18); drift check in check-results"
+  },
+  {
+   "evidence": "governance/build-scope-checklist.json",
+   "evidence_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c",
+   "name": "13 Scheduled run with health",
+   "raw_evidence": "governance/operating/live/health.json",
+   "raw_status": "blocked",
+   "status": "not_applicable",
+   "summary": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope."
+  },
+  {
+   "evidence": "governance/reconciliation.md",
+   "evidence_sha256": "05f22ab3a7754252fc31e45f28b3255b88b44e668c578bc45da094eb5b0b39cd",
+   "name": "14 Reconciliation",
+   "status": "pass",
+   "summary": "complete populations and residuals at declared grains"
+  },
+  {
+   "evidence": "governance/expected-event-accounting.md",
+   "evidence_sha256": "a0531feb3eecbfd925f459a29fa5b794db7e9f0de1b9a23bb3c91899d7cd8fa9",
+   "name": "15 Expected event accounting",
+   "status": "pass",
+   "summary": "independent obligations accounted at each cutoff"
+  },
+  {
+   "evidence": "governance/publication-content-scan.json",
+   "evidence_sha256": "fee35b7037001acfcfa8acb06163a899b2f12f018bfa5b1322eef8bdc18126d5",
+   "name": "Publication content scan",
+   "status": "pass",
+   "summary": "63 publishable and 2177 tracked files scanned; 0 publishable findings; sentinels tripped on 6 of 6 routes"
+  }
+ ],
+ "panel": {
+  "evidence": "governance/panel/r1-13e/dispositions.json",
+  "history": [
+   "governance/panel/findings.json",
+   "governance/panel/r1-13/dispositions.json",
+   "governance/panel/r1-13b/dispositions.json",
+   "governance/panel/r1-13c/dispositions.json",
+   "governance/panel/r1-13d/dispositions.json"
+  ],
+  "status": "pass",
+  "summary": "R1-13E round of 2026-10-19 (4 simulated seats, restricted, not blind): 17 findings (0 open, 6 fixed); status complete_restricted. Earlier rounds (governance/panel/findings.json, governance/panel/r1-13/dispositions.json, governance/panel/r1-13b/dispositions.json, governance/panel/r1-13c/dispositions.json, governance/panel/r1-13d/dispositions.json) are history, not the current result."
+ },
+ "review": {
+  "blind_established": false,
+  "checks": [
+   {
+    "evidence": "V02 uses descending horizontal bars, a zero baseline and one exact linear scale. Rank labels, visible values and emphasis agree with the published cells.",
+    "id": "chart_geometry",
+    "status": "pass"
+   },
+   {
+    "evidence": "The dynamic title states the leading explanation without an exact long count. Plot labels use at most three significant figures; exact values stay in readouts, tables, accessible labels and exports.",
+    "id": "title_and_precision",
+    "status": "pass"
+   },
+   {
+    "evidence": "Four-part frozen source/as-of/flags/view strip, explicit denominator, rule-order and designed-mix disclosure. Minimum 12 px resolves conflicting typography clauses under the standard meta-rule.",
+    "id": "chart_provenance",
+    "status": "pass"
+   },
+   {
+    "evidence": "24 actual renders; 12 widths including 320 and 1280 and viewport 588/589 around the 520 px chart-host branch. Default, P-C, single C06, empty readiness, known-then, SP2, record and definitions reached.",
+    "id": "responsive_states",
+    "status": "pass"
+   },
+   {
+    "evidence": "Current browser execution covers fine hover and real coarse tap, reloaded contexts, negative host-top position, viewport bounds and above-point fallback; no synthetic empty M02 population.",
+    "id": "pointer_readouts",
+    "status": "pass"
+   },
+   {
+    "evidence": "Current keyboard/focus/export interaction checks pass; a real table and exact readouts supplement rounded plot labels. No exhaustive accessibility certification.",
+    "id": "table_and_keyboard",
+    "status": "pass"
+   },
+   {
+    "evidence": "Four fresh simulated processes, three domain roles and one chart reader. Prompts and image assignments committed before seating; complete returns, no observable tool/action events. Same service/workstation, no certified blindness.",
+    "id": "reader_method",
+    "status": "pass"
+   },
+   {
+    "evidence": "17 pooled findings: 6 fixed, 8 accepted with explicit source/scope/tradeoff reasons, 3 rejected with reasons, zero open actionable defects.",
+    "id": "finding_dispositions",
+    "status": "pass"
+   },
+   {
+    "evidence": "Browser checks at 320/1280 plus a separate image-only simulated follow-up read confirm current guidance and scope wording. Directed verification after fixes is not a second naive panel.",
+    "id": "changed_content_recheck",
+    "status": "pass"
+   },
+   {
+    "evidence": "Current applicable tests and N/A reasons are separate from historical outcomes. Six historical misses and ten unrepresented classes remain disclosed. No independent final-control effectiveness or human usability claim; public readback required at publication.",
+    "id": "honest_scope_disclosure",
+    "status": "pass"
+   }
+  ],
+  "evidence": "governance/review-2026-10-19/review-receipt.json",
+  "human_research": false,
+  "panel_findings": {
+   "accepted": 8,
+   "defects": 6,
+   "findings": 17,
+   "fixed": 6,
+   "multi_seat_defects": 4,
+   "novel": 4,
+   "open": 0,
+   "rejected": 3
+  },
+  "reporting_update": {
+   "assets": {
+    "web/assets/app.css": "0d57c7d61d0bca74a6d74ffe7f8d0683f55d444fd974c610bb41f5793ced01c6",
+    "web/assets/app.js": "1106dee7106ec886a01d7ff906847cc911b5d9ef9e73b71c71aa705fc546b124",
+    "web/case-study.html": "143adb160d84a74185ba1e94da4a0985e4b62eee1413fa80fef5e0cd5b546238"
+   },
+   "authority": "Aaron, 2026-10-19: update site pages, remove detection evaluation from the current matrix and elsewhere except build forward; preserve disclosures, no merge or publish.",
+   "baseline_assets": {
+    "web/assets/app.css": "0d57c7d61d0bca74a6d74ffe7f8d0683f55d444fd974c610bb41f5793ced01c6",
+    "web/assets/app.js": "c491c606923238ac79c24280f49d5f1331ca765078f3133bf0dc6dc704837978",
+    "web/case-study.html": "3f31976e02b13662c41b129c551085714ca9411b10b71291652237c587a0b6a9"
+   },
+   "baseline_commit": "24f5481",
+   "browser_checks": {
+    "path": "governance/presentation-updates/browser-checks.json",
+    "sha256": "4308b319b8b6e4cf30a8f80ea101a78f684cae2826f3f322ea5560f11c8f4255"
+   },
+   "preservation": "Chart, record and interaction implementation and the stylesheet are byte-preserved outside named reporting functions. Case changes are limited to Testing and Build forward. Original review and raw records remain unchanged.",
+   "review_receipt_sha256": "b48f85b74e59da49c49c110a917b3def02cf7141cbab925ae4fb0a894a813bea",
+   "scope": "Owner-approved reporting update: move detection evaluation to build forward, refresh the current checklist and preserve disclosures. No new chart or reading-panel execution.",
+   "ui_polish": {
+    "assets": {
+     "web/assets/app.css": "41209aaf0512e9f2402c59a7fc98bed1758f19cc2d39d8ac9ce669bc9dfde098",
+     "web/assets/app.js": "a78a1199f5faeeae74dec5f278af372ac49a4f06edf291276a3472af11a6a46d",
+     "web/assets/case-study.css": "4a74cef2259bf36c065c73f2a530870031b12ff70dd7ef5f5cbbd4ea3caca959",
+     "web/case-study.html": "d5ae7fc7e637956a05809d207edbad9645e74ca64cd13cbf7ef1ab4cfebc8bd9"
+    },
+    "baseline_commit": "04133eefca93fc9162360c6a198216c7bbec531f",
+    "browser_checks": {
+     "path": "governance/presentation-updates/ui-polish-browser-checks.json",
+     "sha256": "71af4e6fb255b0e3df4c4c8a20c0b0985d42ba2ce2411bd48a2645ee9828925e"
+    },
+    "changes": {
+     "web/assets/app.css": [
+      {
+       "new": "th[scope=\"col\"], th[scope=\"col\"].num { font-weight: 600; white-space: normal; vertical-align: bottom; min-width: 6rem; max-width: 22ch; overflow-wrap: break-word; }",
+       "old": "th[scope=\"col\"] { font-weight: 600; white-space: nowrap; }"
+      },
+      {
+       "new": "/* Tables retain their semantic header row at every width; the bounded region scrolls in both axes. */",
+       "old": "@media (max-width: 600px) {\n  table.stack, table.stack thead, table.stack tbody, table.stack tr, table.stack th, table.stack td { display: block; }\n  table.stack thead { position: absolute; left: -9999px; }\n  table.stack tr { border-top: 1px solid var(--line); padding: .4rem 0; }\n  table.stack td { border: 0; padding: .2rem .8rem; }\n  table.stack td::before { content: attr(data-label); display: block; font-family: var(--font-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }\n  table.stack td.num { text-align: left; white-space: normal; }\n  table.stack td::before { white-space: normal; }\n  table.stack td { overflow-wrap: anywhere; }\n  table.stack tfoot td:empty { display: none; }\n}"
+      },
+      {
+       "new": "/* Sticky headers stay visible while the bounded table region scrolls at every viewport width. */",
+       "old": "/* Sticky within an explicitly bounded two-axis table region. Mobile stacked rows retain their repeated labels. */"
+      },
+      {
+       "new": "",
+       "old": "  .table-wrap:has(table.stack) { max-height: none; }\n  table.stack thead th { position: static; }\n"
+      },
+      {
+       "new": ".table-wrap:focus-visible { outline: 2px solid var(--teal-2); }\n.binding pre { max-width: 100%; overflow: auto; }\n.fold summary { overflow-wrap: anywhere; }",
+       "old": ".table-wrap:focus-visible { outline: 2px solid var(--teal-2); }"
+      }
+     ],
+     "web/assets/app.js": [
+      {
+       "new": "    function fitCheck() {\n      var over = wrap.scrollWidth > wrap.clientWidth + 1, tall = wrap.scrollHeight > wrap.clientHeight + 1;\n      hint.hidden = !over && !tall;\n      hint.textContent = (over ? 'Scroll sideways to see all ' + opts.header.length + ' columns. ' : '') + (tall ? 'Scroll inside this table; headers stay in view.' : '');\n      wrap.classList.toggle('is-scrollable', over);\n    }",
+       "old": "    function fitCheck() { var over = wrap.scrollWidth > wrap.clientWidth + 1; hint.hidden = !over; wrap.classList.toggle('is-scrollable', over); }"
+      },
+      {
+       "new": "'Share of blocked / conflicting'",
+       "old": "'Share of the ' + n(blocked) + ' blocked or conflicting units'"
+      },
+      {
+       "new": "'Share of uncovered', 'Share of reportable'",
+       "old": "'Share of the ' + n(unc) + ' uncovered legs', 'Share of all ' + n(m01d) + ' reportable completed legs'"
+      },
+      {
+       "new": "'Through frozen horizon', 'At selected position'",
+       "old": "'State through the frozen horizon (K = ' + ts(horizonK()).slice(0, 10) + ')', 'At this position (T = ' + ts(T).slice(0, 10) + ')'"
+      }
+     ],
+     "web/assets/case-study.css": [
+      {
+       "new": ".case-result-wrap { max-height: min(65vh, 34rem); }\n.case-points { padding-left: 1.25rem; margin: .8rem 0 1.2rem; color: var(--ink-soft); }\n.case-points li { padding: .3rem 0 .3rem .15rem; }",
+       "old": ".case-result-wrap { max-height: none; }"
+      },
+      {
+       "new": "",
+       "old": "  .case-result-table, .case-result-table tbody, .case-result-table tbody tr, .case-result-table tbody th, .case-result-table tbody td { display: block; width: auto; }\n"
+      },
+      {
+       "new": "",
+       "old": "  .case-result-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }\n"
+      },
+      {
+       "new": "",
+       "old": "  .case-result-table tbody th { padding: 1rem 1rem .4rem; border-top: 1px solid var(--line); }\n"
+      },
+      {
+       "new": "",
+       "old": "  .case-result-table tbody td { border: 0; padding: .4rem 1rem 1.1rem; }\n"
+      },
+      {
+       "new": "",
+       "old": "  .case-result-table tbody td::before { content: 'Why it matters'; display: block; font-family: var(--font-mono); font-size: .75rem; color: var(--teal-2); margin-bottom: .3rem; }\n"
+      }
+     ],
+     "web/case-study.html": [
+      {
+       "new": "<p class=\"lede\">A ride record alone does not establish a complete claim.</p>\n        <ul class=\"case-points\"><li><strong>Build the support:</strong> assemble claim facts while keeping gaps visible.</li><li><strong>Trace the consequence:</strong> show what that claim can support downstream.</li></ul>",
+       "old": "<p class=\"lede\">A ride record alone does not establish a complete claim. This build assembles the support, keeps missing facts visible and traces what each claim can support downstream.</p>"
+      },
+      {
+       "new": "<div class=\"case-copy\"><p>The problem begins upstream of encounter reporting: a completed ride can still lack a billing reference, supported service quantity or required payment evidence.</p><p>An explicit claim record and target-specific rules make that activity usable. Four distinct questions guide the model:</p></div>",
+       "old": "<div class=\"case-copy\"><p>The operational problem begins upstream of encounter reporting. A source can describe a completed ride while leaving the claim's billing reference, supported service quantity or required payment evidence unresolved. Producing a report from that activity requires an explicit claim record and a rule for what makes it usable.</p><p>The model keeps four questions distinct. A ride describes activity. A claim assembles supported facts. Readiness asks whether those facts meet a particular target's requirements. Return evidence establishes what a recipient actually said about the submitted version.</p></div>"
+      },
+      {
+       "new": "<ul class=\"case-points\"><li><strong>Inspectable sources:</strong> Python and JSON/JSONL retain the data, lineage and receipts.</li><li><strong>Static interface:</strong> HTML/CSS, JavaScript and SVG provide the reading and drill-down views.</li><li><strong>Frozen computation:</strong> the browser formats the analytical bundle and lays out charts. No database service or live model calls are required.</li></ul>",
+       "old": "<p>Python and JSON/JSONL keep the source, lineage and receipts inspectable. Static HTML/CSS, vanilla JavaScript and SVG provide the reading and drill-down views. The browser reads the frozen analytical bundle; it formats values and lays out charts. The stack fits an inspectable snapshot without a database service or live model calls.</p>"
+      }
+     ]
+    },
+    "scope": "Owner-requested table usability and case-study reading polish; no data, model or chart geometry changes. Existing restricted review is retained, not rerun."
+   }
+  },
+  "standard": "restricted-frozen-portfolio-review-1",
+  "status": "pass",
+  "summary": "V02 chart review complete at the declared frozen-build standard; four restricted simulated reader returns, 6 fixes, no open actionable findings. Current layouts and interactions pass. No certified blindness or human-usability claim."
+ },
+ "schema_version": "verification-summary-3",
+ "scope_checklist": {
+  "applicable_gate": "pass",
+  "assessor": {
+   "path": "src/build_scope_checklist.py",
+   "sha256": "e69916931199f73004645bd6cd36c842cbe31fee4d792ce64efa8aab3f5387f7"
+  },
+  "build_forward": {
+   "candidate": "Detection evaluation",
+   "checks": [
+    {
+     "check_id": "evaluation_must_catch_met",
+     "evidence": "governance/detection-results-2.json",
+     "raw_status": "fail",
+     "reason": "Future detection-evaluation candidate, excluded from the current checklist by owner decision. Historical outcomes remain unchanged.",
+     "status": "build_forward",
+     "surface": 16
+    },
+    {
+     "check_id": "control:evaluation_access_boundary",
+     "evidence": "governance/negative-controls.json",
+     "raw_status": "blocked",
+     "reason": "Future detection-evaluation candidate, excluded from the current checklist by owner decision. Historical outcomes remain unchanged.",
+     "status": "build_forward",
+     "surface": 9
+    },
+    {
+     "check_id": "control:evaluation_population_complete",
+     "evidence": "governance/negative-controls.json",
+     "raw_status": "blocked",
+     "reason": "Future detection-evaluation candidate, excluded from the current checklist by owner decision. Historical outcomes remain unchanged.",
+     "status": "build_forward",
+     "surface": 9
+    }
+   ],
+   "historical_disclosure": {
+    "attempt": 2,
+    "final_control_effectiveness_established": false,
+    "independent_custody": false,
+    "meaning": "Archived exploratory evidence, not a current test surface",
+    "missed_targets": 6,
+    "must_catch_classes": 20,
+    "represented_classes": 26,
+    "unrepresented_classes": 10
+   },
+   "status": "build_forward"
+  },
+  "checks": [
+   {
+    "check_id": "PKG01",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "PKG02",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "SRC01",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "SRC02",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "SRC03",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "RSP01",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "RSP02",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "RSP03",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "SPEC01",
+    "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+    "raw_status": "pass",
+    "reason": "package gate passed; current package manifest binding matches",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "freeze_source_verified",
+    "evidence": "governance/freeze/source-v1.manifest.json",
+    "raw_status": "pass",
+    "reason": "src/freeze.py verify exit 0",
+    "status": "pass",
+    "surface": 2
+   },
+   {
+    "check_id": "freeze_submissions_verified",
+    "evidence": "governance/freeze/submissions-v1.manifest.json",
+    "raw_status": "pass",
+    "reason": "src/freeze.py verify exit 0",
+    "status": "pass",
+    "surface": 2
+   },
+   {
+    "check_id": "freeze_responses_verified",
+    "evidence": "governance/freeze/responses-v1.manifest.json",
+    "raw_status": "pass",
+    "reason": "src/freeze.py verify exit 0",
+    "status": "pass",
+    "surface": 2
+   },
+   {
+    "check_id": "consumption_reconciled",
+    "evidence": "governance/consumption-manifest.json",
+    "raw_status": "pass",
+    "reason": "28 of 28 consumed files reconcile",
+    "status": "pass",
+    "surface": 2
+   },
+   {
+    "check_id": "source_register_complete",
+    "evidence": "governance/source-manifest.json",
+    "raw_status": "pass",
+    "reason": "28 of 28 consumed files registered",
+    "status": "pass",
+    "surface": 3
+   },
+   {
+    "check_id": "claim_lineage_complete",
+    "evidence": "governance/claim-lineage.jsonl",
+    "raw_status": "pass",
+    "reason": "12041 claim versions; 0 with a source or reference field citing no row",
+    "status": "pass",
+    "surface": 3
+   },
+   {
+    "check_id": "rowcount_comparisons",
+    "evidence": "sql/validate_rowcounts.sql",
+    "raw_status": "pass",
+    "reason": "284 comparisons at three positions; 0 unexplained differences; 3 disclosed source findings (the withheld landed ride)",
+    "status": "pass",
+    "surface": 4
+   },
+   {
+    "check_id": "validation_report_bound",
+    "evidence": "governance/validation_report.md",
+    "raw_status": "pass",
+    "reason": "bound to 09839d0e8077, build data/derived/bulk-c4, required-check registry d1a57401f87d",
+    "status": "pass",
+    "surface": 5
+   },
+   {
+    "check_id": "tests_collected_and_executed",
+    "evidence": "governance/test-results.json",
+    "raw_status": "fail",
+    "reason": "98/98 applicable fixture variants pass; 649/649 assertions compared. All 102 variants accounted for; external custody, operation and publication dependencies retain separate dispositions.",
+    "status": "pass",
+    "surface": 6
+   },
+   {
+    "check_id": "golden_variants_executed",
+    "evidence": "governance/test-results.json",
+    "raw_status": "blocked",
+    "reason": "98/98 applicable fixture variants pass; 649/649 assertions compared. All 102 variants accounted for; external custody, operation and publication dependencies retain separate dispositions.",
+    "status": "pass",
+    "surface": 8
+   },
+   {
+    "check_id": "rederivation_all_cells",
+    "evidence": "governance/rederivation.json",
+    "raw_status": "pass",
+    "reason": "22173 matched of 22173 expected keys; mismatched 0, missing 0, unexpected 0",
+    "status": "pass",
+    "surface": 7
+   },
+   {
+    "check_id": "verifier_small_and_bulk",
+    "evidence": "data/derived/bulk-c4/rebuild-receipt.json",
+    "raw_status": "pass",
+    "reason": "verifier stage of the candidate rebuild: ['[known_then] checks: pass=80 fail=0 not_run=0 -> data/derived/bulk-c4/known_then/verification.json', '[restated_then] checks: pass=80 fail=0 not_run=0 -> data/derived/bulk-c4/restated_then/verification.json', '[current_later] checks: pass=80 fail=0 not_run=0 -> data/derived/bulk-c4/current_later/verification.json']",
+    "status": "pass",
+    "surface": 7
+   },
+   {
+    "check_id": "negative_controls_all_instances",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "blocked",
+    "reason": "81/81 applicable public diagnostics pass; SF18-01 independent-custody certification is N/A to the claims made. Its raw access probe remains not_evaluated, not a successful denial.",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "chart_review_bound",
+    "evidence": "governance/presentation-manifest.json",
+    "raw_status": "fail",
+    "reason": "V02 chart review complete at the declared frozen-build standard; four restricted simulated reader returns, 6 fixes, no open actionable findings. Current layouts and interactions pass. No certified blindness or human-usability claim. Passing completion is supported by the current asset-bound restricted review receipt, four separate simulated returns, finding dispositions and changed-content rechecks. This is not full independent or certified-blind assurance.",
+    "status": "pass",
+    "surface": 10
+   },
+   {
+    "check_id": "interaction_checks",
+    "evidence": "governance/interaction-results.json",
+    "raw_status": "pass",
+    "reason": "20 of 20 interaction checks pass",
+    "status": "pass",
+    "surface": 10
+   },
+   {
+    "check_id": "reading_panel_complete",
+    "evidence": "governance/panel/r1-13d/dispositions.json",
+    "raw_status": "fail",
+    "reason": "V02 chart review complete at the declared frozen-build standard; four restricted simulated reader returns, 6 fixes, no open actionable findings. Current layouts and interactions pass. No certified blindness or human-usability claim. Passing completion is supported by the current asset-bound restricted review receipt, four separate simulated returns, finding dispositions and changed-content rechecks. This is not full independent or certified-blind assurance.",
+    "status": "pass",
+    "surface": 11
+   },
+   {
+    "check_id": "metric_register_drift",
+    "evidence": "governance/metric_register.md",
+    "raw_status": "pass",
+    "reason": "19 measures; 0 published IDs without a register definition",
+    "status": "pass",
+    "surface": 12
+   },
+   {
+    "check_id": "genuine_timer_run",
+    "evidence": "governance/operating/live/run_history.jsonl",
+    "raw_status": "blocked",
+    "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+    "status": "not_applicable",
+    "surface": 13
+   },
+   {
+    "check_id": "observer_detects_missing_worker",
+    "evidence": "governance/operating/live/observer_history.jsonl",
+    "raw_status": "pass",
+    "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+    "status": "not_applicable",
+    "surface": 13
+   },
+   {
+    "check_id": "failure_notification_drill",
+    "evidence": "governance/operating/live/run_history.jsonl",
+    "raw_status": "pass",
+    "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+    "status": "not_applicable",
+    "surface": 13
+   },
+   {
+    "check_id": "health_expiry",
+    "evidence": "governance/operating/live/observer_history.jsonl",
+    "raw_status": "pass",
+    "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+    "status": "not_applicable",
+    "surface": 13
+   },
+   {
+    "check_id": "reconciliation_complete",
+    "evidence": "governance/reconciliation.md",
+    "raw_status": "pass",
+    "reason": "22 of 22 computed equalities hold; complete populations, residual tables and bridges",
+    "status": "pass",
+    "surface": 14
+   },
+   {
+    "check_id": "expected_events_accounted",
+    "evidence": "governance/expected-event-accounting.md",
+    "raw_status": "pass",
+    "reason": "independent obligations, state totals reconciled to the ledger",
+    "status": "pass",
+    "surface": 15
+   },
+   {
+    "check_id": "evaluation_commitment",
+    "evidence": "evaluation/commitment-2.json",
+    "raw_status": "pass",
+    "reason": "attempt 2 (current attempt 2): {'classes_not_represented': 10, 'classes_represented': 26, 'clean_opportunities': 52, 'targets': 52}",
+    "status": "pass",
+    "surface": 16
+   },
+   {
+    "check_id": "evaluation_output_lock",
+    "evidence": "evaluation/output-lock-2.json",
+    "raw_status": "pass",
+    "reason": "attempt 2 outputs hashed before scoring",
+    "status": "pass",
+    "surface": 16
+   },
+   {
+    "check_id": "evaluation_scored",
+    "evidence": "governance/detection-results-2.json",
+    "raw_status": "pass",
+    "reason": "attempt 2 score record: caught 46 of 52, false alarms 0 of 52, classes passing must-catch 20 of 26; completeness only, effectiveness is evaluation_must_catch_met; blindness: unblinded: author exposure not ruled out (the detector author wrote the evaluator brief; author, runtime and evaluator s",
+    "status": "pass",
+    "surface": 16
+   },
+   {
+    "check_id": "evaluator_mutants",
+    "evidence": "governance/detection-results-2.json",
+    "raw_status": "pass",
+    "reason": "always_alert: violated True; disconnected_detector: violated True; scoring_record_removed: violated True",
+    "status": "pass",
+    "surface": 16
+   },
+   {
+    "check_id": "publication_content_scan",
+    "evidence": "governance/publication-content-scan.json",
+    "raw_status": "pass",
+    "reason": "56 publishable and 1973 tracked files scanned; 0 publishable findings; sentinels tripped on 6 of 6 routes",
+    "status": "pass",
+    "surface": 0
+   },
+   {
+    "check_id": "release_manifest_local_readback",
+    "evidence": "governance/publication-readback.json",
+    "raw_status": "pass",
+    "reason": "local served bytes vs release manifest",
+    "status": "pass",
+    "surface": 0
+   },
+   {
+    "check_id": "mixed_release_probe",
+    "evidence": "governance/publication-readback.json",
+    "raw_status": "pass",
+    "reason": "readback failed and named only the swapped asset (assets/app.js from c2cb71f served beside the current release)",
+    "status": "pass",
+    "surface": 0
+   },
+   {
+    "check_id": "public_served_readback",
+    "evidence": "governance/publication-readback.json",
+    "raw_status": "pending_postpublication",
+    "reason": "Real public readback is N/A before deployment; it becomes required at publication. No live-site verification is claimed.",
+    "status": "not_applicable",
+    "surface": 0
+   },
+   {
+    "check_id": "control:accepted_payload_matches_census",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:assertion_scope_authority_valid",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:batch_membership_results_complete",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:claim_field_support_complete",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:claim_service_allocation_balanced",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:claim_submission_snapshot_immutable",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:coverage_without_reportable_service",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:deadline_contract_boundaries",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:detector_invocation_complete",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "harness control exercised by 2 diagnostic instance(s): ['SF16-01=pass', 'SF16-02=pass']",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:evidence_binding_unique",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:exception_fields_complete",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:false_alarm_budget",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "harness control exercised by 2 diagnostic instance(s): ['SF17-01=pass', 'SF17-02=pass']",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:family_current_acceptance",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:financial_amount_semantics_valid",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:financial_event_history_valid",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:independent_contract_counterexamples",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "harness control exercised by 1 diagnostic instance(s): ['SF15-01=pass']",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:knowledge_cutoff_observed",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:obligation_transition_valid",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:payload_matches_claim_version",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:population_identity_reconciliation",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 3",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:population_version_bridge",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:preparation_population_complete",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:progress_watermark_contract",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "harness control exercised by 3 diagnostic instance(s): ['SF12-01=pass', 'SF12-02=pass', 'SF12-03=pass']",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:raw_evidence_disposition_complete",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:readiness_contract_bound",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:release_manifest_consistent",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "harness control exercised by 2 diagnostic instance(s): ['SF14-01=pass', 'SF14-02=pass']",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:reporting_disposition_profile_bound",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:required_line_evidence_complete",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:response_expectation_visibility_distinct",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:response_obligation_due",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 6876",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:responsibility_collection_distinct",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:scheduled_run_freshness",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "harness control exercised by 2 diagnostic instance(s): ['SF13-01=pass', 'SF13-02=pass']",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:scoped_coverage_allocation_unique",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:service_universe_accounted",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:source_population_accounted",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 3",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "control:stage_namespace_valid",
+    "evidence": "governance/check-results.json",
+    "raw_status": "pass",
+    "reason": "ran at three positions; analytical alerts 0; business-state alerts 0",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF01-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF01-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF02-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF02-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF02-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF02-04",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF03-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF03-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF04-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF05-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF05-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF05-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF06-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF07-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF07-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF08-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF09-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF09-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF09-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF09-04",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF09-05",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF10-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF10-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF10-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF11-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF12-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF12-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF12-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF13-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF13-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF14-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF14-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF15-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF16-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF16-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF17-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF17-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF18-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "blocked",
+    "reason": "Certification of the independent evaluator access boundary is N/A to this build’s claims. The resource was not available and the raw probe stays not_evaluated; absence of a resource is not a successful access denial.",
+    "status": "not_applicable",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF18-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF19-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF19-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF20-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF20-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF20-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF20-04",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF20-05",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF21-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF21-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF22-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF22-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF22-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF22-04",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF22-05",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF23-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF23-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF24-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF24-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF25-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF25-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF25-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF26-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF26-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF27-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF27-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF28-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF28-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF29-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF30-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF30-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF31-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF31-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF31-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF32-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF32-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF32-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF33-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF33-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF33-03",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF34-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF35-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF35-02",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   },
+   {
+    "check_id": "diagnostic:SF36-01",
+    "evidence": "governance/negative-controls.json",
+    "raw_status": "pass",
+    "reason": "judgment pass (executed)",
+    "status": "pass",
+    "surface": 9
+   }
+  ],
+  "counts": {
+   "not_applicable": 6,
+   "pass": 152
+  },
+  "date": "2026-10-19",
+  "full_assurance_gate_passed": false,
+  "golden": {
+   "applicable": 98,
+   "assertions_compared": 649,
+   "assertions_required": 649,
+   "dispositions": [
+    {
+     "case_id": "G11",
+     "disposition": "not_applicable",
+     "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim.",
+     "raw_status": "blocked",
+     "reason": "Independent evaluator-custody certification is N/A to the claims this frozen portfolio build makes. The raw key-access probe remains blocked/not_evaluated; no successful denial or independent unseen evaluation is asserted.",
+     "variant_id": "key_access_probe"
+    },
+    {
+     "case_id": "G12",
+     "disposition": "not_applicable",
+     "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim.",
+     "raw_status": "blocked",
+     "reason": "No live edge or ongoing-operation claim; a real scheduled worker is outside this frozen build scope.",
+     "variant_id": "missing_worker"
+    },
+    {
+     "case_id": "G13",
+     "disposition": "not_applicable",
+     "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim.",
+     "raw_status": "pending_postpublication",
+     "reason": "Real public readback is N/A at the prepublication phase, not a passing test. It becomes required at publication; the postpublication scoped gate fails until real readback is established.",
+     "variant_id": "clean_bundle"
+    },
+    {
+     "case_id": "G13",
+     "disposition": "not_applicable",
+     "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim.",
+     "raw_status": "pending_postpublication",
+     "reason": "Real public readback is N/A at the prepublication phase, not a passing test. It becomes required at publication; the postpublication scoped gate fails until real readback is established.",
+     "variant_id": "mixed_assets"
+    }
+   ],
+   "errors": [],
+   "passed": 98,
+   "registered": 102,
+   "status": "pass"
+  },
+  "inputs": {
+   "governance/build-scope-policy.json": "749b618d84fe4edb9e73c7214ab9594ede46212f6f77f326c56bc81b73562ee7",
+   "governance/check-results.json": "eeb84c64849933509018e17b785c1c649f4906a1bf2df735443832ebdcf3c5f6",
+   "governance/negative-controls.json": "4ba47993ce3a5c353fd88f9c45033b9e497355c685c42fb034b09bffd5de159c",
+   "governance/required-checks.json": "d1a57401f87df53b6e2fd4bef5631dab6cd46702472b404f98aa8078bf39ba02",
+   "governance/review-2026-10-19/review-receipt.json": "b48f85b74e59da49c49c110a917b3def02cf7141cbab925ae4fb0a894a813bea",
+   "governance/test-results.json": "435d1fa1e008aa638abfc1674049967208533022ab8ca83781cbc3ddabee26d4"
+  },
+  "negative_controls": {
+   "applicable": 81,
+   "disposition": "SF18-01: independent-custody certification N/A to the claims made; raw result not_evaluated",
+   "passed": 81,
+   "status": "pass"
+  },
+  "phase": "prepublication",
+  "presentation_review": {
+   "blind_established": false,
+   "checks": [
+    {
+     "evidence": "V02 uses descending horizontal bars, a zero baseline and one exact linear scale. Rank labels, visible values and emphasis agree with the published cells.",
+     "id": "chart_geometry",
+     "status": "pass"
+    },
+    {
+     "evidence": "The dynamic title states the leading explanation without an exact long count. Plot labels use at most three significant figures; exact values stay in readouts, tables, accessible labels and exports.",
+     "id": "title_and_precision",
+     "status": "pass"
+    },
+    {
+     "evidence": "Four-part frozen source/as-of/flags/view strip, explicit denominator, rule-order and designed-mix disclosure. Minimum 12 px resolves conflicting typography clauses under the standard meta-rule.",
+     "id": "chart_provenance",
+     "status": "pass"
+    },
+    {
+     "evidence": "24 actual renders; 12 widths including 320 and 1280 and viewport 588/589 around the 520 px chart-host branch. Default, P-C, single C06, empty readiness, known-then, SP2, record and definitions reached.",
+     "id": "responsive_states",
+     "status": "pass"
+    },
+    {
+     "evidence": "Current browser execution covers fine hover and real coarse tap, reloaded contexts, negative host-top position, viewport bounds and above-point fallback; no synthetic empty M02 population.",
+     "id": "pointer_readouts",
+     "status": "pass"
+    },
+    {
+     "evidence": "Current keyboard/focus/export interaction checks pass; a real table and exact readouts supplement rounded plot labels. No exhaustive accessibility certification.",
+     "id": "table_and_keyboard",
+     "status": "pass"
+    },
+    {
+     "evidence": "Four fresh simulated processes, three domain roles and one chart reader. Prompts and image assignments committed before seating; complete returns, no observable tool/action events. Same service/workstation, no certified blindness.",
+     "id": "reader_method",
+     "status": "pass"
+    },
+    {
+     "evidence": "17 pooled findings: 6 fixed, 8 accepted with explicit source/scope/tradeoff reasons, 3 rejected with reasons, zero open actionable defects.",
+     "id": "finding_dispositions",
+     "status": "pass"
+    },
+    {
+     "evidence": "Browser checks at 320/1280 plus a separate image-only simulated follow-up read confirm current guidance and scope wording. Directed verification after fixes is not a second naive panel.",
+     "id": "changed_content_recheck",
+     "status": "pass"
+    },
+    {
+     "evidence": "Current applicable tests and N/A reasons are separate from historical outcomes. Six historical misses and ten unrepresented classes remain disclosed. No independent final-control effectiveness or human usability claim; public readback required at publication.",
+     "id": "honest_scope_disclosure",
+     "status": "pass"
+    }
+   ],
+   "evidence": "governance/review-2026-10-19/review-receipt.json",
+   "human_research": false,
+   "panel_findings": {
+    "accepted": 8,
+    "defects": 6,
+    "findings": 17,
+    "fixed": 6,
+    "multi_seat_defects": 4,
+    "novel": 4,
+    "open": 0,
+    "rejected": 3
+   },
+   "reporting_update": {
+    "assets": {
+     "web/assets/app.css": "0d57c7d61d0bca74a6d74ffe7f8d0683f55d444fd974c610bb41f5793ced01c6",
+     "web/assets/app.js": "1106dee7106ec886a01d7ff906847cc911b5d9ef9e73b71c71aa705fc546b124",
+     "web/case-study.html": "143adb160d84a74185ba1e94da4a0985e4b62eee1413fa80fef5e0cd5b546238"
+    },
+    "authority": "Aaron, 2026-10-19: update site pages, remove detection evaluation from the current matrix and elsewhere except build forward; preserve disclosures, no merge or publish.",
+    "baseline_assets": {
+     "web/assets/app.css": "0d57c7d61d0bca74a6d74ffe7f8d0683f55d444fd974c610bb41f5793ced01c6",
+     "web/assets/app.js": "c491c606923238ac79c24280f49d5f1331ca765078f3133bf0dc6dc704837978",
+     "web/case-study.html": "3f31976e02b13662c41b129c551085714ca9411b10b71291652237c587a0b6a9"
+    },
+    "baseline_commit": "24f5481",
+    "browser_checks": {
+     "path": "governance/presentation-updates/browser-checks.json",
+     "sha256": "4308b319b8b6e4cf30a8f80ea101a78f684cae2826f3f322ea5560f11c8f4255"
+    },
+    "preservation": "Chart, record and interaction implementation and the stylesheet are byte-preserved outside named reporting functions. Case changes are limited to Testing and Build forward. Original review and raw records remain unchanged.",
+    "review_receipt_sha256": "b48f85b74e59da49c49c110a917b3def02cf7141cbab925ae4fb0a894a813bea",
+    "scope": "Owner-approved reporting update: move detection evaluation to build forward, refresh the current checklist and preserve disclosures. No new chart or reading-panel execution.",
+    "ui_polish": {
+     "assets": {
+      "web/assets/app.css": "41209aaf0512e9f2402c59a7fc98bed1758f19cc2d39d8ac9ce669bc9dfde098",
+      "web/assets/app.js": "a78a1199f5faeeae74dec5f278af372ac49a4f06edf291276a3472af11a6a46d",
+      "web/assets/case-study.css": "4a74cef2259bf36c065c73f2a530870031b12ff70dd7ef5f5cbbd4ea3caca959",
+      "web/case-study.html": "d5ae7fc7e637956a05809d207edbad9645e74ca64cd13cbf7ef1ab4cfebc8bd9"
+     },
+     "baseline_commit": "04133eefca93fc9162360c6a198216c7bbec531f",
+     "browser_checks": {
+      "path": "governance/presentation-updates/ui-polish-browser-checks.json",
+      "sha256": "71af4e6fb255b0e3df4c4c8a20c0b0985d42ba2ce2411bd48a2645ee9828925e"
+     },
+     "changes": {
+      "web/assets/app.css": [
+       {
+        "new": "th[scope=\"col\"], th[scope=\"col\"].num { font-weight: 600; white-space: normal; vertical-align: bottom; min-width: 6rem; max-width: 22ch; overflow-wrap: break-word; }",
+        "old": "th[scope=\"col\"] { font-weight: 600; white-space: nowrap; }"
+       },
+       {
+        "new": "/* Tables retain their semantic header row at every width; the bounded region scrolls in both axes. */",
+        "old": "@media (max-width: 600px) {\n  table.stack, table.stack thead, table.stack tbody, table.stack tr, table.stack th, table.stack td { display: block; }\n  table.stack thead { position: absolute; left: -9999px; }\n  table.stack tr { border-top: 1px solid var(--line); padding: .4rem 0; }\n  table.stack td { border: 0; padding: .2rem .8rem; }\n  table.stack td::before { content: attr(data-label); display: block; font-family: var(--font-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }\n  table.stack td.num { text-align: left; white-space: normal; }\n  table.stack td::before { white-space: normal; }\n  table.stack td { overflow-wrap: anywhere; }\n  table.stack tfoot td:empty { display: none; }\n}"
+       },
+       {
+        "new": "/* Sticky headers stay visible while the bounded table region scrolls at every viewport width. */",
+        "old": "/* Sticky within an explicitly bounded two-axis table region. Mobile stacked rows retain their repeated labels. */"
+       },
+       {
+        "new": "",
+        "old": "  .table-wrap:has(table.stack) { max-height: none; }\n  table.stack thead th { position: static; }\n"
+       },
+       {
+        "new": ".table-wrap:focus-visible { outline: 2px solid var(--teal-2); }\n.binding pre { max-width: 100%; overflow: auto; }\n.fold summary { overflow-wrap: anywhere; }",
+        "old": ".table-wrap:focus-visible { outline: 2px solid var(--teal-2); }"
+       }
+      ],
+      "web/assets/app.js": [
+       {
+        "new": "    function fitCheck() {\n      var over = wrap.scrollWidth > wrap.clientWidth + 1, tall = wrap.scrollHeight > wrap.clientHeight + 1;\n      hint.hidden = !over && !tall;\n      hint.textContent = (over ? 'Scroll sideways to see all ' + opts.header.length + ' columns. ' : '') + (tall ? 'Scroll inside this table; headers stay in view.' : '');\n      wrap.classList.toggle('is-scrollable', over);\n    }",
+        "old": "    function fitCheck() { var over = wrap.scrollWidth > wrap.clientWidth + 1; hint.hidden = !over; wrap.classList.toggle('is-scrollable', over); }"
+       },
+       {
+        "new": "'Share of blocked / conflicting'",
+        "old": "'Share of the ' + n(blocked) + ' blocked or conflicting units'"
+       },
+       {
+        "new": "'Share of uncovered', 'Share of reportable'",
+        "old": "'Share of the ' + n(unc) + ' uncovered legs', 'Share of all ' + n(m01d) + ' reportable completed legs'"
+       },
+       {
+        "new": "'Through frozen horizon', 'At selected position'",
+        "old": "'State through the frozen horizon (K = ' + ts(horizonK()).slice(0, 10) + ')', 'At this position (T = ' + ts(T).slice(0, 10) + ')'"
+       }
+      ],
+      "web/assets/case-study.css": [
+       {
+        "new": ".case-result-wrap { max-height: min(65vh, 34rem); }\n.case-points { padding-left: 1.25rem; margin: .8rem 0 1.2rem; color: var(--ink-soft); }\n.case-points li { padding: .3rem 0 .3rem .15rem; }",
+        "old": ".case-result-wrap { max-height: none; }"
+       },
+       {
+        "new": "",
+        "old": "  .case-result-table, .case-result-table tbody, .case-result-table tbody tr, .case-result-table tbody th, .case-result-table tbody td { display: block; width: auto; }\n"
+       },
+       {
+        "new": "",
+        "old": "  .case-result-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }\n"
+       },
+       {
+        "new": "",
+        "old": "  .case-result-table tbody th { padding: 1rem 1rem .4rem; border-top: 1px solid var(--line); }\n"
+       },
+       {
+        "new": "",
+        "old": "  .case-result-table tbody td { border: 0; padding: .4rem 1rem 1.1rem; }\n"
+       },
+       {
+        "new": "",
+        "old": "  .case-result-table tbody td::before { content: 'Why it matters'; display: block; font-family: var(--font-mono); font-size: .75rem; color: var(--teal-2); margin-bottom: .3rem; }\n"
+       }
+      ],
+      "web/case-study.html": [
+       {
+        "new": "<p class=\"lede\">A ride record alone does not establish a complete claim.</p>\n        <ul class=\"case-points\"><li><strong>Build the support:</strong> assemble claim facts while keeping gaps visible.</li><li><strong>Trace the consequence:</strong> show what that claim can support downstream.</li></ul>",
+        "old": "<p class=\"lede\">A ride record alone does not establish a complete claim. This build assembles the support, keeps missing facts visible and traces what each claim can support downstream.</p>"
+       },
+       {
+        "new": "<div class=\"case-copy\"><p>The problem begins upstream of encounter reporting: a completed ride can still lack a billing reference, supported service quantity or required payment evidence.</p><p>An explicit claim record and target-specific rules make that activity usable. Four distinct questions guide the model:</p></div>",
+        "old": "<div class=\"case-copy\"><p>The operational problem begins upstream of encounter reporting. A source can describe a completed ride while leaving the claim's billing reference, supported service quantity or required payment evidence unresolved. Producing a report from that activity requires an explicit claim record and a rule for what makes it usable.</p><p>The model keeps four questions distinct. A ride describes activity. A claim assembles supported facts. Readiness asks whether those facts meet a particular target's requirements. Return evidence establishes what a recipient actually said about the submitted version.</p></div>"
+       },
+       {
+        "new": "<ul class=\"case-points\"><li><strong>Inspectable sources:</strong> Python and JSON/JSONL retain the data, lineage and receipts.</li><li><strong>Static interface:</strong> HTML/CSS, JavaScript and SVG provide the reading and drill-down views.</li><li><strong>Frozen computation:</strong> the browser formats the analytical bundle and lays out charts. No database service or live model calls are required.</li></ul>",
+        "old": "<p>Python and JSON/JSONL keep the source, lineage and receipts inspectable. Static HTML/CSS, vanilla JavaScript and SVG provide the reading and drill-down views. The browser reads the frozen analytical bundle; it formats values and lays out charts. The stack fits an inspectable snapshot without a database service or live model calls.</p>"
+       }
+      ]
+     },
+     "scope": "Owner-requested table usability and case-study reading polish; no data, model or chart geometry changes. Existing restricted review is retained, not rerun."
+    }
+   },
+   "standard": "restricted-frozen-portfolio-review-1",
+   "status": "pass",
+   "summary": "V02 chart review complete at the declared frozen-build standard; four restricted simulated reader returns, 6 fixes, no open actionable findings. Current layouts and interactions pass. No certified blindness or human-usability claim."
+  },
+  "publication_authorized": false,
+  "raw_validation_revision": "09839d0e80772880df77f7b3fa44c5b7d6dd9f3c",
+  "schema_version": "build-scope-checklist-3",
+  "scope": "Frozen synthetic Claim Integrity portfolio build; no live data edge, ongoing refresh or effectiveness certification.",
+  "statement": "Every applicable check passes at the declared frozen-build review standard. N/A requirements are not test passes. Historical failures and misses remain recorded. Public readback becomes required at publication. Raw receipts and the original strict release gate remain unchanged."
+ }
+}

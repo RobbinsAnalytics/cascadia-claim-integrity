@@ -1,0 +1,2580 @@
+{
+ "client_filters": [
+  "ALL",
+  "P-A",
+  "P-B",
+  "P-C",
+  "SYN-C01",
+  "SYN-C02",
+  "SYN-C03",
+  "SYN-C04",
+  "SYN-C05",
+  "SYN-C06"
+ ],
+ "clients": [
+  {
+   "client_id": "SYN-C01",
+   "display_name": "SYN-C01",
+   "profile_id": "P-A",
+   "targets": [
+    {
+     "evidence_basis": "originating_structured",
+     "follow_up_hours": null,
+     "note": "Originating exact-scope final decisions can establish source-evidenced outcomes.",
+     "policy_id": "E01",
+     "purpose": "encounter",
+     "recipient": "SYN-R01",
+     "route": "direct_originating",
+     "stage_expectations": {
+      "encounter_decision": "expected",
+      "syntax_acknowledgment": "expected",
+      "transport_receipt": "expected"
+     }
+    }
+   ]
+  },
+  {
+   "client_id": "SYN-C02",
+   "display_name": "SYN-C02",
+   "profile_id": "P-A",
+   "targets": [
+    {
+     "evidence_basis": "forwarded_originating",
+     "follow_up_hours": null,
+     "note": "Original artifact identity/hash, issuer and exact scope are mandatory; forwarded summary text alone is an assertion.",
+     "policy_id": "E02",
+     "purpose": "encounter",
+     "recipient": "SYN-R02",
+     "route": "forwarded_originating",
+     "stage_expectations": {
+      "encounter_decision": "expected",
+      "syntax_acknowledgment": "expected",
+      "transport_receipt": "expected"
+     }
+    },
+    {
+     "evidence_basis": "originating_structured",
+     "follow_up_hours": null,
+     "note": "A legitimate additional target for C02; its requirement is not a duplicate of the encounter target.",
+     "policy_id": "E02-AUDIT",
+     "purpose": "audit",
+     "recipient": "SYN-AUDIT",
+     "route": "direct_originating",
+     "stage_expectations": {
+      "encounter_decision": "expected",
+      "syntax_acknowledgment": "expected",
+      "transport_receipt": "expected"
+     }
+    }
+   ]
+  },
+  {
+   "client_id": "SYN-C03",
+   "display_name": "SYN-C03",
+   "profile_id": "P-B",
+   "targets": [
+    {
+     "evidence_basis": "originating_structured",
+     "follow_up_hours": null,
+     "note": "Delayed or absent promised responses remain receipt obligations. A broken route cannot be relabeled unavailable to erase a deadline miss.",
+     "policy_id": "E03",
+     "purpose": "encounter",
+     "recipient": "SYN-R03",
+     "route": "promised_structured",
+     "stage_expectations": {
+      "encounter_decision": "expected",
+      "syntax_acknowledgment": "expected",
+      "transport_receipt": "expected"
+     }
+    }
+   ]
+  },
+  {
+   "client_id": "SYN-C04",
+   "display_name": "SYN-C04",
+   "profile_id": "P-B",
+   "targets": [
+    {
+     "evidence_basis": "record_specific_client_assertion",
+     "follow_up_hours": 120,
+     "note": "Individual asserted outcomes are visible separately; no promised final-response SLA is invented.",
+     "policy_id": "E04",
+     "purpose": "encounter",
+     "recipient": "SYN-R04",
+     "route": "record_specific_client_notes",
+     "stage_expectations": {
+      "encounter_decision": "not_established",
+      "syntax_acknowledgment": "not_established",
+      "transport_receipt": "expected"
+     }
+    }
+   ]
+  },
+  {
+   "client_id": "SYN-C05",
+   "display_name": "SYN-C05",
+   "profile_id": "P-C",
+   "targets": [
+    {
+     "evidence_basis": "aggregate_only_assertion",
+     "follow_up_hours": 120,
+     "note": "Precisely identified records may retain individual asserted outcomes; remaining aggregate/vague scope remains too broad.",
+     "policy_id": "E05",
+     "purpose": "encounter",
+     "recipient": "SYN-R05",
+     "route": "aggregate_notes_partial_identification",
+     "stage_expectations": {
+      "encounter_decision": "not_established",
+      "syntax_acknowledgment": "not_established",
+      "transport_receipt": "expected"
+     }
+    }
+   ]
+  },
+  {
+   "client_id": "SYN-C06",
+   "display_name": "SYN-C06",
+   "profile_id": "P-C",
+   "targets": [
+    {
+     "evidence_basis": "no_usable_evidence",
+     "follow_up_hours": 120,
+     "note": "Reporting remains required. No invented final-response promise and no inference of business rejection or acceptance.",
+     "policy_id": "E06",
+     "purpose": "encounter",
+     "recipient": "SYN-R06",
+     "route": "documented_unavailable_final_return",
+     "stage_expectations": {
+      "encounter_decision": "structurally_unavailable",
+      "syntax_acknowledgment": "not_established",
+      "transport_receipt": "expected"
+     }
+    }
+   ]
+  }
+ ],
+ "freezes": {
+  "responses": "93e932545650839946fbfe9f6665ab110fbc4c85f5d042d21ea06060b8964ddd",
+  "source": "42b3e60f4a0990fd99a454b894b50e98b91db0709b105123714f725476a07df1",
+  "submissions": "c81a13215e0d743be3d25a6a874b0a6d654521d781a9db347cc36cc0bb958094"
+ },
+ "measures": {
+  "M01": {
+   "cell_count": 360,
+   "definition_version": "1.0.0",
+   "grain": "completed leg",
+   "register": "governance/metric_register.md#m01",
+   "submeasures": [
+    "C_unresolved",
+    "denominator",
+    "numerator"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Source-evidenced accepted completed-leg coverage"
+  },
+  "M02": {
+   "cell_count": 1200,
+   "definition_version": "1.0.0",
+   "grain": "completed leg",
+   "register": "governance/metric_register.md#m02",
+   "submeasures": [
+    "client_asserted_only",
+    "conflicted",
+    "missing_claim",
+    "no_evidence",
+    "not_submitted",
+    "partial_required_components",
+    "rejected",
+    "uncovered",
+    "unresolved",
+    "voided"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Uncovered completed legs by explanation"
+  },
+  "M03": {
+   "cell_count": 150,
+   "definition_version": "1.0.0",
+   "grain": "encounter family",
+   "register": "governance/metric_register.md#m03",
+   "submeasures": [
+    "accepted",
+    "conflicted",
+    "families",
+    "rejected",
+    "unresolved"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "First-submission cohort measure: the service-date subperiod filter does not apply; the full first-submission cohort is shown.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "First-pass acceptance"
+  },
+  "M04": {
+   "cell_count": 720,
+   "definition_version": "1.0.0",
+   "grain": "completed leg",
+   "register": "governance/metric_register.md#m04",
+   "submeasures": [
+    "coverage_timing_unassessable",
+    "denominator",
+    "not_yet_due",
+    "numerator",
+    "partly_due",
+    "timing_undetermined"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Coverage at each component's own deadline"
+  },
+  "M05": {
+   "cell_count": 900,
+   "definition_version": "1.0.0",
+   "grain": "obligation",
+   "register": "governance/metric_register.md#m05",
+   "submeasures": [
+    "expected_timed_receipts",
+    "follow_up:expected",
+    "follow_up:justifiably_cancelled",
+    "follow_up:overdue",
+    "follow_up:pending",
+    "follow_up:satisfied_late",
+    "follow_up:satisfied_on_time",
+    "receipt:encounter_decision:justifiably_cancelled",
+    "receipt:encounter_decision:overdue",
+    "receipt:encounter_decision:pending",
+    "receipt:encounter_decision:satisfied_late",
+    "receipt:encounter_decision:satisfied_on_time",
+    "receipt:justifiably_cancelled",
+    "receipt:later_resolution",
+    "receipt:overdue",
+    "receipt:pending",
+    "receipt:satisfied_late",
+    "receipt:satisfied_on_time",
+    "receipt:syntax_acknowledgment:justifiably_cancelled",
+    "receipt:syntax_acknowledgment:overdue",
+    "receipt:syntax_acknowledgment:pending",
+    "receipt:syntax_acknowledgment:satisfied_late",
+    "receipt:syntax_acknowledgment:satisfied_on_time",
+    "receipt:transport_receipt:justifiably_cancelled",
+    "receipt:transport_receipt:overdue",
+    "receipt:transport_receipt:pending",
+    "receipt:transport_receipt:satisfied_late",
+    "receipt:transport_receipt:satisfied_on_time",
+    "untimed:no_return_promise",
+    "untimed:not_established"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "First-submission cohort measure: the service-date subperiod filter does not apply; the full first-submission cohort is shown.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Expected timed response obligations"
+  },
+  "M06": {
+   "cell_count": 390,
+   "definition_version": "1.0.0",
+   "grain": "work item",
+   "register": "governance/metric_register.md#m06",
+   "submeasures": [
+    "encounter_rejection:median_age_hours",
+    "encounter_rejection:open",
+    "follow_up_overdue:median_age_hours",
+    "follow_up_overdue:open",
+    "governed_overdue",
+    "open",
+    "preparation_blocked:median_age_hours",
+    "preparation_blocked:open",
+    "preparation_conflict:median_age_hours",
+    "preparation_conflict:open",
+    "receipt_overdue:median_age_hours",
+    "receipt_overdue:open",
+    "timing_undetermined"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "First-submission cohort measure: the service-date subperiod filter does not apply; the full first-submission cohort is shown.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Open actionable issues and their age"
+  },
+  "M07": {
+   "cell_count": 600,
+   "definition_version": "1.0.0",
+   "grain": "completed leg",
+   "register": "governance/metric_register.md#m07",
+   "submeasures": [
+    "accepted",
+    "median_hours",
+    "never_yet_accepted",
+    "p90_hours",
+    "population"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "First valid acceptance elapsed time"
+  },
+  "M08": {
+   "cell_count": 33,
+   "definition_version": "1.0.0",
+   "grain": "raw response row",
+   "register": "governance/metric_register.md#m08",
+   "submeasures": [
+    "bound_to_submission_after_T",
+    "conflict_episodes",
+    "contradictory_rows",
+    "duplicate_effects_prevented",
+    "incompatible_family_conflicts",
+    "lineage_conflicts",
+    "raw_duplicate_deliveries",
+    "raw_rows",
+    "received_after_K",
+    "too_broad",
+    "unmatched_responses"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "Raw evidence population: unmatched and too-broad rows have no certain client binding, so client and period filters are not supported.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Duplicate, orphan and conflicting evidence"
+  },
+  "M09": {
+   "cell_count": 0,
+   "definition_version": "1.0.0",
+   "grain": null,
+   "register": "governance/metric_register.md#m09",
+   "submeasures": [],
+   "supported": {
+    "client_filters": [
+     "ALL"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [],
+    "restriction": "Published from governance/detection-results.json and governance/negative-controls.json; not a position cell.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Detector performance"
+  },
+  "M10": {
+   "cell_count": 0,
+   "definition_version": "1.0.0",
+   "grain": null,
+   "register": "governance/metric_register.md#m10",
+   "submeasures": [],
+   "supported": {
+    "client_filters": [
+     "ALL"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [],
+    "restriction": "Dynamic field from governance/health.json; outside the static analytical bundle.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Real execution health"
+  },
+  "M11": {
+   "cell_count": 240,
+   "definition_version": "1.0.0",
+   "grain": "payload version",
+   "register": "governance/metric_register.md#m11",
+   "submeasures": [
+    "accepted_candidates",
+    "claim_to_source_mismatch",
+    "conforming",
+    "definitively_active",
+    "indeterminate",
+    "mismatch",
+    "payload_to_claim_mismatch",
+    "unassessable"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "First-submission cohort measure: the service-date subperiod filter does not apply; the full first-submission cohort is shown.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Accepted-payload content conformance"
+  },
+  "M12": {
+   "cell_count": 90,
+   "definition_version": "1.0.0",
+   "grain": "encounter family",
+   "register": "governance/metric_register.md#m12",
+   "submeasures": [
+    "active_accepted_families",
+    "explicitly_nonreportable_families",
+    "unknown_scope_families"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "First-submission cohort measure: the service-date subperiod filter does not apply; the full first-submission cohort is shown.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Accepted out-of-scope families"
+  },
+  "M13": {
+   "cell_count": 270,
+   "definition_version": "1.0.0",
+   "grain": "encounter family",
+   "register": "governance/metric_register.md#m13",
+   "submeasures": [
+    "denominator",
+    "reason:financial_support_missing",
+    "reason:identity_mismatch",
+    "reason:invalid_code_or_units",
+    "reason:missing_required_field",
+    "reason:other_terminal_rejection",
+    "reason:scope_or_membership",
+    "stage:encounter_decision",
+    "stage:syntax_acknowledgment"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": "First-submission cohort measure: the service-date subperiod filter does not apply; the full first-submission cohort is shown.",
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "First-attempt rejection share by primary reason"
+  },
+  "M14": {
+   "cell_count": 900,
+   "definition_version": "1.0.0",
+   "grain": "preparation unit",
+   "register": "governance/metric_register.md#m14",
+   "submeasures": [
+    "applicability_unresolved",
+    "claim_headers",
+    "conflicting",
+    "denominator",
+    "explicitly_excluded_requests",
+    "missing",
+    "numerator",
+    "partially_allocated",
+    "unresolved_requests_outside_P"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Claim preparation coverage"
+  },
+  "M15": {
+   "cell_count": 5640,
+   "definition_version": "1.0.0",
+   "grain": "preparation unit at a stage",
+   "register": "governance/metric_register.md#m15",
+   "submeasures": [
+    "blocked",
+    "conflicting",
+    "denominator",
+    "distinct_blocked_units",
+    "missing_construction",
+    "ready",
+    "unassessable",
+    "units_missing_field:billing_party_reference",
+    "units_missing_field:complete_explicit_service_line_allocation_membership",
+    "units_missing_field:coverage_reference",
+    "units_missing_field:line_charge",
+    "units_missing_field:line_quantity",
+    "units_missing_field:service_date_utc",
+    "units_missing_field:service_end_at",
+    "units_missing_field:service_start_at",
+    "units_missing_field:subscriber_id",
+    "units_missing_field:subscriber_relationship",
+    "units_missing_field:transport_category",
+    "units_missing_field:trip_verification_reference",
+    "units_missing_field:vendor_payment_observation"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "initial_preparation",
+     "encounter_submission",
+     "audit_submission"
+    ]
+   },
+   "title": "Target-specific claim readiness"
+  },
+  "M16": {
+   "cell_count": 1800,
+   "definition_version": "1.0.0",
+   "grain": "reporting unit",
+   "register": "governance/metric_register.md#m16",
+   "submeasures": [
+    "basis:aggregate_only_assertion",
+    "basis:forwarded_originating",
+    "basis:no_usable_evidence",
+    "basis:originating_structured",
+    "basis:record_specific_client_assertion",
+    "outcome:accepted",
+    "outcome:conflicted",
+    "outcome:rejected",
+    "outcome:unresolved",
+    "outcome:voided",
+    "required_units",
+    "return:expected",
+    "return:not_established",
+    "return:structurally_unavailable",
+    "source_evidenced_outcomes"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Reporting disposition and outcome-evidence coverage"
+  },
+  "M17": {
+   "cell_count": 6480,
+   "definition_version": "1.0.0",
+   "grain": "financial slot or settlement event",
+   "register": "governance/metric_register.md#m17",
+   "submeasures": [
+    "allowed_amount:conflicting",
+    "allowed_amount:evidenced_derived_zero",
+    "allowed_amount:expected_slots",
+    "allowed_amount:known",
+    "allowed_amount:not_applicable",
+    "allowed_amount:not_yet_expected",
+    "allowed_amount:unknown",
+    "member_collection:conflicting",
+    "member_collection:evidenced_derived_zero",
+    "member_collection:expected_slots",
+    "member_collection:known",
+    "member_collection:not_applicable",
+    "member_collection:not_yet_expected",
+    "member_collection:unknown",
+    "member_responsibility:conflicting",
+    "member_responsibility:evidenced_derived_zero",
+    "member_responsibility:expected_slots",
+    "member_responsibility:known",
+    "member_responsibility:not_applicable",
+    "member_responsibility:not_yet_expected",
+    "member_responsibility:unknown",
+    "payer_paid:conflicting",
+    "payer_paid:evidenced_derived_zero",
+    "payer_paid:expected_slots",
+    "payer_paid:known",
+    "payer_paid:not_applicable",
+    "payer_paid:not_yet_expected",
+    "payer_paid:unknown",
+    "settlements:allocated_total",
+    "settlements:balanced",
+    "settlements:count",
+    "settlements:event_total",
+    "settlements:unapplied_total",
+    "submitted_charge:conflicting",
+    "submitted_charge:evidenced_derived_zero",
+    "submitted_charge:expected_slots",
+    "submitted_charge:known",
+    "submitted_charge:not_applicable",
+    "submitted_charge:not_yet_expected",
+    "submitted_charge:unknown",
+    "supplier_cost:conflicting",
+    "supplier_cost:evidenced_derived_zero",
+    "supplier_cost:expected_slots",
+    "supplier_cost:known",
+    "supplier_cost:not_applicable",
+    "supplier_cost:not_yet_expected",
+    "supplier_cost:unknown",
+    "vendor_payment:conflicting",
+    "vendor_payment:evidenced_derived_zero",
+    "vendor_payment:expected_slots",
+    "vendor_payment:known",
+    "vendor_payment:not_applicable",
+    "vendor_payment:not_yet_expected",
+    "vendor_payment:unknown"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Typed financial evidence and allocation"
+  },
+  "M18": {
+   "cell_count": 960,
+   "definition_version": "1.0.0",
+   "grain": "claim version and claim field",
+   "register": "governance/metric_register.md#m18",
+   "submeasures": [
+    "conforming",
+    "fields_compared",
+    "fields_conforming",
+    "fields_mismatch",
+    "fields_unassessable",
+    "mismatch",
+    "unassessable",
+    "versions"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "-"
+    ]
+   },
+   "title": "Claim-to-source conformance"
+  },
+  "M19": {
+   "cell_count": 1440,
+   "definition_version": "1.0.0",
+   "grain": "preparation unit at a stage",
+   "register": "governance/metric_register.md#m19",
+   "submeasures": [
+    "median_hours",
+    "never_ready_or_censored",
+    "p90_hours",
+    "ready"
+   ],
+   "supported": {
+    "client_filters": [
+     "ALL",
+     "P-A",
+     "P-B",
+     "P-C",
+     "SYN-C01",
+     "SYN-C02",
+     "SYN-C03",
+     "SYN-C04",
+     "SYN-C05",
+     "SYN-C06"
+    ],
+    "periods": [
+     "FULL",
+     "SP1",
+     "SP2",
+     "SP3"
+    ],
+    "positions": [
+     "known_then",
+     "restated_then",
+     "current_later"
+    ],
+    "restriction": null,
+    "stages": [
+     "initial_preparation",
+     "encounter_submission",
+     "audit_submission"
+    ]
+   },
+   "title": "Time to target-specific readiness"
+  }
+ },
+ "periods": {
+  "FULL": [
+   "2026-04-01",
+   "2026-06-29"
+  ],
+  "SP1": [
+   "2026-04-01",
+   "2026-04-30"
+  ],
+  "SP2": [
+   "2026-05-01",
+   "2026-05-30"
+  ],
+  "SP3": [
+   "2026-05-31",
+   "2026-06-29"
+  ]
+ },
+ "populations": {
+  "current_later": {
+   "C": 11999,
+   "C_unresolved": 1,
+   "F": 12040,
+   "P": 28040,
+   "P_excluded": 200,
+   "P_unresolved": 120,
+   "R": 12360,
+   "U": 28040,
+   "cancelled_units": 40,
+   "cancelled_units_requests": 40
+  },
+  "known_then": {
+   "C": 11999,
+   "C_unresolved": 1,
+   "F": 12040,
+   "P": 28040,
+   "P_excluded": 200,
+   "P_unresolved": 120,
+   "R": 12360,
+   "U": 28040,
+   "cancelled_units": 40,
+   "cancelled_units_requests": 40
+  },
+  "restated_then": {
+   "C": 11999,
+   "C_unresolved": 1,
+   "F": 12040,
+   "P": 28040,
+   "P_excluded": 200,
+   "P_unresolved": 120,
+   "R": 12360,
+   "U": 28040,
+   "cancelled_units": 40,
+   "cancelled_units_requests": 40
+  }
+ },
+ "positions": {
+  "current_later": {
+   "K": "2026-07-21T23:59:59Z",
+   "T": "2026-07-21T23:59:59Z",
+   "population_version": "CCI-COHORT-1",
+   "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+  },
+  "known_then": {
+   "K": "2026-07-14T23:59:59Z",
+   "T": "2026-07-14T23:59:59Z",
+   "population_version": "CCI-COHORT-1",
+   "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+  },
+  "restated_then": {
+   "K": "2026-07-21T23:59:59Z",
+   "T": "2026-07-14T23:59:59Z",
+   "population_version": "CCI-COHORT-1",
+   "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+  }
+ },
+ "product": "Cascadia Claim Integrity",
+ "profiles": {
+  "P-A": {
+   "claim_group_key": [
+    "client_id",
+    "service_key"
+   ],
+   "description": null,
+   "name": "Individual service",
+   "reportable_dispositions": [
+    "completed"
+   ]
+  },
+  "P-B": {
+   "claim_group_key": [
+    "client_id",
+    "member_id",
+    "service_date_utc"
+   ],
+   "description": null,
+   "name": "Bounded grouped service",
+   "reportable_dispositions": [
+    "completed"
+   ]
+  },
+  "P-C": {
+   "claim_group_key": [
+    "client_id",
+    "source_item_key"
+   ],
+   "description": null,
+   "name": "Disposition sensitive",
+   "reportable_dispositions": [
+    "completed",
+    "documented_cancelled"
+   ]
+  }
+ },
+ "profiles_by_filter": {
+  "P-A": [
+   "SYN-C01",
+   "SYN-C02"
+  ],
+  "P-B": [
+   "SYN-C03",
+   "SYN-C04"
+  ],
+  "P-C": [
+   "SYN-C05",
+   "SYN-C06"
+  ]
+ },
+ "rederivation_per_measure": {
+  "M01": {
+   "both": 360,
+   "expected": 360,
+   "matched": 360,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 360,
+   "unexpected": 0
+  },
+  "M02": {
+   "both": 1200,
+   "expected": 1200,
+   "matched": 1200,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 1200,
+   "unexpected": 0
+  },
+  "M03": {
+   "both": 150,
+   "expected": 150,
+   "matched": 150,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 150,
+   "unexpected": 0
+  },
+  "M04": {
+   "both": 720,
+   "expected": 720,
+   "matched": 720,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 720,
+   "unexpected": 0
+  },
+  "M05": {
+   "both": 900,
+   "expected": 900,
+   "matched": 900,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 900,
+   "unexpected": 0
+  },
+  "M06": {
+   "both": 390,
+   "expected": 390,
+   "matched": 390,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 390,
+   "unexpected": 0
+  },
+  "M07": {
+   "both": 600,
+   "expected": 600,
+   "matched": 600,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 600,
+   "unexpected": 0
+  },
+  "M08": {
+   "both": 33,
+   "expected": 33,
+   "matched": 33,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 33,
+   "unexpected": 0
+  },
+  "M11": {
+   "both": 240,
+   "expected": 240,
+   "matched": 240,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 240,
+   "unexpected": 0
+  },
+  "M12": {
+   "both": 90,
+   "expected": 90,
+   "matched": 90,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 90,
+   "unexpected": 0
+  },
+  "M13": {
+   "both": 270,
+   "expected": 270,
+   "matched": 270,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 270,
+   "unexpected": 0
+  },
+  "M14": {
+   "both": 900,
+   "expected": 900,
+   "matched": 900,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 900,
+   "unexpected": 0
+  },
+  "M15": {
+   "both": 5640,
+   "expected": 5640,
+   "matched": 5640,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 5640,
+   "unexpected": 0
+  },
+  "M16": {
+   "both": 1800,
+   "expected": 1800,
+   "matched": 1800,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 1800,
+   "unexpected": 0
+  },
+  "M17": {
+   "both": 6480,
+   "expected": 6480,
+   "matched": 6480,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 6480,
+   "unexpected": 0
+  },
+  "M18": {
+   "both": 960,
+   "expected": 960,
+   "matched": 960,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 960,
+   "unexpected": 0
+  },
+  "M19": {
+   "both": 1440,
+   "expected": 1440,
+   "matched": 1440,
+   "mismatched": 0,
+   "missing": 0,
+   "published": 1440,
+   "unexpected": 0
+  }
+ },
+ "register": {
+  "date": "2026-10-18",
+  "measures": {
+   "M01": {
+    "anchor": "#m01",
+    "clauses": {
+     "Clocks": "*1.1.0* T and K only: the submission was made by T (`submitted_at` <= T) and is known by K; the decision's `effective_at` <= T and its `received_at` <= K. Completion and due times are not used (M04 and M07 use them)",
+     "Denominator": "all C legs, including legs with no claim or no submission",
+     "Exclusions": "none from C. `C_unresolved` (submeasure) is shown separately and is in neither numerator nor denominator",
+     "Grain": "completed leg",
+     "Label": "\"source-evidenced accepted completed-leg coverage\". It is evidenced coverage, not an estimate of unseen business outcomes. Client assertions never count",
+     "Limits": "*1.1.0* evidenced coverage, never prevalence or an estimate of unseen outcomes; a leg whose unit is covered by more than one incompatible family is `conflicted`, not covered. Replacement, void and retraction lineage (`src/cci/coverage.py`) is exercised by the public goldens only; none occurs in the v1 bulk population",
+     "Lineage": "`src/cci/evidence.py` (unit outcomes, leg coverage) via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* the final encounter decision (stage `encounter_decision`) for each U unit of the leg, bound to that unit's submission. Transport and syntax receipts are not the milestone",
+     "Numerator": "legs every one of whose U units has current qualifying acceptance: a final encounter decision `accepted`, basis `originating` or `forwarded_originating`, effective by T, received by K, bound to the unit's exact scoped submission, with no incompatible decision",
+     "Owner role": "encounter reporting operations",
+     "Population": "C",
+     "Submeasures": "`numerator`, `denominator`, `C_unresolved`"
+    },
+    "other": [],
+    "title": "Source-evidenced accepted completed-leg coverage"
+   },
+   "M02": {
+    "anchor": "#m02",
+    "clauses": {
+     "Clocks": "*1.1.0* as M01 (submission by T and known by K; decision `effective_at` <= T and `received_at` <= K); `missing_claim` uses claim version `available_at` <= T",
+     "Denominator": "*1.1.0* not a ratio: the states sum to `uncovered`; the M01 denominator (all C legs) is the comparison base",
+     "Exclusions": "*1.1.0* legs counted in the M01 numerator, which are not uncovered. `C_unresolved` legs are outside C and are an M01 submeasure. Counts at line, response or attempt grain are not part of this partition",
+     "Grain": "leg",
+     "Limits": "*1.1.0* a leg is counted once, under the first state in the order above that it meets, so a state's count is not the number of legs with that condition",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (leg state assignment over unit outcomes, `leg-coverage.json`) via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* as M01, the final encounter decision per U unit; `missing_claim` is decided by the unit's initial-preparation readiness at T and `not_submitted` by the absence of a submission made by T",
+     "Numerator": "*1.1.0* not a ratio: `uncovered` is C minus the M01 numerator, partitioned into the nine mutually exclusive states above; each state is a count of legs",
+     "Owner role": "*1.1.0* encounter reporting operations (the M01 owner; M02 partitions the complement of the M01 numerator)",
+     "Population": "C. Mutually exclusive states, *1.0.1* assigned in this order over the leg's U units: `conflicted` (any unit conflicted), `missing_claim` (any unit missing construction), `not_submitted` (any unit with no submission by T), `voided` (every unit accepted or voided, at least one voided), `rejected` (any unit with a source-evidenced rejection), `partial_required_components` (some units accepted, none rejected), `client_asserted_only` (any unit whose only evidence is a record-specific client assertion), `no_evidence` (every unit's evidence basis is `no_usable_evidence`), `unresolved` (the rest, including legs whose only context is an aggregate note). A rejected component explains the leg before a partial acceptance does. `uncovered` = C minus M01 numerator; the states sum to `uncovered`",
+     "Submeasures": "each state and `uncovered`"
+    },
+    "other": [],
+    "title": "Uncovered completed legs by explanation"
+   },
+   "M03": {
+    "anchor": "#m03",
+    "clauses": {
+     "Clocks": "*1.1.0* `submitted_at` <= T and known by K for the attempt; decision `effective_at` <= T and `received_at` <= K. Due times are not used",
+     "Denominator": "all S families. Rejected, unresolved and conflicted are separate. Retransmission is not a new attempt",
+     "Exclusions": "*1.1.0* none from S. Later business attempts of a family neither enter the cohort nor change its first attempt's outcome; families first submitted after T, or not known by K, are outside S",
+     "Grain": "encounter family",
+     "Limits": "*1.1.0* FULL period only. Acceptance requires every required component. A different population from M01 and M16, never presented as one funnel with them",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (first-attempt family outcomes, `first-attempt-families.json`) via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* the first business submission made by T (fixes the cohort) and the final encounter decision on that attempt; a source-evidenced terminal syntax rejection at component, record, batch or transaction grain is a terminal prerequisite rejection of the attempt",
+     "Numerator": "families whose fixed first business attempt has qualifying acceptance for every required component",
+     "Owner role": "encounter reporting operations",
+     "Population": "S",
+     "Submeasures": "`families`, `accepted`, `rejected`, `unresolved`, `conflicted`. FULL only"
+    },
+    "other": [],
+    "title": "First-pass acceptance"
+   },
+   "M04": {
+    "anchor": "#m04",
+    "clauses": {
+     "Clocks": "*1.1.0* census `completed_at` (the unit trigger), `acceptance_due_at`, T (deadline <= T; decision `effective_at` <= T and at or before the unit's deadline) and K (decision `received_at` <= K)",
+     "Denominator": "fully due legs",
+     "Exclusions": "*1.1.0* `partly_due`, `not_yet_due` and `timing_undetermined` legs are outside the denominator and published separately; `C_unresolved` legs are outside C",
+     "Grain": "leg",
+     "Limits": "*1.1.0* the latest component deadline is never substituted for earlier ones; an authoritative retraction may restate earlier coverage, an ordinary void cannot. Component-level results are kept in `measures-evidence.json` (`component_results`) and are not published cells",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` with `src/cci/coverage.py` (`intervals`, `deadline_status`, `covered_at`; `leg-deadline.json`) via `src/cci/cells.py`; due times from `src/cci/expectations.py` `derive`",
+     "Milestone": "*1.1.0* each U unit's own acceptance deadline (`acceptance_due_at`, completion + 168 h); a leg is assessed only when every unit's deadline has been reached by T",
+     "Numerator": "fully due legs where every unit was covered at its own deadline, from acceptance effective by its deadline and received by K. A later ordinary void does not erase earlier coverage",
+     "Owner role": "*1.1.0* encounter reporting operations",
+     "Population": "C legs that are fully due: every U unit's acceptance deadline (unit `acceptance_due_at` = trigger + 168 h) is at or before T",
+     "Submeasures": "`numerator`, `denominator`, `partly_due`, `not_yet_due`, `timing_undetermined`, `coverage_timing_unassessable` (fully due, accepted only by evidence whose effective time is unknown)"
+    },
+    "other": [],
+    "title": "Coverage at each component's own deadline"
+   },
+   "M05": {
+    "anchor": "#m05",
+    "clauses": {
+     "Clocks": "*1.1.0* delivery `submitted_at` (trigger, <= T and <= K); due time = trigger + the stage's hours (follow-up + 120 h); receipt `received_at` <= T and <= K for the state at T, and `received_at` in (T, K] for `later_resolution`. A receipt at the due instant is on time; an obligation is overdue only when T is strictly after its due time. `effective_at` is not used for timeliness",
+     "Denominator": "*1.1.0* not a ratio: `expected_timed_receipts` (receipt obligations with a due time) is the partitioned total, overall and per stage",
+     "Exclusions": "*1.1.0* untimed obligations (`no_return_promise`, `not_established`) and follow-up obligations are outside `expected_timed_receipts` and counted separately; a delivery made after T, or not known by K, creates no obligation",
+     "Grain": "obligation (delivery and stage)",
+     "Limits": "*1.1.0* FULL only. Response outcome is M16, not this measure. Every v1 receipt rule is the pinned contract's elapsed window; the calendar-rule, conditional-final and transaction-result paths in `src/cci/evidence.py` are used by no v1 policy",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (obligations, `obligations.jsonl`) with `src/cci/deadlines.py` (`bind_rule`, `due_time`, `state_at`) via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* the first delivery of the business attempt (the trigger) and each expected response stage: transport receipt, syntax acknowledgment, encounter decision; the follow-up obligation runs from submission",
+     "Numerator": "*1.1.0* not a ratio: timed receipt obligations are counted by state, and the states partition `expected_timed_receipts`; no single on-time rate is defined",
+     "Owner role": "encounter reporting operations",
+     "Population": "receipt obligations of S deliveries whose policy stage expectation is `expected`. Due: transport 1 h, syntax 4 h, encounter decision 72 h from first delivery",
+     "States": "`satisfied_on_time` (first receipt received by T and K at or before due), `satisfied_late`, `pending` (none yet and T at or before due), `overdue` (none and T after due), `justifiably_cancelled` (a terminal syntax rejection cancels the final decision obligation). Timeliness uses received time only; a restated business acceptance never backdates receipt. `later_resolution` counts obligations unresolved at T with a receipt in (T, K]",
+     "Submeasures": "`expected_timed_receipts`, `receipt:<state>`, `receipt:<stage>:<state>`, `untimed:no_return_promise`, `untimed:not_established`, `follow_up:expected`, `follow_up:<state>`, `receipt:later_resolution`. FULL only",
+     "Untimed": ": `no_return_promise` (route structurally unavailable) and `not_established` create no receipt promise. *1.0.1:* they are counted once per delivery at the final-decision stage, where the business outcome would arrive; a non-final stage that is not established creates no obligation row. Follow-up obligations (120 h, SYN-C04 to SYN-C06) are separate. Per-stage and follow-up states include `justifiably_cancelled`"
+    },
+    "other": [],
+    "title": "Expected timed response obligations"
+   },
+   "M06": {
+    "anchor": "#m06",
+    "clauses": {
+     "Age": "a preparation item ages from its onset (the later of its trigger and its claim version's availability) against its governed stage deadline (initial 24 h, submission 48 h); an overdue receipt or follow-up ages from its contractual due time; a rejection ages from its observed onset (earliest received rejecting evidence) with no deadline established",
+     "Clocks": "*1.1.0* T (open at T; `governed_overdue` when T is strictly after the due time), K (obligations and rejections use evidence received by K), the unit trigger (completion, or the documented cancellation's `effective_at`), claim version `available_at`, `preparation_due_at` (trigger + 24 h), `reporting_due_at` (trigger + 48 h), receipt and follow-up due times, and the `received_at` of the earliest rejecting evidence",
+     "Denominator": "*1.1.0* not a ratio; no rate is computed",
+     "Exclusions": "*1.1.0* a condition that is not open and actionable at T creates no item: a receipt or follow-up obligation that is satisfied, pending or justifiably cancelled, a ready readiness row, a U unit whose outcome is not `rejected`. Closing an item changes no claim, financial or coverage fact",
+     "Grain": "work item",
+     "Limits": "*1.1.0* FULL only. A rejection item carries no SLA conclusion. `<kind>:median_age_hours` uses the shared nearest-rank rule over items with a known age. Owner roles are synthetic role names, not people",
+     "Lineage": "*1.1.0* `src/cci/workitems.py` (`build`, `attach_rejection_onsets`; `work-items.jsonl`) over readiness rows from `src/cci/claims.py` `readiness` and obligations and unit outcomes from `src/cci/evidence.py` `resolve`, via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* T: an item is open when its condition holds at T. The governing event is the governed stage deadline for a preparation item, the obligation's contractual due time for a receipt or follow-up item, and the source-evidenced rejection for a rejection item",
+     "Numerator": "*1.1.0* not a ratio: a count of open work items at T, by kind, with their ages",
+     "Owner role": "*1.1.0 (label made singular; per kind added)* claims operations (`preparation_blocked`, `preparation_conflict`), encounter operations (`receipt_overdue`, `encounter_rejection`), client operations (`follow_up_overdue`)",
+     "Population": "work items at T: `preparation_blocked` and `preparation_conflict` (one per blocked or conflicting readiness row at encounter, audit or initial stage), `receipt_overdue`, `follow_up_overdue`, `encounter_rejection` (*1.0.1:* one per rejected U unit, because the correction decision is taken per component and target)",
+     "Submeasures": "`open`, `<kind>:open`, `<kind>:median_age_hours`, `timing_undetermined`, `governed_overdue`. FULL only"
+    },
+    "other": [
+     "*1.0.1:* `timing_undetermined` counts items whose timing basis is `not_established` (no deadline exists for them: every rejection item), whether or not their onset is known."
+    ],
+    "title": "Open actionable issues and their age"
+   },
+   "M07": {
+    "anchor": "#m07",
+    "clauses": {
+     "Clocks": "*1.1.0* census `completed_at` (start); decision `effective_at` (end, <= T) and `received_at` <= K",
+     "Denominator": "*1.1.0* not a ratio: `population` is every C leg and equals `accepted` plus `never_yet_accepted`",
+     "Exclusions": "*1.1.0* none from C: never-yet-accepted legs are counted, not dropped. `C_unresolved` legs are outside C",
+     "Grain": "leg",
+     "Limits": "*1.1.0* an accepted-then-voided leg keeps its first acceptance unless an authoritative retraction invalidates it; currently uncovered legs are M02, not this measure. Quantiles use the shared nearest-rank rule",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` with `src/cci/coverage.py` (`intervals`, `first_simultaneous`; `leg-first-acceptance.json`) via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* from service completion to the earliest instant at which every U unit of the leg was covered by final encounter acceptance at the same time",
+     "Numerator": "*1.1.0* not a ratio: a duration distribution. `accepted` counts legs with a first simultaneous coverage instant; the quantiles are over their elapsed hours",
+     "Owner role": "*1.1.0* encounter reporting operations",
+     "Population": "C. Elapsed hours from the leg's completion to the earliest instant at which every U unit was simultaneously covered (effective by T, received by K)",
+     "Submeasures": "`population`, `accepted`, `never_yet_accepted`, `median_hours`, `p90_hours`. The never-yet-accepted count always sits beside the quantiles"
+    },
+    "other": [],
+    "title": "First valid acceptance elapsed time"
+   },
+   "M08": {
+    "anchor": "#m08",
+    "clauses": {
+     "Clocks": "*1.1.0* response `received_at` (after K gives `received_after_K`), submission `submitted_at` (after T gives `bound_to_submission_after_T`), and decision `effective_at` <= T for the decisions whose incompatibility makes a conflict",
+     "Denominator": "*1.1.0* not a ratio; no rate is computed",
+     "Exclusions": "*1.1.0* none: every raw operational response row gets exactly one disposition, including rows received after K and rows bound to a submission made after T. Legitimate grouping and multiple destinations are not duplicates",
+     "Grain": "raw response row",
+     "Limits": "*1.1.0* ALL and FULL only. `raw_duplicate_deliveries` and `duplicate_effects_prevented` are both counted from rows whose disposition is `duplicate` (same originating artifact, digest and bound deliveries). Transport duplicates stay distinct from incompatible coverage (`incompatible_family_conflicts`). No replacement or void lineage occurs in the v1 bulk population",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (row dispositions, `evidence-dispositions.jsonl`; the M08 block of `measures-evidence.json`) with `src/cci/coverage.py` lineage exceptions, via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* response receipt: each raw row's binding, at the position, to an actual submission made by T",
+     "Numerator": "*1.1.0* not a ratio: each submeasure is a count. `raw_rows` is the complete raw population; the disposition submeasures count raw rows by their one disposition, and `conflict_episodes`, `lineage_conflicts` and `incompatible_family_conflicts` count conflict episodes",
+     "Owner role": "*1.1.0* encounter reporting operations (owner of the response evidence that M01, M03, M05 and M16 consume)",
+     "Population": "every raw operational response row",
+     "Submeasures": "`raw_rows`, `raw_duplicate_deliveries`, `duplicate_effects_prevented`, `unmatched_responses`, `too_broad`, `contradictory_rows`, `conflict_episodes`, `lineage_conflicts`, `incompatible_family_conflicts`, `received_after_K`, `bound_to_submission_after_T`. ALL and FULL only"
+    },
+    "other": [],
+    "title": "Duplicate, orphan and conflicting evidence"
+   },
+   "M09": {
+    "anchor": "#m09",
+    "clauses": {
+     "Clocks": "*1.1.0* scenario hours (target onset, window end, inclusive observation cutoff, alert hour), not the T and K of the analytical positions",
+     "Denominator": "*1.1.0* per class, mature targets (for detection) and mature clean opportunities (for false alarms); no pooled success percentage is published",
+     "Exclusions": "*1.1.0* none: misses, late detections, immature targets, duplicate and unmatched alerts are all published; an alert after the observation cutoff is a future alert and never detects or alarms. A missing invocation or output is a failure, never an empty success",
+     "Grain": "*1.1.0* target or clean opportunity, per fault class (SF01 to SF36)",
+     "Limits": "*1.1.0* not position-filtered. Blindness is not certified, and no class-wide effectiveness is claimed for a class without represented targets",
+     "Lineage": "*1.1.0* controls in `src/controls.py`, run by `src/run_controls.py`; held-out scoring by the separately controlled evaluator into the current attempt's results file; public diagnostics by `src/run_diagnostics.py`, scored with `src/score.py`, into `governance/negative-controls.json`",
+     "Milestone": "*1.1.0* each target's onset and detection window end: the earliest qualifying alert is on time when it is at or before the window end, late when after it but observed",
+     "Numerator": "*1.1.0* not a single ratio: per class, mature targets reconcile as caught on time plus detected late plus missed, and false alarms count mature clean opportunities with any observed alert, once each",
+     "Owner role": "*1.1.0* not an operations role: `governance/evidence-index.json` records the accountable role for `governance/detection-results.json` as Separately controlled evaluator, and for `governance/negative-controls.json` as Claude, integrated injection execution",
+     "Population": "*1.1.0* the evaluator's committed roster of targets (mature and immature) and clean opportunities, and the 82 public diagnostic instances with their 82 clean pairs",
+     "Submeasures": "*1.1.0* per class: mature targets, caught on time, detected late, missed, immature, clean opportunities, false alarms, duplicate alerts, unmatched alerts. Not part of the static cell set"
+    },
+    "other": [
+     "*1.1.0* Published from the current held-out attempt's results, named by `governance/evaluation-custody.json` (`current_attempt.attempt_record`; attempt 1 is `governance/detection-results.json`, development evidence, and attempt 2 is `governance/detection-results-2.json`, unblinded), and `governance/negative-controls.json` (public diagnostics). Not position-filtered. Per class: mature targets, caught on time, detected late, missed, immature, clean opportunities, false alarms, duplicate and unmatched alerts."
+    ],
+    "title": "Detector performance"
+   },
+   "M10": {
+    "anchor": "#m10",
+    "clauses": {
+     "Clocks": "*1.1.0* real UTC wall-clock times only (run start, observer check, expected next run, expiry), never T or K; after its expiry, served health reads stale or unknown whatever the last receipt said",
+     "Denominator": "*1.1.0* not a ratio; no rate is computed",
+     "Exclusions": "*1.1.0* simulated rehearsal hours (`governance/observer-receipt.json`, `rehearsal`) and the simulation day are not real runs and are shown separately",
+     "Grain": "*1.1.0* scheduled-run attempt (one run-history row) and the served health record",
+     "Limits": "*1.1.0* a successful process exit alone never certifies a run whose progress stalled; while no genuine run is recorded, the served status is unknown and no fresh certification is claimed",
+     "Lineage": "*1.1.0* `src/record_run.py` (appends the run-history row and rewrites health from the history alone), `src/observe.py` (progress-watermark and freshness rules) and `src/observe_now.py` (the separate observer's real-clock check)",
+     "Milestone": "*1.1.0* each scheduled run's expected execution window, and the served health's expiry",
+     "Numerator": "*1.1.0* not a ratio: a status record (last attempted and last successful run, outcome, expected next run, observer time, expiry, stale or unknown status)",
+     "Owner role": "*1.1.0* not an operations role: `governance/evidence-index.json` records the accountable role for `governance/health.json` as Claude, worker/observer configuration",
+     "Population": "*1.1.0* every real run attempt recorded in `governance/run_history.jsonl`; a run triggered by anything other than the scheduler is recorded with its event and never counts as a timer run",
+     "Submeasures": "*1.1.0* no cells: the fields of `governance/health.json` (`genuine_runs`, `last_success`, `last_failure`, `next_expected_execution`, `expires_at`, `served_status`, `surface_status`)"
+    },
+    "other": [
+     "Published from `governance/health.json`: last attempted and successful real run, outcome, expected next run, observer time, expiry, stale or unknown status. Simulation day is separate. Dynamic field; not part of the static analytical bundle."
+    ],
+    "title": "Real execution health"
+   },
+   "M11": {
+    "anchor": "#m11",
+    "clauses": {
+     "Clocks": "*1.1.0* `submitted_at` <= T and known by K; acceptance `effective_at` <= T and `received_at` <= K; the payload is compared with the claim version named by its submission, and that version with source truth at the position (rows received by K, effect by T)",
+     "Denominator": "definitively active candidates. Mismatch and unassessable are separate",
+     "Exclusions": "*1.1.0* a candidate whose active status is not definitively active is outside the denominator and retained (`indeterminate` for uncertain status); an S family with no qualifying final acceptance is not a candidate. No payload-date or reportable-only filter removes a candidate",
+     "Grain": "payload version of a first-submitted family",
+     "Limits": "*1.1.0* FULL only. Missing or disputed source truth stays unassessable and is never repaired from withheld truth. Both comparison layers are reported; neither replaces the other. While any candidate's active status is indeterminate, the package contract withholds an unqualified overall rate",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (candidates and their `payload_to_claim`, `claim_to_source` and `payload_to_source` folds) over `src/cci/compare.py` (`claim_to_payload`, `source_to_claim`; `comparisons.jsonl`), via `src/cci/cells.py`; active status from the unit's coverage lineage (`src/cci/coverage.py`)",
+     "Milestone": "*1.1.0* the first business submission made by T (cohort S) and qualifying final encounter acceptance on that attempt",
+     "Numerator": "definitively active candidates whose payload conforms to the bound claim version and whose claim version conforms to source (`payload_to_source` conforming)",
+     "Owner role": "*1.1.0* encounter reporting operations",
+     "Population": "S families with qualifying acceptance, classified by active status (all definitively active in v1). *1.0.1:* a family is a candidate when at least one required component has qualifying final acceptance, so partially accepted payloads are compared too; the M03 accepted state (every component accepted) is narrower and is not the M11 population",
+     "Submeasures": "`accepted_candidates`, `definitively_active`, `conforming`, `mismatch`, `unassessable`, `payload_to_claim_mismatch`, `claim_to_source_mismatch`, `indeterminate`"
+    },
+    "other": [],
+    "title": "Accepted-payload content conformance"
+   },
+   "M12": {
+    "anchor": "#m12",
+    "clauses": {
+     "Clocks": "*1.1.0* as M11; reporting scope from request and census revisions received by K",
+     "Denominator": "*1.1.0* `active_accepted_families` (definitively active accepted families, family grain); a rate is formed only when active membership is resolved",
+     "Exclusions": "*1.1.0* nothing is dropped: unknown-scope families are published separately and never treated as excluded; required cancelled reports are U members and never over-reporting",
+     "Grain": "family",
+     "Limits": "*1.1.0* FULL only. The residual outside M01 and M02 is the candidate list in `measures-evidence.json`; `distinct_excluded_sources` and `unmatched_source_families` are kept there and are not published cells",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (each candidate's `reporting_scope`, from its claim version's source items against the populations of `src/cci/expectations.py` `derive`) via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* as M11: the first business submission made by T and qualifying final encounter acceptance on that attempt",
+     "Numerator": "*1.1.0* `explicitly_nonreportable_families`: accepted families whose every source item is explicitly nonreportable",
+     "Owner role": "*1.1.0* encounter reporting operations",
+     "Population": "the same accepted candidates. `explicitly_nonreportable_families` are those whose every source item is explicitly nonreportable; `unknown_scope_families` have unresolved scope. Required cancelled reports are in U and are never over-reporting",
+     "Submeasures": "`active_accepted_families`, `explicitly_nonreportable_families`, `unknown_scope_families`"
+    },
+    "other": [],
+    "title": "Accepted out-of-scope families"
+   },
+   "M13": {
+    "anchor": "#m13",
+    "clauses": {
+     "Clocks": "*1.1.0* as M03: `submitted_at` <= T and known by K; decision `effective_at` <= T and `received_at` <= K",
+     "Denominator": "*1.1.0* `denominator`: all S families (the M03 `families`), not only the rejected ones",
+     "Exclusions": "*1.1.0* none from S: accepted, unresolved and conflicted first attempts are in the denominator and under no reason",
+     "Grain": "family",
+     "Limits": "*1.1.0* FULL only. Every raw reason is retained beside the primary one",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (`primary_reason`, `rejection_stage` and retained `raw_reasons` per family, `first-attempt-families.json`) via `src/cci/cells.py`; the precedence list is `evidence-policies.json` `first_attempt_outcome.reason_precedence`",
+     "Milestone": "*1.1.0* as M03: the final encounter decision on the first business attempt, or a terminal syntax rejection as the prerequisite",
+     "Numerator": "*1.1.0* for each primary reason, S families whose fixed first attempt is `rejected` (as in M03) with that primary reason; `stage:<stage>` partitions the same rejected families by rejection stage",
+     "Owner role": "*1.1.0* encounter reporting operations",
+     "Population": "S. Primary reason from the versioned precedence list; with no reason text the reason is `other_terminal_rejection` with its actual stage preserved. Labeled encounter first-attempt rejection share, never payer adjudication",
+     "Submeasures": "`denominator`, `reason:<reason>`, `stage:<stage>`. *1.0.1:* reasons are the contract's closed precedence list and stages its two terminal rejection stages, published zero-filled"
+    },
+    "other": [],
+    "title": "First-attempt rejection share by primary reason"
+   },
+   "M14": {
+    "anchor": "#m14",
+    "clauses": {
+     "Clocks": "*1.1.0* claim version `available_at` <= T; P from request and census revisions received by K",
+     "Denominator": "all P units, including units with no claim. *1.0.1:* a unit whose census applicability is unknown is counted only in `applicability_unresolved`, never in the numerator, whatever its allocation; the five states partition P",
+     "Exclusions": "*1.1.0* none from P: a unit with no claim stays in the denominator as `missing`. Requests outside P (no-shows and cancellations the profile does not report; unknown dispositions and cancellations without documentation) are published as `explicitly_excluded_requests` and `unresolved_requests_outside_P`, FULL only",
+     "Grain": "P unit",
+     "Limits": "*1.1.0* a constructed unit can still be blocked in M15; grouping never shrinks P, and `claim_headers` counts distinct families, not units",
+     "Lineage": "*1.1.0* `src/cci/expectations.py` `derive` (P), `src/cci/claims.py` `build_versions` and `flatten` (versions and allocations), `src/cci/measures.py` `compute` (unit construction states, `construction.jsonl`), via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* claim construction: the latest claim version of each family available by T",
+     "Numerator": "units with exactly one latest claim version at T allocating them with supported quantities",
+     "Owner role": "claims operations",
+     "Population": "P",
+     "Submeasures": "`numerator`, `denominator`, `missing`, `partially_allocated`, `conflicting`, `applicability_unresolved`, `claim_headers` (distinct families, not units), and, FULL only, `explicitly_excluded_requests` and `unresolved_requests_outside_P` (request keys)"
+    },
+    "other": [],
+    "title": "Claim preparation coverage"
+   },
+   "M15": {
+    "anchor": "#m15",
+    "clauses": {
+     "Clocks": "*1.1.0* T: the claim version current at T (`available_at` <= T) and supporting facts received by T (a vendor payment also effective by T); the P-B grouping window holds a grouped transmission until the end of its UTC service date. Stage due times are not used here (they govern M06)",
+     "Denominator": "*1.1.0* `denominator`: every P unit for that stage; the five states partition it",
+     "Exclusions": "*1.1.0* none: a unit with no claim version is `missing_construction` and a unit with unknown census applicability is `unassessable`, both inside the denominator",
+     "Explanatory submeasures": "`units_missing_field:<field>` (distinct blocked or conflicting units missing or conflicting that field; a unit can count under several fields, so these are not additive) and `distinct_blocked_units` (*1.0.1:* blocked plus conflicting units). *1.0.1:* the field family at a stage is every field that blocks at least one unit at that stage at any position, published zero-filled for every filter. `denominator` is published for every stage",
+     "Grain": "P unit per stage",
+     "Limits": "*1.1.0* readiness at Q is for the version current at T, so a later revision can change a unit's state between positions. Readiness proves neither conformance (M18) nor acceptance",
+     "Lineage": "*1.1.0* `src/cci/claims.py` `readiness` (`readiness.jsonl`) with `src/cci/contracts.py` `stage_required_fields`, via `src/cci/cells.py` (field family from `_collect_missing_fields`)",
+     "Milestone": "*1.1.0* the readiness stage at T: initial preparation, encounter submission or audit submission",
+     "Numerator": "*1.1.0* `ready`: units at that stage whose every relevant required header, line and component check passes under the bound claim version and the target contract",
+     "Owner role": "claims operations",
+     "Population": "P for that stage (initial preparation for every unit; encounter submission for every encounter target; audit submission for SYN-C02's audit target)",
+     "States": "`ready`, `blocked`, `missing_construction`, `conflicting`, `unassessable`. Readiness uses facts received by T. A grouped transmission is blocked until every component is ready. Unknown payment blocks only stages whose contract requires it (P-C encounter submission requires a known vendor payment; initial preparation does not)",
+     "Submeasures": "*1.1.0* `denominator`, `ready`, `blocked`, `missing_construction`, `conflicting`, `unassessable`, and the explanatory `units_missing_field:<field>` and `distinct_blocked_units`, per stage"
+    },
+    "other": [],
+    "title": "Target-specific claim readiness"
+   },
+   "M16": {
+    "anchor": "#m16",
+    "clauses": {
+     "Clocks": "*1.1.0* submission `submitted_at` <= T and known by K; decision `effective_at` <= T and `received_at` <= K. A decision effective after T is not a historical outcome",
+     "Denominator": "*1.1.0* `required_units`: every U unit; each of the three dimensions partitions it",
+     "Exclusions": "*1.1.0* none from U: a unit with no submission is `unresolved` with basis `no_usable_evidence`, and a unit on a structurally unavailable return route remains a reporting requirement",
+     "Grain": "U unit",
+     "Limits": "*1.1.0* absence of evidence is neither acceptance nor rejection. A different population from M01 and M03, never one funnel with them",
+     "Lineage": "*1.1.0* `src/cci/evidence.py` `resolve` (unit outcomes, `unit-outcomes.jsonl`) via `src/cci/cells.py`; return expectations from `evidence-policies.json`",
+     "Milestone": "*1.1.0* the final encounter decision per unit; the return expectation is the evidence policy's encounter-decision stage expectation",
+     "Numerator": "*1.1.0* `source_evidenced_outcomes`: U units whose outcome is `accepted` or `rejected` on originating or forwarded originating evidence",
+     "Owner role": "encounter reporting operations",
+     "Population": "U",
+     "Submeasures": "`required_units`, `outcome:<k>`, `basis:<k>`, `return:<k>`, `source_evidenced_outcomes`"
+    },
+    "other": [
+     "Three separate dimensions per unit: business outcome (`accepted`, `rejected`, `unresolved`, `conflicted`, `voided`), evidence basis (`originating_structured`, `forwarded_originating`, `record_specific_client_assertion`, `aggregate_only_assertion`, `no_usable_evidence`) and return expectation (`expected`, `structurally_unavailable`, `not_established`).",
+     "*1.0.1:* the evidence basis is the basis of the unit's **outcome** evidence: the final decision that supplies its outcome, or the assertion or aggregate note bound to it. Transport and syntax receipts without a final decision supply no outcome, so such a unit's basis is `no_usable_evidence`. The receipts themselves are accounted in M05.",
+     "`source_evidenced_outcomes` counts units with an originating or forwarded accepted **or rejected** outcome: supported rejection is outcome evidence. It is not an acceptance rate."
+    ],
+    "title": "Reporting disposition and outcome-evidence coverage"
+   },
+   "M17": {
+    "anchor": "#m17",
+    "clauses": {
+     "Clocks": "*1.1.0* financial event `effective_at` <= T and `received_at` <= K; the window boundary (census `completed_at` + 336 h) against T; claim version `available_at` <= T for the constructed submitted charge; allocation rows qualifying at T and K",
+     "Denominator": "*1.1.0* `<type>:expected_slots` for each slot type, and `settlements:count` for settlement allocation. Unlike types and currencies are never pooled",
+     "Exclusions": "*1.1.0* none from F. Refund adjustments are source events, not expected slots (1.0.1), and are not in `settlements:*`; an event whose value is not known is not reconciled",
+     "Grain": "financial slot; settlement event",
+     "Limits": "*1.1.0* unknown is never zero. A settlement balances only when applied plus unapplied equals its signed amount in one currency with every applied target existing, and a zero residual does not prove completeness when source coverage is unknown",
+     "Lineage": "*1.1.0* `src/cci/financial.py` (`facts`, `slots`, `reconcile`; `financial-slots.jsonl`, `allocation-reconciliation.json`) over F from `src/cci/expectations.py` `derive`, via `src/cci/cells.py`; slot policy `profiles.json` `financial_slot_policy`, meanings `financial-semantics.md`",
+     "Milestone": "*1.1.0* service completion: initial slots are expected at completion and follow-up slots after the 336-hour observation window from completion; for P-C, the documented cancellation",
+     "Numerator": "*1.1.0* not a single ratio: per slot type each state is a part of `<type>:expected_slots`; per settlement, applied plus unapplied amounts are compared with its signed amount",
+     "Owner role": "financial reconciliation",
+     "Population": "*1.1.0* F (expected slots per completed leg and per P-C documented-cancelled request) and the settlement events known by K and effective by T",
+     "Submeasures": "`<type>:expected_slots`, `<type>:<state>`, where *1.0.2* `<type>` is one of `supplier_cost`, `submitted_charge`, `allowed_amount`, `payer_paid`, `member_responsibility`, `member_collection`, `vendor_payment`; `settlements:count`, `settlements:balanced`, `settlements:event_total`, `settlements:allocated_total`, `settlements:unapplied_total`"
+    },
+    "other": [
+     "Per event type: expected slots and their states (`known`, `evidenced_derived_zero`, `unknown`, `not_yet_expected`, `not_applicable`, `conflicting`). After the 336-hour window a missing follow-up fact is `unknown`; the original source observation is retained beside it. Settlements: count, balanced, event total, allocated total and unapplied total in USD. No universal charge-minus-payment balance is claimed; unlike amounts are never pooled."
+    ],
+    "title": "Typed financial evidence and allocation"
+   },
+   "M18": {
+    "anchor": "#m18",
+    "clauses": {
+     "Clocks": "*1.1.0* claim version `available_at` <= T; source and reference truth from rows received by K whose effect is by T",
+     "Denominator": "*1.1.0* `versions`; at field grain, `fields_compared`. Each grain is partitioned into conforming, mismatch and unassessable",
+     "Exclusions": "*1.1.0* versions that are not the latest of their family at T are outside the population; a version whose every source item has unknown census applicability is `unassessable`, not excluded",
+     "Grain": "claim version (latest per family at T) and claim field",
+     "Limits": "*1.1.0* a readiness result or receiver response does not prove this measure. While any version's active status is uncertain, the package contract withholds an unqualified overall rate",
+     "Lineage": "*1.1.0* `src/cci/compare.py` (`source_to_claim`, `subject_dispositions`; `comparisons.jsonl`) and `src/cci/measures.py` `compute` (`claim-conformance.jsonl`), via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* claim construction: the latest claim version per family available by T",
+     "Numerator": "*1.1.0* `conforming` versions; at field grain, `fields_conforming`",
+     "Owner role": "*1.1.0* claims operations",
+     "Population": "active constructed claim versions. A version conforms only when every required comparison is assessable and passes",
+     "Submeasures": "`versions`, `conforming`, `mismatch`, `unassessable`, `fields_compared`, `fields_conforming`, `fields_mismatch`, `fields_unassessable`"
+    },
+    "other": [],
+    "title": "Claim-to-source conformance"
+   },
+   "M19": {
+    "anchor": "#m19",
+    "clauses": {
+     "Clocks": "*1.1.0* unit `trigger_at`; the ready instant is the latest of the claim version's `available_at` and every supporting fact's `received_at` (and the P-B grouping window), at or before T and before the next version's `available_at`. A backdated `effective_at` cannot make readiness earlier",
+     "Denominator": "*1.1.0* not a ratio: the stage's P units equal `ready` plus `never_ready_or_censored`",
+     "Exclusions": "*1.1.0* none: units never ready by T, including units with no claim version and unassessable units, are counted in `never_ready_or_censored`",
+     "Grain": "P unit per stage. Elapsed hours from the unit's governed trigger to the earliest established ready instant at that stage (*1.0.1, builder correction:* across the unit's claim versions, each counting only while it was the newest version; `first-ready.jsonl`) (the claim version and every supporting fact received by then). Never-ready and censored units sit beside the quantiles",
+     "Limits": "*1.1.0* compare like triggers, targets and cohorts only. An authoritative retraction may invalidate historical readiness. Quantiles use the shared nearest-rank rule",
+     "Lineage": "*1.1.0* `src/cci/firstready.py` `compute` (`first-ready.jsonl`) over `src/cci/claims.py` `readiness`, via `src/cci/cells.py`",
+     "Milestone": "*1.1.0* from the governed preparation trigger (completion, or a P-C documented cancellation's `effective_at`) to the earliest established ready state at that stage",
+     "Numerator": "*1.1.0* not a ratio: a duration distribution. `ready` counts units with an established ready instant; the quantiles are over their elapsed hours",
+     "Owner role": "*1.1.0* claims operations",
+     "Population": "*1.1.0* P for that stage, the same units as the M15 `denominator`",
+     "Submeasures": "`ready`, `never_ready_or_censored`, `median_hours`, `p90_hours`"
+    },
+    "other": [],
+    "title": "Time to target-specific readiness"
+   }
+  },
+  "populations": {
+   "C": {
+    "grain": "leg (service key)",
+    "members": "completed legs whose census applicability is `reportable` and whose request is completed"
+   },
+   "C_unresolved": {
+    "grain": "leg",
+    "members": "completed legs whose applicability is `unknown`, or whose request is not completed"
+   },
+   "F": {
+    "grain": "slot",
+    "members": "expected financial slots per completed leg (supplier cost, submitted charge, then allowed amount, payer paid, member responsibility, member collection, vendor payment after the 336-hour window) and per P-C documented-cancelled request. *1.0.1:* refund adjustment is a source event type, not an expected slot (`profiles.json` `financial_slot_policy`)"
+   },
+   "P": {
+    "grain": "P unit",
+    "members": "one preparation unit per component per client target for every completed census leg (reportable or unresolved), plus one `cancelled_disposition` unit per target for every P-C documented-cancelled request"
+   },
+   "S": {
+    "grain": "family",
+    "members": "encounter families whose first business submission was made by T and is known by K"
+   },
+   "U": {
+    "grain": "U unit",
+    "members": "identical keys to P under this contract (one reporting unit per preparation unit)"
+   }
+  },
+  "shared_rules": [
+   "Position Q(population version, T, K, rule version). Positions: `known_then` (T = K = 2026-07-14T23:59:59Z), `restated_then` (T = 2026-07-14T23:59:59Z, K = 2026-07-21T23:59:59Z), `current_later` (T = K = 2026-07-21T23:59:59Z). Population version `CCI-COHORT-1`; rule version `CCI-SYNTHETIC-CONTRACT-1/1.0.0`; definition version 1.0.0.",
+   "Availability. A row is available when `received_at <= K`; its business effect qualifies when `effective_at` is known and `<= T`. A null effective time never qualifies.",
+   "Counts are exact integers over identities at the declared grain. Rates are never stored: consumers compute numerator / denominator and round only for display. A zero denominator is undefined and displays `Not applicable`, never 0 percent. Client rates pool by summing numerators and denominators, never by averaging percentages.",
+   "Cell key `measure|submeasure|position|client_filter|period|stage`.",
+   "Client filter: `ALL`; a profile (`P-A` = SYN-C01 and SYN-C02, `P-B` = SYN-C03 and SYN-C04, `P-C` = SYN-C05 and SYN-C06); or one client.",
+   "Period: `FULL` (service dates 2026-04-01 to 2026-06-29) or `SP1` (2026-04-01 to 2026-04-30), `SP2` (2026-05-01 to 2026-05-30), `SP3` (2026-05-31 to 2026-06-29). A record's period is its request's `service_date` (for a completed leg, the request named by its census row; for a claim version, its first source item). First-submission (S) measures M03, M05, M06, M11, M12 and M13 support `FULL` only: their cohort is the first-submission cohort and the service-date filter is never applied to it invisibly. M08 supports `ALL`/`FULL` only: unmatched and too-broad raw rows have no certain client binding.",
+   "Stage applies to M15 and M19 only: `initial_preparation`, `encounter_submission`, `audit_submission`. Everything else uses `-`.",
+   "Hours are elapsed hours rounded to 6 decimal places; medians and 90th percentiles use the nearest-rank method (k = ceil(q * n), the k-th smallest); empty populations give null.",
+   "Money is a decimal string with two places."
+  ],
+  "source": "governance/metric_register.md",
+  "source_sha256": "f2f5cb7b62fe1b3a2040582d08d15be028c46aa598243e436ee064bd865aa89a",
+  "version": "1.1.0"
+ },
+ "reporting_unit_composition": {
+  "current_later": {
+   "SYN-C01": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C02": {
+    "FULL": {
+     "completed_units": 8000,
+     "documented_cancelled_units": 0,
+     "required_units": 8000
+    },
+    "SP1": {
+     "completed_units": 2720,
+     "documented_cancelled_units": 0,
+     "required_units": 2720
+    },
+    "SP2": {
+     "completed_units": 2640,
+     "documented_cancelled_units": 0,
+     "required_units": 2640
+    },
+    "SP3": {
+     "completed_units": 2640,
+     "documented_cancelled_units": 0,
+     "required_units": 2640
+    }
+   },
+   "SYN-C03": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C04": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C05": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 20,
+     "required_units": 4020
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 10,
+     "required_units": 1370
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 10,
+     "required_units": 1330
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C06": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 20,
+     "required_units": 4020
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 10,
+     "required_units": 1370
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 10,
+     "required_units": 1330
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   }
+  },
+  "known_then": {
+   "SYN-C01": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C02": {
+    "FULL": {
+     "completed_units": 8000,
+     "documented_cancelled_units": 0,
+     "required_units": 8000
+    },
+    "SP1": {
+     "completed_units": 2720,
+     "documented_cancelled_units": 0,
+     "required_units": 2720
+    },
+    "SP2": {
+     "completed_units": 2640,
+     "documented_cancelled_units": 0,
+     "required_units": 2640
+    },
+    "SP3": {
+     "completed_units": 2640,
+     "documented_cancelled_units": 0,
+     "required_units": 2640
+    }
+   },
+   "SYN-C03": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C04": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C05": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 20,
+     "required_units": 4020
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 10,
+     "required_units": 1370
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 10,
+     "required_units": 1330
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C06": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 20,
+     "required_units": 4020
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 10,
+     "required_units": 1370
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 10,
+     "required_units": 1330
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   }
+  },
+  "restated_then": {
+   "SYN-C01": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C02": {
+    "FULL": {
+     "completed_units": 8000,
+     "documented_cancelled_units": 0,
+     "required_units": 8000
+    },
+    "SP1": {
+     "completed_units": 2720,
+     "documented_cancelled_units": 0,
+     "required_units": 2720
+    },
+    "SP2": {
+     "completed_units": 2640,
+     "documented_cancelled_units": 0,
+     "required_units": 2640
+    },
+    "SP3": {
+     "completed_units": 2640,
+     "documented_cancelled_units": 0,
+     "required_units": 2640
+    }
+   },
+   "SYN-C03": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C04": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 0,
+     "required_units": 4000
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 0,
+     "required_units": 1360
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C05": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 20,
+     "required_units": 4020
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 10,
+     "required_units": 1370
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 10,
+     "required_units": 1330
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   },
+   "SYN-C06": {
+    "FULL": {
+     "completed_units": 4000,
+     "documented_cancelled_units": 20,
+     "required_units": 4020
+    },
+    "SP1": {
+     "completed_units": 1360,
+     "documented_cancelled_units": 10,
+     "required_units": 1370
+    },
+    "SP2": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 10,
+     "required_units": 1330
+    },
+    "SP3": {
+     "completed_units": 1320,
+     "documented_cancelled_units": 0,
+     "required_units": 1320
+    }
+   }
+  }
+ },
+ "schema_version": "web-bundle-1",
+ "served_evidence": [
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": "complete",
+   "gzipped": false,
+   "served": "evidence/review-receipt-2026-10-19.json",
+   "source": "governance/review-2026-10-19/review-receipt.json",
+   "source_sha256": "b48f85b74e59da49c49c110a917b3def02cf7141cbab925ae4fb0a894a813bea"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": "complete_restricted",
+   "gzipped": false,
+   "served": "evidence/reading-panel-2026-10-19.json",
+   "source": "governance/panel/r1-13e/dispositions.json",
+   "source_sha256": "95bb35f89f891a31d37605189b071b7e48c8ddefd472dbcf27b831a0a7ed657a"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/completed-review-checks-2026-10-19.json",
+   "source": "governance/review-2026-10-19/completed-checks.json",
+   "source_sha256": "478cdf9dcb7838ff8e00efd61b502cd35fd1bcd620d934059d55b2a9153a597e"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/build-scope-checklist.json",
+   "source": "governance/build-scope-checklist.json",
+   "source_sha256": "c9f3d2e49aeda755e7253de5f762b39e00ec6155c47c0a4671c7627281ddd42c"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/build-scope-policy.json",
+   "source": "governance/build-scope-policy.json",
+   "source_sha256": "749b618d84fe4edb9e73c7214ab9594ede46212f6f77f326c56bc81b73562ee7"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/completed-checks-2026-10-19.json",
+   "source": "governance/review-2026-10-19/completed-checks.json",
+   "source_sha256": "478cdf9dcb7838ff8e00efd61b502cd35fd1bcd620d934059d55b2a9153a597e"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": "e4346f2a13260cddf19a40d3a1332a1d735c57db",
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/historical-completed-checks-2026-10-19.json",
+   "source": "governance/limited-surfaces/completed-checks-2026-10-19.json",
+   "source_sha256": "9b80dffaf1fc7b5df6b770f4dbf300f59e9a40ede0cf294c8d60de9287712b28"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/metric_register.md",
+   "source": "governance/metric_register.md",
+   "source_sha256": "f2f5cb7b62fe1b3a2040582d08d15be028c46aa598243e436ee064bd865aa89a"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation.md",
+   "source": "governance/reconciliation.md",
+   "source_sha256": "05f22ab3a7754252fc31e45f28b3255b88b44e668c578bc45da094eb5b0b39cd"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/expected-event-accounting.md",
+   "source": "governance/expected-event-accounting.md",
+   "source_sha256": "a0531feb3eecbfd925f459a29fa5b794db7e9f0de1b9a23bb3c91899d7cd8fa9"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/claim-contract.md",
+   "source": "governance/claim-contract.md",
+   "source_sha256": "e9a2856034d2daf3f5c553dda357938ca21d76abb6f151c38f4b9232a7133a8d"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/source-register.md",
+   "source": "governance/source-register.md",
+   "source_sha256": "86aebc9c9f76c64efe07759cb5c861c158e4ee62bcd18a71e02bdbca9f9a74a0"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/source-manifest.json",
+   "source": "governance/source-manifest.json",
+   "source_sha256": "ab00c880f99686ed27afb7c8d71f5a979a6402964038e704ca08c6d33e6fc224"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": "reconciled",
+   "gzipped": false,
+   "served": "evidence/consumption-manifest.json",
+   "source": "governance/consumption-manifest.json",
+   "source_sha256": "97d26c75828c22a37599f833b645a899f58712e7886f08836e8765d6d75ef4b0"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/claim-validation.json",
+   "source": "governance/claim-validation.json",
+   "source_sha256": "6da2d1bc16587ab4494d6dc6b21a48cd867480c62872b690049f7f608b31ed46"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/financial-reconciliation.json",
+   "source": "governance/financial-reconciliation.json",
+   "source_sha256": "3eaa0e52b53242adde4346df3f23d14319f70facfbbe7f35c707c4a483c28412"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/evidence-coverage.json",
+   "source": "governance/evidence-coverage.json",
+   "source_sha256": "b18db90a82f13437338c6a0836c4a94e26cfc3d30d22a5f3557626e0b1c37b8b"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": "pass",
+   "gzipped": false,
+   "served": "evidence/rederivation.json",
+   "source": "governance/rederivation.json",
+   "source_sha256": "4cda2ccfe8d609f63229844bd55d1978c61f351620713660902584e1dba1bb97"
+  },
+  {
+   "currency": "historical: assembly-time validation receipt; the release-time validation bound to the release commit is governance/check-results.json and must carry the same status for every required check",
+   "declared_generated_at": "2026-10-19T19:36:30Z",
+   "declared_revision": "09839d0e80772880df77f7b3fa44c5b7d6dd9f3c",
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/check-results.json",
+   "source": "governance/check-results.json",
+   "source_sha256": "eeb84c64849933509018e17b785c1c649f4906a1bf2df735443832ebdcf3c5f6"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": "scored",
+   "gzipped": false,
+   "served": "evidence/detection-results-2.json",
+   "source": "governance/detection-results-2.json",
+   "source_sha256": "1a3b2a38235da7b7042fcf3b984c96d7284a31548b4074f5b434440b4b4e11ed"
+  },
+  {
+   "currency": "historical: assembly-time diagnostics receipt (the diagnostics read the served bundle, so they run after assembly); governance/negative-controls.json must carry the same judgment for every instance",
+   "declared_generated_at": "2026-10-19T19:21:22Z",
+   "declared_revision": "254c5a87a8ebc1503403f59674a689ddae13441b",
+   "declared_status": "blocked",
+   "gzipped": false,
+   "served": "evidence/negative-controls.json",
+   "source": "governance/negative-controls.json",
+   "source_sha256": "4ba47993ce3a5c353fd88f9c45033b9e497355c685c42fb034b09bffd5de159c"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": "2026-10-19T20:14:25Z",
+   "declared_revision": null,
+   "declared_status": "pass",
+   "gzipped": false,
+   "served": "evidence/story-bindings-verification.json",
+   "source": "governance/story-bindings-verification.json",
+   "source_sha256": "ce25a66b99a17dea05e506b05e1606b85262380b99ce9434c1560db03a728837"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": true,
+   "served": "evidence/claim-lineage.jsonl.gz",
+   "source": "governance/claim-lineage.jsonl",
+   "source_sha256": "42bbd2d290c58a50204002428699d9f953e9408adfb144321ee952c74a98280e"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/coverage-bridges.json",
+   "source": "governance/reconciliation/coverage-bridges.json",
+   "source_sha256": "5815025ad1de33e9751e08f5341a96d355c5b48fcb3a3dc0e8379da85a8b7141"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/current_later/evidence-residuals.json",
+   "source": "governance/reconciliation/current_later/evidence-residuals.json",
+   "source_sha256": "83e07d7e44bfdaf59104f3d03fef95f9a628017ff692d9d41359ecfc341a9b09"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/current_later/known-later-bridge.json",
+   "source": "governance/reconciliation/current_later/known-later-bridge.json",
+   "source_sha256": "039aa9efc4e9b11cc2e4550ba8e98689f97e7e2d5196ec66de6dc6676d8e8e30"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+   "source": "governance/reconciliation/current_later/out-of-scope-accepted.json",
+   "source_sha256": "f361b3cb2db71679ddfaab3f0ab1bb475f1358838804dc9da63e26c4abeaa511"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/current_later/population.json",
+   "source": "governance/reconciliation/current_later/population.json",
+   "source_sha256": "18bc090a142007b6d576713d11d3e9a593a5a54e37c0e7a48022efb32f4a16cb"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/current_later/uncovered-legs.json",
+   "source": "governance/reconciliation/current_later/uncovered-legs.json",
+   "source_sha256": "197fe3b82de41f551e662de58a0c98147b3be7d7e3a1c5fc260b0647a7978c35"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/known_then/evidence-residuals.json",
+   "source": "governance/reconciliation/known_then/evidence-residuals.json",
+   "source_sha256": "8b02094fee61122fd52e6673793bcb45553261d4d256cdb25ead964612516786"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/known_then/known-later-bridge.json",
+   "source": "governance/reconciliation/known_then/known-later-bridge.json",
+   "source_sha256": "0060830d959eef10e3abed0f06fcc79ccae9454e57764f7de62dd8eb425f9cc8"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+   "source": "governance/reconciliation/known_then/out-of-scope-accepted.json",
+   "source_sha256": "f361b3cb2db71679ddfaab3f0ab1bb475f1358838804dc9da63e26c4abeaa511"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/known_then/population.json",
+   "source": "governance/reconciliation/known_then/population.json",
+   "source_sha256": "18bc090a142007b6d576713d11d3e9a593a5a54e37c0e7a48022efb32f4a16cb"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/known_then/uncovered-legs.json",
+   "source": "governance/reconciliation/known_then/uncovered-legs.json",
+   "source_sha256": "aefe72837e47f4fe7f7a8e4582ceeb45997357717dcdf1b3ecea3b6e9921d543"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/never-ready-families.json",
+   "source": "governance/reconciliation/never-ready-families.json",
+   "source_sha256": "0ed298d5208db0159e88a00c5aafeccfffdde8b8f72e7782662f37e2d72bafe4"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/population-bridge.json",
+   "source": "governance/reconciliation/population-bridge.json",
+   "source_sha256": "35cf759df7b31fbc4aea4ed2983064374ecb00e13232ce4954c70ef5a8f642c7"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/restated_then/evidence-residuals.json",
+   "source": "governance/reconciliation/restated_then/evidence-residuals.json",
+   "source_sha256": "94109bbf4a90a74a6c8452bb28bb0b40f3fcafa3b409a383eb6cb6af3e86b4f2"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/restated_then/known-later-bridge.json",
+   "source": "governance/reconciliation/restated_then/known-later-bridge.json",
+   "source_sha256": "943952c65cf8906de85b3d6085179191030ad9822a9a0794099dd151ec87e0b7"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+   "source": "governance/reconciliation/restated_then/out-of-scope-accepted.json",
+   "source_sha256": "f361b3cb2db71679ddfaab3f0ab1bb475f1358838804dc9da63e26c4abeaa511"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/restated_then/population.json",
+   "source": "governance/reconciliation/restated_then/population.json",
+   "source_sha256": "18bc090a142007b6d576713d11d3e9a593a5a54e37c0e7a48022efb32f4a16cb"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": false,
+   "served": "evidence/reconciliation/restated_then/uncovered-legs.json",
+   "source": "governance/reconciliation/restated_then/uncovered-legs.json",
+   "source_sha256": "aefe72837e47f4fe7f7a8e4582ceeb45997357717dcdf1b3ecea3b6e9921d543"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": true,
+   "served": "evidence/preparation-accounting.jsonl.gz",
+   "source": "governance/preparation-accounting.jsonl",
+   "source_sha256": "9440f528a09d97476fc2acfc293dd3624360efbad679fa8e0cf37325b252d677"
+  },
+  {
+   "currency": "current governance source",
+   "declared_generated_at": null,
+   "declared_revision": null,
+   "declared_status": null,
+   "gzipped": true,
+   "served": "evidence/obligations.jsonl.gz",
+   "source": "governance/obligations.jsonl",
+   "source_sha256": "19c1688507a00fde84cff7b9812481f546bbf30c9cf1d5b9c96356c68bdda309"
+  }
+ ],
+ "snapshot": {
+  "build": "data/derived/bulk-c4",
+  "cells_sha256": "05be40e0d23deeef21df3d9f93cbae74e411cb4a93c770870d6ebf38c137d4fa",
+  "code_revision": "45eed406a64fb3cf0fbf80cb55fd556c83b9c012",
+  "default_position": "current_later",
+  "population_version": "CCI-COHORT-1",
+  "rebuild_finished_at": "2026-10-19T02:02:58Z",
+  "rebuild_receipt_sha256": "49ca6819a9706e95f26c84041a00a4795457dc7cb69bf07092235bab80bf9343",
+  "rebuild_status": "passed",
+  "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+ },
+ "stages": [
+  "initial_preparation",
+  "encounter_submission",
+  "audit_submission"
+ ],
+ "subtitle": "From Ride Evidence to Encounter Outcomes"
+}

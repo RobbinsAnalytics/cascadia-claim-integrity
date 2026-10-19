@@ -1,0 +1,903 @@
+{
+  "after_disclosure": "With these results published the attempt-2 holdout becomes development evidence. Any retuning needs a fresh holdout under a new commitment; it does not inherit this score.",
+  "attempt": 2,
+  "binds": {
+    "baseline_alerts_sha256": "37741bffb35c6091d7c63affb9b6a5da9f6b614224d3b5b5706f2bb393eaf161",
+    "commitment_commit": "8044f54c739b71552a9e7d2be070da838f416fd0",
+    "commitment_path": "evaluation/commitment-2.json",
+    "commitment_sha256": "f7c8d253e46ebe8771b9c532239f934045c17ab09f88436bef680ac9d37d8972",
+    "control_revision": "b34abe324702ff41d7184c9b3a80792a8942cf02",
+    "controls_interface_version": "1.0.0",
+    "controls_sha256": {
+      "src/controls.py": "2fe7f626b6b73af5ea1ec3752d442d614c75c362f0ad2128fb819e002c5d6e1f",
+      "src/run_controls.py": "cb1a6c00c9c12279dd508771dfa3e7a5fa0ba901d9fe4a27d2d1eb059d40c230"
+    },
+    "fault_registry_sha256": "64fc0b4fe465e9740bc0a88674312a8528f6784ff4d4fedd5077c69aa001049c",
+    "heldout_alerts_sha256": "4856e53b72e13d56fc3578e4077785185b73da16ea76af38cb1b4e4b67cbb933",
+    "output_lock_path": "evaluation/output-lock-2.json",
+    "output_lock_sha256": "a246a5c8530352bef9010023682268229c0a63194db5038b1958dc47f432a922",
+    "protocol_version": "0.1.1"
+  },
+  "blindness": "unblinded: author exposure not ruled out (the detector author wrote the evaluator brief; author, runtime and evaluator share one OS account; the evaluated control revision b34abe3 was committed after commitment-2, so the author had seen the commitment and the evaluator phase-1 hand-back (position and per-class counts, no instance detail) before that revision)",
+  "date": "2026-10-18",
+  "harness": {
+    "errors": [],
+    "every_expected_check_of_represented_classes_invoked": true,
+    "exit_codes": {
+      "baseline_bulk_c2_restated_then": 0,
+      "heldout": 0
+    },
+    "notes": [
+      "controls_run lists 20 control names, two of them group names (unit_outcomes, transaction_results) rather than check ids, which differs from controls-interface 1.0.0 section 3; invocation completeness was judged on controls_run plus the check_ids_emittable field the runner also writes (30 check ids, every expected check of the 26 represented classes included), with exit 0 and no errors",
+      "the scenario and all 39 scenario files were re-verified against the committed scenario manifest before the run"
+    ]
+  },
+  "mutants": {
+    "always_alert": {
+      "caught": 52,
+      "clean_opportunities": 52,
+      "false_alarms": 52,
+      "requirement": "false_alarm_budget: must-catch requires zero false alarms on clean opportunities",
+      "targets": 52,
+      "violated": true
+    },
+    "disconnected_detector": {
+      "check_disconnected": "claim_service_allocation_balanced",
+      "classes_affected": [
+        "SF28"
+      ],
+      "harness_effect": {
+        "complete": false,
+        "missing_checks": [
+          "claim_service_allocation_balanced"
+        ]
+      },
+      "operational_effect": {
+        "SF28": {
+          "caught_after": 0,
+          "caught_before": 2
+        }
+      },
+      "requirement": "detector_invocation_complete / evaluation_population_complete: every expected check must be invoked; a missing output is a failure, never an empty success",
+      "violated": true
+    },
+    "scoring_record_removed": {
+      "removed_from_class": "SF01",
+      "requirement": "evaluation_population_complete: the scored roster must equal the committed per-class counts",
+      "roster_check": {
+        "mismatched_classes": [
+          "SF01"
+        ],
+        "ok": false
+      },
+      "scored_targets": 51,
+      "violated": true
+    }
+  },
+  "not_represented": {
+    "SF09": "no replacement, void or retraction lineage exists in the frozen population (replacement-decisions.jsonl is empty and no void or replacement response exists); representing it would require fabricating receiver evidence",
+    "SF12": "operations boundary: needs the operating lane (scheduler, observer, progress watermark), which does not exist; immature by protocol section 5",
+    "SF13": "operations boundary: needs a real scheduled run and its freshness observer, which do not exist; immature by protocol section 5",
+    "SF14": "publication boundary: needs a served bundle and readback; nothing is served from this repository",
+    "SF15": "requires mutating a computational path shared by builder and independent controls, which is a code mutation, not a data or build-artifact edit",
+    "SF16": "evaluator class: exercised by the disconnected-detector scorer mutant at scoring time, not as a held-out data target",
+    "SF17": "evaluator class: exercised by the always-alert scorer mutant at scoring time, not as a held-out data target",
+    "SF18": "evaluator class: concerns evaluator access and roster completeness; exercised by the removed-record scorer mutant and the custody boundary, not as a held-out data target",
+    "SF19": "needs a genuinely accepted encounter family for an item outside the reportable requirement; none exists in the frozen data and creating one would require fabricating receiver acceptance",
+    "SF21": "needs two accepted overlapping families for the same coverage key; none exists in the frozen data and creating one would require fabricating a second submission and receiver acceptance"
+  },
+  "per_class": [
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF01",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 25
+    },
+    {
+      "baseline_alerts_on_target_identities": 1,
+      "caught": 1,
+      "class": "SF02",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "miss_note": "One target's only expected-check alert has the same check, grain and subject as a genuine disclosure in the baseline run. Under the committed rule (baseline = same check, grain and subject) it is a baseline alert, not a detection. The held-out alert was analytical_defect while the baseline one was business_state; a class-aware rule would have counted it, but that rule was not committed and is not adopted after scoring.",
+      "missed": 1,
+      "must_catch_pass": false,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 1
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF03",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 1,
+      "class": "SF04",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "miss_note": "One target was flagged only under other classes' checks (response-expectation and response-due checks), so it counts as wrong-check, not a detection.",
+      "missed": 1,
+      "must_catch_pass": false,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 3,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF05",
+      "clean_opportunities": 2,
+      "duplicates": 6,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 4,
+      "wrong_target_alerts": 2
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF06",
+      "clean_opportunities": 2,
+      "duplicates": 3,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 4,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF07",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 1,
+      "class": "SF08",
+      "clean_opportunities": 2,
+      "duplicates": 3,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "miss_note": "One target was flagged under the evidence-binding and stage-namespace checks; the knowledge-cutoff check fired only on the other SF08 target.",
+      "missed": 1,
+      "must_catch_pass": false,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 9,
+      "wrong_target_alerts": 0
+    },
+    {
+      "class": "SF09",
+      "clean_opportunities": 0,
+      "not_represented_reason": "no replacement, void or retraction lineage exists in the frozen population (replacement-decisions.jsonl is empty and no void or replacement response exists); representing it would require fabricating receiver evidence",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF10",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 1,
+      "wrong_target_alerts": 1
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 1,
+      "class": "SF11",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "miss_note": "One target was flagged under the population-identity and service-universe checks; the source-population check did not name it.",
+      "missed": 1,
+      "must_catch_pass": false,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 5,
+      "wrong_target_alerts": 0
+    },
+    {
+      "class": "SF12",
+      "clean_opportunities": 0,
+      "not_represented_reason": "operations boundary: needs the operating lane (scheduler, observer, progress watermark), which does not exist; immature by protocol section 5",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF13",
+      "clean_opportunities": 0,
+      "not_represented_reason": "operations boundary: needs a real scheduled run and its freshness observer, which do not exist; immature by protocol section 5",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF14",
+      "clean_opportunities": 0,
+      "not_represented_reason": "publication boundary: needs a served bundle and readback; nothing is served from this repository",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF15",
+      "clean_opportunities": 0,
+      "not_represented_reason": "requires mutating a computational path shared by builder and independent controls, which is a code mutation, not a data or build-artifact edit",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF16",
+      "clean_opportunities": 0,
+      "not_represented_reason": "evaluator class: exercised by the disconnected-detector scorer mutant at scoring time, not as a held-out data target",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF17",
+      "clean_opportunities": 0,
+      "not_represented_reason": "evaluator class: exercised by the always-alert scorer mutant at scoring time, not as a held-out data target",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF18",
+      "clean_opportunities": 0,
+      "not_represented_reason": "evaluator class: concerns evaluator access and roster completeness; exercised by the removed-record scorer mutant and the custody boundary, not as a held-out data target",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "class": "SF19",
+      "clean_opportunities": 0,
+      "not_represented_reason": "needs a genuinely accepted encounter family for an item outside the reportable requirement; none exists in the frozen data and creating one would require fabricating receiver acceptance",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF20",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 0
+    },
+    {
+      "class": "SF21",
+      "clean_opportunities": 0,
+      "not_represented_reason": "needs two accepted overlapping families for the same coverage key; none exists in the frozen data and creating one would require fabricating a second submission and receiver acceptance",
+      "represented": false,
+      "targets": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF22",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 1,
+      "class": "SF23",
+      "clean_opportunities": 2,
+      "duplicates": 5,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "miss_note": "One target was flagged under obligation-level checks; the batch-membership check did not name it.",
+      "missed": 1,
+      "must_catch_pass": false,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 13,
+      "wrong_target_alerts": 2
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 1,
+      "class": "SF24",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "miss_note": "One target was flagged under the preparation-population and reporting-disposition checks; the population-bridge check did not name it.",
+      "missed": 1,
+      "must_catch_pass": false,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 6,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF25",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 2,
+      "wrong_target_alerts": 6
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF26",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 2,
+      "wrong_target_alerts": 1
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF27",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF28",
+      "clean_opportunities": 2,
+      "duplicates": 6,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 1,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF29",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 4,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF30",
+      "clean_opportunities": 2,
+      "duplicates": 2,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 20
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF31",
+      "clean_opportunities": 2,
+      "duplicates": 2,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 2
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF32",
+      "clean_opportunities": 2,
+      "duplicates": 6,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 1,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF33",
+      "clean_opportunities": 2,
+      "duplicates": 0,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF34",
+      "clean_opportunities": 2,
+      "duplicates": 2,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 0,
+      "wrong_target_alerts": 3
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF35",
+      "clean_opportunities": 2,
+      "duplicates": 4,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 4,
+      "wrong_target_alerts": 0
+    },
+    {
+      "baseline_alerts_on_target_identities": 0,
+      "caught": 2,
+      "class": "SF36",
+      "clean_opportunities": 2,
+      "duplicates": 1,
+      "false_alarms": 0,
+      "immature": 0,
+      "late": 0,
+      "missed": 0,
+      "must_catch_pass": true,
+      "not_executed": 0,
+      "represented": true,
+      "targets": 2,
+      "wrong_check_alerts_on_targets": 1,
+      "wrong_target_alerts": 10
+    }
+  ],
+  "per_target": [
+    {
+      "class": "SF01",
+      "result": "caught",
+      "target_id": "SF01-H1"
+    },
+    {
+      "class": "SF01",
+      "result": "caught",
+      "target_id": "SF01-H2"
+    },
+    {
+      "class": "SF02",
+      "result": "caught",
+      "target_id": "SF02-H1"
+    },
+    {
+      "class": "SF02",
+      "result": "missed",
+      "target_id": "SF02-H2"
+    },
+    {
+      "class": "SF03",
+      "result": "caught",
+      "target_id": "SF03-H1"
+    },
+    {
+      "class": "SF03",
+      "result": "caught",
+      "target_id": "SF03-H2"
+    },
+    {
+      "class": "SF04",
+      "result": "caught",
+      "target_id": "SF04-H1"
+    },
+    {
+      "class": "SF04",
+      "result": "missed",
+      "target_id": "SF04-H2"
+    },
+    {
+      "class": "SF05",
+      "result": "caught",
+      "target_id": "SF05-H1"
+    },
+    {
+      "class": "SF05",
+      "result": "caught",
+      "target_id": "SF05-H2"
+    },
+    {
+      "class": "SF06",
+      "result": "caught",
+      "target_id": "SF06-H1"
+    },
+    {
+      "class": "SF06",
+      "result": "caught",
+      "target_id": "SF06-H2"
+    },
+    {
+      "class": "SF07",
+      "result": "caught",
+      "target_id": "SF07-H1"
+    },
+    {
+      "class": "SF07",
+      "result": "caught",
+      "target_id": "SF07-H2"
+    },
+    {
+      "class": "SF08",
+      "result": "caught",
+      "target_id": "SF08-H1"
+    },
+    {
+      "class": "SF08",
+      "result": "missed",
+      "target_id": "SF08-H2"
+    },
+    {
+      "class": "SF10",
+      "result": "caught",
+      "target_id": "SF10-H1"
+    },
+    {
+      "class": "SF10",
+      "result": "caught",
+      "target_id": "SF10-H2"
+    },
+    {
+      "class": "SF11",
+      "result": "missed",
+      "target_id": "SF11-H1"
+    },
+    {
+      "class": "SF11",
+      "result": "caught",
+      "target_id": "SF11-H2"
+    },
+    {
+      "class": "SF20",
+      "result": "caught",
+      "target_id": "SF20-H1"
+    },
+    {
+      "class": "SF20",
+      "result": "caught",
+      "target_id": "SF20-H2"
+    },
+    {
+      "class": "SF22",
+      "result": "caught",
+      "target_id": "SF22-H1"
+    },
+    {
+      "class": "SF22",
+      "result": "caught",
+      "target_id": "SF22-H2"
+    },
+    {
+      "class": "SF23",
+      "result": "caught",
+      "target_id": "SF23-H1"
+    },
+    {
+      "class": "SF23",
+      "result": "missed",
+      "target_id": "SF23-H2"
+    },
+    {
+      "class": "SF24",
+      "result": "caught",
+      "target_id": "SF24-H1"
+    },
+    {
+      "class": "SF24",
+      "result": "missed",
+      "target_id": "SF24-H2"
+    },
+    {
+      "class": "SF25",
+      "result": "caught",
+      "target_id": "SF25-H1"
+    },
+    {
+      "class": "SF25",
+      "result": "caught",
+      "target_id": "SF25-H2"
+    },
+    {
+      "class": "SF26",
+      "result": "caught",
+      "target_id": "SF26-H1"
+    },
+    {
+      "class": "SF26",
+      "result": "caught",
+      "target_id": "SF26-H2"
+    },
+    {
+      "class": "SF27",
+      "result": "caught",
+      "target_id": "SF27-H1"
+    },
+    {
+      "class": "SF27",
+      "result": "caught",
+      "target_id": "SF27-H2"
+    },
+    {
+      "class": "SF28",
+      "result": "caught",
+      "target_id": "SF28-H1"
+    },
+    {
+      "class": "SF28",
+      "result": "caught",
+      "target_id": "SF28-H2"
+    },
+    {
+      "class": "SF29",
+      "result": "caught",
+      "target_id": "SF29-H1"
+    },
+    {
+      "class": "SF29",
+      "result": "caught",
+      "target_id": "SF29-H2"
+    },
+    {
+      "class": "SF30",
+      "result": "caught",
+      "target_id": "SF30-H1"
+    },
+    {
+      "class": "SF30",
+      "result": "caught",
+      "target_id": "SF30-H2"
+    },
+    {
+      "class": "SF31",
+      "result": "caught",
+      "target_id": "SF31-H1"
+    },
+    {
+      "class": "SF31",
+      "result": "caught",
+      "target_id": "SF31-H2"
+    },
+    {
+      "class": "SF32",
+      "result": "caught",
+      "target_id": "SF32-H1"
+    },
+    {
+      "class": "SF32",
+      "result": "caught",
+      "target_id": "SF32-H2"
+    },
+    {
+      "class": "SF33",
+      "result": "caught",
+      "target_id": "SF33-H1"
+    },
+    {
+      "class": "SF33",
+      "result": "caught",
+      "target_id": "SF33-H2"
+    },
+    {
+      "class": "SF34",
+      "result": "caught",
+      "target_id": "SF34-H1"
+    },
+    {
+      "class": "SF34",
+      "result": "caught",
+      "target_id": "SF34-H2"
+    },
+    {
+      "class": "SF35",
+      "result": "caught",
+      "target_id": "SF35-H1"
+    },
+    {
+      "class": "SF35",
+      "result": "caught",
+      "target_id": "SF35-H2"
+    },
+    {
+      "class": "SF36",
+      "result": "caught",
+      "target_id": "SF36-H1"
+    },
+    {
+      "class": "SF36",
+      "result": "caught",
+      "target_id": "SF36-H2"
+    }
+  ],
+  "position": "restated_then",
+  "roster_check": {
+    "mismatched_classes": [],
+    "ok": true
+  },
+  "rules": "Detection: check_id in the target expected ids (fault registry) AND (grain, subject_id) equal to a registered identity of the target. Duplicates once. Alerts de-duplicated by (check_id, grain, subject_id). Baseline alert: the same (check_id, grain, subject_id) also in the baseline run (same revision, untouched bulk-c2 restated_then); reported separately, never a detection or false alarm. Wrong-check: alert on a target identity under a non-expected check. Wrong-target: expected-check alert of a represented class on no target identity of that class. Others unmatched. Static run: late=0, immature=0. False alarm: an expected-check alert on a designated clean identity (strict opportunities any alert class, non-strict analytical_defect only).",
+  "schema": "detection-results-1",
+  "status": "scored",
+  "threshold": "must-catch (decision 7): a class passes only if every target is caught and no clean opportunity of the class has a false alarm",
+  "totals": {
+    "baseline_alerts_in_heldout": 2289,
+    "baseline_alerts_on_target_identities": 1,
+    "baseline_run_alerts": 2294,
+    "caught": 46,
+    "classes_not_represented": 10,
+    "classes_passing_must_catch": 20,
+    "classes_represented": 26,
+    "clean_opportunities": 52,
+    "detection_alerts": 92,
+    "duplicates": 46,
+    "false_alarms": 0,
+    "heldout_run_alerts": 2508,
+    "immature": 0,
+    "late": 0,
+    "missed": 6,
+    "not_executed": 0,
+    "targets": 52,
+    "unique_heldout_alerts": 2505,
+    "unmatched_alerts": 0,
+    "wrong_check_alerts_on_targets": 60,
+    "wrong_target_alerts": 63
+  }
+}

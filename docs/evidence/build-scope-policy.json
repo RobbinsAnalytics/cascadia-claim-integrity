@@ -1,0 +1,133 @@
+{
+  "schema_version": "build-scope-policy-2",
+  "scope": "Frozen synthetic Claim Integrity portfolio build; no live data edge, ongoing refresh or effectiveness certification.",
+  "live_edge": false,
+  "scheduled_operation_claimed": false,
+  "golden_index_sha256": "48c348c15f908e3cb78dda6ee4f7fede4315260e0275f39da836dc2c620bd149",
+  "authority": [
+    "Aaron owner acceptance, 2026-10-19, governance/decision-record.md",
+    "Aaron scope clarification, 2026-10-19: scheduled operation must not hold the golden-fixture checklist open; applicable checks must pass.",
+    "Aaron instruction, 2026-10-19: complete chart review and restricted reading panel, fix actionable findings, preserve data, disclose remaining limits, and require every applicable test to pass at a reasonable standard or be N/A. No merge or publication.",
+    "Aaron, 2026-10-19: detection evaluation is a build-forward candidate for this build and prior builds; remove it from the matrix and current claims. Preserve disclosures, no merge or publication."
+  ],
+  "fixture_dispositions": [
+    {
+      "case_id": "G11",
+      "variant_id": "key_access_probe",
+      "disposition": "not_applicable",
+      "reason": "Independent evaluator-custody certification is N/A to the claims this frozen portfolio build makes. The raw key-access probe remains blocked/not_evaluated; no successful denial or independent unseen evaluation is asserted.",
+      "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim."
+    },
+    {
+      "case_id": "G12",
+      "variant_id": "missing_worker",
+      "disposition": "not_applicable",
+      "reason": "No live edge or ongoing-operation claim; a real scheduled worker is outside this frozen build scope.",
+      "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim."
+    },
+    {
+      "case_id": "G13",
+      "variant_id": "clean_bundle",
+      "disposition": "not_applicable",
+      "reason": "Real public readback is N/A at the prepublication phase, not a passing test. It becomes required at publication; the postpublication scoped gate fails until real readback is established.",
+      "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim."
+    },
+    {
+      "case_id": "G13",
+      "variant_id": "mixed_assets",
+      "disposition": "not_applicable",
+      "reason": "Real public readback is N/A at the prepublication phase, not a passing test. It becomes required at publication; the postpublication scoped gate fails until real readback is established.",
+      "owner_basis": "2026-10-19 explicit owner scope: frozen portfolio build with restricted review and no independent-effectiveness claim."
+    }
+  ],
+  "check_dispositions": [
+    {
+      "check_id": "chart_review_bound",
+      "disposition": "pass_at_declared_method",
+      "recorded_status": "fail",
+      "reason": "Passing completion is supported by the current asset-bound restricted review receipt, four separate simulated returns, finding dispositions and changed-content rechecks. This is not full independent or certified-blind assurance.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "control:evaluation_access_boundary",
+      "disposition": "not_applicable",
+      "recorded_status": "blocked",
+      "reason": "Independent evaluator access isolation is N/A to the claims made. Shared-workstation isolation was not established; no independently held unseen evaluation is claimed.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "control:evaluation_population_complete",
+      "disposition": "not_applicable",
+      "recorded_status": "blocked",
+      "reason": "A complete independently held-out evaluation population is N/A to this build\u2019s claims. The historical roster, six misses and ten unrepresented classes remain disclosed. Public diagnostic population completeness remains required and passes separately.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "diagnostic:SF18-01",
+      "disposition": "not_applicable",
+      "recorded_status": "blocked",
+      "reason": "Certification of the independent evaluator access boundary is N/A to this build\u2019s claims. The resource was not available and the raw probe stays not_evaluated; absence of a resource is not a successful access denial.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "evaluation_must_catch_met",
+      "disposition": "not_applicable",
+      "recorded_status": "fail",
+      "reason": "Independent held-out effectiveness certification is N/A to this build\u2019s claims. Historical attempt 2 remains 20/26 represented classes meeting must-catch, six missed targets and ten unrepresented classes. That failed historical criterion is preserved, not relabeled pass; no final-control effectiveness inference is made.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "failure_notification_drill",
+      "disposition": "not_applicable",
+      "recorded_status": "pass",
+      "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "genuine_timer_run",
+      "disposition": "not_applicable",
+      "recorded_status": "blocked",
+      "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "health_expiry",
+      "disposition": "not_applicable",
+      "recorded_status": "pass",
+      "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "observer_detects_missing_worker",
+      "disposition": "not_applicable",
+      "recorded_status": "pass",
+      "reason": "No live data edge or ongoing-operation claim. Historical operating receipts are retained; scheduled worker, observer and freshness requirements are outside this build scope.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    },
+    {
+      "check_id": "reading_panel_complete",
+      "disposition": "pass_at_declared_method",
+      "recorded_status": "fail",
+      "reason": "Passing completion is supported by the current asset-bound restricted review receipt, four separate simulated returns, finding dispositions and changed-content rechecks. This is not full independent or certified-blind assurance.",
+      "owner_basis": "2026-10-19 explicit owner scope and restricted review instruction."
+    }
+  ],
+  "accepted_evidence_sha256": {
+    "governance/check-results.json": "eeb84c64849933509018e17b785c1c649f4906a1bf2df735443832ebdcf3c5f6",
+    "governance/detection-results-2.json": "1a3b2a38235da7b7042fcf3b984c96d7284a31548b4074f5b434440b4b4e11ed",
+    "governance/evaluation-custody.json": "0c7b81169cb5ae5d81c5e4a40a6a56d630c85306e29b1aaac20a072660a18d5f",
+    "governance/panel/r1-13d/dispositions.json": "a442e7618e26728ea0dbf09a190bcfe216288d02c05a2280abcf3a1487591224",
+    "governance/fault-registry.json": "64fc0b4fe465e9740bc0a88674312a8528f6784ff4d4fedd5077c69aa001049c",
+    "src/controls.py": "88a9510884e5dcf6b2f1b20996ce7a7112e79387d9439fafea1331e89ac13851",
+    "src/run_controls.py": "cb1a6c00c9c12279dd508771dfa3e7a5fa0ba901d9fe4a27d2d1eb059d40c230"
+  },
+  "independent_custody_claimed": false,
+  "effectiveness_certification_claimed": false,
+  "certified_blind_readers_claimed": false,
+  "presentation_standard": "restricted-frozen-portfolio-review-1",
+  "build_forward_requirements": [
+    "evaluation_must_catch_met",
+    "control:evaluation_access_boundary",
+    "control:evaluation_population_complete"
+  ]
+}

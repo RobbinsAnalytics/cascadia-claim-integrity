@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-19",
+  "standard": "restricted-frozen-portfolio-review-1",
+  "nature": "restricted simulated",
+  "status": "complete_restricted",
+  "method_complete": true,
+  "seats": 4,
+  "blind_established": false,
+  "certified_blind": false,
+  "human_research": false,
+  "totals": {
+    "fixed": 6,
+    "accepted": 8,
+    "rejected": 3,
+    "findings": 17,
+    "open": 0,
+    "defects": 6,
+    "novel": 4,
+    "multi_seat_defects": 4
+  },
+  "findings": [
+    {
+      "id": "RP01",
+      "view": "D02/D03/D11",
+      "seats": [
+        1,
+        2,
+        3
+      ],
+      "consensus": 3,
+      "quotes": [
+        {
+          "seat": 1,
+          "text": "There is no breakdown of that group by client or recipient to turn it into an evidence chase."
+        },
+        {
+          "seat": 2,
+          "text": "The view explains their evidence limitations but does not show an owner or plan for resolving them."
+        },
+        {
+          "seat": 3,
+          "text": "There is no list here of the particular trips to chase or the next action for each one."
+        }
+      ],
+      "defect": true,
+      "novel": true,
+      "disposition": "fixed",
+      "reason": "Added an evidence-follow-up guide: use existing client filters and route mapping, inspect component/target deliveries, obtain supported decision times, and open the frozen uncovered/obligations evidence. Suggested role actions are distinct from performed outreach. A new recipient-level metric or real escalation agreement is not invented."
+    },
+    {
+      "id": "RP02",
+      "view": "D05",
+      "seats": [
+        1,
+        3
+      ],
+      "consensus": 2,
+      "quotes": [
+        {
+          "seat": 1,
+          "text": "There is no open work item or named owner for chasing that unresolved outcome, despite the record still lacking an acceptance decision."
+        },
+        {
+          "seat": 3,
+          "text": "There is no plain explanation of why the final outcome is unresolved or what would settle it."
+        }
+      ],
+      "defect": true,
+      "novel": false,
+      "disposition": "fixed",
+      "reason": "Added delivery-level guidance for a received unresolved final response: receipt timing is satisfied, outcome is not acceptance, encounter operations would request a resolved source decision from the displayed recipient. No new counted work item, invented cause or automatic transport-company correction."
+    },
+    {
+      "id": "RP03",
+      "view": "D10",
+      "seats": [
+        1,
+        2
+      ],
+      "consensus": 2,
+      "quotes": [
+        {
+          "seat": 1,
+          "text": "The page names the blocked probe but does not explain its practical effect on confidence in the claims evidence."
+        },
+        {
+          "seat": 2,
+          "text": "The consequence of that blocked probe is not explained here in terms of which conclusions remain unsupported."
+        }
+      ],
+      "defect": true,
+      "novel": false,
+      "disposition": "fixed",
+      "reason": "Explained that unavailable independent custody leaves an independently controlled unseen evaluation and final-control effectiveness unsubstantiated. It does not negate the separate numerical comparison. N/A is tied to those unmade claims; the raw probe stays not_evaluated."
+    },
+    {
+      "id": "RP04",
+      "view": "D11",
+      "seats": [
+        2,
+        3
+      ],
+      "consensus": 2,
+      "quotes": [
+        {
+          "seat": 2,
+          "text": "The page discloses missed and unrepresented classes from the historical evaluation, but does not identify those classes or show their current disposition."
+        },
+        {
+          "seat": 3,
+          "text": "There is no concrete trip or payment example showing what those missed targets would mean for the company."
+        }
+      ],
+      "defect": true,
+      "novel": true,
+      "disposition": "fixed",
+      "reason": "Added all six historical class names, all ten unrepresented class IDs, their exact result link and a plain interpretation of timing/coverage risks. Historical misses are not rescored or attributed to final controls."
+    },
+    {
+      "id": "RP05",
+      "view": "D01",
+      "seats": [
+        3
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 3,
+          "text": "There is no example of the actual record to send to clear this hold."
+        }
+      ],
+      "defect": true,
+      "novel": true,
+      "disposition": "fixed",
+      "reason": "Extended vendor-payment help with typed amount, service link, source and effective/received times, plus a payment-ledger example. A bank transfer alone needs allocation. Explicitly a model example rather than an actual client documentation requirement."
+    },
+    {
+      "id": "RP06",
+      "view": "D01/D07/D11",
+      "seats": [
+        1
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 1,
+          "text": "The view names the owner role, but there is no named supplier or contact for the missing payment evidence."
+        },
+        {
+          "seat": 1,
+          "text": "The reference value is shown, but the person or team that supplied it is not."
+        },
+        {
+          "seat": 1,
+          "text": "The page explains that the acceptance stays visible without coverage credit, but gives no route or owner for obtaining the missing decision time."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "The frozen synthetic pack does not establish real people, contacts or originator teams. Role/route guidance is added under RP01, but personal contacts or a claim about who supplied the source cannot be fabricated."
+    },
+    {
+      "id": "RP07",
+      "view": "D08",
+      "seats": [
+        3
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 3,
+          "text": "There is no recognizable company name or bank payment reference to match that amount against the company\u2019s books."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "Synthetic vendor-payment observations are not a bank reconciliation or proof of money received by a real company. The interface keeps typed amounts/source identities. Real party and bank matching belongs to a different data contract."
+    },
+    {
+      "id": "RP08",
+      "view": "D09",
+      "seats": [
+        2
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 2,
+          "text": "The view gives an owner role and next action, but no record of follow-up already performed or recipient reply."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "No such operational outreach log exists in frozen v1. Suggested next action is not execution evidence. Adding one would invent historical activity."
+    },
+    {
+      "id": "RP09",
+      "view": "D06",
+      "seats": [
+        2
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 2,
+          "text": "The rejection has no reason code or wording, and the view explicitly says none was supplied, so the cause cannot be established here."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "The missing cause is already disclosed and absent from the source. Keeping the rejection unresolved is more accurate than supplying a synthetic explanation after freezing."
+    },
+    {
+      "id": "RP10",
+      "view": "D04",
+      "seats": [
+        2
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 2,
+          "text": "Recipient acceptance or rejection is not shown here; claim-to-source conformity alone does not answer that."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "rejected",
+      "reason": "D04 is a claim-family slice; the same record page has separate downstream and response sections. It correctly does not treat claim-to-source conformity as recipient acceptance. The complete record and delivery inspection remain linked."
+    },
+    {
+      "id": "RP11",
+      "view": "D10",
+      "seats": [
+        3
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 3,
+          "text": "There is no confirmation from an actual transport-company reader that the record requirements and payment amounts make sense to them; the page says zero new reader seats ran."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "The current panel is simulated, not human-user research. The updated page reports four actual simulated processes and explicitly avoids a transport-company-reader claim. Actual operations readers remain a next-iteration item."
+    },
+    {
+      "id": "RP12",
+      "view": "V02",
+      "seats": [
+        4
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 4,
+          "text": "The wide version has small category labels and footnotes, but no obvious clipping or overlap."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "All measured visible text is at least 12 px; labels remain legible in the attached wide/phone renders. No clipping or failed read was identified. Independent human legibility certification is outside the method."
+    },
+    {
+      "id": "RP13",
+      "view": "V02",
+      "seats": [
+        4
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 4,
+          "text": "The phone version makes the text accessible by placing labels above bars, although the introduction is long and the chart requires substantial vertical scrolling."
+        },
+        {
+          "seat": 4,
+          "text": "The extra gap after the leading category on the phone slightly interrupts the otherwise regular list."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "Phone layout reserves a separate line for the leading-category share annotation. Required population, rule-order and rounding explanations remain on the figure. Scrolling is preferable to dropping those meanings; no actionable overlap was found."
+    },
+    {
+      "id": "RP14",
+      "view": "V02",
+      "seats": [
+        4
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 4,
+          "text": "The **33.3% of uncovered legs** annotation states a share, but no whole is drawn against which to see that proportion."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "rejected",
+      "reason": "The chart claims a ranking, not a part-to-whole visual. The numeric annotation names its denominator; the table supplies both denominators. A whole mark is not required to support the largest-category claim."
+    },
+    {
+      "id": "RP15",
+      "view": "V02",
+      "seats": [
+        4
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 4,
+          "text": "The smallest bar, \u201c9. Evidence received, outcome unresolved,\u201d is barely wider than its baseline; its **45** label is essential."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "rejected",
+      "reason": "Exact linear bar lengths and a zero baseline necessarily make a 45-count bar small beside 3,659. Its direct label and exact readout preserve access. Enlarging the bar would distort the scale."
+    },
+    {
+      "id": "RP16",
+      "view": "D02",
+      "seats": [
+        1
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": 1,
+          "text": "3,659 legs have no usable outcome evidence; that exact count comes from the first row of the \u201cUncovered completed legs by explanation\u201d table beneath the chart."
+        }
+      ],
+      "defect": false,
+      "novel": null,
+      "disposition": "accepted",
+      "reason": "Recorded as a table-sourced number, not a mark-sourced chart read. The separate chart reader located 3.66k on the longest bar. Exact-count preference is served by the table and readout; rounding is disclosed. No claim that all domain readers sourced a number from marks."
+    },
+    {
+      "id": "RP17",
+      "view": "payment-action follow-up",
+      "seats": [
+        "directed follow-up"
+      ],
+      "consensus": 1,
+      "quotes": [
+        {
+          "seat": "directed follow-up",
+          "source": "governance/review-2026-10-19/follow-up-first-return.md",
+          "text": "Specify whether every displayed unit has passed its applicable stage deadline, or both deadlines, and identify what \u201cthis position\u201d means."
+        }
+      ],
+      "defect": true,
+      "novel": true,
+      "disposition": "fixed",
+      "reason": "Removed the unsupported blanket lateness statement. Suggested outreach is explicitly not recorded activity, and readers open the unit to inspect its own applicable due time/state at the selected business and knowledge cutoffs. A missing fact alone does not establish lateness."
+    }
+  ],
+  "metrics": {
+    "chart_subpanel": {
+      "charts": 1,
+      "defects": 0,
+      "D": 0,
+      "N": null,
+      "reason": "Only the visualization seat was assigned V02 alone. Domain packets included informational sections; their counts cannot be relabeled defects/chart."
+    },
+    "mixed_review": {
+      "views": 12,
+      "D_per_view": 0.5,
+      "N": 0.6666666666666666,
+      "R": 0.17647058823529413,
+      "note": "Includes one additional actionable clarification from directed post-fix verification; not a second naive read."
+    },
+    "retirement_trigger": "Not evaluated. This restricted mixed chart/section review is not a comparable three-module blind series."
+  },
+  "limits": [
+    "Four separate model processes, not four human or independently held evaluators.",
+    "One shared model service/workstation. Full provider-request and hidden-system-context audit not established.",
+    "Prompts and images frozen before returns. At most three concurrent processes; fourth queued automatically.",
+    "Domain images show expanded information sections, not only the collapsed initial viewport. Browser checks separately cover interactive behavior.",
+    "Completed method and dispositions do not certify absence of every possible misunderstanding."
+  ]
+}

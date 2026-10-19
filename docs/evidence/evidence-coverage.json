@@ -1,0 +1,144 @@
+{
+ "build": "data/derived/bulk-c4",
+ "positions": {
+  "current_later": {
+   "M08": {
+    "bound_to_submission_after_T": 0,
+    "conflict_episodes": 0,
+    "contradictory_rows": 0,
+    "duplicate_effects_prevented": 0,
+    "incompatible_family_conflicts": 0,
+    "lineage_conflicts": 0,
+    "quarantined": 0,
+    "raw_duplicate_deliveries": 0,
+    "received_after_K": 0,
+    "too_broad": 90,
+    "unmatched_responses": 0
+   },
+   "M16": {
+    "aggregate_only": 90,
+    "by_business_outcome": {
+     "accepted": 5410,
+     "rejected": 3748,
+     "unresolved": 18882
+    },
+    "by_evidence_basis": {
+     "aggregate_only_assertion": 90,
+     "forwarded_originating": 2548,
+     "no_usable_evidence": 13461,
+     "originating_structured": 6610,
+     "record_specific_client_assertion": 5331
+    },
+    "by_return_expectation": {
+     "expected": 16000,
+     "not_established": 8020,
+     "structurally_unavailable": 4020
+    },
+    "client_asserted": 5331,
+    "conflicts": 0,
+    "no_evidence": 13461,
+    "received_untimed_evidence": 0,
+    "required_units": 28040,
+    "source_evidenced_outcomes": 9158
+   },
+   "raw_dispositions": {
+    "too_broad": 90,
+    "validly_bound": 26106
+   }
+  },
+  "known_then": {
+   "M08": {
+    "bound_to_submission_after_T": 0,
+    "conflict_episodes": 0,
+    "contradictory_rows": 0,
+    "duplicate_effects_prevented": 0,
+    "incompatible_family_conflicts": 0,
+    "lineage_conflicts": 0,
+    "quarantined": 0,
+    "raw_duplicate_deliveries": 0,
+    "received_after_K": 3,
+    "too_broad": 90,
+    "unmatched_responses": 0
+   },
+   "M16": {
+    "aggregate_only": 90,
+    "by_business_outcome": {
+     "accepted": 5410,
+     "rejected": 3746,
+     "unresolved": 18884
+    },
+    "by_evidence_basis": {
+     "aggregate_only_assertion": 90,
+     "forwarded_originating": 2548,
+     "no_usable_evidence": 13463,
+     "originating_structured": 6608,
+     "record_specific_client_assertion": 5331
+    },
+    "by_return_expectation": {
+     "expected": 16000,
+     "not_established": 8020,
+     "structurally_unavailable": 4020
+    },
+    "client_asserted": 5331,
+    "conflicts": 0,
+    "no_evidence": 13463,
+    "received_untimed_evidence": 0,
+    "required_units": 28040,
+    "source_evidenced_outcomes": 9156
+   },
+   "raw_dispositions": {
+    "not_yet_received": 3,
+    "too_broad": 90,
+    "validly_bound": 26103
+   }
+  },
+  "restated_then": {
+   "M08": {
+    "bound_to_submission_after_T": 3,
+    "conflict_episodes": 0,
+    "contradictory_rows": 0,
+    "duplicate_effects_prevented": 0,
+    "incompatible_family_conflicts": 0,
+    "lineage_conflicts": 0,
+    "quarantined": 0,
+    "raw_duplicate_deliveries": 0,
+    "received_after_K": 0,
+    "too_broad": 90,
+    "unmatched_responses": 0
+   },
+   "M16": {
+    "aggregate_only": 90,
+    "by_business_outcome": {
+     "accepted": 5410,
+     "rejected": 3746,
+     "unresolved": 18884
+    },
+    "by_evidence_basis": {
+     "aggregate_only_assertion": 90,
+     "forwarded_originating": 2548,
+     "no_usable_evidence": 13463,
+     "originating_structured": 6608,
+     "record_specific_client_assertion": 5331
+    },
+    "by_return_expectation": {
+     "expected": 16000,
+     "not_established": 8020,
+     "structurally_unavailable": 4020
+    },
+    "client_asserted": 5331,
+    "conflicts": 0,
+    "no_evidence": 13463,
+    "received_untimed_evidence": 0,
+    "required_units": 28040,
+    "source_evidenced_outcomes": 9156
+   },
+   "raw_dispositions": {
+    "bound_to_submission_after_T": 3,
+    "too_broad": 90,
+    "validly_bound": 26103
+   }
+  }
+ },
+ "rule": "Every raw row keeps a disposition; aggregate statements never distribute to records; assertions stay assertions.",
+ "schema_version": "evidence-coverage-1"
+}

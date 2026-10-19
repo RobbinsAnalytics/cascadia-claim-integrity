@@ -1,0 +1,88 @@
+{
+  "schema_version": "completed-checks-record-2",
+  "date": "2026-10-19",
+  "scope": "Current declared frozen-build scope, with asset-bound chart/restricted reader evidence. Original receipts and strict outcomes are retained as history.",
+  "records": [
+    {
+      "id": "goldens",
+      "label": "Known-answer cases",
+      "value": "98 / 98",
+      "status": "pass",
+      "detail": "All applicable fixture variants pass with 649 of 649 applicable assertions compared.",
+      "limit": "Four external-dependency variants are N/A to this build or prepublication phase; all 102 remain accounted for. Public readback becomes required at publication."
+    },
+    {
+      "id": "rederivation",
+      "label": "Published-cell comparison",
+      "value": "22,173 / 22,173",
+      "status": "pass",
+      "detail": "Every numerical cell matches the separate calculation; register 1.1.0 is aligned.",
+      "limit": "Zero mismatched, missing or unexpected cells. A separate implementation does not establish independent evaluator custody."
+    },
+    {
+      "id": "interactions",
+      "label": "Browser interactions",
+      "value": "20 / 20",
+      "status": "pass",
+      "detail": "Keyboard, filters, exports, chart readouts and the four record-clarity fixes passed the browser checks.",
+      "limit": "Current browser execution is distinct from the four-seat restricted simulated interpretation review. No human research claim."
+    },
+    {
+      "id": "layouts",
+      "label": "Responsive layout checks",
+      "value": "24 / 24",
+      "status": "pass",
+      "detail": "Recorded layouts passed, including 320 px, 1280 px and both sides of the chart-host branch.",
+      "limit": "The current chart has an asset-bound review and four restricted simulated returns. No certified-blind or human-usability claim."
+    }
+  ],
+  "regressions": [
+    {
+      "name": "engine",
+      "command": "python -B tests/r1/test_engine_r1.py",
+      "exit": 0,
+      "result": "{\"cases\": 52, \"passed\": 52, \"failed\": 0}"
+    },
+    {
+      "name": "assurance",
+      "command": "python -B tests/r1/test_assurance_r1.py",
+      "exit": 0,
+      "result": "34 of 34 cases pass"
+    },
+    {
+      "name": "stories",
+      "command": "python -B tests/r1/test_stories_r1.py",
+      "exit": 0,
+      "result": "48 of 48 cases pass"
+    },
+    {
+      "name": "rules",
+      "command": "python -B tests/small_gate/test_rules.py",
+      "exit": 0,
+      "result": "OK"
+    }
+  ],
+  "regression_summary": "52/52 engine cases, 34/34 assurance cases, 48/48 story and synchronization cases; rules suite passes.",
+  "package_gates": "All nine foundation package gates passed after AMD004/AMD005 installation.",
+  "limits": "81/81 applicable public diagnostics pass; the legacy custody probe remains N/A and not_evaluated. The restricted panel is simulated, not certified blind or human research. Scheduled operation is N/A for this frozen snapshot; public readback becomes required at publication. Detection evaluation is a build-forward candidate, excluded from the current checklist.",
+  "sources": [
+    {
+      "path": "governance/test-results.json",
+      "sha256": "435d1fa1e008aa638abfc1674049967208533022ab8ca83781cbc3ddabee26d4"
+    },
+    {
+      "path": "governance/rederivation.json",
+      "sha256": "4cda2ccfe8d609f63229844bd55d1978c61f351620713660902584e1dba1bb97"
+    },
+    {
+      "path": "governance/review-2026-10-19/browser-checks.json",
+      "sha256": "9384516ae477d393750d2f9fc9d1c95239305bb933ae09b73efc01dc2d50e6e6"
+    },
+    {
+      "path": "governance/review-2026-10-19/review-receipt.json",
+      "sha256": "b48f85b74e59da49c49c110a917b3def02cf7141cbab925ae4fb0a894a813bea"
+    }
+  ],
+  "prior_regression_revision": "e4346f2a13260cddf19a40d3a1332a1d735c57db",
+  "identity_note": "Current presentation identity is bound by the review receipt assets; the unchanged engine/assurance/story regressions retain their recorded earlier revision."
+}

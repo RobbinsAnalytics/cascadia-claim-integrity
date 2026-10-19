@@ -1,0 +1,64 @@
+{
+ "all_attempts": 14,
+ "drill_text": "Drills evidenced on the real route: fail 1 run(s); seeded_failing_check 3 run(s); short_window 2 run(s); stall 3 run(s); observer missing-worker pass, failure notification pass, health expiry pass.",
+ "drills": {
+  "fail": [
+   "failed_execution"
+  ],
+  "seeded_failing_check": [
+   "failed_execution",
+   "failed_execution",
+   "succeeded"
+  ],
+  "short_window": [
+   "failed_execution",
+   "failed_execution"
+  ],
+  "stall": [
+   "failed_execution",
+   "failed_execution",
+   "failed_progress"
+  ]
+ },
+ "drills_evidenced": true,
+ "expires_at": "2026-10-19T12:11:52Z",
+ "genuine_runs": 0,
+ "last_failure": "2026-10-19T10:16:16Z",
+ "last_success": "2026-10-18T23:04:59Z",
+ "last_success_run": "39174609095",
+ "latest_event": "schedule",
+ "latest_outcome": "failed_output_comparison",
+ "latest_run": "39235693722",
+ "next_expected_execution": "2026-10-19T11:11:52Z",
+ "observer_records": 5,
+ "operating_checks": {
+  "failure_notification_drill": "pass",
+  "genuine_timer_run": "blocked",
+  "health_expiry": "pass",
+  "observer_detects_missing_worker": "pass"
+ },
+ "route_approved": true,
+ "route_text": "Operating route approved (plan decision D10, owner decision of 2026-10-18 in governance/decision-record.md): scheduled worker and observer on github_actions.",
+ "schedule": "every 1 h",
+ "scheduler": {
+  "kind": "github_actions",
+  "repository": "RobbinsAnalytics/cascadia-claim-integrity",
+  "worker_workflow": "RobbinsAnalytics/cascadia-claim-integrity/.github/workflows/cci-worker.yml@refs/heads/main"
+ },
+ "schema_version": "web-health-2",
+ "served_status": "failing",
+ "source": "governance/operating/live/health.json",
+ "sources": {
+  "governance/check-results.json": "eeb84c64849933509018e17b785c1c649f4906a1bf2df735443832ebdcf3c5f6",
+  "governance/decision-record.md": "3ecabf62645337407d1b899fa48cb17b0b2fe23a908d8cc02a230bd4078dcfdf",
+  "governance/operating/live/fetch.json": "db83d1ad66e1838b71f80087fcfd78e3ea24ea29743233b779b017b81e2e6969",
+  "governance/operating/live/health.json": "1a201809c95a3b0385d141d4f8748b09824405bed03d7190cb3a95a72e9d0aa3",
+  "governance/operating/live/observer_history.jsonl": "e06e038b7f33987d75dbdf513b368e829025b85666ccb562f140c82746ff225b",
+  "governance/operating/live/run_history.jsonl": "1e1a4bc64c08c601c694e5a904322e918d57c77e98bfd350dc65b49225e56f8d"
+ },
+ "summary": "Operating route approved (plan decision D10, owner decision of 2026-10-18 in governance/decision-record.md): scheduled worker and observer on github_actions. Drills evidenced on the real route: fail 1 run(s); seeded_failing_check 3 run(s); short_window 2 run(s); stall 3 run(s); observer missing-worker pass, failure notification pass, health expiry pass. No successful scheduled (timer) worker run yet: 0 of 14 recorded attempts were timer runs that passed; latest attempt 39235693722 (schedule) failed_output_comparison at 2026-10-19T10:16:16Z. Next expected scheduled execution 2026-10-19T11:11:52Z; this health expires 2026-10-19T12:11:52Z.",
+ "surface_status": "blocked",
+ "time_labels": "all times real UTC from the receipts",
+ "timer_text": "No successful scheduled (timer) worker run yet: 0 of 14 recorded attempts were timer runs that passed; latest attempt 39235693722 (schedule) failed_output_comparison at 2026-10-19T10:16:16Z. Next expected scheduled execution 2026-10-19T11:11:52Z; this health expires 2026-10-19T12:11:52Z.",
+ "timezone": "UTC"
+}

@@ -1,0 +1,195 @@
+{
+ "build": "data/derived/bulk-c4",
+ "consumed": [
+  {
+   "path": "data/raw/responses-v1/diagnostic/freeze-receipt.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "bc8a6c2bb3491e6d20328055eb5fc77ea6bfa1b185ae6717b74722704ad59a74"
+  },
+  {
+   "path": "data/raw/responses-v1/diagnostic/produced/response-manifest.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "71e5ecf90fd1f70d277f6c526d7fa32596378e24e44640b73be6455338821db7"
+  },
+  {
+   "path": "data/raw/responses-v1/diagnostic/produced/responses.jsonl",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "4764b658ce18124f08cb1e496d3ecbec0aa5c0df69aebe7f132390362fa5014d"
+  },
+  {
+   "path": "data/raw/responses-v1/diagnostic/scenarios.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "c74b621c688fc7908ebac1ae2281834d1bda25ad285c2c339b748fd7e67edfc5"
+  },
+  {
+   "path": "data/raw/responses-v1/diagnostic/scenarios.plan.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "8a514f32782d40c31764ead79d8a70c1133fb3be28b4cb98c30a96586e394f75"
+  },
+  {
+   "path": "data/raw/responses-v1/operational/freeze-receipt.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "30255393c49e49db409159ec37405b471bc22e599e77b767fce33856801d5d1d"
+  },
+  {
+   "path": "data/raw/responses-v1/operational/produced/response-manifest.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "9e88cb569c0695b2f79511583a731e12d5951e1fc69d100a3daf2b664b5b590c"
+  },
+  {
+   "path": "data/raw/responses-v1/operational/produced/responses.jsonl",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "021d3dd6b94c77afbcd5fe399b225ef0b222f62ceebe406e6331fc10edae19d1"
+  },
+  {
+   "path": "data/raw/responses-v1/operational/scenarios.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "89c2c921d5977eb45f9104dab79e02b33c3a2338c169b2086bcf2b86a412694a"
+  },
+  {
+   "path": "data/raw/responses-v1/operational/scenarios.plan.json",
+   "pinned_by": "governance/freeze/responses-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "322d1cbeb1df2ed94d956bf0eed156c73fa385ee8757f36920ee0b404c4e6816"
+  },
+  {
+   "path": "data/raw/source-v1/census.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "e9d7a88acdc9c817ea131c7bf7fbf07602f9f322269fc226f18600501763b60a"
+  },
+  {
+   "path": "data/raw/source-v1/client_notes.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "70c88ab67afbebefeee9bc49a4653a6a56ef4d7094971f2aeac6db2132c3cded"
+  },
+  {
+   "path": "data/raw/source-v1/financial_events.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "fc0638c8377688e73a8cfe0ad752144b9ff514859d9420a5d601936f8b04cc5c"
+  },
+  {
+   "path": "data/raw/source-v1/membership.json",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "88a5ad79ce439a1671617d425a6fc7f80500fb1171d570959451f9a81201a169"
+  },
+  {
+   "path": "data/raw/source-v1/payment_allocations.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "01272b9d76a88bc44a449a35ae8ef7dd795505c6b70fba2fb423300218432127"
+  },
+  {
+   "path": "data/raw/source-v1/references.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "c51d6de0afce36beba6d1edf83bad73887997d65908cd3a98f16da540e7ba78f"
+  },
+  {
+   "path": "data/raw/source-v1/requests.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "1f63408729f3eda288db93cf4781f8c93832d9c39247f4b9fb421fdfae56aa54"
+  },
+  {
+   "path": "data/raw/source-v1/service_observations.jsonl",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "748c7b02751083c99fbae44f0ad20940d8366a81450f51a006296e196972d6b3"
+  },
+  {
+   "path": "data/raw/source-v1/source-manifest.json",
+   "pinned_by": "governance/freeze/source-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "5883f3fc9683f0cad4a1479c9ebae7f34fe2313fb325c77d83d0482e50ee592f"
+  },
+  {
+   "path": "data/raw/submissions-v1/attempts.jsonl",
+   "pinned_by": "governance/freeze/submissions-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "0a6b2e96e4863dea41c6f9dade1cb3b53b2ce41295f87d3601c4a11e2783bd38"
+  },
+  {
+   "path": "data/raw/submissions-v1/replacement-decisions.jsonl",
+   "pinned_by": "governance/freeze/submissions-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "path": "data/raw/submissions-v1/submissions-diagnostic.json",
+   "pinned_by": "governance/freeze/submissions-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "be7a3abc15d63f8b444b71c460d45edd6806ec6b7f72637d12b0c1cdd49a2b53"
+  },
+  {
+   "path": "data/raw/submissions-v1/submissions-diagnostic.note.json",
+   "pinned_by": "governance/freeze/submissions-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "8b50bd0fae15b53fdec8c3808f989eee414251af50b7bb03e6c70f0da98c0d5a"
+  },
+  {
+   "path": "data/raw/submissions-v1/submissions.json",
+   "pinned_by": "governance/freeze/submissions-v1.manifest.json",
+   "reconciled": true,
+   "sha256": "7a6005805a0aa7cb9897101ded3b7aa0171ace394f9905e101ec504be5e57c5e"
+  },
+  {
+   "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/config/generation.json",
+   "pinned_by": "foundation package-manifest.json",
+   "reconciled": true,
+   "sha256": "65aa4363d5b2e0b72e77af7c30560f7f423225731b5a8925d63bdcedf58a9db7"
+  },
+  {
+   "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/evidence-policies.json",
+   "pinned_by": "foundation package-manifest.json",
+   "reconciled": true,
+   "sha256": "450b893338bf5db00db25a8c59eeb510c0f2476005f4aa27ebc4063516751311"
+  },
+  {
+   "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/profiles.json",
+   "pinned_by": "foundation package-manifest.json",
+   "reconciled": true,
+   "sha256": "0b6fa5c78d49654fdf446cc610920115d785e45ad12d780a1e4a52d12ef6357a"
+  },
+  {
+   "path": "foundation/Cascadia_Claim_Integrity_H1_2026-10-16_v1.0.0/contracts/source-schema.json",
+   "pinned_by": "foundation package-manifest.json",
+   "reconciled": true,
+   "sha256": "cbb68ed22bdc9c2555a1753511823fc264dbbce48033a48c626969543bc60079"
+  }
+ ],
+ "earlier_build": {
+  "note": "the bulk-v1 build's reconciliation, retained",
+  "path": "governance/consumption-manifest-v1.json"
+ },
+ "freezes": {
+  "responses": {
+   "manifest": "governance/freeze/responses-v1.manifest.json",
+   "sha256": "93e932545650839946fbfe9f6665ab110fbc4c85f5d042d21ea06060b8964ddd"
+  },
+  "source": {
+   "manifest": "governance/freeze/source-v1.manifest.json",
+   "sha256": "42b3e60f4a0990fd99a454b894b50e98b91db0709b105123714f725476a07df1"
+  },
+  "submissions": {
+   "manifest": "governance/freeze/submissions-v1.manifest.json",
+   "sha256": "c81a13215e0d743be3d25a6a874b0a6d654521d781a9db347cc36cc0bb958094"
+  }
+ },
+ "rebuild_receipt_sha256": "49ca6819a9706e95f26c84041a00a4795457dc7cb69bf07092235bab80bf9343",
+ "schema_version": "consumption-manifest-2",
+ "status": "reconciled",
+ "verified_by": "every rebuild stage runs src/freeze.py verify on each freeze before consuming it"
+}

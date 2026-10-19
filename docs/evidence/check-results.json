@@ -1,0 +1,3359 @@
+{
+ "build": "data/derived/bulk-c4",
+ "cells_sha256": "05be40e0d23deeef21df3d9f93cbae74e411cb4a93c770870d6ebf38c137d4fa",
+ "checks": [
+  {
+   "check_id": "PKG01",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "PKG02",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "SRC01",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "SRC02",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "SRC03",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "RSP01",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "RSP02",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "RSP03",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "SPEC01",
+   "evidence": "governance/handoff/package-acceptance-amd004-amd005.json",
+   "status": "pass",
+   "summary": "package gate passed; current package manifest binding matches"
+  },
+  {
+   "check_id": "freeze_source_verified",
+   "evidence": "governance/freeze/source-v1.manifest.json",
+   "status": "pass",
+   "summary": "src/freeze.py verify exit 0"
+  },
+  {
+   "check_id": "freeze_submissions_verified",
+   "evidence": "governance/freeze/submissions-v1.manifest.json",
+   "status": "pass",
+   "summary": "src/freeze.py verify exit 0"
+  },
+  {
+   "check_id": "freeze_responses_verified",
+   "evidence": "governance/freeze/responses-v1.manifest.json",
+   "status": "pass",
+   "summary": "src/freeze.py verify exit 0"
+  },
+  {
+   "check_id": "consumption_reconciled",
+   "evidence": "governance/consumption-manifest.json",
+   "status": "pass",
+   "summary": "28 of 28 consumed files reconcile"
+  },
+  {
+   "check_id": "source_register_complete",
+   "detail": [],
+   "evidence": "governance/source-manifest.json",
+   "status": "pass",
+   "summary": "28 of 28 consumed files registered"
+  },
+  {
+   "check_id": "claim_lineage_complete",
+   "detail": [],
+   "evidence": "governance/claim-lineage.jsonl",
+   "status": "pass",
+   "summary": "12041 claim versions; 0 with a source or reference field citing no row"
+  },
+  {
+   "check_id": "rowcount_comparisons",
+   "detail": {
+    "differences": [
+     {
+      "actual": 1,
+      "client_id": "SYN-C03",
+      "comparison": "census_without_landed_ride",
+      "equal": false,
+      "expectation_source": "census.jsonl vs service_observations.jsonl identity join",
+      "expected": 0,
+      "position": "known_then"
+     },
+     {
+      "actual": 1,
+      "client_id": "SYN-C03",
+      "comparison": "census_without_landed_ride",
+      "equal": false,
+      "expectation_source": "census.jsonl vs service_observations.jsonl identity join",
+      "expected": 0,
+      "position": "restated_then"
+     },
+     {
+      "actual": 1,
+      "client_id": "SYN-C03",
+      "comparison": "census_without_landed_ride",
+      "equal": false,
+      "expectation_source": "census.jsonl vs service_observations.jsonl identity join",
+      "expected": 0,
+      "position": "current_later"
+     }
+    ]
+   },
+   "evidence": "sql/validate_rowcounts.sql",
+   "status": "pass",
+   "summary": "284 comparisons at three positions; 0 unexplained differences; 3 disclosed source findings (the withheld landed ride)"
+  },
+  {
+   "check_id": "validation_report_bound",
+   "evidence": "governance/validation_report.md",
+   "status": "pass",
+   "summary": "bound to 09839d0e8077, build data/derived/bulk-c4, required-check registry d1a57401f87d"
+  },
+  {
+   "check_id": "tests_collected_and_executed",
+   "evidence": "governance/test-results.json",
+   "status": "fail",
+   "summary": "102 variants recorded: 98 pass, 0 fail, 0 incomplete, 2 blocked, 2 pending publication, 0 not executed; aggregate fail"
+  },
+  {
+   "check_id": "golden_variants_executed",
+   "evidence": "governance/test-results.json",
+   "status": "blocked",
+   "summary": "102 registered golden variants; every required assertion compared in 98; 102 variants recorded: 98 pass, 0 fail, 0 incomplete, 2 blocked, 2 pending publication, 0 not executed; aggregate fail"
+  },
+  {
+   "check_id": "rederivation_all_cells",
+   "evidence": "governance/rederivation.json",
+   "status": "pass",
+   "summary": "22173 matched of 22173 expected keys; mismatched 0, missing 0, unexpected 0"
+  },
+  {
+   "check_id": "verifier_small_and_bulk",
+   "evidence": "data/derived/bulk-c4/rebuild-receipt.json",
+   "status": "pass",
+   "summary": "verifier stage of the candidate rebuild: ['[known_then] checks: pass=80 fail=0 not_run=0 -> data/derived/bulk-c4/known_then/verification.json', '[restated_then] checks: pass=80 fail=0 not_run=0 -> data/derived/bulk-c4/restated_then/verification.json', '[current_later] checks: pass=80 fail=0 not_run=0 -> data/derived/bulk-c4/current_later/verification.json']"
+  },
+  {
+   "check_id": "negative_controls_all_instances",
+   "evidence": "governance/negative-controls.json",
+   "status": "blocked",
+   "summary": "81 of 82 public instances reached their target, tripped the expected control and left the clean pair quiet; 1 blocked (not evaluated)"
+  },
+  {
+   "check_id": "chart_review_bound",
+   "evidence": "governance/presentation-manifest.json",
+   "status": "fail",
+   "summary": "Current V02 author review: 24 responsive layouts pass; V01 retired. Full clearance remains limited by reader process, title precision and conflicting strip typography clauses. Current hover/tap results are retained in the interaction receipt; no new panel or effectiveness claim.; not qualifying: review status limited; open chart findings ['PM01'] in governance/panel/r1-13d/dispositions.json"
+  },
+  {
+   "check_id": "interaction_checks",
+   "evidence": "governance/interaction-results.json",
+   "status": "pass",
+   "summary": "20 of 20 interaction checks pass"
+  },
+  {
+   "check_id": "reading_panel_complete",
+   "evidence": "governance/panel/r1-13d/dispositions.json",
+   "status": "fail",
+   "summary": "governance/panel/r1-13d/dispositions.json: status blocked; new restricted seating lacks a complete request-body audit; seat independence not established; 1 open or capture findings"
+  },
+  {
+   "check_id": "metric_register_drift",
+   "detail": [],
+   "evidence": "governance/metric_register.md",
+   "status": "pass",
+   "summary": "19 measures; 0 published IDs without a register definition"
+  },
+  {
+   "check_id": "genuine_timer_run",
+   "evidence": "governance/operating/live/run_history.jsonl",
+   "status": "blocked",
+   "summary": "no successful scheduled (timer) run yet among 14 recorded attempts"
+  },
+  {
+   "check_id": "observer_detects_missing_worker",
+   "evidence": "governance/operating/live/observer_history.jsonl",
+   "status": "pass",
+   "summary": "1 observer alert(s) for a missing worker on the real route, first at 2026-10-18T22:25:09Z"
+  },
+  {
+   "check_id": "failure_notification_drill",
+   "evidence": "governance/operating/live/run_history.jsonl",
+   "status": "pass",
+   "summary": "forced-failure drills recorded as failures with a notification issue: 1; stalled-progress drills recorded failed_progress with an issue: 1"
+  },
+  {
+   "check_id": "health_expiry",
+   "evidence": "governance/operating/live/observer_history.jsonl",
+   "status": "pass",
+   "summary": "2 observer finding(s) that served health had expired, first at 2026-10-18T22:25:09Z"
+  },
+  {
+   "check_id": "reconciliation_complete",
+   "evidence": "governance/reconciliation.md",
+   "status": "pass",
+   "summary": "22 of 22 computed equalities hold; complete populations, residual tables and bridges"
+  },
+  {
+   "check_id": "expected_events_accounted",
+   "evidence": "governance/expected-event-accounting.md",
+   "status": "pass",
+   "summary": "independent obligations, state totals reconciled to the ledger"
+  },
+  {
+   "check_id": "evaluation_commitment",
+   "evidence": "evaluation/commitment-2.json",
+   "status": "pass",
+   "summary": "attempt 2 (current attempt 2): {'classes_not_represented': 10, 'classes_represented': 26, 'clean_opportunities': 52, 'targets': 52}"
+  },
+  {
+   "check_id": "evaluation_output_lock",
+   "evidence": "evaluation/output-lock-2.json",
+   "status": "pass",
+   "summary": "attempt 2 outputs hashed before scoring"
+  },
+  {
+   "check_id": "evaluation_scored",
+   "evidence": "governance/detection-results-2.json",
+   "status": "pass",
+   "summary": "attempt 2 score record: caught 46 of 52, false alarms 0 of 52, classes passing must-catch 20 of 26; completeness only, effectiveness is evaluation_must_catch_met; blindness: unblinded: author exposure not ruled out (the detector author wrote the evaluator brief; author, runtime and evaluator s"
+  },
+  {
+   "check_id": "evaluation_must_catch_met",
+   "evidence": "governance/detection-results-2.json",
+   "status": "fail",
+   "summary": "attempt 2: 20 of 26 represented classes meet must-catch; failing ['SF02', 'SF04', 'SF08', 'SF11', 'SF23', 'SF24']; clean false alarms 0 of 52; roster reconciles to the commitment (52 targets, 52 clean); 10 classes not represented (not certified by this check); matching rule unchanged"
+  },
+  {
+   "check_id": "evaluator_mutants",
+   "evidence": "governance/detection-results-2.json",
+   "status": "pass",
+   "summary": "always_alert: violated True; disconnected_detector: violated True; scoring_record_removed: violated True"
+  },
+  {
+   "check_id": "publication_content_scan",
+   "evidence": "governance/publication-content-scan.json",
+   "status": "pass",
+   "summary": "56 publishable and 1973 tracked files scanned; 0 publishable findings; sentinels tripped on 6 of 6 routes"
+  },
+  {
+   "check_id": "release_manifest_local_readback",
+   "evidence": "governance/publication-readback.json",
+   "status": "pass",
+   "summary": "local served bytes vs release manifest"
+  },
+  {
+   "check_id": "mixed_release_probe",
+   "evidence": "governance/publication-readback.json",
+   "status": "pass",
+   "summary": "readback failed and named only the swapped asset (assets/app.js from c2cb71f served beside the current release)"
+  },
+  {
+   "check_id": "public_served_readback",
+   "evidence": "governance/publication-readback.json",
+   "status": "pending_postpublication",
+   "summary": "public readback follows an authorized release; nothing is published"
+  },
+  {
+   "check_id": "control:accepted_payload_matches_census",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:assertion_scope_authority_valid",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:batch_membership_results_complete",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:claim_field_support_complete",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:claim_service_allocation_balanced",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:claim_submission_snapshot_immutable",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:coverage_without_reportable_service",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:deadline_contract_boundaries",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:detector_invocation_complete",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "harness control exercised by 2 diagnostic instance(s): ['SF16-01=pass', 'SF16-02=pass']"
+  },
+  {
+   "check_id": "control:evaluation_access_boundary",
+   "evidence": "governance/negative-controls.json",
+   "status": "blocked",
+   "summary": "harness control exercised by 2 diagnostic instance(s): ['SF18-01=not_evaluated', 'SF18-02=pass']"
+  },
+  {
+   "check_id": "control:evaluation_population_complete",
+   "evidence": "governance/negative-controls.json",
+   "status": "blocked",
+   "summary": "harness control exercised by 4 diagnostic instance(s): ['SF16-01=pass', 'SF16-02=pass', 'SF18-01=not_evaluated', 'SF18-02=pass']"
+  },
+  {
+   "check_id": "control:evidence_binding_unique",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:exception_fields_complete",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:false_alarm_budget",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "harness control exercised by 2 diagnostic instance(s): ['SF17-01=pass', 'SF17-02=pass']"
+  },
+  {
+   "check_id": "control:family_current_acceptance",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:financial_amount_semantics_valid",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:financial_event_history_valid",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:independent_contract_counterexamples",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "harness control exercised by 1 diagnostic instance(s): ['SF15-01=pass']"
+  },
+  {
+   "check_id": "control:knowledge_cutoff_observed",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:obligation_transition_valid",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:payload_matches_claim_version",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:population_identity_reconciliation",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 3"
+  },
+  {
+   "check_id": "control:population_version_bridge",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:preparation_population_complete",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:progress_watermark_contract",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "harness control exercised by 3 diagnostic instance(s): ['SF12-01=pass', 'SF12-02=pass', 'SF12-03=pass']"
+  },
+  {
+   "check_id": "control:raw_evidence_disposition_complete",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:readiness_contract_bound",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:release_manifest_consistent",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "harness control exercised by 2 diagnostic instance(s): ['SF14-01=pass', 'SF14-02=pass']"
+  },
+  {
+   "check_id": "control:reporting_disposition_profile_bound",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:required_line_evidence_complete",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:response_expectation_visibility_distinct",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:response_obligation_due",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 6876"
+  },
+  {
+   "check_id": "control:responsibility_collection_distinct",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:scheduled_run_freshness",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "harness control exercised by 2 diagnostic instance(s): ['SF13-01=pass', 'SF13-02=pass']"
+  },
+  {
+   "check_id": "control:scoped_coverage_allocation_unique",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:service_universe_accounted",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "control:source_population_accounted",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 3"
+  },
+  {
+   "check_id": "control:stage_namespace_valid",
+   "evidence": "governance/check-results.json",
+   "status": "pass",
+   "summary": "ran at three positions; analytical alerts 0; business-state alerts 0"
+  },
+  {
+   "check_id": "diagnostic:SF01-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF01-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF02-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF02-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF02-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF02-04",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF03-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF03-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF04-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF05-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF05-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF05-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF06-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF07-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF07-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF08-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF09-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF09-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF09-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF09-04",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF09-05",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF10-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF10-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF10-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF11-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF12-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF12-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF12-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF13-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF13-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF14-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF14-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF15-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF16-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF16-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF17-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF17-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF18-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "blocked",
+   "summary": "judgment not_evaluated (blocked)"
+  },
+  {
+   "check_id": "diagnostic:SF18-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF19-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF19-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF20-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF20-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF20-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF20-04",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF20-05",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF21-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF21-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF22-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF22-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF22-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF22-04",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF22-05",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF23-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF23-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF24-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF24-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF25-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF25-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF25-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF26-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF26-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF27-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF27-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF28-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF28-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF29-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF30-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF30-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF31-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF31-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF31-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF32-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF32-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF32-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF33-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF33-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF33-03",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF34-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF35-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF35-02",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "diagnostic:SF36-01",
+   "evidence": "governance/negative-controls.json",
+   "status": "pass",
+   "summary": "judgment pass (executed)"
+  },
+  {
+   "check_id": "evaluation_attempt_1_record",
+   "evidence": "governance/detection-results.json",
+   "status": "prior_attempt",
+   "summary": "attempt 1 (controls 9d843dbc): {'baseline_alerts': 2290, 'baseline_run_alerts': 2294, 'caught': 35, 'classes_not_represented': 11, 'classes_passing_must_catch': 15, 'classes_represented': 25, 'clean_opportunities': 50, 'duplicates': 23, 'false_alarms': 0, 'heldout_alerts': 2441, 'missed': 14, 'not_executed': 0, 'targets': 49, 'unmatched_alerts': 47, 'wrong_check_alerts_on_targets': 42, 'wrong_target_alerts': 57}; disclosed, now development evidence"
+  }
+ ],
+ "code_revision": "09839d0e80772880df77f7b3fa44c5b7d6dd9f3c",
+ "controls_detail": {
+  "current_later": {
+   "by_check_class": {
+    "population_identity_reconciliation|business_state": 1,
+    "response_obligation_due|business_state": 2292,
+    "source_population_accounted|business_state": 1
+   },
+   "errors": []
+  },
+  "known_then": {
+   "by_check_class": {
+    "population_identity_reconciliation|business_state": 1,
+    "response_obligation_due|business_state": 2292,
+    "source_population_accounted|business_state": 1
+   },
+   "errors": []
+  },
+  "restated_then": {
+   "by_check_class": {
+    "population_identity_reconciliation|business_state": 1,
+    "response_obligation_due|business_state": 2292,
+    "source_population_accounted|business_state": 1
+   },
+   "errors": []
+  }
+ },
+ "generated_at": "2026-10-19T19:36:30Z",
+ "inputs": {
+  "responses": "93e932545650839946fbfe9f6665ab110fbc4c85f5d042d21ea06060b8964ddd",
+  "source": "42b3e60f4a0990fd99a454b894b50e98b91db0709b105123714f725476a07df1",
+  "submissions": "c81a13215e0d743be3d25a6a874b0a6d654521d781a9db347cc36cc0bb958094"
+ },
+ "positions": {
+  "current_later": {
+   "K": "2026-07-21T23:59:59Z",
+   "T": "2026-07-21T23:59:59Z",
+   "population_version": "CCI-COHORT-1",
+   "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+  },
+  "known_then": {
+   "K": "2026-07-14T23:59:59Z",
+   "T": "2026-07-14T23:59:59Z",
+   "population_version": "CCI-COHORT-1",
+   "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+  },
+  "restated_then": {
+   "K": "2026-07-21T23:59:59Z",
+   "T": "2026-07-14T23:59:59Z",
+   "population_version": "CCI-COHORT-1",
+   "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+  }
+ },
+ "rebuild_receipt_sha256": "49ca6819a9706e95f26c84041a00a4795457dc7cb69bf07092235bab80bf9343",
+ "required_checks_sha256": "d1a57401f87df53b6e2fd4bef5631dab6cd46702472b404f98aa8078bf39ba02",
+ "rowcounts": {
+  "current_later": [
+   {
+    "actual": 2060,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C03",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C04",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C05",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C06",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 1,
+    "client_id": "SYN-C03",
+    "comparison": "census_without_landed_ride",
+    "equal": false,
+    "expectation_source": "census.jsonl vs service_observations.jsonl identity join",
+    "expected": 0
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4020
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2000
+   },
+   {
+    "actual": 1001,
+    "client_id": "SYN-C03",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 1001
+   },
+   {
+    "actual": 1000,
+    "client_id": "SYN-C04",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 1000
+   },
+   {
+    "actual": 2020,
+    "client_id": "SYN-C05",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2020
+   },
+   {
+    "actual": 2020,
+    "client_id": "SYN-C06",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C02",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4020
+   },
+   {
+    "actual": 26196,
+    "client_id": "ALL",
+    "comparison": "response_rows_disposed",
+    "equal": true,
+    "expectation_source": "raw response tape",
+    "expected": 26196
+   },
+   {
+    "actual": 90,
+    "client_id": "ALL",
+    "comparison": "response_disposition:too_broad",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 90
+   },
+   {
+    "actual": 26106,
+    "client_id": "ALL",
+    "comparison": "response_disposition:validly_bound",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 26106
+   },
+   {
+    "actual": 18001,
+    "client_id": "SYN-C01",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18001
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C02",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C03",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C04",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C05",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C06",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C01",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C02",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C03",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C04",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14140,
+    "client_id": "SYN-C05",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14140
+   },
+   {
+    "actual": 14140,
+    "client_id": "SYN-C06",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14140
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 2000
+   },
+   {
+    "actual": 3998,
+    "client_id": "SYN-C02",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 3998
+   },
+   {
+    "actual": 1000,
+    "client_id": "SYN-C03",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1000
+   },
+   {
+    "actual": 998,
+    "client_id": "SYN-C04",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 998
+   },
+   {
+    "actual": 1352,
+    "client_id": "SYN-C05",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1352
+   },
+   {
+    "actual": 1352,
+    "client_id": "SYN-C06",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1352
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C01",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C02",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C03",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C04",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C05",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C06",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   }
+  ],
+  "known_then": [
+   {
+    "actual": 2060,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C03",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C04",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C05",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C06",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 1,
+    "client_id": "SYN-C03",
+    "comparison": "census_without_landed_ride",
+    "equal": false,
+    "expectation_source": "census.jsonl vs service_observations.jsonl identity join",
+    "expected": 0
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4020
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2000
+   },
+   {
+    "actual": 1001,
+    "client_id": "SYN-C03",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 1001
+   },
+   {
+    "actual": 1000,
+    "client_id": "SYN-C04",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 1000
+   },
+   {
+    "actual": 2020,
+    "client_id": "SYN-C05",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2020
+   },
+   {
+    "actual": 2020,
+    "client_id": "SYN-C06",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C02",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4020
+   },
+   {
+    "actual": 26196,
+    "client_id": "ALL",
+    "comparison": "response_rows_disposed",
+    "equal": true,
+    "expectation_source": "raw response tape",
+    "expected": 26196
+   },
+   {
+    "actual": 3,
+    "client_id": "ALL",
+    "comparison": "response_disposition:not_yet_received",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 3
+   },
+   {
+    "actual": 90,
+    "client_id": "ALL",
+    "comparison": "response_disposition:too_broad",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 90
+   },
+   {
+    "actual": 26103,
+    "client_id": "ALL",
+    "comparison": "response_disposition:validly_bound",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 26103
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C01",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C02",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C03",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C04",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C05",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C06",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C01",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C02",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C03",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C04",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14140,
+    "client_id": "SYN-C05",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14140
+   },
+   {
+    "actual": 14140,
+    "client_id": "SYN-C06",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14140
+   },
+   {
+    "actual": 1999,
+    "client_id": "SYN-C01",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1999
+   },
+   {
+    "actual": 3998,
+    "client_id": "SYN-C02",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 3998
+   },
+   {
+    "actual": 1000,
+    "client_id": "SYN-C03",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1000
+   },
+   {
+    "actual": 998,
+    "client_id": "SYN-C04",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 998
+   },
+   {
+    "actual": 1352,
+    "client_id": "SYN-C05",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1352
+   },
+   {
+    "actual": 1352,
+    "client_id": "SYN-C06",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1352
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C01",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C02",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C03",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C04",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C05",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C06",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   }
+  ],
+  "restated_then": [
+   {
+    "actual": 2060,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_client",
+    "equal": true,
+    "expectation_source": "membership.json requests",
+    "expected": 2060
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C01",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C02",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C03",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C04",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C05",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:completed",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 2000
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:cancelled",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:no_show",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 20,
+    "client_id": "SYN-C06",
+    "comparison": "requests_by_disposition:unknown",
+    "equal": true,
+    "expectation_source": "membership.json by disposition",
+    "expected": 20
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C03",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C04",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C05",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C06",
+    "comparison": "completed_services",
+    "equal": true,
+    "expectation_source": "census.jsonl (completed requests)",
+    "expected": 2000
+   },
+   {
+    "actual": 1,
+    "client_id": "SYN-C03",
+    "comparison": "census_without_landed_ride",
+    "equal": false,
+    "expectation_source": "census.jsonl vs service_observations.jsonl identity join",
+    "expected": 0
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "preparation_units",
+    "equal": true,
+    "expectation_source": "census components x profile targets, plus documented cancellations",
+    "expected": 4020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "reporting_units",
+    "equal": true,
+    "expectation_source": "build P (U shares P keys)",
+    "expected": 4020
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C01",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2000
+   },
+   {
+    "actual": 2000,
+    "client_id": "SYN-C02",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2000
+   },
+   {
+    "actual": 1001,
+    "client_id": "SYN-C03",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 1001
+   },
+   {
+    "actual": 1000,
+    "client_id": "SYN-C04",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 1000
+   },
+   {
+    "actual": 2020,
+    "client_id": "SYN-C05",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2020
+   },
+   {
+    "actual": 2020,
+    "client_id": "SYN-C06",
+    "comparison": "claim_families",
+    "equal": true,
+    "expectation_source": "grouping rule over census and requests (P-B chunks of at most eight)",
+    "expected": 2020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C02",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "claim_lines_latest",
+    "equal": true,
+    "expectation_source": "census components of items in the latest versions",
+    "expected": 4020
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C01",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 8000,
+    "client_id": "SYN-C02",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 8000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C03",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 4000,
+    "client_id": "SYN-C04",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4000
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C05",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4020
+   },
+   {
+    "actual": 4020,
+    "client_id": "SYN-C06",
+    "comparison": "allocations_latest",
+    "equal": true,
+    "expectation_source": "units with a latest-version allocation per construction states",
+    "expected": 4020
+   },
+   {
+    "actual": 26196,
+    "client_id": "ALL",
+    "comparison": "response_rows_disposed",
+    "equal": true,
+    "expectation_source": "raw response tape",
+    "expected": 26196
+   },
+   {
+    "actual": 3,
+    "client_id": "ALL",
+    "comparison": "response_disposition:bound_to_submission_after_T",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 3
+   },
+   {
+    "actual": 90,
+    "client_id": "ALL",
+    "comparison": "response_disposition:too_broad",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 90
+   },
+   {
+    "actual": 26103,
+    "client_id": "ALL",
+    "comparison": "response_disposition:validly_bound",
+    "equal": true,
+    "expectation_source": "partition (informational)",
+    "expected": 26103
+   },
+   {
+    "actual": 18001,
+    "client_id": "SYN-C01",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18001
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C02",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C03",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C04",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C05",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 18000,
+    "client_id": "SYN-C06",
+    "comparison": "financial_events",
+    "equal": true,
+    "expectation_source": "financial_events.jsonl",
+    "expected": 18000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C01",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C02",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C03",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14000,
+    "client_id": "SYN-C04",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14000
+   },
+   {
+    "actual": 14140,
+    "client_id": "SYN-C05",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14140
+   },
+   {
+    "actual": 14140,
+    "client_id": "SYN-C06",
+    "comparison": "financial_slots",
+    "equal": true,
+    "expectation_source": "F items x seven expected slot types",
+    "expected": 14140
+   },
+   {
+    "actual": 1999,
+    "client_id": "SYN-C01",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1999
+   },
+   {
+    "actual": 3998,
+    "client_id": "SYN-C02",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 3998
+   },
+   {
+    "actual": 1000,
+    "client_id": "SYN-C03",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1000
+   },
+   {
+    "actual": 998,
+    "client_id": "SYN-C04",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 998
+   },
+   {
+    "actual": 1352,
+    "client_id": "SYN-C05",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1352
+   },
+   {
+    "actual": 1352,
+    "client_id": "SYN-C06",
+    "comparison": "first_submitted_families",
+    "equal": true,
+    "expectation_source": "frozen submissions.json made by T and known by K",
+    "expected": 1352
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C01",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C02",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C03",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C04",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C05",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   },
+   {
+    "actual": 2060,
+    "client_id": "SYN-C06",
+    "comparison": "membership_request_keys_vs_tape",
+    "equal": true,
+    "expectation_source": "membership.json request_keys",
+    "expected": 2060
+   }
+  ]
+ },
+ "rules": {
+  "package_manifest_sha256": "a47d16ab724b092c5d526ef507172f771053a44cf32e9a458f7ec59565d2d716",
+  "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+ },
+ "schema_version": "check-results-1",
+ "status_counts": {
+  "blocked": 6,
+  "fail": 4,
+  "pass": 150,
+  "pending_postpublication": 1
+ },
+ "tracked_tree_dirty": false
+}

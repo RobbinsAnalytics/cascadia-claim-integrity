@@ -1,0 +1,3008 @@
+{
+ "schema_version": "story-bindings-verification-2",
+ "generated_at": "2026-10-19T20:14:25Z",
+ "stories_sha256": "c00a3c9c8e6159b1ecd47df4d95b2208c93bc0f86f4c20469cfa5e557def708c",
+ "roster": "governance/story-roster.json",
+ "roster_sha256": "da13348204b898e8eac9ed22f7ba19dbee3cae89ab5b66351be6a9c105c6cef2",
+ "status": "pass",
+ "summary": "428 of 428 binding checks pass across 28 steps (roster 28 steps)",
+ "independence": "required roster pinned in governance/story-roster.json; required evidence derived from frozen inputs, pinned contracts, committed lineage, published cells and golden records through src/verify_small_paths.py and src/validate_measures.py; does not import src/cci and does not read data/derived",
+ "checks": [
+  {
+   "story": "*",
+   "record": "*",
+   "check": "story roster: the served stories are exactly the roster's stories, in order",
+   "result": "pass",
+   "detail": "served ['DEMO01', 'DEMO02', 'DEMO03', 'DEMO04', 'DEMO05']"
+  },
+  {
+   "story": "DEMO01",
+   "record": "*",
+   "check": "story measures equal the roster",
+   "result": "pass",
+   "detail": "['M14', 'M15', 'M19', 'M16', 'M01']"
+  },
+  {
+   "story": "DEMO01",
+   "record": "*",
+   "check": "step roster: 5 steps with the roster's records, in order",
+   "result": "pass",
+   "detail": "served ['SYN-C01:S000001', 'SYN-C01:S000001', 'SYN-C01:S000001', 'SYN-C01:S000001', 'SYN-C01:S000005']"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to known_then",
+   "result": "pass",
+   "detail": "step pos known_then, binding known_then"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-14T23:59:59Z\", \"T\": \"2026-07-14T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"known_then\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions exclude what is not known at Q",
+   "result": "pass",
+   "detail": "present []"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 172 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to restated_then",
+   "result": "pass",
+   "detail": "step pos restated_then, binding restated_then"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-14T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"restated_then\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 10 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 172 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 10 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 172 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 10 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 3"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 172 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "responses: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "claim version SYN-C01:CL005:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 3"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO01",
+   "record": "SYN-C01:S000005",
+   "check": "displayed cells: exactly the 172 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "*",
+   "check": "story measures equal the roster",
+   "result": "pass",
+   "detail": "['M18', 'M11']"
+  },
+  {
+   "story": "DEMO02",
+   "record": "*",
+   "check": "step roster: 4 steps with the roster's records, in order",
+   "result": "pass",
+   "detail": "served ['MINI:G15-upstream', 'MINI:G15-downstream', 'MINI:G15-truth', 'MINI:DIAG-BULK']"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-upstream",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G15/upstream_claim_defect"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-upstream",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-upstream",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-upstream",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-upstream",
+   "check": "displayed miniature table equals the executed golden record (11 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-downstream",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G15/downstream_projection_defect"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-downstream",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-downstream",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-downstream",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-downstream",
+   "check": "displayed miniature table equals the executed golden record (7 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-truth",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G15/truth_unavailable"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-truth",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-truth",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-truth",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:G15-truth",
+   "check": "displayed miniature table equals the executed golden record (6 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:DIAG-BULK",
+   "check": "diagnostic Q is restated_then with the pinned T and K",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-14T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"restated_then\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:DIAG-BULK",
+   "check": "diagnostic input is the isolated submission with its recomputed payload hash",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:DIAG-BULK",
+   "check": "diagnostic operational twin (the unmodified submission) is named with its own payload hash",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:DIAG-BULK",
+   "check": "diagnostic output: exactly the 3 response rows bound to the copy, with stage, outcome, basis, digest and K",
+   "result": "pass",
+   "detail": "served 3"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:DIAG-BULK",
+   "check": "claim-to-payload mismatch equals the independently compared payload and claim lines",
+   "result": "pass",
+   "detail": "derived ['SYN-C01:CL1081:v1:L1.units'], served ['SYN-C01:CL1081:v1:L1.units']"
+  },
+  {
+   "story": "DEMO02",
+   "record": "MINI:DIAG-BULK",
+   "check": "receiver final acceptance is bound to the diagnostic bytes",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "*",
+   "check": "story measures equal the roster",
+   "result": "pass",
+   "detail": "['M16', 'M05', 'M01']"
+  },
+  {
+   "story": "DEMO03",
+   "record": "*",
+   "check": "step roster: 6 steps with the roster's records, in order",
+   "result": "pass",
+   "detail": "served ['SYN-C01:S000002', 'SYN-C02:S000002', 'SYN-C03:S000003', 'SYN-C04:S000001', 'SYN-C05:S000002', 'SYN-C06:S000001']"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "responses: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "claim version SYN-C01:CL002:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 3"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C01:S000002",
+   "check": "displayed cells: exactly the 96 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "allocations: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "deliveries: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "responses: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "units: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "financial_allocations: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "claim version SYN-C02:CL002:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C02:S000002",
+   "check": "displayed cells: exactly the 96 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "lines: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "allocations: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "responses: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "claim version SYN-C03:CL002:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "claim version SYN-C03:CL002:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C03:S000003",
+   "check": "displayed cells: exactly the 96 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "lines: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "allocations: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "responses: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "client_notes: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "financial_allocations: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "claim version SYN-C04:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "claim version SYN-C04:CL001:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C04:S000001",
+   "check": "displayed cells: exactly the 96 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "responses: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "claim version SYN-C05:CL022:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C05:S000002",
+   "check": "displayed cells: exactly the 96 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "financial_allocations: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "claim version SYN-C06:CL021:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO03",
+   "record": "SYN-C06:S000001",
+   "check": "displayed cells: exactly the 96 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "*",
+   "check": "story measures equal the roster",
+   "result": "pass",
+   "detail": "['M14', 'M15', 'M16', 'M01', 'M02', 'M12', 'M08']"
+  },
+  {
+   "story": "DEMO04",
+   "record": "*",
+   "check": "step roster: 7 steps with the roster's records, in order",
+   "result": "pass",
+   "detail": "served ['SYN-C03:S000001', 'SYN-C03:S000009', 'SYN-C02:S000001', 'SYN-C05:Q002002', 'SYN-C01:Q002001', 'MINI:G16-clean', 'MINI:G16-incompatible']"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "lines: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "allocations: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "responses: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "financial_allocations: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "claim version SYN-C03:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "claim version SYN-C03:CL001:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000001",
+   "check": "displayed cells: exactly the 185 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "lines: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "allocations: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "responses: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "claim version SYN-C03:CL006:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "claim version SYN-C03:CL006:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 3"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C03:S000009",
+   "check": "displayed cells: exactly the 185 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "allocations: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "deliveries: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "responses: exactly the 6 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "units: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "financial_allocations: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "claim version SYN-C02:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "required evidence lines is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "required evidence allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "required evidence deliveries is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "required evidence responses is non-empty",
+   "result": "pass",
+   "detail": "derived 6"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 4"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C02:S000001",
+   "check": "displayed cells: exactly the 185 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "lines: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "allocations: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "deliveries: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "responses: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "units: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "financial_events: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "financial_allocations: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "claim version SYN-C05:CL002:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C05:Q002002",
+   "check": "displayed cells: exactly the 185 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "step position: link, narrative and binding are bound to current_later",
+   "result": "pass",
+   "detail": "step pos current_later, binding current_later"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-21T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"current_later\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "claim_versions: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "lines: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "allocations: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "units: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "financial_events: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "financial_allocations: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "exclusion follows from the frozen request and the pinned profile",
+   "result": "pass",
+   "detail": "cancelled, profile P-A"
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "an excluded item has no claim, delivery or unit",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "SYN-C01:Q002001",
+   "check": "displayed cells: exactly the 185 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-clean",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G16/clean_group_and_targets"
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-clean",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-clean",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-clean",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-clean",
+   "check": "displayed miniature table equals the executed golden record (9 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-incompatible",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G16/incompatible_same_scope"
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-incompatible",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-incompatible",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-incompatible",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO04",
+   "record": "MINI:G16-incompatible",
+   "check": "displayed miniature table equals the executed golden record (7 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "*",
+   "check": "story measures equal the roster",
+   "result": "pass",
+   "detail": "['M17']"
+  },
+  {
+   "story": "DEMO05",
+   "record": "*",
+   "check": "step roster: 6 steps with the roster's records, in order",
+   "result": "pass",
+   "detail": "served ['SYN-C01:S000001', 'SYN-C01:S000001', 'SYN-C01:S000001', 'MINI:G19-unknown', 'MINI:G19-equal', 'MINI:G20-restated']"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to known_then",
+   "result": "pass",
+   "detail": "step pos known_then, binding known_then"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-14T23:59:59Z\", \"T\": \"2026-07-14T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"known_then\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence financial_events is non-empty",
+   "result": "pass",
+   "detail": "derived 9"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 108 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to known_then",
+   "result": "pass",
+   "detail": "step pos known_then, binding known_then"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-14T23:59:59Z\", \"T\": \"2026-07-14T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"known_then\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 1 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 9 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 1"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence financial_events is non-empty",
+   "result": "pass",
+   "detail": "derived 9"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence financial_allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events exclude what is not known at Q",
+   "result": "pass",
+   "detail": "present []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations exclude what is not known at Q",
+   "result": "pass",
+   "detail": "present []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 108 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "step position: link, narrative and binding are bound to restated_then",
+   "result": "pass",
+   "detail": "step pos restated_then, binding restated_then"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "Q equals the pinned cohort position, population and rule version",
+   "result": "pass",
+   "detail": "{\"K\": \"2026-07-21T23:59:59Z\", \"T\": \"2026-07-14T23:59:59Z\", \"population_version\": \"CCI-COHORT-1\", \"position\": \"restated_then\", \"rule_version\": \"CCI-SYNTHETIC-CONTRACT-1/1.0.0\"}"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim_versions: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "lines: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "allocations: exactly the 4 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "deliveries: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "responses: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "client_notes: exactly the 0 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "units: exactly the 2 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events: exactly the 10 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations: exactly the 3 independently derived",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v1 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "claim version SYN-C01:CL001:v2 content hash equals the committed lineage",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence claim_versions is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence units is non-empty",
+   "result": "pass",
+   "detail": "derived 2"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence financial_events is non-empty",
+   "result": "pass",
+   "detail": "derived 10"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "required evidence financial_allocations is non-empty",
+   "result": "pass",
+   "detail": "derived 3"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_events include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "financial_allocations include the identities the narrative names",
+   "result": "pass",
+   "detail": "missing []"
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "excluded-from-P flag equals the roster",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "SYN-C01:S000001",
+   "check": "displayed cells: exactly the 108 published cells of the story measures at Q, with values",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-unknown",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G19/unknown_payment_cash"
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-unknown",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-unknown",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-unknown",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-unknown",
+   "check": "displayed miniature table equals the executed golden record (13 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-equal",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G19/separate_equal_payment"
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-equal",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-equal",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-equal",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G19-equal",
+   "check": "displayed miniature table equals the executed golden record (5 rows)",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G20-restated",
+   "check": "public miniature names the roster's golden case and variant",
+   "result": "pass",
+   "detail": "G20/restated_then"
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G20-restated",
+   "check": "golden variant executed with no failed assertion",
+   "result": "pass",
+   "detail": "pass"
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G20-restated",
+   "check": "golden specification identity",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G20-restated",
+   "check": "bound inputs and expectations equal the specification",
+   "result": "pass",
+   "detail": ""
+  },
+  {
+   "story": "DEMO05",
+   "record": "MINI:G20-restated",
+   "check": "displayed miniature table equals the executed golden record (9 rows)",
+   "result": "pass",
+   "detail": ""
+  }
+ ]
+}

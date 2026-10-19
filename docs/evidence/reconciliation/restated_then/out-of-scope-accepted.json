@@ -1,0 +1,14 @@
+{
+ "M12": {
+  "active_accepted_families": 3339,
+  "distinct_excluded_sources": 0,
+  "explicitly_nonreportable_families": 0,
+  "grain": "encounter family",
+  "inactive_accepted_families": 0,
+  "indeterminate_families": 0,
+  "note": "Required cancelled reports are U members outside C and are never counted as over-reporting. Residual families are active or indeterminate; superseded and voided families are not residual.",
+  "residual": [],
+  "unknown_scope_families": 0,
+  "unmatched_source_families": 0
+ }
+}

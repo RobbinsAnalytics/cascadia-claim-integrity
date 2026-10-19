@@ -1,0 +1,81 @@
+{
+ "claim_versions_known_later": [
+  {
+   "available_at": "2026-07-16T12:00:00Z",
+   "changed_required_fields": [
+    "billing_party_reference[SYN-C01:S000001]"
+   ],
+   "family_id": "SYN-C01:CL001",
+   "known_later_version": "SYN-C01:CL001:v2",
+   "version_at_T": "SYN-C01:CL001:v1"
+  }
+ ],
+ "evidence_received_after_T": {
+  "effective_after_T": 3,
+  "effective_undetermined": 0,
+  "qualifying_at_T": 0,
+  "rows": [
+   {
+    "classification": "effective_after_T",
+    "effective_at": "2026-07-16T14:00:00Z",
+    "id": "RSP-4a9e3427305dc2eddd52eb0c063c0e4b64e59bb9aae563cd652e7373da6d13d7",
+    "received_at": "2026-07-16T15:00:00Z",
+    "stage": "syntax"
+   },
+   {
+    "classification": "effective_after_T",
+    "effective_at": "2026-07-16T12:00:00Z",
+    "id": "RSP-4f70943b9a956ecefd821b785b1b3b54ae1fb43cf75516d073845d09f1bc4bf4",
+    "received_at": "2026-07-16T13:00:00Z",
+    "stage": "transport"
+   },
+   {
+    "classification": "effective_after_T",
+    "effective_at": "2026-07-17T12:00:00Z",
+    "id": "RSP-596ef9a830f294e411f723098e12600ed8ad4db97b952b9d1d5bacc57e0f59b9",
+    "received_at": "2026-07-18T12:00:00Z",
+    "stage": "final"
+   }
+  ]
+ },
+ "facts_received_after_T": {
+  "effective_after_T": 0,
+  "effective_undetermined": 0,
+  "qualifying_at_T": 3,
+  "rows": [
+   {
+    "classification": "qualifying_at_T",
+    "effective_at": "2026-04-01T10:30:00Z",
+    "family": "references",
+    "id": "SYN-C01:S000001:ref:billing:v2",
+    "received_at": "2026-07-16T12:00:00Z"
+   },
+   {
+    "classification": "qualifying_at_T",
+    "effective_at": "2026-07-10T10:30:00Z",
+    "family": "financial_events",
+    "id": "SYN-C01:F000001-settlement-reversal:v1",
+    "received_at": "2026-07-16T12:00:00Z"
+   },
+   {
+    "classification": "qualifying_at_T",
+    "effective_at": "2026-07-10T10:30:00Z",
+    "family": "payment_allocations",
+    "id": "SYN-C01:A000001-reversal-unapplied:v1",
+    "received_at": "2026-07-16T12:00:00Z"
+   }
+  ]
+ },
+ "position": {
+  "K": "2026-07-21T23:59:59Z",
+  "T": "2026-07-14T23:59:59Z",
+  "id": "restated_then",
+  "population_version": "CCI-COHORT-1",
+  "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+ },
+ "restated": true,
+ "rule": "Active version is the version existing at T; items below are known by K and not by T.",
+ "submissions_after_T": [
+  "D-SYN-C01:SYN-R01:encounter:SYN-C01:CL001-1-1"
+ ]
+}

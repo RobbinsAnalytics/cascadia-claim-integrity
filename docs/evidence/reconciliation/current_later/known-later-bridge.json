@@ -1,0 +1,25 @@
+{
+ "claim_versions_known_later": [],
+ "evidence_received_after_T": {
+  "effective_after_T": 0,
+  "effective_undetermined": 0,
+  "qualifying_at_T": 0,
+  "rows": []
+ },
+ "facts_received_after_T": {
+  "effective_after_T": 0,
+  "effective_undetermined": 0,
+  "qualifying_at_T": 0,
+  "rows": []
+ },
+ "position": {
+  "K": "2026-07-21T23:59:59Z",
+  "T": "2026-07-21T23:59:59Z",
+  "id": "current_later",
+  "population_version": "CCI-COHORT-1",
+  "rule_version": "CCI-SYNTHETIC-CONTRACT-1/1.0.0"
+ },
+ "restated": false,
+ "rule": "Active version is the version existing at T; items below are known by K and not by T.",
+ "submissions_after_T": []
+}
