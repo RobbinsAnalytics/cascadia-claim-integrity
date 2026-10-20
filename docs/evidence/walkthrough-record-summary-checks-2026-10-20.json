@@ -1,0 +1,396 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:34:16.483194+00:00",
+  "scope": "Compact selected-record and snapshot summary inside the fixed walkthrough. Existing component display states are reused, including separate targets. Presentation only.",
+  "browser_checks": [
+    {
+      "width": 1280,
+      "client": "SYN-C01",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C01",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C01",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C02",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 4
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C02",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 4
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C02",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 4
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C03",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C03",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C03",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C04",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C04",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C04",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C05",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C05",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C05",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C06",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C06",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "client": "SYN-C06",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "sticky_snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "readiness": [
+            "Ready",
+            "Ready"
+          ],
+          "outcome": [
+            "Rejected",
+            "Rejected"
+          ]
+        },
+        {
+          "snapshot": "restated_then",
+          "readiness": [
+            "Blocked",
+            "Blocked"
+          ],
+          "outcome": [
+            "Not submitted at this snapshot",
+            "Not submitted at this snapshot"
+          ]
+        },
+        {
+          "snapshot": "known_then",
+          "readiness": [
+            "Blocked",
+            "Blocked"
+          ],
+          "outcome": [
+            "Not submitted at this snapshot",
+            "Not submitted at this snapshot"
+          ]
+        }
+      ],
+      "viewport_and_focus_preserved": true,
+      "fixed_story_unchanged": true
+    },
+    {
+      "width": 320,
+      "client": "SYN-C01",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C01",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C01",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C02",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 4
+    },
+    {
+      "width": 320,
+      "client": "SYN-C02",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 4
+    },
+    {
+      "width": 320,
+      "client": "SYN-C02",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 4
+    },
+    {
+      "width": 320,
+      "client": "SYN-C03",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C03",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C03",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C04",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C04",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C04",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C05",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C05",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C05",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C06",
+      "snapshot": "known_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C06",
+      "snapshot": "restated_then",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "client": "SYN-C06",
+      "snapshot": "current_later",
+      "status": "pass",
+      "summary_states_and_evidence_match_full_record": true,
+      "components": 2
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "sticky_snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "readiness": [
+            "Ready",
+            "Ready"
+          ],
+          "outcome": [
+            "Rejected",
+            "Rejected"
+          ]
+        },
+        {
+          "snapshot": "restated_then",
+          "readiness": [
+            "Blocked",
+            "Blocked"
+          ],
+          "outcome": [
+            "Not submitted at this snapshot",
+            "Not submitted at this snapshot"
+          ]
+        },
+        {
+          "snapshot": "known_then",
+          "readiness": [
+            "Blocked",
+            "Blocked"
+          ],
+          "outcome": [
+            "Not submitted at this snapshot",
+            "Not submitted at this snapshot"
+          ]
+        }
+      ],
+      "viewport_and_focus_preserved": true,
+      "fixed_story_unchanged": true
+    }
+  ],
+  "browser_errors": [],
+  "source_sha256": {
+    "assets/app.js": "4c1b34b6ca623b0e6e8182a2c95213242391fd3f2996a8ff4db43344fbd2304c",
+    "assets/follow-claim.css": "e3a879c28f833669ec264880db9040c2b188a7df5b24fd9c13974ea21ad2f19e"
+  },
+  "preservation": {
+    "frozen_data_and_historical_evidence": "Byte-identical to baseline.",
+    "record_tables_story_panel_and_bindings": "Exact source functions unchanged.",
+    "summary_states": "Compared with the full record across six clients, three snapshots and two widths. No new analytical calculations.",
+    "focused_cases": "No invented time-varying ride summary; existing fixed-scope labels retained.",
+    "disclosures": "Acceptance does not establish payment or accuracy; target-specific readiness remains explicit."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/walkthrough-snapshot-scope-checks-2026-10-20.json",
+  "limits": [
+    "Presentation checks do not add assurance or business-effectiveness claims.",
+    "No commit, merge, push or publication."
+  ]
+}

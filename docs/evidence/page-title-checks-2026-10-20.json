@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T20:05:28.793979+00:00",
+  "scope": "Rename the View A tab and matching current page references to What needs attention. Presentation-only review.",
+  "checks": [
+    {
+      "status": "pass",
+      "width": 1440,
+      "checks": [
+        "Tab and page eyebrow renamed",
+        "Approved opening and synthetic disclosure retained",
+        "Contents navigation and active marker work",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1280,
+      "checks": [
+        "Tab and page eyebrow renamed",
+        "Approved opening and synthetic disclosure retained",
+        "Contents navigation and active marker work",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "checks": [
+        "Tab and page eyebrow renamed",
+        "Approved opening and synthetic disclosure retained",
+        "Contents navigation and active marker work",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Renamed tab returns from Understand the data to View A without changing the route"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Case-study call to action uses the new page title and unchanged destination",
+        "Case-study desktop and mobile layouts load without overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Optional opening previews and comparison page use the new title",
+        "No browser errors"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Changed source is exactly the requested title replacement plus the current presentation receipt path",
+        "All frozen data, calculations, CSS, navigation code, disclosures and historical evidence preserved"
+      ],
+      "changed_sources": [
+        "case-study.html",
+        "index.html",
+        "opening-options.html",
+        "assets/app.js",
+        "assets/opening-preview.js"
+      ]
+    }
+  ],
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "source_sha256": {
+    "case-study.html": "fb77434c6748b658b4990d15e76da96bf256bfc819532bdbeda9acaf4746ff38",
+    "index.html": "55c40eadaf86320c8af57441204a3f62e0b17ed5fa27afc555e78c559a2e5ed6",
+    "opening-options.html": "0ba0ae42ffe6c9eb7a14ac3a58308e4736ea9c77648507b05605ceaac82ea6c6",
+    "assets/app.js": "88f296ba7e1ef81902e88ce76286f10560de10242254b2448d0df8203645066d",
+    "assets/opening-preview.js": "f8428cfe50e5e3d0505a2322d9e9cb5ef6f19d623e81a80fc2a6fa1fe7e02b37"
+  },
+  "prior_presentation_review": "evidence/default-opening-checks-2026-10-20.json",
+  "limits": [
+    "No changes to historical evidence labels.",
+    "Frozen data, accepted assurance scope and disclosures preserved.",
+    "No merge, push or publication."
+  ]
+}

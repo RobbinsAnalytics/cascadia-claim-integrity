@@ -1,0 +1,482 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "All contents links, active marker, destination focus and filter hash",
+      "status": "pass",
+      "details": {
+        "width": 1440,
+        "links": [
+          {
+            "section": "Overview",
+            "active": "Overview"
+          },
+          {
+            "section": "Picture the service",
+            "active": "Picture the service"
+          },
+          {
+            "section": "Ride, claim and encounter",
+            "active": "Ride, claim and encounter"
+          },
+          {
+            "section": "Why records are incomplete",
+            "active": "Why records are incomplete"
+          },
+          {
+            "section": "Compare evidence paths",
+            "active": "Compare evidence paths"
+          },
+          {
+            "section": "Contract rule groups",
+            "active": "Contract rule groups"
+          },
+          {
+            "section": "Explore the model",
+            "active": "Explore the model"
+          },
+          {
+            "section": "Claim readiness",
+            "active": "Claim readiness"
+          },
+          {
+            "section": "Missing facts",
+            "active": "Missing facts"
+          },
+          {
+            "section": "After submission",
+            "active": "After submission"
+          },
+          {
+            "section": "Reading the chart",
+            "active": "Reading the chart"
+          },
+          {
+            "section": "One record, four actions",
+            "active": "One record, four actions"
+          },
+          {
+            "section": "Partner routes",
+            "active": "Partner routes"
+          },
+          {
+            "section": "Financial records",
+            "active": "Financial records"
+          },
+          {
+            "section": "Accepted-record checks",
+            "active": "Accepted-record checks"
+          },
+          {
+            "section": "Full reference snapshot",
+            "active": "Full reference snapshot"
+          },
+          {
+            "section": "Next iteration",
+            "active": "Next iteration"
+          },
+          {
+            "section": "Verification records",
+            "active": "Verification records"
+          }
+        ]
+      }
+    },
+    {
+      "check": "Existing section and subsection tracking preserved",
+      "status": "pass",
+      "details": {
+        "width": 1440
+      }
+    },
+    {
+      "check": "All contents links, active marker, destination focus and filter hash",
+      "status": "pass",
+      "details": {
+        "width": 1280,
+        "links": [
+          {
+            "section": "Overview",
+            "active": "Overview"
+          },
+          {
+            "section": "Picture the service",
+            "active": "Picture the service"
+          },
+          {
+            "section": "Ride, claim and encounter",
+            "active": "Ride, claim and encounter"
+          },
+          {
+            "section": "Why records are incomplete",
+            "active": "Why records are incomplete"
+          },
+          {
+            "section": "Compare evidence paths",
+            "active": "Compare evidence paths"
+          },
+          {
+            "section": "Contract rule groups",
+            "active": "Contract rule groups"
+          },
+          {
+            "section": "Explore the model",
+            "active": "Explore the model"
+          },
+          {
+            "section": "Claim readiness",
+            "active": "Claim readiness"
+          },
+          {
+            "section": "Missing facts",
+            "active": "Missing facts"
+          },
+          {
+            "section": "After submission",
+            "active": "After submission"
+          },
+          {
+            "section": "Reading the chart",
+            "active": "Reading the chart"
+          },
+          {
+            "section": "One record, four actions",
+            "active": "One record, four actions"
+          },
+          {
+            "section": "Partner routes",
+            "active": "Partner routes"
+          },
+          {
+            "section": "Financial records",
+            "active": "Financial records"
+          },
+          {
+            "section": "Accepted-record checks",
+            "active": "Accepted-record checks"
+          },
+          {
+            "section": "Full reference snapshot",
+            "active": "Full reference snapshot"
+          },
+          {
+            "section": "Next iteration",
+            "active": "Next iteration"
+          },
+          {
+            "section": "Verification records",
+            "active": "Verification records"
+          }
+        ]
+      }
+    },
+    {
+      "check": "Existing section and subsection tracking preserved",
+      "status": "pass",
+      "details": {
+        "width": 1280
+      }
+    },
+    {
+      "check": "Compact menu opens by keyboard, dismisses outside and on Escape",
+      "status": "pass",
+      "details": {
+        "width": 1280
+      }
+    },
+    {
+      "check": "All contents links, active marker, destination focus and filter hash",
+      "status": "pass",
+      "details": {
+        "width": 320,
+        "links": [
+          {
+            "section": "Overview",
+            "active": "Overview"
+          },
+          {
+            "section": "Picture the service",
+            "active": "Picture the service"
+          },
+          {
+            "section": "Ride, claim and encounter",
+            "active": "Ride, claim and encounter"
+          },
+          {
+            "section": "Why records are incomplete",
+            "active": "Why records are incomplete"
+          },
+          {
+            "section": "Compare evidence paths",
+            "active": "Compare evidence paths"
+          },
+          {
+            "section": "Contract rule groups",
+            "active": "Contract rule groups"
+          },
+          {
+            "section": "Explore the model",
+            "active": "Explore the model"
+          },
+          {
+            "section": "Claim readiness",
+            "active": "Claim readiness"
+          },
+          {
+            "section": "Missing facts",
+            "active": "Missing facts"
+          },
+          {
+            "section": "After submission",
+            "active": "After submission"
+          },
+          {
+            "section": "Reading the chart",
+            "active": "Reading the chart"
+          },
+          {
+            "section": "One record, four actions",
+            "active": "One record, four actions"
+          },
+          {
+            "section": "Partner routes",
+            "active": "Partner routes"
+          },
+          {
+            "section": "Financial records",
+            "active": "Financial records"
+          },
+          {
+            "section": "Accepted-record checks",
+            "active": "Accepted-record checks"
+          },
+          {
+            "section": "Full reference snapshot",
+            "active": "Full reference snapshot"
+          },
+          {
+            "section": "Next iteration",
+            "active": "Next iteration"
+          },
+          {
+            "section": "Verification records",
+            "active": "Verification records"
+          }
+        ]
+      }
+    },
+    {
+      "check": "Existing section and subsection tracking preserved",
+      "status": "pass",
+      "details": {
+        "width": 320
+      }
+    },
+    {
+      "check": "Compact menu opens by keyboard, dismisses outside and on Escape",
+      "status": "pass",
+      "details": {
+        "width": 320
+      }
+    },
+    {
+      "check": "Active marker follows ordinary scrolling",
+      "status": "pass",
+      "details": "Missing facts"
+    },
+    {
+      "check": "Copied section URL restores selected filters and opens folded destination",
+      "status": "pass",
+      "details": "http://127.0.0.1:8770/index.html?jump=explore-money#view=a&client=SYN-C02&period=SP2&pos=known_then&stage=initial_preparation"
+    },
+    {
+      "check": "Filter rerenders preserve open sections and reading location",
+      "status": "pass",
+      "details": {
+        "financial_offset_delta": 0.0,
+        "chart_offset_delta": 0.27
+      }
+    },
+    {
+      "check": "View changes remove and restore the contents rail without duplicate controls",
+      "status": "pass",
+      "details": [
+        "b",
+        "c",
+        "a"
+      ]
+    },
+    {
+      "check": "Current opening and three opt-in previews at five widths, no overflow and disclosures retained",
+      "status": "pass",
+      "details": [
+        {
+          "width": 1920,
+          "option": "current",
+          "chart_width": 1152
+        },
+        {
+          "width": 1920,
+          "option": "1",
+          "chart_width": 1152
+        },
+        {
+          "width": 1920,
+          "option": "2",
+          "chart_width": 1152
+        },
+        {
+          "width": 1920,
+          "option": "3",
+          "chart_width": 1152
+        },
+        {
+          "width": 1440,
+          "option": "current",
+          "chart_width": 1152
+        },
+        {
+          "width": 1440,
+          "option": "1",
+          "chart_width": 1152
+        },
+        {
+          "width": 1440,
+          "option": "2",
+          "chart_width": 1152
+        },
+        {
+          "width": 1440,
+          "option": "3",
+          "chart_width": 1152
+        },
+        {
+          "width": 1280,
+          "option": "current",
+          "chart_width": 1152
+        },
+        {
+          "width": 1280,
+          "option": "1",
+          "chart_width": 1152
+        },
+        {
+          "width": 1280,
+          "option": "2",
+          "chart_width": 1152
+        },
+        {
+          "width": 1280,
+          "option": "3",
+          "chart_width": 1152
+        },
+        {
+          "width": 768,
+          "option": "current",
+          "chart_width": 704
+        },
+        {
+          "width": 768,
+          "option": "1",
+          "chart_width": 704
+        },
+        {
+          "width": 768,
+          "option": "2",
+          "chart_width": 704
+        },
+        {
+          "width": 768,
+          "option": "3",
+          "chart_width": 704
+        },
+        {
+          "width": 320,
+          "option": "current",
+          "chart_width": 288
+        },
+        {
+          "width": 320,
+          "option": "1",
+          "chart_width": 288
+        },
+        {
+          "width": 320,
+          "option": "2",
+          "chart_width": 288
+        },
+        {
+          "width": 320,
+          "option": "3",
+          "chart_width": 288
+        }
+      ]
+    },
+    {
+      "check": "Case study remains unchanged and loads on desktop and mobile",
+      "status": "pass",
+      "details": [
+        1280,
+        320
+      ]
+    },
+    {
+      "check": "Browser errors",
+      "status": "pass",
+      "details": []
+    },
+    {
+      "check": "Existing sources, frozen data and historical evidence preserved",
+      "status": "pass",
+      "details": {
+        "changed_existing_files": [
+          "index.html"
+        ],
+        "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d"
+      }
+    },
+    {
+      "check": "Final layout polish and receipt-link-only analytical source change",
+      "status": "pass",
+      "details": {
+        "widths": [
+          320,
+          1280,
+          1440
+        ],
+        "browser_errors": [],
+        "app_js": "Exact baseline except the current presentation receipt path",
+        "all_prior_evidence_and_data_files": "Byte-identical to saved baseline"
+      }
+    }
+  ],
+  "reviewed_at_utc": "2026-10-20T19:56:27.921451+00:00",
+  "scope": "Readiness and blockers contents navigation and three opt-in opening previews. Local presentation review only; no assurance scope change.",
+  "reference": {
+    "url": "https://robbinsanalytics.vercel.app/case-studies/cascadia-fee-examiner",
+    "observed_behavior": "Sticky left contents rail, click-to-section links and an active teal marker following scroll.",
+    "adaptation": "Left rail from 1440 px while preserving existing analytical content width; compact fixed menu below 1440 px."
+  },
+  "recommended_opening": "Option 2: Find the missing fact. Choose the next action.",
+  "default_opening": "Existing opening unchanged unless the opening query parameter selects an alternative.",
+  "source_sha256": {
+    "index.html": "2294a8c0b560878f3074a73290b3c8aee9716939c8a65d6d6f14e83c06fa4242",
+    "assets/app.js": "074a48742aae8bdffda9bc861498162e9ba68be0041ccffa49b88b1929f2aeef",
+    "assets/page-navigation.js": "e888f89a0cb7e0d14faeb53a607d34ed237c75b1c8355d072f19946ead4dcdb2",
+    "assets/page-navigation.css": "c1e77fc57b98dff9c052dd31c61a4b35e8ee509b9987d361594e7365f8a4ef0c",
+    "assets/opening-preview.js": "7d3ae19a84024f5bb096780d7a5c362bc8b1fcf12077b4d31fffa2e6dd1d7640",
+    "opening-options.html": "bc6bdf215d5ae1ec50c0a4d0b555529bfda542a23d28e8f22aa0e5c9087aab7d"
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "prior_table_review": {
+    "path": "evidence/frozen-columns-final-checks-2026-10-20.json",
+    "sha256": "1092c35aaa3f6b44047383417e9707fafe785f0212cc8c67a1f7547e3952f5c4",
+    "status": "Preserved; shared table rules unchanged."
+  },
+  "limits": [
+    "Local browser presentation review, not a new assurance cycle.",
+    "Frozen data, calculations, exports, case study and prior evidence unchanged.",
+    "Opening alternatives are review-only; no new default selected.",
+    "No merge, push or publication."
+  ]
+}

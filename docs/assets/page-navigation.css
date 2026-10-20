@@ -1,0 +1,43 @@
+/* Contents rail follows the Felix pattern without narrowing the analytical charts. */
+.page-contents { position: fixed; right: 1.1rem; bottom: 1.1rem; z-index: 60; }
+.contents-toggle { display: flex; align-items: center; gap: .8rem; border: 1px solid #acc6be; border-radius: 999px; padding: .75rem 1rem; background: var(--teal); color: white; font: 600 .85rem var(--font-sans); box-shadow: 0 4px 18px #0f1f1e24; cursor: pointer; }
+.contents-toggle span { font-size: 1.05rem; line-height: 1; }
+.contents-panel { display: none; position: absolute; right: 0; bottom: calc(100% + .6rem); width: min(19.5rem, calc(100vw - 2.2rem)); max-height: min(75vh, 44rem); overflow-y: auto; overscroll-behavior: contain; border: 1px solid var(--line); border-radius: 1rem; padding: 1.2rem; background: var(--paper, #efeee9); box-shadow: 0 8px 35px #0f1f1e25; }
+.page-contents.is-open .contents-panel { display: block; }
+.contents-heading { margin: 0 0 1rem; font: 600 .68rem var(--font-mono, monospace); text-transform: uppercase; letter-spacing: .14em; color: var(--ink-soft); }
+.contents-list { list-style: none; padding: 0; margin: 0; border-left: 1px solid #c7d2cc; }
+.contents-list a { display: block; padding: .4rem .7rem .4rem .9rem; margin-left: -1px; border-left: 2px solid transparent; font-size: .79rem; line-height: 1.4; color: var(--ink-soft); text-decoration: none; text-wrap: pretty; }
+.contents-list a:hover { color: var(--teal); background: #e3ece5; }
+.contents-list a[aria-current="location"] { color: var(--teal); border-left-color: var(--teal-3, #3d9288); font-weight: 700; background: #e7eeea; }
+.contents-list .contents-nested a { padding-left: 1.65rem; font-size: .75rem; }
+.contents-toggle:focus-visible, .contents-list a:focus-visible { outline: 3px solid #5b8f86; outline-offset: 3px; }
+@media (max-width: 1439px) { body.has-page-contents .site-foot { padding-bottom: 4.5rem; } }
+[data-page-stop]:focus { outline: none; }
+[data-page-stop]:focus-visible { outline: 2px solid var(--teal-3); outline-offset: .3rem; }
+@media (min-width: 1440px) {
+  body.has-page-contents #main, body.has-page-contents #case-page-shell { position: relative; padding-left: 13rem; }
+  .page-contents { position: absolute; top: 2rem; bottom: 0; left: max(1rem, calc(50% - 44.5rem)); right: auto; width: 12rem; z-index: 20; }
+  .contents-toggle { display: none; }
+  .contents-panel, .page-contents.is-open .contents-panel { display: block; position: sticky; top: calc(var(--head-height, 7.5rem) + 1rem); bottom: auto; width: 100%; max-height: calc(100vh - var(--head-height, 7.5rem) - 2rem); padding: .5rem .35rem .7rem 0; background: transparent; border: none; border-radius: 0; box-shadow: none; scrollbar-width: thin; }
+}
+.case-study.has-page-contents section[id], .case-study.has-page-contents h2[id] { scroll-margin-top: calc(var(--head-height, 4.25rem) + 1.25rem); }
+@media (max-width: 767px) { .case-study.has-page-contents section[id], .case-study.has-page-contents h2[id] { scroll-margin-top: 1.25rem; } }
+/* Hook options are explicitly selected local previews. The default opening is intact. */
+.opening-review { margin: .3rem 0 1.2rem; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; font-size: .78rem; color: var(--teal); padding: .7rem .9rem; background: #e6eee8; border-left: 3px solid var(--teal-3); border-radius: 0 .6rem .6rem 0; }
+.opening-review a { color: var(--teal); text-underline-offset: .2em; }
+.opening-review strong { font-weight: 650; }
+.opening-variant .hero-copy h1 { max-width: none; font-size: clamp(2.35rem, 1.6rem + 2.8vw, 3.85rem); line-height: 1.06; text-wrap: balance; margin-top: .75rem; }
+.opening-variant .hero-copy h1 em { font-family: var(--font-serif, Georgia, serif); color: var(--teal-3); font-weight: 400; }
+.opening-variant .hero-copy .lede { max-width: 59ch; text-wrap: pretty; }
+.opening-variant .readiness-points { margin-bottom: 1.1rem; }
+.opening-chain { display: flex; flex-wrap: wrap; gap: .35rem .65rem; align-items: center; margin: 1.15rem 0; color: var(--teal); font-size: .8rem; }
+.opening-chain strong { padding: .4rem .55rem; border-radius: .4rem; background: #e5eeea; font-weight: 600; }
+.opening-chain strong:nth-of-type(2) { background: #eaf3cb; }
+@media (min-width: 768px) { .opening-variant .hero-copy h1 em { white-space: nowrap; } }
+@media (max-width: 767px) {
+  .page-contents { right: .75rem; bottom: .75rem; }
+  .contents-panel { width: min(19.5rem, calc(100vw - 1.5rem)); }
+  .opening-variant .hero-copy h1 { font-size: clamp(2.25rem, 9vw, 3.3rem); }
+  .opening-review { font-size: .75rem; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

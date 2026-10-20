@@ -1,0 +1,147 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-19",
+  "reviewed_at_utc": "2026-10-20T03:12:50.389016+00:00",
+  "scope": "View A readability and fictional client display labels. No analytical regeneration or new assurance cycle.",
+  "client_display_names": {
+    "SYN-C01": "Cedar Harbor",
+    "SYN-C02": "Juniper Way",
+    "SYN-C03": "Alder Ridge",
+    "SYN-C04": "Willow Bay",
+    "SYN-C05": "Maple Vale",
+    "SYN-C06": "Cypress Grove"
+  },
+  "source_sha256": {
+    "assets/app.js": "f9742b23f0d1b56b8caad1d08f6d0f794b8ae1c385c995d38b64e83b0840a493",
+    "assets/app.css": "675695ccfb717b77f43016e7261b22d3bc82adbe419dfa9287e0dfd2556d36db"
+  },
+  "checks": [
+    {
+      "check": "Named filters retain canonical keys; displayed cards match frozen cells across six clients, time filters and an N/A stage",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Sticky controls, reset, affected records and canonical identities",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Readability, wrapped sticky table headers, expanded layout and local links",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Named filters retain canonical keys; displayed cards match frozen cells across six clients, time filters and an N/A stage",
+      "status": "pass",
+      "width": 768
+    },
+    {
+      "check": "Sticky controls, reset, affected records and canonical identities",
+      "status": "pass",
+      "width": 768
+    },
+    {
+      "check": "Readability, wrapped sticky table headers, expanded layout and local links",
+      "status": "pass",
+      "width": 768
+    },
+    {
+      "check": "Named filters retain canonical keys; displayed cards match frozen cells across six clients, time filters and an N/A stage",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Sticky controls, reset, affected records and canonical identities",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Readability, wrapped sticky table headers, expanded layout and local links",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Other module views retain functioning routes with fictional display labels",
+      "status": "pass"
+    },
+    {
+      "check": "Case study, frozen data, original page shell and all previous evidence unchanged",
+      "status": "pass",
+      "files": 62,
+      "published_cells": 22173,
+      "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d"
+    }
+  ],
+  "preserved_files": [
+    "case-study.html",
+    "index.html",
+    "assets/case-study.css",
+    "assets/favicon.svg",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/detection-results-2.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "limits": [
+    "The dialysis illustration is not a dataset record.",
+    "Client display names do not change entity roles, identities or contracts.",
+    "No human usability, production impact, independent custody or effectiveness claim.",
+    "Historical evidence retains its own reviewed source hashes.",
+    "No merge or publication."
+  ]
+}

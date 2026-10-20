@@ -1,0 +1,406 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:08:32.056897+00:00",
+  "scope": "Follow a claim compact option widths, automatic section and subsection context, selected-record order for public miniatures. Presentation changes only.",
+  "widths": [
+    1920,
+    1440,
+    1280,
+    768,
+    320
+  ],
+  "browser_regressions": {
+    "status": "pass",
+    "checks": [
+      {
+        "width": 1920,
+        "status": "pass",
+        "checks": [
+          "Toolbar hidden at opening; example appears only after source cards pass",
+          "Snapshot joins on the right after its original selector passes",
+          "Section jumps account for toolbar height",
+          "No page overflow and controls remain below the header"
+        ],
+        "snapshot_changes": [
+          {
+            "snapshot": "current_later",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "restated_then",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "known_then",
+            "anchor_delta": 0.0
+          }
+        ],
+        "example_changes": [
+          {
+            "example": "DEMO02",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO03",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO04",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO05",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO01",
+            "anchor_delta": 0.0
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "status": "pass",
+        "checks": [
+          "Toolbar hidden at opening; example appears only after source cards pass",
+          "Snapshot joins on the right after its original selector passes",
+          "Section jumps account for toolbar height",
+          "No page overflow and controls remain below the header"
+        ],
+        "snapshot_changes": [
+          {
+            "snapshot": "current_later",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "restated_then",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "known_then",
+            "anchor_delta": 0.0
+          }
+        ],
+        "example_changes": [
+          {
+            "example": "DEMO02",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO03",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO04",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO05",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO01",
+            "anchor_delta": 0.0
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "status": "pass",
+        "checks": [
+          "Toolbar hidden at opening; example appears only after source cards pass",
+          "Snapshot joins on the right after its original selector passes",
+          "Section jumps account for toolbar height",
+          "No page overflow and controls remain below the header"
+        ],
+        "snapshot_changes": [
+          {
+            "snapshot": "current_later",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "restated_then",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "known_then",
+            "anchor_delta": 0.0
+          }
+        ],
+        "example_changes": [
+          {
+            "example": "DEMO02",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO03",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO04",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO05",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO01",
+            "anchor_delta": 0.0
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "status": "pass",
+        "checks": [
+          "Toolbar hidden at opening; example appears only after source cards pass",
+          "Snapshot joins on the right after its original selector passes",
+          "Section jumps account for toolbar height",
+          "No page overflow and controls remain below the header"
+        ],
+        "snapshot_changes": [
+          {
+            "snapshot": "current_later",
+            "anchor_delta": 0.23
+          },
+          {
+            "snapshot": "restated_then",
+            "anchor_delta": 0.0
+          },
+          {
+            "snapshot": "known_then",
+            "anchor_delta": -0.23
+          }
+        ],
+        "example_changes": [
+          {
+            "example": "DEMO02",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO03",
+            "anchor_delta": 0.23
+          },
+          {
+            "example": "DEMO04",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO05",
+            "anchor_delta": -0.23
+          },
+          {
+            "example": "DEMO01",
+            "anchor_delta": 0.0
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "status": "pass",
+        "checks": [
+          "Toolbar hidden at opening; example appears only after source cards pass",
+          "Snapshot joins on the right after its original selector passes",
+          "Section jumps account for toolbar height",
+          "No page overflow and controls remain below the header"
+        ],
+        "snapshot_changes": [
+          {
+            "snapshot": "current_later",
+            "anchor_delta": -0.47
+          },
+          {
+            "snapshot": "restated_then",
+            "anchor_delta": 0.33
+          },
+          {
+            "snapshot": "known_then",
+            "anchor_delta": 0.14
+          }
+        ],
+        "example_changes": [
+          {
+            "example": "DEMO02",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO03",
+            "anchor_delta": -0.47
+          },
+          {
+            "example": "DEMO04",
+            "anchor_delta": 0.0
+          },
+          {
+            "example": "DEMO05",
+            "anchor_delta": 0.47
+          },
+          {
+            "example": "DEMO01",
+            "anchor_delta": 0.0
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "status": "pass",
+        "checks": [
+          "Open financial chapter and reading offset survive snapshot and operational-example changes",
+          "Sticky table headers and first columns retained",
+          "When an example lacks that chapter, its selected record appears at the same viewport level"
+        ]
+      },
+      {
+        "width": 320,
+        "status": "pass",
+        "checks": [
+          "Open financial chapter and reading offset survive snapshot and operational-example changes",
+          "Sticky table headers and first columns retained",
+          "When an example lacks that chapter, its selected record appears at the same viewport level"
+        ]
+      },
+      {
+        "status": "pass",
+        "checks": [
+          "Original example cards retain zero-scroll selection behavior",
+          "Scrolling back above source selectors hides toolbar",
+          "View A, View C and case study do not show Follow a claim filters"
+        ]
+      }
+    ],
+    "browser_errors": []
+  },
+  "targeted_checks": {
+    "status": "pass",
+    "results": [
+      {
+        "width": 1920,
+        "geometry": {
+          "fields": [
+            {
+              "width": 264,
+              "desired": 264
+            },
+            {
+              "width": 250,
+              "desired": 250
+            }
+          ],
+          "bar": 1152,
+          "overflow": false
+        },
+        "context": "Walk through the example - Missing truth stays unassessable",
+        "miniature_selected_record_before_walkthrough": true,
+        "selection_offset_preserved": true
+      },
+      {
+        "width": 1440,
+        "geometry": {
+          "fields": [
+            {
+              "width": 264,
+              "desired": 264
+            },
+            {
+              "width": 250,
+              "desired": 250
+            }
+          ],
+          "bar": 1152,
+          "overflow": false
+        },
+        "context": "Walk through the example - Missing truth stays unassessable",
+        "miniature_selected_record_before_walkthrough": true,
+        "selection_offset_preserved": true
+      },
+      {
+        "width": 1280,
+        "geometry": {
+          "fields": [
+            {
+              "width": 264,
+              "desired": 264
+            },
+            {
+              "width": 250,
+              "desired": 250
+            }
+          ],
+          "bar": 1152,
+          "overflow": false
+        },
+        "context": "Walk through the example - Missing truth stays unassessable",
+        "miniature_selected_record_before_walkthrough": true,
+        "selection_offset_preserved": true
+      },
+      {
+        "width": 768,
+        "geometry": {
+          "fields": [
+            {
+              "width": 264,
+              "desired": 264
+            },
+            {
+              "width": 250,
+              "desired": 250
+            }
+          ],
+          "bar": 704,
+          "overflow": false
+        },
+        "context": "Walk through the example - Downstream defect: projection changed the payload",
+        "miniature_selected_record_before_walkthrough": true,
+        "selection_offset_preserved": true
+      },
+      {
+        "width": 320,
+        "geometry": {
+          "fields": [
+            {
+              "width": 129,
+              "desired": 236
+            },
+            {
+              "width": 129.015625,
+              "desired": 222
+            }
+          ],
+          "bar": 288,
+          "overflow": false
+        },
+        "context": "Walk through the example - Missing truth stays unassessable",
+        "miniature_selected_record_before_walkthrough": true,
+        "selection_offset_preserved": true
+      }
+    ],
+    "browser_errors": []
+  },
+  "source_sha256": {
+    "assets/app.js": "98e17e8ab3e0e0847705e638e555ddd2bb2626b12de6192bd0981967cd8277c7",
+    "assets/follow-sticky-controls.js": "8a0a3b8ae81d89c508f82740f54f8fb86ab73f9c9b64bc8fdab7897c1a5a3de7",
+    "assets/follow-claim.css": "4358973920c3dbe82af00fd291eb0e487adf2d9696ce72eb51d6265cf3ce4149",
+    "assets/page-navigation.js": "ac32163bcc5861d8c31a2f06d260a5f0568cb49213b062dd86876788d8c00ec4",
+    "index.html": "16a6c6fe75548bbd857f8369f8ec16005b0fef66e2dabfe42b6b114f6a4dfd29"
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "changed_existing_files": [
+    "assets/app.js",
+    "assets/follow-claim.css",
+    "assets/follow-sticky-controls.js"
+  ],
+  "preservation": {
+    "application_logic": "Exact baseline except placing the public-miniature walkthrough after its selected record and updating the current presentation receipt links.",
+    "data_and_historical_evidence": "All baseline data except manifest, and all historical evidence, are byte-identical.",
+    "case_study": "Byte-identical.",
+    "selection": "Existing selections, snapshot bindings, focus, open evidence folds and viewport anchors retain their reviewed behavior."
+  },
+  "limits": [
+    "On narrow screens, dropdown options use their available column width; long reading labels use two lines with the full label retained as a title.",
+    "Presentation checks do not add assurance or business-effectiveness claims.",
+    "No commit, merge, push or publication."
+  ],
+  "prior_presentation_review": "evidence/follow-sticky-filter-checks-2026-10-20.json"
+}

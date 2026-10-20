@@ -1,0 +1,184 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T19:32:42.200645+00:00",
+  "scope": "Replace the one-record summary with four evidence-bound decision/action stages and automatic step context.",
+  "checks": [
+    {
+      "check": "Walkthrough facts match frozen v1/v2 billing reference, availability, submitted version/components and final rejection receipt/effective dates; no recorded reason",
+      "status": "pass"
+    },
+    {
+      "check": "Four action states, facts/actions/why separation, fixed-scope disclosure, separate outcome lines, automatic step context and responsive layout",
+      "width": 1280,
+      "status": "pass"
+    },
+    {
+      "check": "Four action states, facts/actions/why separation, fixed-scope disclosure, separate outcome lines, automatic step context and responsive layout",
+      "width": 1440,
+      "status": "pass"
+    },
+    {
+      "check": "Four action states, facts/actions/why separation, fixed-scope disclosure, separate outcome lines, automatic step context and responsive layout",
+      "width": 768,
+      "status": "pass"
+    },
+    {
+      "check": "Four action states, facts/actions/why separation, fixed-scope disclosure, separate outcome lines, automatic step context and responsive layout",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "check": "Both source-evidence links open the actual record at their declared original/later positions; fixed walkthrough remains at its reading position across all four filters",
+      "positions": [
+        {
+          "filter": "f-client",
+          "delta_px": 0.25
+        },
+        {
+          "filter": "f-period",
+          "delta_px": 0.53125
+        },
+        {
+          "filter": "f-pos",
+          "delta_px": 0.53125
+        },
+        {
+          "filter": "f-stage",
+          "delta_px": 0.15625
+        }
+      ],
+      "status": "pass"
+    }
+  ],
+  "protected_functions_unchanged": [
+    "C",
+    "table",
+    "exportButtons",
+    "exportManifest",
+    "hbar",
+    "plotCount",
+    "cardM14",
+    "cardM15",
+    "cardM16",
+    "blockerSection",
+    "affectedUnits",
+    "downstreamSection",
+    "routesSection",
+    "financialSection",
+    "residualSection",
+    "renderA",
+    "renderB",
+    "renderC",
+    "captureExplorerReading",
+    "restoreExplorerReading",
+    "installDisclosureScopes",
+    "explainCoverageChart"
+  ],
+  "source_sha256": {
+    "assets/app.js": "5c4035b71f42b57e3015e405d0bf295a82d83b6e4f09f99dc141d8a9071adc81",
+    "assets/guided-explorer.css": "8633177f589fb5588c27925d6e309ed591f163a8fac220588c5f4203d9c0c7bb"
+  },
+  "record_authority_sha256": {
+    "data/records/SYN-C01.json.gz": "2475329475bd54d322828b14ebb448fbc805f2d4c2c0b9f34a39f65ae27af089",
+    "data/stories.json": "c00a3c9c8e6159b1ecd47df4d95b2208c93bc0f86f4c20469cfa5e557def708c"
+  },
+  "preserved_files": [
+    "case-study.html",
+    "index.html",
+    "assets/app.css",
+    "assets/business-story.css",
+    "assets/case-study.css",
+    "assets/case-study.js",
+    "assets/favicon.svg",
+    "assets/navigation.js",
+    "assets/readiness-business.css",
+    "assets/readiness-navigation.js",
+    "assets/readiness-typography.js",
+    "assets/review-notes.js",
+    "assets/shared-reader-context.css",
+    "assets/shared-reader-context.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/business-story-checks-2026-10-20.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/chart-reading-checks-2026-10-20.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/denominator-clarity-checks-2026-10-20.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expandable-scope-checks-2026-10-20.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/guided-explorer-checks-2026-10-20.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/outcome-lines-checks-2026-10-20.json",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/profile-journey-checks-2026-10-20.json",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-business-checks-2026-10-20.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/subsection-label-checks-2026-10-20.json",
+    "evidence/subsection-tracking-checks-2026-10-20.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "outcome-lines-checks-2026-10-20.json",
+  "limits": [
+    "Timeline facts are recorded synthetic events. Operational requests and follow-up are suggested actions, not completed outreach.",
+    "No reason, successful resubmission or payment is invented after the rejection.",
+    "All frozen data, 22,173 published values and accepted assurance scope remain unchanged.",
+    "No merge or publication."
+  ]
+}

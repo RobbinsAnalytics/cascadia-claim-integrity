@@ -1,0 +1,51 @@
+/* View A business context only. Chart canvases, scales and analytical table rules are unchanged. */
+.view-a .hero p, .view-a .intro-context p, .view-a .mcard p, .view-a .readiness-points li,
+.view-a .recommendation-card p, .view-a .reader-denominators p, .view-a .reader-denominators li,
+.view-a .reader-section-intro, .view-a .business-route p, .view-a .evidence-route p { text-wrap: pretty; }
+.view-a .hero h2, .view-a .reader-worked-example h2, .view-a .mcard h3 { text-wrap: balance; }
+.view-a .intro-context > h2 { font-size: 1.45rem; margin-bottom: 1.3rem; }
+.view-a .business-route, .view-a .evidence-route { list-style: none; padding: 0; margin: 1.3rem 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.8rem; }
+.view-a .business-route > li { padding-top: 2.8rem; position: relative; min-width: 0; }
+.view-a .route-number { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--teal); color: var(--lime); position: absolute; top: 0; font-weight: 650; }
+.view-a .business-route > li:not(:last-child)::after { content: '→'; position: absolute; top: -.1rem; left: 2.5rem; right: -.9rem; border-bottom: 2px solid var(--teal-3); text-align: right; font-size: 1.3rem; color: var(--teal); }
+.view-a .business-route strong { color: var(--teal); font-size: 1rem; }
+.view-a .business-route p { font-size: .9rem; margin-bottom: 0; color: var(--ink-soft); }
+.view-a .readiness-terms { margin: 1.3rem 0; }
+.view-a .readiness-terms .business-terms { margin: .8rem 0; }
+.view-a .snapshot-reading { border-left: 3px solid var(--teal-3); padding-left: .9rem; font-size: .875rem; color: var(--ink-soft); }
+.view-a .reader-action { background: var(--mist-2); border-radius: .7rem; padding: .8rem; margin: .7rem 0 .25rem; font-size: .9rem; color: var(--ink-soft); }
+.view-a .reader-use { display: inline-block; border-top: 1px solid var(--line); padding-top: .55rem; margin: .4rem 0 .6rem; font-size: .85rem; color: var(--teal-2); }
+.view-a .reader-example { font-size: .9rem; color: var(--ink-soft); margin: .7rem 0; }
+.view-a .reader-denominators { background: var(--mist); border-left: 4px solid var(--teal); padding: 1.2rem; border-radius: 0 1.1rem 1.1rem 0; margin-top: 1.3rem; }
+.view-a .reader-denominators h3 { font-size: 1.2rem; margin: 0 0 1rem; }
+.view-a .reader-denominators > p { max-width: none; }
+.view-a .reader-count-bridge { display: flex; flex-wrap: wrap; gap: .8rem; align-items: center; margin: 1rem 0; }
+.view-a .reader-count-bridge span { background: white; border-radius: .7rem; padding: .6rem .85rem; font-size: .875rem; }
+.view-a .reader-count-bridge strong { display: block; font-size: 1.4rem; color: var(--teal); }
+.view-a .reader-count-bridge b { color: var(--teal); font-size: 1.3rem; }
+.view-a .reader-section-intro { padding: .85rem 1rem; border-left: 3px solid var(--teal-3); background: var(--mist-2); border-radius: 0 .7rem .7rem 0; font-size: .9rem; color: var(--ink-soft); }
+.view-a .reader-evidence-example { background: #f3f7e8; padding: 1.3rem; border-radius: 1.2rem; margin: 1.3rem 0; }
+.view-a .reader-evidence-example > h3 { margin: .4rem 0 .8rem; font-size: 1.3rem; }
+.view-a .evidence-route li { min-width: 0; padding-left: .9rem; border-left: 3px solid var(--teal-3); }
+.view-a .evidence-route strong { display: block; font-size: .95rem; color: var(--teal); }
+.view-a .evidence-route p { font-size: .875rem; color: var(--ink-soft); }
+.view-a .reader-worked-example { border-top: 4px solid var(--teal); padding: 1.3rem; border-radius: 1.3rem; background: white; }
+.view-a .reader-worked-example > h2 { margin: .5rem 0 1rem; font-size: 1.5rem; max-width: 46ch; }
+.view-a .reader-worked-example > .small { max-width: none; }
+.view-a .recommendation-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.view-a .reader-why { padding: .8rem; background: var(--mist-2); border-left: 3px solid var(--teal-3); border-radius: 0 .7rem .7rem 0; color: var(--ink-soft); font-size: .9rem; }
+.view-a .card-counting dl { margin-bottom: .8rem; }
+.view-a .mcard .card-meaning { font-size: .9rem; }
+.view-a .explore-results > .grid-3 .mtitle { min-height: 2.6em; }
+.view-a .mcard .more { margin-top: auto; padding-top: .5rem; }
+.view-a #affected { scroll-margin-top: calc(var(--head-height, 7.5rem) + 14rem); }
+@media (max-width: 767px) {
+  .view-a #affected { scroll-margin-top: calc(var(--head-height, 7.5rem) + 6rem); }
+  .view-a .business-route, .view-a .evidence-route, .view-a .recommendation-grid { grid-template-columns: minmax(0,1fr); }
+  .view-a .business-route > li { padding: 0 0 1rem 3rem; }
+  .view-a .route-number { left: 0; }
+  .view-a .business-route > li:not(:last-child)::after { content: '↓'; top: 2.5rem; left: .5rem; right: auto; bottom: -1.5rem; border-bottom: 0; border-left: 2px solid var(--teal-3); width: 1px; display: flex; align-items: end; }
+  .view-a .reader-count-bridge { display: grid; grid-template-columns: minmax(0,1fr); gap: .3rem; }
+  .view-a .reader-count-bridge b { text-align: center; }
+  .view-a .reader-denominators, .view-a .reader-evidence-example, .view-a .reader-worked-example { padding: 1rem; }
+}

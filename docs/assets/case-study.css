@@ -6,6 +6,7 @@
 .case-study .case-hero .lede { font-size: 1.05rem; max-width: 42rem; }
 .case-study .case-question h2 { font-size: 2rem; }
 .case-study h2, .case-study h3 { text-wrap: balance; }
+.case-study p, .case-study li, .case-study td { text-wrap: pretty; }
 .case-study h2[id], .case-study section[id] { scroll-margin-top: 11.5rem; }
 .case-results { margin-top: 1.5rem; }
 .case-results .snapshot-heading { align-items: flex-start; }
@@ -128,4 +129,116 @@ div.case-copy > p, p.case-copy { margin: 1rem 0; }
   .architecture-flow strong { margin: 0; }
   .case-close .btn { width: 100%; justify-content: center; }
   .case-stack .eyebrow { width: 100%; }
+}
+
+/* Business-first story: evidence remains available on demand. */
+.case-study .case-hero { padding-top: 2rem; }
+.case-study .case-hero h1 { max-width: 16ch; }
+.case-study .case-toc { position: static; margin-top: 2rem; }
+.case-study .worked-example { margin: 1.5rem 0; max-width: 74ch; }
+.case-study .worked-example .example-card { border-top-color: var(--teal); }
+.case-study .secondary-examples { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.case-study .testing-records > .testing-highlight { margin-top: 1rem; }
+.case-study #architecture-details { padding-top: 1rem; }
+.case-study .reference-results { margin-top: 2rem; }
+.case-study .reference-results .case-results { margin-top: 1rem; }
+.case-study .business-questions article:first-child { background: var(--mist); border-top: 3px solid var(--teal); }
+@media (max-width: 767px) {
+  .case-study .secondary-examples { grid-template-columns: minmax(0,1fr); }
+  .case-study .case-toc > div { gap: .3rem; }
+  .case-study .case-toc a { font-size: .8rem; padding: .4rem .6rem; }
+}
+
+/* Case-study pass 2: short explanations, concrete context and clear payment stakes. */
+.case-study .scan-list { padding-left: 1.2rem; margin: .9rem 0; color: var(--ink-soft); max-width: 75ch; }
+.case-study .scan-list li { padding: .35rem 0 .35rem .2rem; }
+.case-study .scan-list strong { color: var(--ink); }
+.case-study .example-caption { margin-top: 1rem; font-size: .8rem; color: var(--teal); border-top: 1px solid #12403c30; padding-top: .7rem; }
+.case-study .payment-stakes { background: var(--teal); color: white; border-radius: 1.5rem; padding: 1.5rem; margin: 1.5rem 0; }
+.case-study .payment-stakes h3 { color: white; font-size: 1.6rem; max-width: 38ch; }
+.case-study .payment-stakes .eyebrow { color: var(--lime); }
+.case-study .payment-stakes > p:not(.eyebrow) { max-width: 67ch; }
+.case-study .payment-stakes .scan-list, .case-study .payment-stakes .scan-list strong { color: white; }
+.case-study .source-note { display: inline-block; font-size: .8rem; line-height: 1.5; margin-top: .7rem; }
+.case-study .payment-stakes .source-note { color: var(--mist); }
+.case-study .coverage-context { background: white; border-left: 3px solid var(--teal-3); border-radius: 0 1rem 1rem 0; padding: 1rem 1.2rem; font-size: .875rem; }
+.case-study .compact-list { margin-bottom: 0; }
+.case-study .record-map { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .8rem; margin: 1.5rem 0 .8rem; }
+.case-study .record-map article { min-width: 0; border-top: 3px solid var(--teal-3); background: white; border-radius: 1rem; padding: 1.1rem; }
+.case-study .map-step { font-size: .8rem; color: var(--teal-2); }
+.case-study .record-map h3 { margin: .8rem 0; }
+.case-study .record-map p { color: var(--ink-soft); font-size: .9rem; }
+.case-study .handoff-explanation { margin-top: 1.5rem; padding: 1.3rem; border-radius: 1.2rem; background: var(--mist); }
+.case-study .model-boundary { font-size: .875rem; border-top: 1px solid #12403c30; padding-top: .8rem; color: var(--ink-soft); max-width: 76ch; }
+.case-study .case-deliverables { background: white; border-left: 3px solid var(--teal-3); border-radius: 0 1rem 1rem 0; padding: .8rem 1.2rem .8rem 2rem; }
+.case-study .case-example-steps { padding-left: 1.2rem; margin: 1rem 0; }
+.case-study .case-example-steps li { padding: .5rem 0 .5rem .2rem; color: var(--ink-soft); }
+.case-study .example-lesson { padding: .9rem; border-radius: .8rem; background: var(--mist); }
+.case-study .confidence-list { background: white; border-radius: 1.2rem; padding: 1rem 1.4rem 1rem 2.4rem; }
+@media (max-width: 899px) { .case-study .record-map { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 600px) {
+  .case-study .record-map { grid-template-columns: minmax(0,1fr); }
+  .case-study .payment-stakes { padding: 1.2rem; }
+  .case-study .payment-stakes h3 { font-size: 1.35rem; }
+  .case-study .handoff-explanation { padding: 1.1rem; }
+}
+
+/* The health-plan model: a connected diagram, with a readable mobile layout. */
+.roles-diagram { margin: 1.5rem 0; padding: 1.5rem; border-radius: 1.5rem; background: var(--mist); }
+.roles-diagram > figcaption > span { display: block; }
+.roles-diagram > figcaption > span:last-child { font-size: 1.65rem; font-weight: 650; margin-top: .4rem; }
+.diagram-legend { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; font-size: .8rem; margin: 1.2rem 0 0; }
+.diagram-legend > span { display: inline-flex; align-items: center; gap: .5rem; }
+.diagram-legend i { display: inline-block; width: 1.7rem; border-top: 3px solid #25675b; }
+.diagram-legend .legend-service { border-top: 3px dashed #17413f; }
+.health-plan-svg { display: block; width: 100%; height: auto; font-family: inherit; overflow: visible; }
+.health-plan-svg text { fill: var(--teal); }
+.diagram-person > circle { fill: white; stroke: var(--teal-3); stroke-width: 2; }
+.diagram-icon { fill: none; stroke: var(--teal); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.diagram-broker > circle { fill: var(--teal); stroke: var(--teal); }
+.diagram-broker .diagram-icon { stroke: var(--lime); }
+.diagram-patient > circle { fill: var(--lime); stroke: var(--teal); }
+.money-path { fill: none; stroke: #25675b; stroke-width: 3; }
+.service-path { fill: none; stroke: #17413f; stroke-width: 2.5; stroke-dasharray: 7 5; }
+.edge-label { font-size: 16px; text-anchor: middle; }
+.node-role { font-size: 12px; letter-spacing: 1px; text-anchor: middle; font-weight: 650; }
+.node-name { font-size: 20px; font-weight: 650; text-anchor: middle; }
+.node-detail { font-size: 14px; text-anchor: middle; }
+.diagram-takeaway { font-size: 22px; font-weight: 600; }
+.diagram-record-note { border-top: 1px solid var(--teal-3); padding-top: 1rem; font-size: .9rem; max-width: 85ch; }
+.roles-diagram > .small { margin-top: .8rem; max-width: 85ch; }
+.diagram-narrow { display: none; }
+.mobile-node-role { font-size: 14px; letter-spacing: .2px; font-weight: 650; }
+.mobile-node-name { font-size: 20px; font-weight: 650; }
+.mobile-node-detail { font-size: 16px; }
+.mobile-edge-label { font-size: 16px; }
+@media (max-width: 999px) {
+  .roles-diagram { padding: 1rem; }
+  .diagram-wide { display: none; }
+  .diagram-narrow { display: block; max-width: 28rem; margin: 1rem auto 0; }
+  .roles-diagram > figcaption > span:last-child { font-size: 1.4rem; }
+}
+
+/* Record origins share the role diagram's simple connected visual language. */
+.record-origins { margin: 1.5rem 0; padding: 1.5rem; background: white; border: 1px solid var(--line); border-radius: 1.5rem; }
+.record-origins h3 { font-size: 1.5rem; margin: .5rem 0 0; }
+.records-svg { display: block; width: 100%; height: auto; font-family: inherit; }
+.records-svg text { fill: var(--teal); }
+.record-links { fill: none; stroke: #25675b; stroke-width: 2.5; stroke-linejoin: round; }
+.record-party { font-size: 19px; font-weight: 650; }
+.record-name { font-size: 22px; font-weight: 600; }
+.record-fields { font-size: 17px; }
+.record-centered { text-anchor: middle; }
+.record-hub { fill: var(--teal); }
+.record-hub-icon { fill: none; stroke: var(--lime); stroke-width: 4; stroke-linejoin: round; }
+.record-response { padding: 1rem 0; border-top: 1px solid var(--line); font-size: .9rem; max-width: 78ch; }
+.record-origins > .small { max-width: 85ch; }
+.records-narrow { display: none; }
+@media (max-width: 999px) {
+  .record-origins { padding: 1rem; }
+  .records-wide { display: none; }
+  .records-narrow { display: block; max-width: 28rem; margin: 1rem auto; }
+  .records-narrow .record-party { font-size: 18px; }
+  .records-narrow .record-name { font-size: 19px; }
+  .records-narrow .record-fields { font-size: 16px; }
 }

@@ -1,0 +1,167 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-19",
+  "reviewed_at_utc": "2026-10-20T03:40:19.874419+00:00",
+  "scope": "Lime project-summary cards and portfolio navigation on case study and three module views. No numerical or assurance-scope change.",
+  "checks": [
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "case",
+      "width": 1280
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "a",
+      "width": 1280
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "b",
+      "width": 1280
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "c",
+      "width": 1280
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "case",
+      "width": 768
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "a",
+      "width": 768
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "b",
+      "width": 768
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "c",
+      "width": 768
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "case",
+      "width": 320
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "a",
+      "width": 320
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "b",
+      "width": 320
+    },
+    {
+      "check": "Lime card, scenario facts, page switch, responsive menu, expanded layout and preserved table headers",
+      "status": "pass",
+      "view": "c",
+      "width": 320
+    },
+    {
+      "check": "Case-study card opens module; module card returns to case study",
+      "status": "pass"
+    },
+    {
+      "check": "Frozen data, role diagram stylesheet and all prior evidence unchanged",
+      "status": "pass",
+      "files": 62,
+      "published_cells": 22173,
+      "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d"
+    }
+  ],
+  "source_sha256": {
+    "assets/app.css": "cf54731e02f60204fd766d307b9c3cabaf5ee1fe0d9587e3114672b098c26fb6",
+    "assets/app.js": "c35ee4436cbc8b92e7b53c5c2d8da57e413eb6411dea50e74ce589e308166e06",
+    "assets/navigation.js": "7d825c6850d198d4e94f7e61cd6647790b89d69a0b2191d70aa92c493ebfe67f",
+    "case-study.html": "1c52f0225768cb89aada14c08a4fd8af0c8cd324cdabaa234fdbd8211be0bc34",
+    "index.html": "85dbf60539655d7af0e3aec9aa53aa7ca3a08f1e977cc3e3bfd23d9760a8e69f"
+  },
+  "preserved_files": [
+    "assets/case-study.css",
+    "assets/favicon.svg",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/detection-results-2.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "limits": [
+    "Card facts describe the full frozen scenario, not the selected filter or an individual claim.",
+    "Historical assurance records retain their reviewed revisions. No new human-reader or independent evaluation claim.",
+    "No merge or publication."
+  ]
+}

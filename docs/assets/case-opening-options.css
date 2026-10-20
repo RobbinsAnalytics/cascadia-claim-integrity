@@ -1,0 +1,6 @@
+/* Scoped hook previews retain the existing summary card and the smaller synthetic-data note. */
+.case-study .case-opening-variant .hero-copy h1 { max-width: none; font-size: clamp(2.3rem, 1.5rem + 2.65vw, 3.65rem); text-wrap: balance; }
+.case-study .case-opening-variant .hero-copy .lede { max-width: 62ch; }
+.case-study .case-opening-variant .case-points { margin-bottom: 1.2rem; }
+.case-study .case-opening-variant .case-subtitle[hidden] { display: none; }
+@media (max-width: 767px) { .case-study .case-opening-variant .hero-copy h1 { font-size: clamp(2.15rem, 8.6vw, 3.15rem); } }

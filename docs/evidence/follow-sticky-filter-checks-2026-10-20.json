@@ -1,0 +1,302 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "width": 1920,
+      "status": "pass",
+      "checks": [
+        "Toolbar hidden at opening; example appears only after source cards pass",
+        "Snapshot joins on the right after its original selector passes",
+        "Section jumps account for toolbar height",
+        "No page overflow and controls remain below the header"
+      ],
+      "snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "restated_then",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "known_then",
+          "anchor_delta": 0.0
+        }
+      ],
+      "example_changes": [
+        {
+          "example": "DEMO02",
+          "anchor_delta": -0.09
+        },
+        {
+          "example": "DEMO03",
+          "anchor_delta": 0.09
+        },
+        {
+          "example": "DEMO04",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO05",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO01",
+          "anchor_delta": 0.0
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "status": "pass",
+      "checks": [
+        "Toolbar hidden at opening; example appears only after source cards pass",
+        "Snapshot joins on the right after its original selector passes",
+        "Section jumps account for toolbar height",
+        "No page overflow and controls remain below the header"
+      ],
+      "snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "restated_then",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "known_then",
+          "anchor_delta": 0.0
+        }
+      ],
+      "example_changes": [
+        {
+          "example": "DEMO02",
+          "anchor_delta": -0.09
+        },
+        {
+          "example": "DEMO03",
+          "anchor_delta": 0.09
+        },
+        {
+          "example": "DEMO04",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO05",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO01",
+          "anchor_delta": 0.0
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "checks": [
+        "Toolbar hidden at opening; example appears only after source cards pass",
+        "Snapshot joins on the right after its original selector passes",
+        "Section jumps account for toolbar height",
+        "No page overflow and controls remain below the header"
+      ],
+      "snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "restated_then",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "known_then",
+          "anchor_delta": 0.0
+        }
+      ],
+      "example_changes": [
+        {
+          "example": "DEMO02",
+          "anchor_delta": -0.09
+        },
+        {
+          "example": "DEMO03",
+          "anchor_delta": 0.09
+        },
+        {
+          "example": "DEMO04",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO05",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO01",
+          "anchor_delta": 0.0
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "status": "pass",
+      "checks": [
+        "Toolbar hidden at opening; example appears only after source cards pass",
+        "Snapshot joins on the right after its original selector passes",
+        "Section jumps account for toolbar height",
+        "No page overflow and controls remain below the header"
+      ],
+      "snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "anchor_delta": 0.23
+        },
+        {
+          "snapshot": "restated_then",
+          "anchor_delta": 0.0
+        },
+        {
+          "snapshot": "known_then",
+          "anchor_delta": -0.23
+        }
+      ],
+      "example_changes": [
+        {
+          "example": "DEMO02",
+          "anchor_delta": 0.2
+        },
+        {
+          "example": "DEMO03",
+          "anchor_delta": 0.03
+        },
+        {
+          "example": "DEMO04",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO05",
+          "anchor_delta": -0.23
+        },
+        {
+          "example": "DEMO01",
+          "anchor_delta": 0.0
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "checks": [
+        "Toolbar hidden at opening; example appears only after source cards pass",
+        "Snapshot joins on the right after its original selector passes",
+        "Section jumps account for toolbar height",
+        "No page overflow and controls remain below the header"
+      ],
+      "snapshot_changes": [
+        {
+          "snapshot": "current_later",
+          "anchor_delta": -0.47
+        },
+        {
+          "snapshot": "restated_then",
+          "anchor_delta": 0.33
+        },
+        {
+          "snapshot": "known_then",
+          "anchor_delta": 0.14
+        }
+      ],
+      "example_changes": [
+        {
+          "example": "DEMO02",
+          "anchor_delta": -0.42
+        },
+        {
+          "example": "DEMO03",
+          "anchor_delta": -0.05
+        },
+        {
+          "example": "DEMO04",
+          "anchor_delta": 0.0
+        },
+        {
+          "example": "DEMO05",
+          "anchor_delta": 0.47
+        },
+        {
+          "example": "DEMO01",
+          "anchor_delta": 0.0
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "checks": [
+        "Open financial chapter and reading offset survive snapshot and operational-example changes",
+        "Sticky table headers and first columns retained",
+        "When an example lacks that chapter, its selected record appears at the same viewport level"
+      ]
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "checks": [
+        "Open financial chapter and reading offset survive snapshot and operational-example changes",
+        "Sticky table headers and first columns retained",
+        "When an example lacks that chapter, its selected record appears at the same viewport level"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Original example cards retain zero-scroll selection behavior",
+        "Scrolling back above source selectors hides toolbar",
+        "View A, View C and case study do not show Follow a claim filters"
+      ]
+    }
+  ],
+  "browser_errors": [],
+  "reviewed_at_utc": "2026-10-20T20:53:26.140745+00:00",
+  "scope": "Follow a claim compact sticky example and snapshot selectors, revealed as the original controls leave view. Presentation behavior only.",
+  "widths": [
+    1920,
+    1440,
+    1280,
+    768,
+    320
+  ],
+  "example_changes": 25,
+  "snapshot_changes": 15,
+  "source_sha256": {
+    "assets/app.js": "3f64a53c6712af95c8956f5f9d9585710b94dba93aa5b0ad9f3022e3989514d4",
+    "assets/page-navigation.js": "ac32163bcc5861d8c31a2f06d260a5f0568cb49213b062dd86876788d8c00ec4",
+    "assets/follow-claim.css": "96a3ae2c1b04bf65511668fe6f1a870071bfb6851e32f8d4dff23f16d0c6feba",
+    "assets/follow-sticky-controls.js": "b39aa42bcb796f7051b42033fe44af226d688e5835f54765197fa7b1561dc925",
+    "index.html": "16a6c6fe75548bbd857f8369f8ec16005b0fef66e2dabfe42b6b114f6a4dfd29"
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "changed_existing_sources": [
+    "index.html",
+    "assets/app.js",
+    "assets/follow-claim.css",
+    "assets/page-navigation.js"
+  ],
+  "preservation": {
+    "application_source": "Exact baseline except current presentation receipt link; sticky proxies invoke the existing selection actions.",
+    "frozen_data_and_historical_evidence": "Byte-identical to baseline.",
+    "case_study": "Byte-identical to baseline.",
+    "data_and_export_logic": "Unchanged.",
+    "reading_state": "Selected section position, open evidence folds and sticky-control focus preserved through async record changes.",
+    "missing_chapter_fallback": "If a public example lacks the previously viewed evidence chapter, its selected-record panel occupies the same viewport level."
+  },
+  "prior_presentation_review": "evidence/follow-selection-position-checks-2026-10-20.json",
+  "limits": [
+    "Compact example control sits left of the snapshot control; full cards and explanatory copy stay in normal flow.",
+    "The toolbar is hidden before the source controls and outside Follow a claim.",
+    "No new assurance scope or business-effectiveness claim.",
+    "No commit, merge, push or publication."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T19:39:28.500582+00:00",
+  "scope": "Final narrow-cell polish on the shared frozen columns: readable corner label and scope pill retained without repeating its note inside a narrow first-column cell.",
+  "checks": [
+    {
+      "width": 1280,
+      "view": "module",
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "view": "case",
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "view": "module",
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "view": "case",
+      "status": "pass"
+    }
+  ],
+  "prior_full_table_review": {
+    "path": "evidence/frozen-columns-readable-checks-2026-10-20.json",
+    "sha256": "01dc35180bbb318ff905f795170f8e770c123389197fb8aafd57326781be9203",
+    "status": "pass",
+    "table_regions_checked": 102,
+    "side_scroll_checks": 56,
+    "widths": [
+      1280,
+      768,
+      320
+    ],
+    "views": [
+      "a",
+      "b",
+      "c",
+      "case-study"
+    ]
+  },
+  "source_sha256": {
+    "assets/app.css": "cf05f7a7e3e9c21d6b6c9d3703a840aa62dd8c7ef88564687f33e28f59d907da",
+    "assets/app.js": "104a75de6ce91cd43f28f4c3e3c861fedd27fff3b0d0b01a70278746bbed3408"
+  },
+  "limits": [
+    "All table first columns are frozen at every width; the effect is visible on horizontal scroll.",
+    "Scope labels and their tooltip remain; the repeated first-cell scope note is hidden only below 768 pixels.",
+    "Frozen data, values, disclosures, exports and application logic are unchanged.",
+    "No merge or publication."
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "status": "pass",
+  "prepared_at_utc": "2026-10-20T21:59:50.700293+00:00",
+  "authorization": "Owner approved merge and publication in this chat on 2026-10-20.",
+  "scope": "Publish the approved reader-first module tabs and case study. No analytical rebuild or new assurance claim.",
+  "reviewed_presentation": "evidence/final-consistency-checks-2026-10-20.json",
+  "presentation_checks": {
+    "status": "pass",
+    "screen_widths": [
+      1920,
+      1440,
+      1280,
+      768,
+      390,
+      320
+    ],
+    "table_scroll_checks": 234,
+    "local_resources": 47
+  },
+  "publication_preparation": [
+    "Normalize only new or edited text to the existing repository LF policy. Retain historical receipt fields and source hashes, which describe their reviewed revisions.",
+    "Replace the footer preview wording with presentation-review wording and link this preparation record.",
+    "Preserve all frozen analytical files, existing committed assurance records and disclosures."
+  ],
+  "line_ending_changes": [
+    {
+      "path": "evidence/case-default-opening-checks-2026-10-20.json",
+      "before_sha256": "b74b9bb889152d276202c9fb00d1804ab33a0cd8d6d582c21e48a06920ef3a4a",
+      "after_sha256": "b70067e175ea5303c32b46c7aa5c236bf676498f65ad3029aaf5cbe584dc4fdd",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/case-navigation-opening-checks-2026-10-20.json",
+      "before_sha256": "5059030191f4a8dad659a588a7d97e9b1ed1d5523ebf6619f2a8967b659416f8",
+      "after_sha256": "29e52d11152cc5ba92122f38895fd43dc5b92fe08c628c7022ca4bf78c281b86",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/component-status-format-checks-2026-10-20.json",
+      "before_sha256": "5cbdea5f2de4cc24550157c3206331e271931e3957fbe695303dc3e051562e3c",
+      "after_sha256": "75a95f9bf00f0684655a91a3d8cf393457f0bb888393787ab617132178daeff9",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/default-opening-checks-2026-10-20.json",
+      "before_sha256": "e20d4fffc7093123a2c8541fe768be5a2b67d3e611aab35bccf2d6bc3ec84898",
+      "after_sha256": "94f2b93bfe37569a289f5117141c8efe3354e43f73ee9d69f2a8713dc2c927a3",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/example-card-walkthrough-checks-2026-10-20.json",
+      "before_sha256": "1703bbb4a50557a8b6da7b9dcc853dd9f2043deb5b736443c918bf350bb3e515",
+      "after_sha256": "46f35945f2cdcca44c70f72f18683b8a981f7c80d5c2360bba67d9433e684d50",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/final-consistency-checks-2026-10-20.json",
+      "before_sha256": "54892f7280f3710f70e1d365300c61ad4fb93abe7141b9f4b855d2e2027a16e3",
+      "after_sha256": "999bc84bc4cdcd6c45b7019933a9bd7878fa56eb839af5a6e7c02a84f89f16d7",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/focused-example-order-checks-2026-10-20.json",
+      "before_sha256": "e8bbec8572aed61926dd859fb7c493c1971ba99a444a93073f24ea71e1b44057",
+      "after_sha256": "a664d037ad13c1e480d9c63a0c9b1ebb04eb4c0469ab32ae60c6b8921f6c7aa3",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/follow-claim-readability-checks-2026-10-20.json",
+      "before_sha256": "d2ff1f7ecbb12156e43a5536525ed0d6551ad12c7f45da449cb5a90c73fd910e",
+      "after_sha256": "c1975dc41c168c9d1bc1e7af2bf7837e025ebcd80fa99f0588c7807996c321b0",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/follow-compact-context-checks-2026-10-20.json",
+      "before_sha256": "9791d7bed8d701343341b875ce7a760c8b31f6f56995080566b83f7efdf744fc",
+      "after_sha256": "37fa68e8bae0747b42973cda820e834106f4f278f9ccd3ca47831dd3b9b02284",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/follow-selection-position-checks-2026-10-20.json",
+      "before_sha256": "f88aa5effc4da399a6d339fb172aad9d8d2b4541786c5a188b5a705e3ead5052",
+      "after_sha256": "e6890b549be829aa2e7c5449a1a4ef04ddade1bb2d51108cc8612688cad38a73",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/follow-sticky-filter-checks-2026-10-20.json",
+      "before_sha256": "e4026c922d9952817ba146bbcea0b76149036c6fdce75ed09a45ae48e93a931a",
+      "after_sha256": "5c24e95906bbbec4d0c43a3cf6999614a626ee83cadda3b05bf6c6f2e74d9cbe",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/page-navigation-opening-checks-2026-10-20.json",
+      "before_sha256": "a549f2a564ce121d232137386ccfd2f5d12cffc7d19ba75b893ec8a39784ad60",
+      "after_sha256": "aca8f339bf1b77743212be79669f6a4cf02ef6a679f510a2aacfab0bcd043675",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/page-title-checks-2026-10-20.json",
+      "before_sha256": "e81c0d81549d860071288f95c8db51c07465aa2e1aead965021938edab593e99",
+      "after_sha256": "b76ba49179c4bae6055f68b013fcb39a808b4cb65603f55ffb69fdc24ade7bf6",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/understand-data-readability-checks-2026-10-20.json",
+      "before_sha256": "3ddc560f1d617d8f92a54b72f4efd83c17ac7414daf8b4ecf07bae31b6ce633c",
+      "after_sha256": "9b80bb34d485b9138e40697e8f6d4fd62e85ae68843999abe4fa5ee50ffde9e9",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/walkthrough-record-summary-checks-2026-10-20.json",
+      "before_sha256": "16333b975d2fa1c980f4bec2ac78f29b7429b4c8c0e2fde74cbb1913c5a94698",
+      "after_sha256": "83ea19a139c06a1652b562f313c8d982ebf2ac0c7261ac50f0ce11f52f53222c",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "evidence/walkthrough-snapshot-scope-checks-2026-10-20.json",
+      "before_sha256": "a95b7fe54c37a22354dacd567c1b61d71f12cdb6a7b28373f3cebf7a02a249ad",
+      "after_sha256": "3119b16ce84a4e72d3c468771f977668aaa8822af0b4ba476100cf93248b30b6",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "assets/app.js",
+      "before_sha256": "9546f215ea60ffb95d0e0fe802e6f9b78eaf2c50c6302092e61d544bcb492cdb",
+      "after_sha256": "34b6e9afa6e2f9ea3762523f03119f2b75fa22bfdfbf45d5e1fff1e452776072",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "case-study.html",
+      "before_sha256": "5308e4c8851933a2435f8fbfbefaf7c7d977dd99a4692f5a15a286161c5d80b5",
+      "after_sha256": "cb8327ed76f00db9a6603961cddb93ec03e8d1f386662970eda4e8f04c02de77",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    },
+    {
+      "path": "data/manifest.json",
+      "before_sha256": "8ccee9907b4d86bae4af4987be8cbc00b97192c24a23f36e6da20ada1ef90b8a",
+      "after_sha256": "c9228f3603ce6a52269822b006e2405d7890b35502df4af05f9e425c4967eec2",
+      "change": "CRLF to LF only, as required by the repository attributes"
+    }
+  ],
+  "frozen_data_sha256": {
+    "data/blockers.json": "0e9a9bd1d7a8816eafa98533e63be21e4c2c6b391e5a0fa4b3efd459c9a80db1",
+    "data/bundle.json": "abbbb8a7aa8963701afda44ad551282d99f83accd62e8e2058df611651150960",
+    "data/cells.json": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+    "data/health.json": "6ae10095d490dc30d350e9f337e176763e5a6bbadeef2c75833c80e429c373bc",
+    "data/stories.json": "c00a3c9c8e6159b1ecd47df4d95b2208c93bc0f86f4c20469cfa5e557def708c",
+    "data/verification.json": "6a8867e64df3efa458099a1372d9407966c7e58a4ed2cba3881eb3d80b8c2534",
+    "data/records/SYN-C01.json.gz": "2475329475bd54d322828b14ebb448fbc805f2d4c2c0b9f34a39f65ae27af089",
+    "data/records/SYN-C02.json.gz": "975861c83e20ad0b9ed60af69ca54f5388b6a6c503c6eb76ac51f49a6f8488cf",
+    "data/records/SYN-C03.json.gz": "4cc6ba3dee952295d05110770675a3ab9a45626e4fd1d39bc348f0e2e142056a",
+    "data/records/SYN-C04.json.gz": "ff853be0ebab9567a08e1b639fb49a0dd495dbe294e68c1162b07660c45a8e91",
+    "data/records/SYN-C05.json.gz": "ed9dd6bbe53ae612e28a2e270654c0d88881c67cd6d9288bad1eba6b1dbec80c",
+    "data/records/SYN-C06.json.gz": "d7948040b6039941bd57a8efc2b0db60b27732445bc8bfe5a99a98e6e8386176"
+  },
+  "source_sha256": {
+    "case-study.html": "cb8327ed76f00db9a6603961cddb93ec03e8d1f386662970eda4e8f04c02de77",
+    "index.html": "c73f9ec4293f75826926b8ec0f7f3efa2e76de4bc7feee1636363ec47d4349de",
+    "assets/app.css": "cf05f7a7e3e9c21d6b6c9d3703a840aa62dd8c7ef88564687f33e28f59d907da",
+    "assets/app.js": "de4ec2fbf8b299484c3a0f71be0bab0b8bf2e30b5e95c0f67ed31fbe5fa95b81",
+    "assets/business-story.css": "c99c22ad29f966972e309943b674b3866bcf2e62eddfb16e9692091da923cbcf",
+    "assets/case-opening-options.css": "a6d9facd6cc333f6828c259052cd809f609f431d0d16dffe8ce98754297efcde",
+    "assets/case-opening-preview.js": "9bc25abd54fa88d3b8a41488c2d84b86f4528de90367913da89cd18eb62f32fa",
+    "assets/case-study.css": "7d55b4a7c7d3d52324f3b7cd7264691922385dfe93c67e517e3318fce5870d11",
+    "assets/case-study.js": "2ac9e6eb844472705b90077f6d36658e7a2988f737e9b02a985a479edcb06d63",
+    "assets/favicon.svg": "681773e7897c76556b9ab66f391e7e9b54682dd00aa2c8b57236138fd204d52a",
+    "assets/follow-claim.css": "e3a879c28f833669ec264880db9040c2b188a7df5b24fd9c13974ea21ad2f19e",
+    "assets/follow-sticky-controls.js": "8a0a3b8ae81d89c508f82740f54f8fb86ab73f9c9b64bc8fdab7897c1a5a3de7",
+    "assets/guided-explorer.css": "3b3fce9fe0f29036f018b3813a7adf42a57d03e66626cbb29442c5041f26d953",
+    "assets/navigation.js": "7d825c6850d198d4e94f7e61cd6647790b89d69a0b2191d70aa92c493ebfe67f",
+    "assets/opening-preview.js": "f8428cfe50e5e3d0505a2322d9e9cb5ef6f19d623e81a80fc2a6fa1fe7e02b37",
+    "assets/page-navigation.css": "c62dffb6347a638466abde369f1480a6b49b8339b046d1c20fa0baca6f89a75e",
+    "assets/page-navigation.js": "84d2239e85a02682df4519984196ca2de67dba889a8bafb911c71acdcf1cda5d",
+    "assets/readiness-business.css": "0615b28015e39acfa5a1a1f71fa19cec1d4828a187a4fe11e535798c5b9769ee",
+    "assets/readiness-navigation.js": "5c08edde9cb55b8b4565086b147406d36c7b9aeb00ab62446d61fe35cf894f2d",
+    "assets/readiness-typography.js": "07049874e267993a47077fd74425573a2ee2e203ef76546d361d6e14fead7cf5",
+    "assets/review-notes.js": "0d585dcce1bf5919a22e318ab43d5a5e0746896bacd32410100bdee858dc184e",
+    "assets/shared-reader-context.css": "d7f381fb7d800b68c3a4a1ea9186751580cd4bc13f142cd13864ec21618df653",
+    "assets/shared-reader-context.js": "c16e7cb2653df25dc688403cf68471f21f3755cc2c7fa062d66168a0fdcef1e7",
+    "assets/social-card.png": "ecc5f79529f3a2789728fddecba11496ebbf0bc5076520e65a070c36d074bc86",
+    "assets/understand-data.css": "d5fcfb6d953a86756f3900aa08d60b6359669b054bc88dca84b87af653032354"
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "postpublication_readback": "Required after deployment. Its actual result will be recorded separately, not inferred here."
+}

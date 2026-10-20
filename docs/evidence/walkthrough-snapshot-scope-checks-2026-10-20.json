@@ -1,0 +1,173 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:27:49.944096+00:00",
+  "scope": "Visible fixed-walkthrough scope label, explanation of snapshot effects, and distinct fixed-test-case scope. Presentation only.",
+  "browser_checks": [
+    {
+      "width": 1280,
+      "story": "DEMO01",
+      "status": "pass",
+      "three_snapshots": "Fixed story text; actual record readiness and step highlight change as expected.",
+      "readiness": [
+        [
+          "Blocked",
+          "Blocked"
+        ],
+        [
+          "Blocked",
+          "Blocked"
+        ],
+        [
+          "Ready",
+          "Ready"
+        ]
+      ],
+      "highlights": [
+        [
+          "The ride happened. The claim still needs a billing reference. (known then)"
+        ],
+        [
+          "Later information cannot make the earlier version ready. (restated then)"
+        ],
+        [
+          "The corrected claim can move forward at the later date. (current later)",
+          "Ready to send does not mean accepted. (current later)"
+        ]
+      ]
+    },
+    {
+      "width": 1280,
+      "story": "DEMO01",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO02",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO03",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO04",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO05",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO04",
+      "status": "pass",
+      "mixed_story_test_case_explains_fixed_scope": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO05",
+      "status": "pass",
+      "mixed_story_test_case_explains_fixed_scope": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO01",
+      "status": "pass",
+      "three_snapshots": "Fixed story text; actual record readiness and step highlight change as expected.",
+      "readiness": [
+        [
+          "Blocked",
+          "Blocked"
+        ],
+        [
+          "Blocked",
+          "Blocked"
+        ],
+        [
+          "Ready",
+          "Ready"
+        ]
+      ],
+      "highlights": [
+        [
+          "The ride happened. The claim still needs a billing reference. (known then)"
+        ],
+        [
+          "Later information cannot make the earlier version ready. (restated then)"
+        ],
+        [
+          "The corrected claim can move forward at the later date. (current later)",
+          "Ready to send does not mean accepted. (current later)"
+        ]
+      ]
+    },
+    {
+      "width": 320,
+      "story": "DEMO01",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO02",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO03",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO04",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO05",
+      "status": "pass",
+      "scope_label_present": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO04",
+      "status": "pass",
+      "mixed_story_test_case_explains_fixed_scope": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO05",
+      "status": "pass",
+      "mixed_story_test_case_explains_fixed_scope": true
+    }
+  ],
+  "browser_errors": [],
+  "source_sha256": {
+    "assets/app.js": "3b0400ad2eeaada275f2d03c38dc1f55b7fdacdb38e03489d3c4e15eeee6a010",
+    "assets/follow-claim.css": "21cb16b2f6c0dfa14762149a6fd7317e4b4d83f8ba95b8c560bdf74e29caacd6"
+  },
+  "preservation": {
+    "application_source": "Exact baseline except adding the walkthrough scope explanation and current presentation receipt links.",
+    "data_and_historical_evidence": "Byte-identical to baseline.",
+    "story_text_steps_bindings_and_calculations": "Unchanged. Snapshot-specific record states remain separate from the fixed walkthrough."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/example-card-walkthrough-checks-2026-10-20.json",
+  "limits": [
+    "Fixed scope labels are explanatory status badges, not buttons with nonexistent actions.",
+    "Presentation checks do not add assurance or business-effectiveness claims.",
+    "No commit, merge, push or publication."
+  ]
+}
