@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:19:15.771570+00:00",
+  "scope": "Move Accepted, but still wrong to Example 5 and explain the intentionally absent full ride-record sections on the card and each focused step. Presentation only.",
+  "browser_checks": [
+    {
+      "width": 1440,
+      "status": "pass",
+      "card_order_and_numbers": "1,3,4,5,2 original story identifiers; displayed as Examples 1 through 5",
+      "focused_steps_explained": 4,
+      "focused_tables_retained": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sticky_order_matches_cards": true,
+      "no_horizontal_page_overflow": true
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "card_order_and_numbers": "1,3,4,5,2 original story identifiers; displayed as Examples 1 through 5",
+      "focused_steps_explained": 4,
+      "focused_tables_retained": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sticky_order_matches_cards": true,
+      "no_horizontal_page_overflow": true
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "card_order_and_numbers": "1,3,4,5,2 original story identifiers; displayed as Examples 1 through 5",
+      "focused_steps_explained": 4,
+      "focused_tables_retained": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sticky_order_matches_cards": true,
+      "no_horizontal_page_overflow": true
+    }
+  ],
+  "browser_errors": [],
+  "source_sha256": {
+    "assets/app.js": "9789f0c8f3b7ad6faf5fdbba51e8b9b14cead43c0b0194541aa3637496476d40"
+  },
+  "preservation": {
+    "data_and_historical_evidence": "Byte-identical to baseline.",
+    "original_story_ids_steps_bindings": "Frozen stories unchanged; only a filtered copy is reordered for display. Story panel and miniature rendering functions are byte-identical.",
+    "other_pages_and_styles": "Byte-identical to baseline.",
+    "new_full_ride_sections": "None. Focused test evidence retains its scope."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/component-status-format-checks-2026-10-20.json",
+  "limits": [
+    "Presentation checks do not add assurance or business-effectiveness claims.",
+    "No commit, merge, push or publication."
+  ]
+}

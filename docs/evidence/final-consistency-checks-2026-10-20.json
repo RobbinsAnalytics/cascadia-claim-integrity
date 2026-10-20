@@ -1,0 +1,2955 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:55:21.810714+00:00",
+  "scope": "Final presentation consistency across all three module tabs and the case study. Navigation, sticky table geometry, disclosures, viewport layout and filter behavior. No new assurance cycle.",
+  "browser_checks": [
+    {
+      "page": "a",
+      "width": 1920,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "t-m15-missing-encounter_submission",
+          "caption": "Required facts behind blocked or conflicting units (M15 explanatory submeasures)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m02",
+          "caption": "Uncovered completed legs by explanation (M02)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m04-m07",
+          "caption": "Coverage at each deadline (M04) and time to first valid acceptance (M07)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-routes",
+          "caption": "Clients, profiles, routes and reporting-unit evidence (M16 counts are published per client)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 102,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-slots",
+          "caption": "Expected financial slots by type and state",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m17-settlements",
+          "caption": "Settlement events and their allocation (USD)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-residuals",
+          "caption": "Accepted content and residual populations",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "b",
+      "width": 1920,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, restated with later knowledge",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000005 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-src-SYN-C01:S000001",
+          "caption": "Source rows bound to this item (effective and received times; rows received after K are not available at this position)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim-to-source comparisons that do not conform",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Business attempts by target through the frozen horizon (the first attempt is fixed at first readiness; later versions create decisions, never automatic submissions)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-readiness-SYN-C01:S000001",
+          "caption": "Readiness by recipient, purpose and stage at the earlier date, as known then, for the units of SYN-C01:S000001 only",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-workitems-SYN-C01:S000001",
+          "caption": "Open unit work items for the units of SYN-C01:S000001 (owner role, next action, timing basis)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-downstream-SYN-C01:S000001",
+          "caption": "Downstream, for the units of SYN-C01:S000001 only: the exact delivery and component each unit was reported through, and the outcome evidence",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Submitted payload lines (normalized synthetic payload, not a standards transaction)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Typed financial events from source (amounts keep their type and parties; unknown is not zero)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 70,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Expected slots at this position (state, supported amount and the retained source observation)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-bridge-SYN-C01:S000001",
+          "caption": "State of this record at each position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-legs-SYN-C01",
+          "caption": "SYN-C01 completed legs (earlier date, as known then)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-requests-SYN-C01",
+          "caption": "SYN-C01 requests without a completed leg",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "c",
+      "width": 1920,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m08",
+          "caption": "Every raw response row keeps a disposition (later date, as known then; all clients, full period only)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-definition-M15",
+          "caption": "M15 definition from the register (verbatim clauses)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-measure-M15",
+          "caption": "M15 cells at the later date, as known then, All six fictional health plans, full service period, 2026-04-01 to 2026-06-29",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-register",
+          "caption": "Published measures, their grain and supported filters (governance/metric_register.md)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Chart and table to measure catalog",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-verification",
+          "caption": "Build checklist: scope dispositions beside recorded evidence outcomes",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-diagnostics",
+          "caption": "Public diagnostic injections and clean pairs by class (development checks)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-served-evidence",
+          "caption": "Public evidence served with this page (assembly refuses a copy that differs from its governance source; .gz files decompress to it; a historical copy is labeled with its own revision)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "case",
+      "width": 1920,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Demonstrated results at the fixed current-later position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "a",
+      "width": 1440,
+      "status": "pass",
+      "navigation_destinations_tested": 18,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "t-m15-missing-encounter_submission",
+          "caption": "Required facts behind blocked or conflicting units (M15 explanatory submeasures)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m02",
+          "caption": "Uncovered completed legs by explanation (M02)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m04-m07",
+          "caption": "Coverage at each deadline (M04) and time to first valid acceptance (M07)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-routes",
+          "caption": "Clients, profiles, routes and reporting-unit evidence (M16 counts are published per client)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 102,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-slots",
+          "caption": "Expected financial slots by type and state",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m17-settlements",
+          "caption": "Settlement events and their allocation (USD)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-residuals",
+          "caption": "Accepted content and residual populations",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "b",
+      "width": 1440,
+      "status": "pass",
+      "navigation_destinations_tested": 14,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, restated with later knowledge",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000005 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-src-SYN-C01:S000001",
+          "caption": "Source rows bound to this item (effective and received times; rows received after K are not available at this position)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim-to-source comparisons that do not conform",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Business attempts by target through the frozen horizon (the first attempt is fixed at first readiness; later versions create decisions, never automatic submissions)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-readiness-SYN-C01:S000001",
+          "caption": "Readiness by recipient, purpose and stage at the earlier date, as known then, for the units of SYN-C01:S000001 only",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-workitems-SYN-C01:S000001",
+          "caption": "Open unit work items for the units of SYN-C01:S000001 (owner role, next action, timing basis)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-downstream-SYN-C01:S000001",
+          "caption": "Downstream, for the units of SYN-C01:S000001 only: the exact delivery and component each unit was reported through, and the outcome evidence",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Submitted payload lines (normalized synthetic payload, not a standards transaction)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Typed financial events from source (amounts keep their type and parties; unknown is not zero)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 70,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Expected slots at this position (state, supported amount and the retained source observation)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-bridge-SYN-C01:S000001",
+          "caption": "State of this record at each position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-legs-SYN-C01",
+          "caption": "SYN-C01 completed legs (earlier date, as known then)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-requests-SYN-C01",
+          "caption": "SYN-C01 requests without a completed leg",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "c",
+      "width": 1440,
+      "status": "pass",
+      "navigation_destinations_tested": 15,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m08",
+          "caption": "Every raw response row keeps a disposition (later date, as known then; all clients, full period only)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-definition-M15",
+          "caption": "M15 definition from the register (verbatim clauses)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-measure-M15",
+          "caption": "M15 cells at the later date, as known then, All six fictional health plans, full service period, 2026-04-01 to 2026-06-29",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-register",
+          "caption": "Published measures, their grain and supported filters (governance/metric_register.md)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Chart and table to measure catalog",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-verification",
+          "caption": "Build checklist: scope dispositions beside recorded evidence outcomes",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-diagnostics",
+          "caption": "Public diagnostic injections and clean pairs by class (development checks)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-served-evidence",
+          "caption": "Public evidence served with this page (assembly refuses a copy that differs from its governance source; .gz files decompress to it; a historical copy is labeled with its own revision)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "case",
+      "width": 1440,
+      "status": "pass",
+      "navigation_destinations_tested": 15,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Demonstrated results at the fixed current-later position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "a",
+      "width": 1280,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "t-m15-missing-encounter_submission",
+          "caption": "Required facts behind blocked or conflicting units (M15 explanatory submeasures)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m02",
+          "caption": "Uncovered completed legs by explanation (M02)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m04-m07",
+          "caption": "Coverage at each deadline (M04) and time to first valid acceptance (M07)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-routes",
+          "caption": "Clients, profiles, routes and reporting-unit evidence (M16 counts are published per client)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 102,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-slots",
+          "caption": "Expected financial slots by type and state",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m17-settlements",
+          "caption": "Settlement events and their allocation (USD)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-residuals",
+          "caption": "Accepted content and residual populations",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "b",
+      "width": 1280,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, restated with later knowledge",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000005 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 25,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-src-SYN-C01:S000001",
+          "caption": "Source rows bound to this item (effective and received times; rows received after K are not available at this position)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim-to-source comparisons that do not conform",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Business attempts by target through the frozen horizon (the first attempt is fixed at first readiness; later versions create decisions, never automatic submissions)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-readiness-SYN-C01:S000001",
+          "caption": "Readiness by recipient, purpose and stage at the earlier date, as known then, for the units of SYN-C01:S000001 only",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-workitems-SYN-C01:S000001",
+          "caption": "Open unit work items for the units of SYN-C01:S000001 (owner role, next action, timing basis)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-downstream-SYN-C01:S000001",
+          "caption": "Downstream, for the units of SYN-C01:S000001 only: the exact delivery and component each unit was reported through, and the outcome evidence",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Submitted payload lines (normalized synthetic payload, not a standards transaction)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Typed financial events from source (amounts keep their type and parties; unknown is not zero)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 70,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Expected slots at this position (state, supported amount and the retained source observation)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-bridge-SYN-C01:S000001",
+          "caption": "State of this record at each position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-legs-SYN-C01",
+          "caption": "SYN-C01 completed legs (earlier date, as known then)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-requests-SYN-C01",
+          "caption": "SYN-C01 requests without a completed leg",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "c",
+      "width": 1280,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m08",
+          "caption": "Every raw response row keeps a disposition (later date, as known then; all clients, full period only)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-definition-M15",
+          "caption": "M15 definition from the register (verbatim clauses)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-measure-M15",
+          "caption": "M15 cells at the later date, as known then, All six fictional health plans, full service period, 2026-04-01 to 2026-06-29",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-register",
+          "caption": "Published measures, their grain and supported filters (governance/metric_register.md)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Chart and table to measure catalog",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-verification",
+          "caption": "Build checklist: scope dispositions beside recorded evidence outcomes",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-diagnostics",
+          "caption": "Public diagnostic injections and clean pairs by class (development checks)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-served-evidence",
+          "caption": "Public evidence served with this page (assembly refuses a copy that differs from its governance source; .gz files decompress to it; a historical copy is labeled with its own revision)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "case",
+      "width": 1280,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Demonstrated results at the fixed current-later position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "a",
+      "width": 768,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "t-m15-missing-encounter_submission",
+          "caption": "Required facts behind blocked or conflicting units (M15 explanatory submeasures)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m02",
+          "caption": "Uncovered completed legs by explanation (M02)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m04-m07",
+          "caption": "Coverage at each deadline (M04) and time to first valid acceptance (M07)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-routes",
+          "caption": "Clients, profiles, routes and reporting-unit evidence (M16 counts are published per client)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-slots",
+          "caption": "Expected financial slots by type and state",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 100,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-settlements",
+          "caption": "Settlement events and their allocation (USD)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-residuals",
+          "caption": "Accepted content and residual populations",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "b",
+      "width": 768,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 62,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, restated with later knowledge",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 62,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 62,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 62,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000005 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 62,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-src-SYN-C01:S000001",
+          "caption": "Source rows bound to this item (effective and received times; rows received after K are not available at this position)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 90,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim-to-source comparisons that do not conform",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 13,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 124,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Business attempts by target through the frozen horizon (the first attempt is fixed at first readiness; later versions create decisions, never automatic submissions)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 159,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-readiness-SYN-C01:S000001",
+          "caption": "Readiness by recipient, purpose and stage at the earlier date, as known then, for the units of SYN-C01:S000001 only",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 107,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-workitems-SYN-C01:S000001",
+          "caption": "Open unit work items for the units of SYN-C01:S000001 (owner role, next action, timing basis)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 71,
+          "horizontalScroll": 96,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-downstream-SYN-C01:S000001",
+          "caption": "Downstream, for the units of SYN-C01:S000001 only: the exact delivery and component each unit was reported through, and the outcome evidence",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Submitted payload lines (normalized synthetic payload, not a standards transaction)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 142,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Typed financial events from source (amounts keep their type and parties; unknown is not zero)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Expected slots at this position (state, supported amount and the retained source observation)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 87,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-bridge-SYN-C01:S000001",
+          "caption": "State of this record at each position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-legs-SYN-C01",
+          "caption": "SYN-C01 completed legs (earlier date, as known then)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-browse-requests-SYN-C01",
+          "caption": "SYN-C01 requests without a completed leg",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "c",
+      "width": 768,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-m08",
+          "caption": "Every raw response row keeps a disposition (later date, as known then; all clients, full period only)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-definition-M15",
+          "caption": "M15 definition from the register (verbatim clauses)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-measure-M15",
+          "caption": "M15 cells at the later date, as known then, All six fictional health plans, full service period, 2026-04-01 to 2026-06-29",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 60,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-register",
+          "caption": "Published measures, their grain and supported filters (governance/metric_register.md)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 44,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Chart and table to measure catalog",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-verification",
+          "caption": "Build checklist: scope dispositions beside recorded evidence outcomes",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        },
+        {
+          "id": "t-diagnostics",
+          "caption": "Public diagnostic injections and clean pairs by class (development checks)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 98,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-served-evidence",
+          "caption": "Public evidence served with this page (assembly refuses a copy that differs from its governance source; .gz files decompress to it; a historical copy is labeled with its own revision)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "case",
+      "width": 768,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Demonstrated results at the fixed current-later position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 0,
+          "headerOffset": 1,
+          "columnOffset": null
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "a",
+      "width": 390,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "t-m15-missing-encounter_submission",
+          "caption": "Required facts behind blocked or conflicting units (M15 explanatory submeasures)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 82,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m02",
+          "caption": "Uncovered completed legs by explanation (M02)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m04-m07",
+          "caption": "Coverage at each deadline (M04) and time to first valid acceptance (M07)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 5,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-routes",
+          "caption": "Clients, profiles, routes and reporting-unit evidence (M16 counts are published per client)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-slots",
+          "caption": "Expected financial slots by type and state",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-settlements",
+          "caption": "Settlement events and their allocation (USD)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-residuals",
+          "caption": "Accepted content and residual populations",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 135,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 143,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "b",
+      "width": 390,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 92,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, restated with later knowledge",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 92,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 92,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 92,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000005 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 92,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-src-SYN-C01:S000001",
+          "caption": "Source rows bound to this item (effective and received times; rows received after K are not available at this position)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim-to-source comparisons that do not conform",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Business attempts by target through the frozen horizon (the first attempt is fixed at first readiness; later versions create decisions, never automatic submissions)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-readiness-SYN-C01:S000001",
+          "caption": "Readiness by recipient, purpose and stage at the earlier date, as known then, for the units of SYN-C01:S000001 only",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-workitems-SYN-C01:S000001",
+          "caption": "Open unit work items for the units of SYN-C01:S000001 (owner role, next action, timing basis)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 71,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-downstream-SYN-C01:S000001",
+          "caption": "Downstream, for the units of SYN-C01:S000001 only: the exact delivery and component each unit was reported through, and the outcome evidence",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Submitted payload lines (normalized synthetic payload, not a standards transaction)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Typed financial events from source (amounts keep their type and parties; unknown is not zero)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Expected slots at this position (state, supported amount and the retained source observation)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 87,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-bridge-SYN-C01:S000001",
+          "caption": "State of this record at each position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-browse-legs-SYN-C01",
+          "caption": "SYN-C01 completed legs (earlier date, as known then)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-browse-requests-SYN-C01",
+          "caption": "SYN-C01 requests without a completed leg",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "c",
+      "width": 390,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 143,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m08",
+          "caption": "Every raw response row keeps a disposition (later date, as known then; all clients, full period only)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 0,
+          "headerOffset": null,
+          "columnOffset": null
+        },
+        {
+          "id": "t-definition-M15",
+          "caption": "M15 definition from the register (verbatim clauses)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 46,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-measure-M15",
+          "caption": "M15 cells at the later date, as known then, All six fictional health plans, full service period, 2026-04-01 to 2026-06-29",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-register",
+          "caption": "Published measures, their grain and supported filters (governance/metric_register.md)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Chart and table to measure catalog",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 42,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-verification",
+          "caption": "Build checklist: scope dispositions beside recorded evidence outcomes",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-diagnostics",
+          "caption": "Public diagnostic injections and clean pairs by class (development checks)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-served-evidence",
+          "caption": "Public evidence served with this page (assembly refuses a copy that differs from its governance source; .gz files decompress to it; a historical copy is labeled with its own revision)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "case",
+      "width": 390,
+      "status": "pass",
+      "navigation_destinations_tested": 3,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Demonstrated results at the fixed current-later position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "a",
+      "width": 320,
+      "status": "pass",
+      "navigation_destinations_tested": 18,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "t-m15-missing-encounter_submission",
+          "caption": "Required facts behind blocked or conflicting units (M15 explanatory submeasures)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 152,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m02",
+          "caption": "Uncovered completed legs by explanation (M02)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m04-m07",
+          "caption": "Coverage at each deadline (M04) and time to first valid acceptance (M07)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 75,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-routes",
+          "caption": "Clients, profiles, routes and reporting-unit evidence (M16 counts are published per client)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-slots",
+          "caption": "Expected financial slots by type and state",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m17-settlements",
+          "caption": "Settlement events and their allocation (USD)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-residuals",
+          "caption": "Accepted content and residual populations",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "b",
+      "width": 320,
+      "status": "pass",
+      "navigation_destinations_tested": 14,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at earlier date, restated with later knowledge",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000001 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Evidence binding for SYN-C01:S000005 at later date, as known then",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-src-SYN-C01:S000001",
+          "caption": "Source rows bound to this item (effective and received times; rows received after K are not available at this position)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim-to-source comparisons that do not conform",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Header fields: support class per field and source item (source, reference join, permitted derivation, or missing and conflicting)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Claim lines and their quantity support",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Business attempts by target through the frozen horizon (the first attempt is fixed at first readiness; later versions create decisions, never automatic submissions)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-readiness-SYN-C01:S000001",
+          "caption": "Readiness by recipient, purpose and stage at the earlier date, as known then, for the units of SYN-C01:S000001 only",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-workitems-SYN-C01:S000001",
+          "caption": "Open unit work items for the units of SYN-C01:S000001 (owner role, next action, timing basis)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 71,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-downstream-SYN-C01:S000001",
+          "caption": "Downstream, for the units of SYN-C01:S000001 only: the exact delivery and component each unit was reported through, and the outcome evidence",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Submitted payload lines (normalized synthetic payload, not a standards transaction)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Typed financial events from source (amounts keep their type and parties; unknown is not zero)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Expected slots at this position (state, supported amount and the retained source observation)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 87,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-bridge-SYN-C01:S000001",
+          "caption": "State of this record at each position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 0,
+          "horizontalScroll": 160,
+          "headerOffset": null,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-browse-legs-SYN-C01",
+          "caption": "SYN-C01 completed legs (earlier date, as known then)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-browse-requests-SYN-C01",
+          "caption": "SYN-C01 requests without a completed leg",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "c",
+      "width": 320,
+      "status": "pass",
+      "navigation_destinations_tested": 15,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Populations and how they relate (counts differ by design; this is not a funnel)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-m08",
+          "caption": "Every raw response row keeps a disposition (later date, as known then; all clients, full period only)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 10,
+          "horizontalScroll": 6,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-definition-M15",
+          "caption": "M15 definition from the register (verbatim clauses)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 116,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-measure-M15",
+          "caption": "M15 cells at the later date, as known then, All six fictional health plans, full service period, 2026-04-01 to 2026-06-29",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-register",
+          "caption": "Published measures, their grain and supported filters (governance/metric_register.md)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "",
+          "caption": "Chart and table to measure catalog",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 112,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-verification",
+          "caption": "Build checklist: scope dispositions beside recorded evidence outcomes",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-diagnostics",
+          "caption": "Public diagnostic injections and clean pairs by class (development checks)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        },
+        {
+          "id": "t-served-evidence",
+          "caption": "Public evidence served with this page (assembly refuses a copy that differs from its governance source; .gz files decompress to it; a historical copy is labeled with its own revision)",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "page": "case",
+      "width": 320,
+      "status": "pass",
+      "navigation_destinations_tested": 15,
+      "structure": {
+        "duplicates": [],
+        "brokenAnchors": [],
+        "pageOverflow": false,
+        "outdated": []
+      },
+      "table_scroll_checks": [
+        {
+          "id": "",
+          "caption": "Demonstrated results at the fixed current-later position",
+          "headersSticky": true,
+          "firstColumnSticky": true,
+          "verticalScroll": 120,
+          "horizontalScroll": 160,
+          "headerOffset": 1,
+          "columnOffset": 1
+        }
+      ],
+      "portfolio_navigation_and_disclosure_placement": true
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "business_cta_heading_clear_of_sticky_controls": {
+        "heading": 230.125,
+        "bar": 212.109375
+      },
+      "snapshot_summary_and_fixed_walkthrough": true,
+      "five_example_changes_preserve_selected_record_position": true,
+      "financial_fold_stays_open": true,
+      "mobile_controls_at_top_after_header_scrolls_away": true,
+      "chart_keyboard_readout_and_escape": true
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "business_cta_heading_clear_of_sticky_controls": {
+        "heading": 138.53125,
+        "bar": 120.875
+      },
+      "snapshot_summary_and_fixed_walkthrough": true,
+      "five_example_changes_preserve_selected_record_position": true,
+      "financial_fold_stays_open": true,
+      "mobile_controls_at_top_after_header_scrolls_away": true,
+      "chart_keyboard_readout_and_escape": true
+    }
+  ],
+  "local_resources": [
+    {
+      "url": "http://127.0.0.1:8770/case-study.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/build-scope-checklist.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/build-scope-policy.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/check-results.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/claim-contract.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/claim-lineage.jsonl.gz",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/claim-validation.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/completed-checks-2026-10-19.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/completed-review-checks-2026-10-19.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/consumption-manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/detection-results-2.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/evidence-coverage.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/expected-event-accounting.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/financial-reconciliation.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/guided-explorer-checks-2026-10-20.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/historical-completed-checks-2026-10-19.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/metric_register.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/negative-controls.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/obligations.jsonl.gz",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/preparation-accounting.jsonl.gz",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reading-panel-2026-10-19.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/coverage-bridges.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/current_later/evidence-residuals.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/current_later/known-later-bridge.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/current_later/out-of-scope-accepted.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/current_later/population.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/current_later/uncovered-legs.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/known_then/evidence-residuals.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/known_then/known-later-bridge.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/known_then/out-of-scope-accepted.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/known_then/population.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/known_then/uncovered-legs.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/never-ready-families.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/population-bridge.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/restated_then/evidence-residuals.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/restated_then/known-later-bridge.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/restated_then/population.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/reconciliation/restated_then/uncovered-legs.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/rederivation.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/review-receipt-2026-10-19.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/source-manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/source-register.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/story-bindings-verification.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/evidence/understand-data-readability-checks-2026-10-20.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8770/index.html",
+      "status": 200
+    }
+  ],
+  "browser_errors": [],
+  "failed_local_responses": [],
+  "corrections": [
+    "Replaced old tab and section names in expandable explanations.",
+    "Shared in-page jump offsets prevent Follow the example from hiding its heading behind sticky filters.",
+    "Mobile What needs attention controls no longer reserve space for a header that has scrolled away.",
+    "Evidence-files link opens its actual section and enclosing methods panel.",
+    "Case-study footer and module-example labels match current tab names and example order.",
+    "Snapshot-section tracking uses the same offset reserved by navigation during sticky-control reveal.",
+    "Keyboard chart readouts remain visible through focus-induced scrolling; Escape and outside-click dismissal are retained."
+  ],
+  "source_sha256": {
+    "assets/app.js": "9546f215ea60ffb95d0e0fe802e6f9b78eaf2c50c6302092e61d544bcb492cdb",
+    "assets/page-navigation.js": "84d2239e85a02682df4519984196ca2de67dba889a8bafb911c71acdcf1cda5d",
+    "assets/guided-explorer.css": "3b3fce9fe0f29036f018b3813a7adf42a57d03e66626cbb29442c5041f26d953",
+    "case-study.html": "5308e4c8851933a2435f8fbfbefaf7c7d977dd99a4692f5a15a286161c5d80b5"
+  },
+  "preservation": {
+    "frozen_data_and_historical_evidence": "Byte-identical to baseline.",
+    "published_values": "22,173 unchanged.",
+    "analytical_helpers_record_rendering_and_exact_definitions": "Protected source comparisons pass.",
+    "disclosures": "Synthetic data and scenario-prevalence limits, payment/acceptance distinction, restricted-review limits, scope dispositions and historical-record caveats retained.",
+    "publication": "No commit, merge, push or deployment."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/understand-data-readability-checks-2026-10-20.json",
+  "limits": [
+    "Local rendered review at 1920, 1440, 1280, 768, 390 and 320 px; no physical-phone or human-user-study claim.",
+    "Linked local resources checked; unchanged external source pages are outside this presentation pass.",
+    "Historical assurance records were preserved, not rerun or recertified."
+  ]
+}

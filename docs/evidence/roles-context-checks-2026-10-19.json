@@ -1,0 +1,130 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-19",
+  "reviewed_at_utc": "2026-10-20T03:32:31.735782+00:00",
+  "checks": [
+    {
+      "check": "Five-role diagram, explicit health-plan client assumption, general appointment example and preserved figures",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Health-plan names retain canonical URL keys, filter focus and frozen card values",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Five-role diagram, explicit health-plan client assumption, general appointment example and preserved figures",
+      "status": "pass",
+      "width": 768
+    },
+    {
+      "check": "Health-plan names retain canonical URL keys, filter focus and frozen card values",
+      "status": "pass",
+      "width": 768
+    },
+    {
+      "check": "Five-role diagram, explicit health-plan client assumption, general appointment example and preserved figures",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Health-plan names retain canonical URL keys, filter focus and frozen card values",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "All frozen data and prior evidence unchanged",
+      "status": "pass",
+      "files": 61,
+      "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+      "published_cells": 22173
+    }
+  ],
+  "scope": "Health-plan display labels, case-study role diagram and general appointment wording. No analytical regeneration.",
+  "client_display_names": {
+    "SYN-C01": "Cedar Harbor Health Plan",
+    "SYN-C02": "Juniper Way Health Plan",
+    "SYN-C03": "Alder Ridge Health Plan",
+    "SYN-C04": "Willow Bay Health Plan",
+    "SYN-C05": "Maple Vale Health Plan",
+    "SYN-C06": "Cypress Grove Health Plan"
+  },
+  "source_sha256": {
+    "assets/app.js": "1461ffce6986beba11c05ca4cc82f5d84a8dc554e55bf96702af1c8574faeacc",
+    "assets/case-study.css": "a18513fa609c67c76f01575d7a549950d768a342ab14cc73fbaedffd7e3eee49",
+    "case-study.html": "4cb1950efa2be046d6bbdb9aba856fea6ef3873cbc471382557dae3a358d3d6d",
+    "index.html": "c703f82e78cfe28f2e51c70ce110a6315e36d233d3c1b2717b44ba822a81ab09"
+  },
+  "preserved_files": [
+    "assets/app.css",
+    "assets/favicon.svg",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/detection-results-2.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "modeling_assumption": "The six existing synthetic client scopes are presented as fictional health-plan accounts. No legal entity type, contract or source-data field was rewritten.",
+  "limits": [
+    "Illustrative managed-care roles; not SafeRide internal system documentation.",
+    "The public-program funding layer is distinct from individual provider payments. Routes vary.",
+    "Original Medicare ambulance coverage is not generalized to routine rideshare.",
+    "Previous assurance records retain their recorded revisions. No new independent or human-reader evaluation.",
+    "No merge or publication."
+  ]
+}

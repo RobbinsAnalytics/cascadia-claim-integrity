@@ -1,0 +1,201 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T18:37:55.732193+00:00",
+  "scope": "View A profile journey, comparison-date explanation, compact filters, automatic section context and reconciled card explanations.",
+  "checks": [
+    {
+      "check": "Profile illustration, concise noninteractive sticky context, date help, count-free card meanings, responsive layout, automatic section tracking and sticky table headers",
+      "width": 1280,
+      "status": "pass"
+    },
+    {
+      "check": "Profile illustration, concise noninteractive sticky context, date help, count-free card meanings, responsive layout, automatic section tracking and sticky table headers",
+      "width": 1440,
+      "status": "pass"
+    },
+    {
+      "check": "Profile illustration, concise noninteractive sticky context, date help, count-free card meanings, responsive layout, automatic section tracking and sticky table headers",
+      "width": 1920,
+      "status": "pass"
+    },
+    {
+      "check": "Profile illustration, concise noninteractive sticky context, date help, count-free card meanings, responsive layout, automatic section tracking and sticky table headers",
+      "width": 768,
+      "status": "pass"
+    },
+    {
+      "check": "Profile illustration, concise noninteractive sticky context, date help, count-free card meanings, responsive layout, automatic section tracking and sticky table headers",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "check": "Expanded downstream reading position, automatic title and filter focus preserved across changing result heights",
+      "positions": [
+        {
+          "client": "SYN-C01",
+          "expected_top": 275.984375,
+          "actual_top": 275.765625,
+          "delta": -0.21875
+        },
+        {
+          "client": "SYN-C06",
+          "expected_top": 275.984375,
+          "actual_top": 276.109375,
+          "delta": 0.125
+        },
+        {
+          "client": "ALL",
+          "expected_top": 275.984375,
+          "actual_top": 275.984375,
+          "delta": 0.0
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "check": "Frozen profile, date, stage and zero-applicability samples; Reset filters restores canonical defaults",
+      "status": "pass"
+    }
+  ],
+  "protected_functions_unchanged": [
+    "C",
+    "table",
+    "exportButtons",
+    "exportManifest",
+    "hbar",
+    "plotCount",
+    "cardM14",
+    "cardM15",
+    "cardM16",
+    "blockerSection",
+    "affectedUnits",
+    "downstreamSection",
+    "routesSection",
+    "financialSection",
+    "residualSection",
+    "renderA",
+    "renderB",
+    "renderC"
+  ],
+  "sticky_control_heights": [
+    {
+      "width": 1280,
+      "controls_px": 90.640625,
+      "section_title_px": 40
+    },
+    {
+      "width": 1440,
+      "controls_px": 90.640625,
+      "section_title_px": 40
+    },
+    {
+      "width": 1920,
+      "controls_px": 90.640625,
+      "section_title_px": 40
+    },
+    {
+      "width": 768,
+      "controls_px": 111.703125,
+      "section_title_px": 40
+    }
+  ],
+  "preceding_controls_height_1280": 155.890625,
+  "chart_svg_comparison": "Unchanged at 1280 and 320 pixels against preceding presentation.",
+  "source_sha256": {
+    "assets/app.js": "d4dc500f05c28c1b6e97e5de229bc8b85128d71ff782de7f338a2465ce720d52",
+    "assets/guided-explorer.css": "d2c08507a7526c5c5af21d9d20d2cafe2eb697786e43720f0363e5f9ac3961ad",
+    "assets/readiness-navigation.js": "2001e367541d9a0cfe914efa2e8ee0e30a1300c6072112fc32e068ae19d900e8"
+  },
+  "preserved_files": [
+    "case-study.html",
+    "index.html",
+    "assets/app.css",
+    "assets/business-story.css",
+    "assets/case-study.css",
+    "assets/case-study.js",
+    "assets/favicon.svg",
+    "assets/navigation.js",
+    "assets/readiness-business.css",
+    "assets/readiness-typography.js",
+    "assets/review-notes.js",
+    "assets/shared-reader-context.css",
+    "assets/shared-reader-context.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/business-story-checks-2026-10-20.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/denominator-clarity-checks-2026-10-20.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/guided-explorer-checks-2026-10-20.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-business-checks-2026-10-20.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "guided-explorer-checks-2026-10-20.json",
+  "limits": [
+    "Round-trip journey is illustrative contract application, not an additional frozen data record. Profile C cancellation is documented and carries zero charge.",
+    "July 14 is a declared comparison cutoff. No additional business rationale for choosing it is established in the pack; the 15-day gap is not a waiting or filing rule.",
+    "All frozen data and 22,173 published values are unchanged. Historical assurance was not rerun or broadened.",
+    "No merge or publication."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "scope": "Approved option 2 becomes the default Readiness and blockers opening. Presentation-only change; existing navigation retained.",
+  "reviewed_at_utc": "2026-10-20T20:01:51.688501+00:00",
+  "checks": [
+    {
+      "width": 1440,
+      "status": "pass",
+      "checks": [
+        "Option 2 is default without opening parameter",
+        "No option-review banner",
+        "Synthetic note and lime snapshot card retained",
+        "18-link contents navigation retained and Reading the chart jump tracks correctly",
+        "No page overflow"
+      ]
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "checks": [
+        "Option 2 is default without opening parameter",
+        "No option-review banner",
+        "Synthetic note and lime snapshot card retained",
+        "18-link contents navigation retained and Reading the chart jump tracks correctly",
+        "No page overflow"
+      ]
+    },
+    {
+      "width": 768,
+      "status": "pass",
+      "checks": [
+        "Option 2 is default without opening parameter",
+        "No option-review banner",
+        "Synthetic note and lime snapshot card retained",
+        "18-link contents navigation retained and Reading the chart jump tracks correctly",
+        "No page overflow"
+      ]
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "checks": [
+        "Option 2 is default without opening parameter",
+        "No option-review banner",
+        "Synthetic note and lime snapshot card retained",
+        "18-link contents navigation retained and Reading the chart jump tracks correctly",
+        "No page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Previously shared opening=2 URL shows approved default without review banner",
+        "Filter rerender retains new opening and expanded section reading position"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Follow a claim and Understand the data openings unaffected"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Frozen data, CSS, page navigation and all historical evidence unchanged byte-for-byte"
+      ],
+      "changed_existing_files": [
+        "opening-options.html",
+        "assets/app.js",
+        "assets/opening-preview.js"
+      ]
+    }
+  ],
+  "browser_errors": [],
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "source_sha256": {
+    "assets/app.js": "b366e2b2867ff11a60ed8aea69cfbbbe71b1157b82274ca00a1181efdc75b5ab",
+    "assets/opening-preview.js": "5f3d679d54b70bb2960cc1676983cf4268e7f61b849bead171cfff11366be5a0",
+    "opening-options.html": "78bc7a45dd0e939d849d5631218014159f99a6483347b3c2c8e204b018b18088",
+    "assets/page-navigation.js": "e888f89a0cb7e0d14faeb53a607d34ed237c75b1c8355d072f19946ead4dcdb2",
+    "assets/page-navigation.css": "c1e77fc57b98dff9c052dd31c61a4b35e8ee509b9987d361594e7365f8a4ef0c"
+  },
+  "prior_presentation_review": "evidence/page-navigation-opening-checks-2026-10-20.json",
+  "limits": [
+    "Frozen data, calculations, exports, accepted disclosures and assurance scope preserved.",
+    "No commit, merge, push or publication."
+  ]
+}

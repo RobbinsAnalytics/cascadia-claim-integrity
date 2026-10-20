@@ -1,0 +1,150 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:14:35.160395+00:00",
+  "scope": "Separate bold component-field labels and short status punctuation; no new summary for focused test fixtures. Presentation only.",
+  "browser_checks": [
+    {
+      "width": 1280,
+      "record": "SYN-C01:S000005",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C01:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C02:S000001",
+      "snapshot": "current_later",
+      "component_rows": 4,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C03:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C04:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C05:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C06:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C01:S000001",
+      "snapshot": "known_then",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 1280,
+      "record": "SYN-C01:S000001",
+      "snapshot": "restated_then",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C01:S000005",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C01:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C02:S000001",
+      "snapshot": "current_later",
+      "component_rows": 4,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C03:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C04:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C05:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C06:S000001",
+      "snapshot": "current_later",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C01:S000001",
+      "snapshot": "known_then",
+      "component_rows": 2,
+      "status": "pass"
+    },
+    {
+      "width": 320,
+      "record": "SYN-C01:S000001",
+      "snapshot": "restated_then",
+      "component_rows": 2,
+      "status": "pass"
+    }
+  ],
+  "browser_errors": [],
+  "source_sha256": {
+    "assets/app.js": "1cf5dd7b034cd9b4136859e3f4b3f76ac50eaae2cc39aff5c19b9136adb16d5b"
+  },
+  "preservation": {
+    "application_source": "Exact baseline outside component-summary rendering and current presentation receipt links.",
+    "frozen_data_and_historical_evidence": "Byte-identical to baseline.",
+    "other_pages_and_styles": "Byte-identical to baseline.",
+    "public_miniature": "Existing focused test presentation, numerical table and scope notes retained; no ride summary fabricated."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/follow-compact-context-checks-2026-10-20.json",
+  "limits": [
+    "Presentation checks do not add assurance or business-effectiveness claims.",
+    "No commit, merge, push or publication."
+  ]
+}

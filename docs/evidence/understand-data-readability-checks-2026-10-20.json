@@ -1,0 +1,231 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:42:11.421434+00:00",
+  "scope": "Business-focused Understand the data explanations, measure guidance, diagrams, background test records and shared active contents navigation. Presentation only.",
+  "browser_checks": [
+    {
+      "measure": "none",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 7
+    },
+    {
+      "measure": "M01",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M02",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M03",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M04",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M05",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M06",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M07",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M08",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M10",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M11",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M12",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M13",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M14",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M15",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M16",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M17",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M18",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M19",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M15",
+      "snapshot": "known_then",
+      "scope": "&client=SYN-C02&period=SP2",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M15",
+      "snapshot": "restated_then",
+      "scope": "&client=SYN-C02&period=SP2",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M15",
+      "snapshot": "current_later",
+      "scope": "&client=SYN-C02&period=SP2",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "measure": "M09",
+      "snapshot": "current_later",
+      "scope": "default",
+      "status": "pass",
+      "all_existing_tables_equal_baseline": 9
+    },
+    {
+      "width": 1920,
+      "status": "pass",
+      "active_navigation_destinations": 15,
+      "nested_methods_open_on_navigation": true,
+      "measure_picker_and_sticky_table_headers_and_first_columns": true,
+      "no_page_overflow": true
+    },
+    {
+      "width": 1440,
+      "status": "pass",
+      "active_navigation_destinations": 15,
+      "nested_methods_open_on_navigation": true,
+      "measure_picker_and_sticky_table_headers_and_first_columns": true,
+      "no_page_overflow": true
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "active_navigation_destinations": 15,
+      "nested_methods_open_on_navigation": true,
+      "measure_picker_and_sticky_table_headers_and_first_columns": true,
+      "no_page_overflow": true
+    },
+    {
+      "width": 768,
+      "status": "pass",
+      "active_navigation_destinations": 15,
+      "nested_methods_open_on_navigation": true,
+      "measure_picker_and_sticky_table_headers_and_first_columns": true,
+      "no_page_overflow": true
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "active_navigation_destinations": 15,
+      "nested_methods_open_on_navigation": true,
+      "measure_picker_and_sticky_table_headers_and_first_columns": true,
+      "no_page_overflow": true
+    }
+  ],
+  "browser_errors": [],
+  "source_sha256": {
+    "assets/app.js": "ace7a4414a2dd4c5e71f502c8d9753aed699ccb13efd11331e299d41b0045434",
+    "assets/page-navigation.js": "9f9370fea610abfb31e9faae173edb9a8cd5fc12ba8529f40dd67fbb6f1e6cd8",
+    "assets/understand-data.css": "d5fcfb6d953a86756f3900aa08d60b6359669b054bc88dca84b87af653032354",
+    "index.html": "c73f9ec4293f75826926b8ec0f7f3efa2e76de4bc7feee1636363ec47d4349de"
+  },
+  "preservation": {
+    "frozen_data_and_historical_evidence": "Byte-identical to baseline.",
+    "existing_tables": "Every original C table compared against prior application across all 18 current measures, archived M09 and multiple snapshot/filter scopes. Values, headings and captions retained.",
+    "analytical_record_export_helpers": "Exact baseline source for all shared business helpers, A/B rendering, definitions, tables and export helpers.",
+    "disclosures": "Synthetic prevalence, acceptance/payment distinction, scoped N/A, restricted simulated review and historical-revision limits retained. Detection evaluation remains build forward.",
+    "navigation": "15 C destinations, including automatic opening of nested methods; A/B/case contents retained."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/walkthrough-record-summary-checks-2026-10-20.json",
+  "limits": [
+    "New diagrams explain the model; their illustrative counting example does not add records to the dataset.",
+    "The count bridge is explicitly fixed to all clients, full period and July 21; original tables retain their labeled scopes.",
+    "Historical checks are preserved, not newly executed or recertified.",
+    "No commit, merge, push or publication."
+  ]
+}

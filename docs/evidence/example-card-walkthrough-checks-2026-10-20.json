@@ -1,0 +1,146 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T21:26:00.169846+00:00",
+  "scope": "Split the focused-example card into description and differentiated scope note; turn walkthrough descriptions into sentence bullets. Presentation only.",
+  "browser_checks": [
+    {
+      "width": 1440,
+      "story": "DEMO01",
+      "status": "pass",
+      "descriptions_in_bullets": 5,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1440,
+      "story": "DEMO02",
+      "status": "pass",
+      "descriptions_in_bullets": 4,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1440,
+      "story": "DEMO03",
+      "status": "pass",
+      "descriptions_in_bullets": 6,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1440,
+      "story": "DEMO04",
+      "status": "pass",
+      "descriptions_in_bullets": 7,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1440,
+      "story": "DEMO05",
+      "status": "pass",
+      "descriptions_in_bullets": 6,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO01",
+      "status": "pass",
+      "descriptions_in_bullets": 5,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO02",
+      "status": "pass",
+      "descriptions_in_bullets": 4,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO03",
+      "status": "pass",
+      "descriptions_in_bullets": 6,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO04",
+      "status": "pass",
+      "descriptions_in_bullets": 7,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 1280,
+      "story": "DEMO05",
+      "status": "pass",
+      "descriptions_in_bullets": 6,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO01",
+      "status": "pass",
+      "descriptions_in_bullets": 5,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO02",
+      "status": "pass",
+      "descriptions_in_bullets": 4,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO03",
+      "status": "pass",
+      "descriptions_in_bullets": 6,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO04",
+      "status": "pass",
+      "descriptions_in_bullets": 7,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    },
+    {
+      "width": 320,
+      "story": "DEMO05",
+      "status": "pass",
+      "descriptions_in_bullets": 6,
+      "all_description_words_and_punctuation_preserved": true,
+      "step_links_evidence_and_tables_match_baseline": true
+    }
+  ],
+  "browser_errors": [],
+  "source_sha256": {
+    "assets/app.js": "36c1f4954875376b99bb7bc62d1018072c8c5778eeb796ea202234b95be28fe9",
+    "assets/follow-claim.css": "3db31addc3004d2396e51db432108b2230c946146ccf835d742509788862237f"
+  },
+  "preservation": {
+    "all_data_and_historical_evidence": "Byte-identical to baseline.",
+    "walkthrough_copy": "Every description word and punctuation mark is retained, with sentences displayed as bullets.",
+    "step_links_evidence_tables": "Compared against the previous rendered application for all five stories at three widths; unchanged.",
+    "focused_example": "Remains Example 5; detailed explanation of intentionally absent sections retained."
+  },
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "published_values": 22173,
+  "prior_presentation_review": "evidence/focused-example-order-checks-2026-10-20.json",
+  "limits": [
+    "The two-column card copy stacks on smaller screens.",
+    "Presentation checks do not add assurance or business-effectiveness claims.",
+    "No commit, merge, push or publication."
+  ]
+}

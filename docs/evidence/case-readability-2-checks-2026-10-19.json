@@ -1,0 +1,128 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-19",
+  "reviewed_at_utc": "2026-10-20T01:01:11.515876+00:00",
+  "scope": "Case-study-only readability and layout update. No module, engine, contract, numerical value or historical assurance result changed.",
+  "previous_presentation_review": "reader-first-presentation-checks-2026-10-19.json",
+  "source_sha256": {
+    "case-study.html": "a3f0222893a64c04906797cb86b3480aee7417ac3ab262d9bc7ee1c10eb7b0c6",
+    "assets/case-study.css": "f7877b120cc5418c83181eb8dff0d9a87abdff110e476bd601aef4259b6fdfb4"
+  },
+  "checks": [
+    {
+      "check": "Case context, sources, concise prose, intact results, expanded layout, sticky headers and navigation",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Case context, sources, concise prose, intact results, expanded layout, sticky headers and navigation",
+      "status": "pass",
+      "width": 768
+    },
+    {
+      "check": "Case context, sources, concise prose, intact results, expanded layout, sticky headers and navigation",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Module sources, frozen data and all previous evidence unchanged",
+      "status": "pass",
+      "files": 61,
+      "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d"
+    }
+  ],
+  "preserved_files": [
+    "index.html",
+    "assets/app.css",
+    "assets/app.js",
+    "assets/favicon.svg",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/detection-results-2.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "source_notes": [
+    {
+      "topic": "Medicaid documentation, billing and separate responsibilities",
+      "url": "https://www.cms.gov/Medicare-Medicaid-Coordination/Fraud-Prevention/Medicaid-Integrity-Education/Downloads/nemt-booklet.pdf",
+      "scope": "CMS provider guidance, especially pages 10\u201311; state and broker requirements vary."
+    },
+    {
+      "topic": "Medicaid transportation coverage",
+      "url": "https://www.medicaid.gov/medicaid/benefits/assurance-of-transportation"
+    },
+    {
+      "topic": "Medicare Advantage transportation program example",
+      "url": "https://www.saferidehealth.com/platform/fully-managed"
+    },
+    {
+      "topic": "Original Medicare ambulance coverage",
+      "url": "https://www.medicare.gov/coverage/ambulance-services"
+    },
+    {
+      "topic": "Rideshare within transportation networks",
+      "url": "https://www.saferidehealth.com/network",
+      "scope": "Context for the illustrative ride, not evidence about this synthetic population or a particular company data gap."
+    }
+  ],
+  "limitations": [
+    "Illustrative dialysis example is not a bound record in the frozen dataset.",
+    "The workflow diagram is an explanatory model, not an empirical inventory of company systems.",
+    "Synthetic vendor-payment evidence requirements are not represented as universal payer rules.",
+    "No new human-reader study, independent custody or effectiveness result is claimed.",
+    "No merge or publication."
+  ]
+}

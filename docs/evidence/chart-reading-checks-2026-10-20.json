@@ -1,0 +1,201 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T19:15:00.864510+00:00",
+  "scope": "Business explanation of the M02 chart, first-applicable order and sticky chart-reading context.",
+  "checks": [
+    {
+      "check": "All ten named illustrative rides match the existing production classification branch, including missing-claim before unsent and rejection before partial acceptance",
+      "actual": {
+        "A": "accepted",
+        "B": "conflicted",
+        "C": "missing_claim",
+        "D": "not_submitted",
+        "E": "voided",
+        "F": "rejected",
+        "G": "partial_required_components",
+        "H": "client_asserted_only",
+        "I": "no_evidence",
+        "J": "unresolved"
+      },
+      "status": "pass"
+    },
+    {
+      "check": "Reading-the-chart tracking, all rule positions and named ride examples, responsive flow, table assignment details, unchanged chart and exact table values where compared",
+      "width": 1280,
+      "status": "pass"
+    },
+    {
+      "check": "Reading-the-chart tracking, all rule positions and named ride examples, responsive flow, table assignment details, unchanged chart and exact table values where compared",
+      "width": 1440,
+      "status": "pass"
+    },
+    {
+      "check": "Reading-the-chart tracking, all rule positions and named ride examples, responsive flow, table assignment details, unchanged chart and exact table values where compared",
+      "width": 1920,
+      "status": "pass"
+    },
+    {
+      "check": "Reading-the-chart tracking, all rule positions and named ride examples, responsive flow, table assignment details, unchanged chart and exact table values where compared",
+      "width": 768,
+      "status": "pass"
+    },
+    {
+      "check": "Reading-the-chart tracking, all rule positions and named ride examples, responsive flow, table assignment details, unchanged chart and exact table values where compared",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "check": "Client/date/snapshot M02 values and sum preserved; expanded rule and reading anchor retained across filters",
+      "positions": [
+        {
+          "client": "SYN-C03",
+          "delta_px": -0.328125
+        },
+        {
+          "client": "ALL",
+          "delta_px": 0.0
+        }
+      ],
+      "status": "pass"
+    }
+  ],
+  "protected_functions_unchanged": [
+    "C",
+    "table",
+    "exportButtons",
+    "exportManifest",
+    "hbar",
+    "plotCount",
+    "cardM14",
+    "cardM15",
+    "cardM16",
+    "blockerSection",
+    "affectedUnits",
+    "downstreamSection",
+    "routesSection",
+    "financialSection",
+    "residualSection",
+    "renderA",
+    "renderB",
+    "renderC",
+    "captureExplorerReading",
+    "restoreExplorerReading"
+  ],
+  "source_sha256": {
+    "assets/app.js": "4a215189458f4cd6424a7c8d8d2add573bbd2bdfc93f339f53059bf9b2955efe",
+    "assets/guided-explorer.css": "650450bc402410d7d5896a808f06b645e9ec44753d94f6097ae5a87709c3345a",
+    "assets/readiness-navigation.js": "5c08edde9cb55b8b4565086b147406d36c7b9aeb00ab62446d61fe35cf894f2d"
+  },
+  "rule_authority": {
+    "metric_register_sha256": "f2f5cb7b62fe1b3a2040582d08d15be028c46aa598243e436ee064bd865aa89a",
+    "classification_source_sha256": "ecd0b0e275a6ca20adab39cb5525240839e83b4bb9ab6cc193687d7b795a8685",
+    "clause": "M02 Population, order 1.0.1",
+    "illustration_classification": {
+      "A": "accepted",
+      "B": "conflicted",
+      "C": "missing_claim",
+      "D": "not_submitted",
+      "E": "voided",
+      "F": "rejected",
+      "G": "partial_required_components",
+      "H": "client_asserted_only",
+      "I": "no_evidence",
+      "J": "unresolved"
+    }
+  },
+  "preserved_files": [
+    "case-study.html",
+    "index.html",
+    "assets/app.css",
+    "assets/business-story.css",
+    "assets/case-study.css",
+    "assets/case-study.js",
+    "assets/favicon.svg",
+    "assets/navigation.js",
+    "assets/readiness-business.css",
+    "assets/readiness-typography.js",
+    "assets/review-notes.js",
+    "assets/shared-reader-context.css",
+    "assets/shared-reader-context.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/business-story-checks-2026-10-20.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/denominator-clarity-checks-2026-10-20.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/guided-explorer-checks-2026-10-20.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/profile-journey-checks-2026-10-20.json",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-business-checks-2026-10-20.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/subsection-label-checks-2026-10-20.json",
+    "evidence/subsection-tracking-checks-2026-10-20.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "subsection-label-checks-2026-10-20.json",
+  "limits": [
+    "Rides A\u2013J are illustrative classifier cases, not added data or a sample of the frozen population. Voids are a definition example and absent from the v1 bulk.",
+    "Published chart SVG, row ranking, exact table values, zero rows, exports and all 22,173 cells are preserved.",
+    "No expanded effectiveness, independence, real-world outcome or payer-compliance claim. Historical assurance records retain their scope.",
+    "No merge or publication."
+  ]
+}

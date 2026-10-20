@@ -1,0 +1,82 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T20:13:57.497045+00:00",
+  "scope": "Promote approved case-study option 2 to the default opening. Presentation-only change.",
+  "checks": [
+    {
+      "status": "pass",
+      "width": 1440,
+      "checks": [
+        "Approved option 2 loads as default without an opening parameter or review banner",
+        "Synthetic-data note, lime-card facts and module links retained",
+        "15-section navigation and automatic opening of snapshot counts preserved",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1280,
+      "checks": [
+        "Approved option 2 loads as default without an opening parameter or review banner",
+        "Synthetic-data note, lime-card facts and module links retained",
+        "15-section navigation and automatic opening of snapshot counts preserved",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 768,
+      "checks": [
+        "Approved option 2 loads as default without an opening parameter or review banner",
+        "Synthetic-data note, lime-card facts and module links retained",
+        "15-section navigation and automatic opening of snapshot counts preserved",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "checks": [
+        "Approved option 2 loads as default without an opening parameter or review banner",
+        "Synthetic-data note, lime-card facts and module links retained",
+        "15-section navigation and automatic opening of snapshot counts preserved",
+        "No horizontal page overflow"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Previously shared opening=2 URL shows approved default without review banner",
+        "Alternative hooks remain functional"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Module default and contents navigation unaffected",
+        "Case-study summary card, full body, footer and synthetic note unchanged",
+        "All frozen data, disclosures, navigation sources and historical receipts preserved byte-for-byte",
+        "Analytical source unchanged except presentation receipt link"
+      ],
+      "changed_sources": [
+        "case-opening-options.html",
+        "case-study.html",
+        "assets/app.js",
+        "assets/case-opening-preview.js"
+      ]
+    }
+  ],
+  "browser_errors": [],
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "source_sha256": {
+    "case-opening-options.html": "40207bef60c9b1de90d8f4a076e3f8a83949c6907f92655f163ddd718982b148",
+    "case-study.html": "1ee11d076261a85fac8eef11974c7ff30381178b425bdd4e27e8b84fb3819c12",
+    "assets/app.js": "03b663f5ad994d896846a3324f98cf7dd296312b9cf3ea760a07ed166961534c",
+    "assets/case-opening-preview.js": "9bc25abd54fa88d3b8a41488c2d84b86f4528de90367913da89cd18eb62f32fa"
+  },
+  "prior_presentation_review": "evidence/case-navigation-opening-checks-2026-10-20.json",
+  "limits": [
+    "Frozen data, findings, exports, disclosures and accepted assurance scope preserved.",
+    "No commit, merge, push or publication."
+  ]
+}

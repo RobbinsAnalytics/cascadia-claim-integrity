@@ -1,0 +1,209 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "status": "pass",
+      "width": 1440,
+      "links_checked": [
+        "Overview",
+        "Picture the service",
+        "Why this matters",
+        "Who is involved",
+        "Where records come from",
+        "Ride, claim and encounter",
+        "Objective and approach",
+        "Main finding",
+        "One claim, three decisions",
+        "Snapshot counts",
+        "Analytical decisions",
+        "Architecture and tradeoffs",
+        "Confidence and limits",
+        "Next business questions",
+        "Explore the module"
+      ],
+      "checks": [
+        "Section jumps, active marker, destination focus and no page overflow",
+        "Snapshot counts open automatically",
+        "Previous story-navigation strip replaced"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1280,
+      "links_checked": [
+        "Overview",
+        "Picture the service",
+        "Why this matters",
+        "Who is involved",
+        "Where records come from",
+        "Ride, claim and encounter",
+        "Objective and approach",
+        "Main finding",
+        "One claim, three decisions",
+        "Snapshot counts",
+        "Analytical decisions",
+        "Architecture and tradeoffs",
+        "Confidence and limits",
+        "Next business questions",
+        "Explore the module"
+      ],
+      "checks": [
+        "Section jumps, active marker, destination focus and no page overflow",
+        "Snapshot counts open automatically",
+        "Previous story-navigation strip replaced"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "links_checked": [
+        "Overview",
+        "Picture the service",
+        "Why this matters",
+        "Who is involved",
+        "Where records come from",
+        "Ride, claim and encounter",
+        "Objective and approach",
+        "Main finding",
+        "One claim, three decisions",
+        "Snapshot counts",
+        "Analytical decisions",
+        "Architecture and tradeoffs",
+        "Confidence and limits",
+        "Next business questions",
+        "Explore the module"
+      ],
+      "checks": [
+        "Section jumps, active marker, destination focus and no page overflow",
+        "Snapshot counts open automatically",
+        "Previous story-navigation strip replaced"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Active marker follows ordinary scrolling",
+        "Wide contents rail stays beneath the header",
+        "Compact menu keyboard, Escape, focus return and outside-click behavior"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1920,
+      "checks": [
+        "Current opening, three opt-in previews and comparison page fit viewport",
+        "Original case-study content unchanged apart from replaced story-navigation strip",
+        "Synthetic note and lime-card facts retained"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1440,
+      "checks": [
+        "Current opening, three opt-in previews and comparison page fit viewport",
+        "Original case-study content unchanged apart from replaced story-navigation strip",
+        "Synthetic note and lime-card facts retained"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1280,
+      "checks": [
+        "Current opening, three opt-in previews and comparison page fit viewport",
+        "Original case-study content unchanged apart from replaced story-navigation strip",
+        "Synthetic note and lime-card facts retained"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 768,
+      "checks": [
+        "Current opening, three opt-in previews and comparison page fit viewport",
+        "Original case-study content unchanged apart from replaced story-navigation strip",
+        "Synthetic note and lime-card facts retained"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "checks": [
+        "Current opening, three opt-in previews and comparison page fit viewport",
+        "Original case-study content unchanged apart from replaced story-navigation strip",
+        "Synthetic note and lime-card facts retained"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Copied result anchor opens folded section and preserves selected hook"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1440,
+      "checks": [
+        "Module hook, tab name, contents navigation and chart subsection tracking preserved"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1280,
+      "checks": [
+        "Module hook, tab name, contents navigation and chart subsection tracking preserved"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "checks": [
+        "Module hook, tab name, contents navigation and chart subsection tracking preserved"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Module filter hash and expanded financial-section reading position preserved at 1280 px"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Frozen data and historical evidence preserved byte-for-byte",
+        "Module analytical source unchanged except current presentation receipt path"
+      ]
+    }
+  ],
+  "browser_errors": [],
+  "reviewed_at_utc": "2026-10-20T20:12:07.162902+00:00",
+  "scope": "Case-study On this page navigation with active tracking and three optional opening previews. Existing opening remains the default. Presentation review only.",
+  "recommended_opening": "Option 2: Turn scattered records into a clear next step.",
+  "widths": [
+    1920,
+    1440,
+    1280,
+    768,
+    320
+  ],
+  "case_section_link_checks": 45,
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "source_sha256": {
+    "case-study.html": "738bf49438628c6e24dde4e9fe2c4fb29d7968b8786c7639c0964c971a6fc511",
+    "assets/page-navigation.js": "3cfed4f7c876bbca4bd8114bcb915fece57317e292eb087a24eff27d80b67f71",
+    "assets/page-navigation.css": "c62dffb6347a638466abde369f1480a6b49b8339b046d1c20fa0baca6f89a75e",
+    "assets/app.js": "1291c1a4242ce966de75fddd166b945500345c1d4f6dfd646b7a22b059c429c9",
+    "assets/case-opening-preview.js": "ddce4c209f00f673a4ddf070d3fe19eacd3b8d61ed402b8bb6178f3d5e6d3eca",
+    "assets/case-opening-options.css": "a6d9facd6cc333f6828c259052cd809f609f431d0d16dffe8ce98754297efcde",
+    "case-opening-options.html": "3a74c13f4f9fc646db08ddb86ce7a8b58c939cd66196626fea7d7d529b4d3563"
+  },
+  "preservation": {
+    "all_frozen_data_and_historical_evidence": "Byte-identical to baseline",
+    "module_analytical_source": "Byte-identical except the current presentation receipt link",
+    "default_case_study_copy": "Verified in the browser against baseline, apart from replaced story navigation",
+    "prior_presentation_review": "evidence/page-title-checks-2026-10-20.json"
+  },
+  "limits": [
+    "No new case-study opening selected. Options are local review previews.",
+    "No changes to findings, numerical cells, engine, exports, accepted assurance scope or disclosures.",
+    "No commit, merge, push or publication."
+  ]
+}

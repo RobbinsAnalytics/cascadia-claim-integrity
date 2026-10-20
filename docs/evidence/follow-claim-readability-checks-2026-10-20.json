@@ -1,0 +1,284 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "status": "pass",
+      "width": 1280,
+      "records": 16,
+      "tables": 146,
+      "checks": [
+        "All existing record table content matches baseline exactly",
+        "Operational, grouped, cancelled, client-assertion and public miniature examples load",
+        "No page overflow or lost synthetic-data note"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "records": 16,
+      "tables": 146,
+      "checks": [
+        "All existing record table content matches baseline exactly",
+        "Operational, grouped, cancelled, client-assertion and public miniature examples load",
+        "No page overflow or lost synthetic-data note"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1440,
+      "links_checked": [
+        "Overview",
+        "Read the evidence chain",
+        "Choose a business question",
+        "Choose a snapshot",
+        "Selected record",
+        "The next action",
+        "Walk through the example",
+        "Supporting source facts",
+        "Claim versions",
+        "Readiness and response",
+        "Costs, charges and payments",
+        "When evidence arrived",
+        "Compare snapshots",
+        "Find another record"
+      ],
+      "checks": [
+        "Active contents tracking and anchor jumps preserve selected record and snapshot",
+        "Record evidence and browser destinations open automatically"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 1280,
+      "links_checked": [
+        "Overview",
+        "Read the evidence chain",
+        "Choose a business question",
+        "Choose a snapshot",
+        "Selected record",
+        "The next action",
+        "Walk through the example",
+        "Supporting source facts",
+        "Claim versions",
+        "Readiness and response",
+        "Costs, charges and payments",
+        "When evidence arrived",
+        "Compare snapshots",
+        "Find another record"
+      ],
+      "checks": [
+        "Active contents tracking and anchor jumps preserve selected record and snapshot",
+        "Record evidence and browser destinations open automatically"
+      ]
+    },
+    {
+      "status": "pass",
+      "width": 320,
+      "links_checked": [
+        "Overview",
+        "Read the evidence chain",
+        "Choose a business question",
+        "Choose a snapshot",
+        "Selected record",
+        "The next action",
+        "Walk through the example",
+        "Supporting source facts",
+        "Claim versions",
+        "Readiness and response",
+        "Costs, charges and payments",
+        "When evidence arrived",
+        "Compare snapshots",
+        "Find another record"
+      ],
+      "checks": [
+        "Active contents tracking and anchor jumps preserve selected record and snapshot",
+        "Record evidence and browser destinations open automatically"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Snapshot selector preserves open evidence chapters",
+        "July 14 stays blocked even with later evidence",
+        "July 21 is ready but rejected, with missing rejection reason disclosed"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Copied deep link waits for async record loading and opens financial evidence"
+      ]
+    },
+    {
+      "status": "pass",
+      "table_regions": 32,
+      "checks": [
+        "Table headers and first columns remain sticky inside the new evidence disclosures"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Public miniature uses correct active section and retains its out-of-population disclosure"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "View A, case-study navigation and View C layout remain intact"
+      ]
+    },
+    {
+      "width": 1920,
+      "status": "pass",
+      "checks": [
+        "Final opening, five business-question cards and contents fit viewport",
+        "Financial-meaning guide uses distinct cost, charge and payment tiles",
+        "Step-verification explanation remains accessible in a disclosure"
+      ]
+    },
+    {
+      "width": 1440,
+      "status": "pass",
+      "checks": [
+        "Final opening, five business-question cards and contents fit viewport",
+        "Financial-meaning guide uses distinct cost, charge and payment tiles",
+        "Step-verification explanation remains accessible in a disclosure"
+      ]
+    },
+    {
+      "width": 1280,
+      "status": "pass",
+      "checks": [
+        "Final opening, five business-question cards and contents fit viewport",
+        "Financial-meaning guide uses distinct cost, charge and payment tiles",
+        "Step-verification explanation remains accessible in a disclosure"
+      ]
+    },
+    {
+      "width": 768,
+      "status": "pass",
+      "checks": [
+        "Final opening, five business-question cards and contents fit viewport",
+        "Financial-meaning guide uses distinct cost, charge and payment tiles",
+        "Step-verification explanation remains accessible in a disclosure"
+      ]
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "checks": [
+        "Final opening, five business-question cards and contents fit viewport",
+        "Financial-meaning guide uses distinct cost, charge and payment tiles",
+        "Step-verification explanation remains accessible in a disclosure"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Missing vendor payment, unavailable return route and client assertions retain distinct explanations",
+        "No-unit request does not claim missing construction in the denominator",
+        "Public miniatures render with operational-population exclusion intact"
+      ]
+    },
+    {
+      "status": "pass",
+      "checks": [
+        "Operational event-chain JSON download retains selected record and snapshot"
+      ],
+      "schema": "cci-event-chain-2"
+    },
+    {
+      "status": "pass",
+      "protected_functions_unchanged": [
+        "C",
+        "byPos",
+        "parseHash",
+        "hashOf",
+        "go",
+        "render",
+        "table",
+        "exportButtons",
+        "exportManifest",
+        "hbar",
+        "claimSection",
+        "unitSection",
+        "deliveryItems",
+        "deliveriesFor",
+        "deliveryBlock",
+        "eventChain",
+        "financialRecord",
+        "timeline",
+        "bridgeTable",
+        "miniature",
+        "bindingSummary",
+        "storyPanel",
+        "recordView",
+        "renderA",
+        "renderC"
+      ]
+    }
+  ],
+  "browser_errors": [],
+  "reviewed_at_utc": "2026-10-20T20:33:51.383689+00:00",
+  "scope": "Follow a claim business-focused presentation: evidence-chain diagram, business-question routes, plain-language snapshot controls, selected-record states and actions, guided steps, expandable evidence chapters and active contents navigation. No new assurance cycle.",
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "changed_existing_sources": [
+    "index.html",
+    "assets/app.js",
+    "assets/page-navigation.js"
+  ],
+  "protected_functions_unchanged": [
+    "C",
+    "byPos",
+    "parseHash",
+    "hashOf",
+    "go",
+    "render",
+    "table",
+    "exportButtons",
+    "exportManifest",
+    "hbar",
+    "claimSection",
+    "unitSection",
+    "deliveryItems",
+    "deliveriesFor",
+    "deliveryBlock",
+    "eventChain",
+    "financialRecord",
+    "timeline",
+    "bridgeTable",
+    "miniature",
+    "bindingSummary",
+    "storyPanel",
+    "recordView",
+    "renderA",
+    "renderC"
+  ],
+  "source_sha256": {
+    "assets/app.js": "033ab8fd1455507efc02538805b3554b6b9fa822afb9e7caab45d6aca0402a78",
+    "assets/page-navigation.js": "614f3d9187ab0afeba0c965755cb935c355b885d8ea1b57e2fe76bba8039e512",
+    "assets/follow-claim.css": "513dc5a0be0c28d3b8eb364c74f83dc038dbce74a8d924461d1a1c944123a618",
+    "index.html": "d285033f3a3a5f5bae8aac757fd15ab51b33dbb9f63985192e4188b9f0f5487e"
+  },
+  "preservation": {
+    "record_tables": "146 original tables across 16 views matched baseline exactly at 1280 and 320 px",
+    "frozen_data_and_historical_evidence": "All files byte-identical to baseline",
+    "case_study": "Byte-identical to baseline",
+    "table_headers_and_first_columns": "32 table regions retained sticky header and first-column rules inside the new disclosures",
+    "event_chain_export": "Download verified for the selected record and snapshot; export functions unchanged"
+  },
+  "clarifications": [
+    "No-unit requests do not claim an absence of construction in the denominator. Applicability must be read from source disposition and contract profile.",
+    "Suggested follow-up is distinct from recorded work items and from evidence that outreach occurred.",
+    "A contract with no final-response return route is a visibility limit, not a failed promised return.",
+    "The recorded later snapshot includes both readiness and a rejection; those guided steps inspect the same snapshot for different questions.",
+    "Public test miniatures remain outside the operational population."
+  ],
+  "prior_presentation_review": "evidence/case-default-opening-checks-2026-10-20.json",
+  "limits": [
+    "Frozen numerical values, engine, calculations, export functions and accepted assurance scope are unchanged.",
+    "No new business-effectiveness, independence, payment or actual-payer-submission claim.",
+    "No merge, push or publication."
+  ]
+}

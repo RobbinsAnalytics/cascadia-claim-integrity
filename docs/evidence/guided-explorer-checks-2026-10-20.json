@@ -1,0 +1,178 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-20",
+  "reviewed_at_utc": "2026-10-20T18:02:47.555140+00:00",
+  "scope": "Shared service/terms sections; guided View A client contrasts, rule profiles, filter and status explanations, and anchored interactive reading. Downstream content remains for later review.",
+  "checks": [
+    {
+      "check": "Identical shared sections, two contrasted cases, named profiles, precise status/count explanations, responsive layout, sticky table headers and preserved chart",
+      "width": 1280,
+      "status": "pass"
+    },
+    {
+      "check": "Identical shared sections, two contrasted cases, named profiles, precise status/count explanations, responsive layout, sticky table headers and preserved chart",
+      "width": 1440,
+      "status": "pass"
+    },
+    {
+      "check": "Identical shared sections, two contrasted cases, named profiles, precise status/count explanations, responsive layout, sticky table headers and preserved chart",
+      "width": 1920,
+      "status": "pass"
+    },
+    {
+      "check": "Identical shared sections, two contrasted cases, named profiles, precise status/count explanations, responsive layout, sticky table headers and preserved chart",
+      "width": 768,
+      "status": "pass"
+    },
+    {
+      "check": "Identical shared sections, two contrasted cases, named profiles, precise status/count explanations, responsive layout, sticky table headers and preserved chart",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "check": "Expanded downstream section, selection focus and section-relative reading position survive filters with different upstream content heights",
+      "positions": [
+        {
+          "client": "SYN-C01",
+          "expected_top": 358.484375,
+          "actual_top": 358.265625,
+          "delta": -0.21875
+        },
+        {
+          "client": "SYN-C06",
+          "expected_top": 358.484375,
+          "actual_top": 358.609375,
+          "delta": 0.125
+        },
+        {
+          "client": "ALL",
+          "expected_top": 358.484375,
+          "actual_top": 358.484375,
+          "delta": 0.0
+        }
+      ],
+      "status": "pass"
+    },
+    {
+      "check": "Frozen filter values, zero-applicability stage, dynamic line-charge definition, fixed comparison scope and both underlying record links",
+      "status": "pass"
+    }
+  ],
+  "protected_functions_unchanged": [
+    "C",
+    "table",
+    "exportButtons",
+    "exportManifest",
+    "hbar",
+    "plotCount",
+    "cardM14",
+    "cardM15",
+    "cardM16",
+    "blockerSection",
+    "affectedUnits",
+    "downstreamSection",
+    "routesSection",
+    "financialSection",
+    "residualSection",
+    "renderB",
+    "renderC"
+  ],
+  "chart_svg_comparison": "Identical at 1280 and 320 pixels against the preceding presentation revision.",
+  "source_sha256": {
+    "assets/app.js": "574552ccde6bd50ae7ec70f97d876a57e775e425dd0505fb6b1093bdc8961b42",
+    "index.html": "b0d789fde62796eeebad6b9ca3551a4ab043de6a7645231587c3c932902c2cfc",
+    "case-study.html": "65c5ea03c3763b150cc1097ff051d5d0591dace5bc832251972156fb2aaf309b",
+    "assets/shared-reader-context.js": "c16e7cb2653df25dc688403cf68471f21f3755cc2c7fa062d66168a0fdcef1e7",
+    "assets/shared-reader-context.css": "d7f381fb7d800b68c3a4a1ea9186751580cd4bc13f142cd13864ec21618df653",
+    "assets/guided-explorer.css": "a18310a80ed12ae16b0136f6b07ef5ab8241a393a23357491cd056260467edac",
+    "assets/readiness-navigation.js": "28ded6aa04c9d6e2c9fdb5555bf903a17a210fdff7bc4bfc49c9a879756d8ceb"
+  },
+  "preserved_files": [
+    "assets/app.css",
+    "assets/business-story.css",
+    "assets/case-study.css",
+    "assets/case-study.js",
+    "assets/favicon.svg",
+    "assets/navigation.js",
+    "assets/readiness-business.css",
+    "assets/readiness-typography.js",
+    "assets/review-notes.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/business-story-checks-2026-10-20.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/denominator-clarity-checks-2026-10-20.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-business-checks-2026-10-20.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "readiness-business-checks-2026-10-20.json",
+  "limits": [
+    "Contrasts are selected synthetic scenarios, not a real-world client ranking. Comparison counts are fixed at July 21/full period.",
+    "Profiles describe construction/reporting rules, not return routes or performance. The fixed 30-day periods have no established calendar-month business rationale.",
+    "Blocker facts are affected component obligations, not distinct missing payments. A per-service record may support multiple components.",
+    "All frozen data and 22,173 published values remain unchanged. Historical assurance records were not rerun. No human research or independent-custody claim.",
+    "No merge or publication."
+  ]
+}

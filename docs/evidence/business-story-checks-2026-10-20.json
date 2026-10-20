@@ -1,0 +1,140 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-20",
+  "reviewed_at_utc": "2026-10-20T16:37:39.520431+00:00",
+  "scope": "Case-study business explanations, diagrams and typography; detailed review notes retained in module View C.",
+  "checks": [
+    {
+      "check": "Business example, source icons, result definitions, architecture, confidence, future rationale and responsive layout",
+      "width": 1280,
+      "status": "pass"
+    },
+    {
+      "check": "Business example, source icons, result definitions, architecture, confidence, future rationale and responsive layout",
+      "width": 1440,
+      "status": "pass"
+    },
+    {
+      "check": "Business example, source icons, result definitions, architecture, confidence, future rationale and responsive layout",
+      "width": 1920,
+      "status": "pass"
+    },
+    {
+      "check": "Business example, source icons, result definitions, architecture, confidence, future rationale and responsive layout",
+      "width": 768,
+      "status": "pass"
+    },
+    {
+      "check": "Business example, source icons, result definitions, architecture, confidence, future rationale and responsive layout",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "check": "Module view and retained review content smoke check",
+      "view": "a",
+      "status": "pass"
+    },
+    {
+      "check": "Module view and retained review content smoke check",
+      "view": "b",
+      "status": "pass"
+    },
+    {
+      "check": "Module view and retained review content smoke check",
+      "view": "c",
+      "status": "pass"
+    }
+  ],
+  "desktop_short_final_lines": {
+    "1280": [],
+    "1440": [],
+    "1920": []
+  },
+  "source_sha256": {
+    "assets/app.css": "442c03c822a7f748967572475279cb315d8649e5a2da55b16729310b5e46b619",
+    "assets/app.js": "f1436b1f71047df7db3707369b65b7621e04a7cd91ad242e8a3fe27fa178a1aa",
+    "assets/business-story.css": "06798076a561f7473035231d8786c1ecbc88e48f6334b76e33cbdebe8db1b059",
+    "assets/case-study.css": "7d55b4a7c7d3d52324f3b7cd7264691922385dfe93c67e517e3318fce5870d11",
+    "assets/case-study.js": "2ac9e6eb844472705b90077f6d36658e7a2988f737e9b02a985a479edcb06d63",
+    "assets/review-notes.js": "0d585dcce1bf5919a22e318ab43d5a5e0746896bacd32410100bdee858dc184e",
+    "case-study.html": "8a62685a5f1b75b0f6f383953bc2be741358c8a2f90b6b03742f029d39429764",
+    "index.html": "484eacc039a8fb2cdbce284299f2eeffd19bcf1b9a6d22c6aab0f91e530e52bc"
+  },
+  "preserved_files": [
+    "assets/favicon.svg",
+    "assets/navigation.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "record-origins-checks-2026-10-19.json",
+  "limits": [
+    "No invented rejection reason: DEMO01 source has no reason code or wording. Illustrative ten-ride and decimal-error examples are labeled.",
+    "All frozen data, 22,173 published numerical values, and original evidence records remain unchanged. Historical tests were not rerun.",
+    "Restricted simulated reviews do not establish human research or independent custody.",
+    "No merge or publication."
+  ]
+}

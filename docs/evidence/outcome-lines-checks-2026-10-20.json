@@ -1,0 +1,183 @@
+{
+  "status": "pass",
+  "reviewed_at_utc": "2026-10-20T19:26:06.623734+00:00",
+  "scope": "Formatting of illustrative Base and Mileage outcome lines only. Separate outcomes use separate paragraphs; combined descriptions remain combined; trailing periods removed.",
+  "checks": [
+    {
+      "width": 1280,
+      "status": "pass",
+      "lines": {
+        "B": [
+          "Base: incompatible decisions",
+          "Mileage: accepted"
+        ],
+        "C": [
+          "Base + mileage: no constructed claim; neither sent"
+        ],
+        "D": [
+          "Base: sent and accepted",
+          "Mileage: built but not sent"
+        ],
+        "E": [
+          "Base: acceptance voided",
+          "Mileage: acceptance still valid"
+        ],
+        "F": [
+          "Base: accepted",
+          "Mileage: rejected by the recipient"
+        ],
+        "G": [
+          "Base: accepted",
+          "Mileage: sent, with no final decision"
+        ],
+        "H": [
+          "Base + mileage: client says accepted; no source decision"
+        ],
+        "I": [
+          "Base + mileage: sent; no usable final-outcome evidence"
+        ],
+        "J": [
+          "Base + mileage: only an aggregate batch note, not a decision for this ride"
+        ]
+      }
+    },
+    {
+      "width": 320,
+      "status": "pass",
+      "lines": {
+        "B": [
+          "Base: incompatible decisions",
+          "Mileage: accepted"
+        ],
+        "C": [
+          "Base + mileage: no constructed claim; neither sent"
+        ],
+        "D": [
+          "Base: sent and accepted",
+          "Mileage: built but not sent"
+        ],
+        "E": [
+          "Base: acceptance voided",
+          "Mileage: acceptance still valid"
+        ],
+        "F": [
+          "Base: accepted",
+          "Mileage: rejected by the recipient"
+        ],
+        "G": [
+          "Base: accepted",
+          "Mileage: sent, with no final decision"
+        ],
+        "H": [
+          "Base + mileage: client says accepted; no source decision"
+        ],
+        "I": [
+          "Base + mileage: sent; no usable final-outcome evidence"
+        ],
+        "J": [
+          "Base + mileage: only an aggregate batch note, not a decision for this ride"
+        ]
+      }
+    }
+  ],
+  "source_sha256": {
+    "assets/app.js": "0e2e32a279575441f35ed9fb866aa2eab81775aab06204ea02c92ae4ceb0dd20"
+  },
+  "preserved_files": [
+    "case-study.html",
+    "index.html",
+    "assets/app.css",
+    "assets/business-story.css",
+    "assets/case-study.css",
+    "assets/case-study.js",
+    "assets/favicon.svg",
+    "assets/guided-explorer.css",
+    "assets/navigation.js",
+    "assets/readiness-business.css",
+    "assets/readiness-navigation.js",
+    "assets/readiness-typography.js",
+    "assets/review-notes.js",
+    "assets/shared-reader-context.css",
+    "assets/shared-reader-context.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/business-story-checks-2026-10-20.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/chart-reading-checks-2026-10-20.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/denominator-clarity-checks-2026-10-20.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expandable-scope-checks-2026-10-20.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/guided-explorer-checks-2026-10-20.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/profile-journey-checks-2026-10-20.json",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-business-checks-2026-10-20.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/subsection-label-checks-2026-10-20.json",
+    "evidence/subsection-tracking-checks-2026-10-20.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "expandable-scope-checks-2026-10-20.json",
+  "limits": [
+    "All frozen data, chart values, disclosures and assurance scope are unchanged.",
+    "No merge or publication."
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "status": "pass",
+  "scope": "Focused presentation review; no new independent or human assurance claim. ResizeObserver delivery warnings are excluded from script-error checks.",
+  "checks": [
+    {
+      "check": "Filters preserve focus and scroll; three cards match frozen cells across client, period, position and N/A stage",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Reset and affected-unit drill",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "a",
+      "width": 1280,
+      "header_cells": 50,
+      "tables": 8
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "a",
+      "width": 1280
+    },
+    {
+      "check": "Bound guided story reflects missing support, later readiness and confirmed rejection",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "b",
+      "width": 1280,
+      "header_cells": 134,
+      "tables": 21
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "b",
+      "width": 1280
+    },
+    {
+      "check": "Definitions and folded methods remain reachable",
+      "status": "pass",
+      "width": 1280
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "c",
+      "width": 1280,
+      "header_cells": 36,
+      "tables": 7
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "c",
+      "width": 1280
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "case",
+      "width": 1280,
+      "header_cells": 2,
+      "tables": 1
+    },
+    {
+      "check": "Filters preserve focus and scroll; three cards match frozen cells across client, period, position and N/A stage",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Reset and affected-unit drill",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "a",
+      "width": 320,
+      "header_cells": 50,
+      "tables": 8
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "a",
+      "width": 320
+    },
+    {
+      "check": "Bound guided story reflects missing support, later readiness and confirmed rejection",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "b",
+      "width": 320,
+      "header_cells": 134,
+      "tables": 21
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "b",
+      "width": 320
+    },
+    {
+      "check": "Definitions and folded methods remain reachable",
+      "status": "pass",
+      "width": 320
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "c",
+      "width": 320,
+      "header_cells": 36,
+      "tables": 7
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "c",
+      "width": 320
+    },
+    {
+      "check": "Render, Home/brand navigation, page width, wrapped sticky table headers",
+      "status": "pass",
+      "view": "case",
+      "width": 320,
+      "header_cells": 2,
+      "tables": 1
+    },
+    {
+      "check": "Table heading stays visible during vertical table scrolling",
+      "status": "pass",
+      "view": "case",
+      "width": 320
+    },
+    {
+      "check": "Local page and evidence destinations resolve",
+      "status": "pass",
+      "destinations": 46
+    },
+    {
+      "check": "Frozen data and historical evidence byte preservation",
+      "status": "pass",
+      "files": 55,
+      "published_cells": 22173,
+      "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d"
+    }
+  ],
+  "preserved_files": [
+    "web/data/blockers.json",
+    "web/data/bundle.json",
+    "web/data/cells.json",
+    "web/data/health.json",
+    "web/data/records/SYN-C01.json.gz",
+    "web/data/records/SYN-C02.json.gz",
+    "web/data/records/SYN-C03.json.gz",
+    "web/data/records/SYN-C04.json.gz",
+    "web/data/records/SYN-C05.json.gz",
+    "web/data/records/SYN-C06.json.gz",
+    "web/data/stories.json",
+    "web/data/verification.json",
+    "web/evidence/build-scope-checklist.json",
+    "web/evidence/build-scope-policy.json",
+    "web/evidence/check-results.json",
+    "web/evidence/claim-contract.md",
+    "web/evidence/claim-lineage.jsonl.gz",
+    "web/evidence/claim-validation.json",
+    "web/evidence/completed-checks-2026-10-19.json",
+    "web/evidence/completed-review-checks-2026-10-19.json",
+    "web/evidence/consumption-manifest.json",
+    "web/evidence/detection-results-2.json",
+    "web/evidence/evidence-coverage.json",
+    "web/evidence/expected-event-accounting.md",
+    "web/evidence/financial-reconciliation.json",
+    "web/evidence/historical-completed-checks-2026-10-19.json",
+    "web/evidence/metric_register.md",
+    "web/evidence/negative-controls.json",
+    "web/evidence/obligations.jsonl.gz",
+    "web/evidence/preparation-accounting.jsonl.gz",
+    "web/evidence/reading-panel-2026-10-19.json",
+    "web/evidence/reconciliation.md",
+    "web/evidence/reconciliation/coverage-bridges.json",
+    "web/evidence/reconciliation/current_later/evidence-residuals.json",
+    "web/evidence/reconciliation/current_later/known-later-bridge.json",
+    "web/evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "web/evidence/reconciliation/current_later/population.json",
+    "web/evidence/reconciliation/current_later/uncovered-legs.json",
+    "web/evidence/reconciliation/known_then/evidence-residuals.json",
+    "web/evidence/reconciliation/known_then/known-later-bridge.json",
+    "web/evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "web/evidence/reconciliation/known_then/population.json",
+    "web/evidence/reconciliation/known_then/uncovered-legs.json",
+    "web/evidence/reconciliation/never-ready-families.json",
+    "web/evidence/reconciliation/population-bridge.json",
+    "web/evidence/reconciliation/restated_then/evidence-residuals.json",
+    "web/evidence/reconciliation/restated_then/known-later-bridge.json",
+    "web/evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "web/evidence/reconciliation/restated_then/population.json",
+    "web/evidence/reconciliation/restated_then/uncovered-legs.json",
+    "web/evidence/rederivation.json",
+    "web/evidence/review-receipt-2026-10-19.json",
+    "web/evidence/source-manifest.json",
+    "web/evidence/source-register.md",
+    "web/evidence/story-bindings-verification.json"
+  ],
+  "reviewed_at": "2026-10-20T00:37:41.893920+00:00",
+  "base_commit": "9e21fc7efa3978956e17a369cfd0c9f3755874f3",
+  "branch": "codex/outsider-friendly-ci",
+  "presentation_source_sha256": {
+    "index.html": "17b757713f2b0f5beadacb4cceff17e28d210eecbc239ac5e26bbdd90e9c2924",
+    "case-study.html": "802e1997c683487e05fbd22c5553651589463e3f34bf9a9e02d5a618782f6b3d",
+    "assets/app.js": "21b78ea690d38bfc803822a05ee0a783fdb5cc83b8baa589c6971c447f2be260",
+    "assets/app.css": "aae356cd99b28679bca73cc7704e67219d873184f7f04475ed34c3b4605480a6",
+    "assets/case-study.css": "679540e111a76393fe7a5d50c57af3d1f0ef33710586f7935d787ea988ee9dd7"
+  },
+  "verification_script_sha256": "f4439b0a0962359d2d8fa85423799c9ff61030b743761167d86c78145af747bd",
+  "limitations": [
+    "Focused local presentation checks, not a new comprehensive assurance cycle.",
+    "Historical fixture, numerical comparison, chart and restricted-reader records retain their original revisions and scopes.",
+    "No human usability study, independent evaluator custody, operational benefit or real-world effectiveness is claimed.",
+    "Frozen synthetic data and all 22,173 published values are unchanged.",
+    "No merge, push, deployment or publication was performed."
+  ]
+}

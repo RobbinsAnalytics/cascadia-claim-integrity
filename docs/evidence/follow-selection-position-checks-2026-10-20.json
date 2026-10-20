@@ -1,0 +1,251 @@
+{
+  "status": "pass",
+  "results": [
+    {
+      "width": 1440,
+      "mode": "pointer",
+      "example": 2,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "pointer",
+      "example": 3,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "pointer",
+      "example": 4,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "pointer",
+      "example": 5,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "pointer",
+      "example": 1,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "keyboard",
+      "example": 2,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "keyboard",
+      "example": 3,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "keyboard",
+      "example": 4,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "keyboard",
+      "example": 5,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1440,
+      "mode": "keyboard",
+      "example": 1,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "pointer",
+      "example": 2,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "pointer",
+      "example": 3,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "pointer",
+      "example": 4,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "pointer",
+      "example": 5,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "pointer",
+      "example": 1,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "keyboard",
+      "example": 2,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "keyboard",
+      "example": 3,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "keyboard",
+      "example": 4,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "keyboard",
+      "example": 5,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 1280,
+      "mode": "keyboard",
+      "example": 1,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "pointer",
+      "example": 2,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "pointer",
+      "example": 3,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "pointer",
+      "example": 4,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "pointer",
+      "example": 5,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "pointer",
+      "example": 1,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "keyboard",
+      "example": 2,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "keyboard",
+      "example": 3,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "keyboard",
+      "example": 4,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "keyboard",
+      "example": 5,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    },
+    {
+      "width": 320,
+      "mode": "keyboard",
+      "example": 1,
+      "section_offset_delta": 0.0,
+      "scroll_delta": 0
+    }
+  ],
+  "browser_errors": [],
+  "reviewed_at_utc": "2026-10-20T20:41:59.163906+00:00",
+  "scope": "Preserve viewport position and keyboard focus when selecting any Follow a claim business-question example. Presentation behavior only.",
+  "snapshot_selection_scroll_deltas": [
+    0,
+    0,
+    0
+  ],
+  "protected_functions_unchanged": [
+    "go",
+    "render",
+    "parseHash",
+    "hashOf",
+    "recordView",
+    "claimSection",
+    "unitSection",
+    "deliveryBlock",
+    "eventChain",
+    "financialRecord",
+    "timeline",
+    "bridgeTable",
+    "miniature",
+    "bindingSummary",
+    "storyPanel",
+    "renderA",
+    "renderC"
+  ],
+  "cells_sha256": "7bcc212223bd778660651a78f04414f020e9f4633e229d18a1cdc69cb290a04d",
+  "source_sha256": {
+    "assets/app.js": "56768aa2f1b10ec0f74b8160d748409b0bcb2956a502ed555e74097fda27f067"
+  },
+  "prior_presentation_review": "evidence/follow-claim-readability-checks-2026-10-20.json",
+  "limits": [
+    "Frozen records, calculations, exports, layout and disclosures are unchanged.",
+    "No merge, push or publication."
+  ]
+}

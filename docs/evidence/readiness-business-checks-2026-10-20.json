@@ -1,0 +1,203 @@
+{
+  "status": "pass",
+  "review_date_client": "2026-10-20",
+  "reviewed_at_utc": "2026-10-20T17:12:12.240679+00:00",
+  "scope": "View A business explanations, dynamic denominator bridge, evidence follow-up, readability and drill navigation.",
+  "checks": [
+    {
+      "check": "Business explanations, exact cards and stage denominators, responsive layout, controls and preserved table headers",
+      "width": 1280,
+      "status": "pass"
+    },
+    {
+      "check": "Business explanations, exact cards and stage denominators, responsive layout, controls and preserved table headers",
+      "width": 1440,
+      "status": "pass"
+    },
+    {
+      "check": "Business explanations, exact cards and stage denominators, responsive layout, controls and preserved table headers",
+      "width": 1920,
+      "status": "pass"
+    },
+    {
+      "check": "Business explanations, exact cards and stage denominators, responsive layout, controls and preserved table headers",
+      "width": 768,
+      "status": "pass"
+    },
+    {
+      "check": "Business explanations, exact cards and stage denominators, responsive layout, controls and preserved table headers",
+      "width": 320,
+      "status": "pass"
+    },
+    {
+      "check": "Frozen numerical cards and additive denominator bridge for client, profile, period, cutoff and stage samples, including zero-applicability audit case",
+      "samples": [
+        [
+          "SYN-C01",
+          "FULL",
+          "known_then",
+          "encounter_submission"
+        ],
+        [
+          "SYN-C02",
+          "SP1",
+          "current_later",
+          "encounter_submission"
+        ],
+        [
+          "SYN-C02",
+          "FULL",
+          "restated_then",
+          "audit_submission"
+        ],
+        [
+          "SYN-C03",
+          "SP2",
+          "current_later",
+          "initial_preparation"
+        ],
+        [
+          "SYN-C05",
+          "FULL",
+          "current_later",
+          "encounter_submission"
+        ],
+        [
+          "P-C",
+          "SP3",
+          "known_then",
+          "encounter_submission"
+        ],
+        [
+          "SYN-C06",
+          "FULL",
+          "current_later",
+          "audit_submission"
+        ]
+      ],
+      "status": "pass"
+    },
+    {
+      "check": "Affected-unit drill moves to visible list, table headers stay fixed during internal scroll, and record link opens View B",
+      "status": "pass"
+    },
+    {
+      "check": "Other module views and approved case study still render",
+      "status": "pass"
+    }
+  ],
+  "protected_functions_unchanged": [
+    "C",
+    "table",
+    "exportManifest",
+    "exportButtons",
+    "hbar",
+    "plotCount",
+    "cardM14",
+    "cardM15",
+    "cardM16",
+    "blockerSection",
+    "affectedUnits",
+    "downstreamSection",
+    "routesSection",
+    "financialSection",
+    "residualSection"
+  ],
+  "chart_and_table_comparison": "SVG and M02 table identical to preceding revision at 1280 and 320 pixels",
+  "desktop_short_final_lines": {
+    "1280": [],
+    "1440": [],
+    "1920": []
+  },
+  "source_sha256": {
+    "assets/app.js": "7363f2dd5e22f332ef54a10701e0e39f2f6975a538e5b43191f0c0f6bcf18e97",
+    "index.html": "230872a7b8accb955e69dada0a25a8df4984a05324426b0d9d0cf74faef94f39",
+    "assets/readiness-business.css": "0615b28015e39acfa5a1a1f71fa19cec1d4828a187a4fe11e535798c5b9769ee",
+    "assets/readiness-typography.js": "07049874e267993a47077fd74425573a2ee2e203ef76546d361d6e14fead7cf5"
+  },
+  "preserved_files": [
+    "case-study.html",
+    "assets/app.css",
+    "assets/business-story.css",
+    "assets/case-study.css",
+    "assets/case-study.js",
+    "assets/favicon.svg",
+    "assets/navigation.js",
+    "assets/review-notes.js",
+    "assets/social-card.png",
+    "data/blockers.json",
+    "data/bundle.json",
+    "data/cells.json",
+    "data/health.json",
+    "data/stories.json",
+    "data/verification.json",
+    "evidence/build-scope-checklist.json",
+    "evidence/build-scope-policy.json",
+    "evidence/business-story-checks-2026-10-20.json",
+    "evidence/case-readability-2-checks-2026-10-19.json",
+    "evidence/check-results.json",
+    "evidence/claim-contract.md",
+    "evidence/claim-lineage.jsonl.gz",
+    "evidence/claim-validation.json",
+    "evidence/completed-checks-2026-10-19.json",
+    "evidence/completed-review-checks-2026-10-19.json",
+    "evidence/consumption-manifest.json",
+    "evidence/denominator-clarity-checks-2026-10-20.json",
+    "evidence/detection-results-2.json",
+    "evidence/diagram-labels-checks-2026-10-19.json",
+    "evidence/evidence-coverage.json",
+    "evidence/expected-event-accounting.md",
+    "evidence/financial-reconciliation.json",
+    "evidence/health-plan-diagram-checks-2026-10-19.json",
+    "evidence/health-plan-only-checks-2026-10-19.json",
+    "evidence/historical-completed-checks-2026-10-19.json",
+    "evidence/metric_register.md",
+    "evidence/negative-controls.json",
+    "evidence/obligations.jsonl.gz",
+    "evidence/payment-context-checks-2026-10-19.json",
+    "evidence/preparation-accounting.jsonl.gz",
+    "evidence/reader-first-presentation-checks-2026-10-19.json",
+    "evidence/readiness-readability-2-checks-2026-10-19.json",
+    "evidence/reading-panel-2026-10-19.json",
+    "evidence/reconciliation.md",
+    "evidence/record-origins-checks-2026-10-19.json",
+    "evidence/rederivation.json",
+    "evidence/review-receipt-2026-10-19.json",
+    "evidence/roles-context-checks-2026-10-19.json",
+    "evidence/source-manifest.json",
+    "evidence/source-register.md",
+    "evidence/story-bindings-verification.json",
+    "evidence/summary-card-checks-2026-10-19.json",
+    "evidence/reconciliation/coverage-bridges.json",
+    "evidence/reconciliation/never-ready-families.json",
+    "evidence/reconciliation/population-bridge.json",
+    "evidence/reconciliation/current_later/evidence-residuals.json",
+    "evidence/reconciliation/current_later/known-later-bridge.json",
+    "evidence/reconciliation/current_later/out-of-scope-accepted.json",
+    "evidence/reconciliation/current_later/population.json",
+    "evidence/reconciliation/current_later/uncovered-legs.json",
+    "evidence/reconciliation/known_then/evidence-residuals.json",
+    "evidence/reconciliation/known_then/known-later-bridge.json",
+    "evidence/reconciliation/known_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/known_then/population.json",
+    "evidence/reconciliation/known_then/uncovered-legs.json",
+    "evidence/reconciliation/restated_then/evidence-residuals.json",
+    "evidence/reconciliation/restated_then/known-later-bridge.json",
+    "evidence/reconciliation/restated_then/out-of-scope-accepted.json",
+    "evidence/reconciliation/restated_then/population.json",
+    "evidence/reconciliation/restated_then/uncovered-legs.json",
+    "data/records/SYN-C01.json.gz",
+    "data/records/SYN-C02.json.gz",
+    "data/records/SYN-C03.json.gz",
+    "data/records/SYN-C04.json.gz",
+    "data/records/SYN-C05.json.gz",
+    "data/records/SYN-C06.json.gz"
+  ],
+  "prior_presentation_review": "denominator-clarity-checks-2026-10-20.json",
+  "limits": [
+    "Analytical data and all 22,173 published cells unchanged. Prior assurance receipts and accepted limitations preserved; they were not rerun.",
+    "Payment-ledger guidance is illustrative, not newly obtained evidence or performed outreach. Fixed DEMO01 does not respond to filters and its rejection reason is not established.",
+    "Synthetic routes, cases and rates do not establish prevalence, client performance or real-world business benefit.",
+    "No merge or publication."
+  ]
+}

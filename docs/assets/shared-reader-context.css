@@ -1,0 +1,18 @@
+/* Identical introductory sections on the case study and module. */
+.shared-service { margin: 1.7rem 0; padding: 1.25rem 1.4rem; background: white; border-radius: 1.2rem; border-left: 3px solid var(--teal-3); }
+.shared-service h2 { font-size: 1.35rem; margin: .4rem 0 .9rem; text-wrap: balance; }
+.shared-service-steps { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.8rem; padding-left: 1.2rem; margin: .7rem 0; }
+.shared-service-steps li { min-width: 0; padding: 0 .15rem 0 0; color: var(--ink-soft); font-size: .9rem; line-height: 1.55; text-wrap: pretty; }
+.shared-service-note { margin: 1rem 0 0; padding-top: .7rem; border-top: 1px solid var(--line); font-size: .8rem; color: var(--teal); }
+.shared-terms { margin: 1.8rem 0; }
+.shared-terms h2 { font-size: 1.6rem; margin: .4rem 0 1rem !important; text-wrap: balance; }
+.shared-terms .term-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; margin: 1rem 0; }
+.shared-terms .term-grid article { padding: 1.15rem; background: white; border-top: 3px solid var(--teal-3); border-radius: 1rem; min-width: 0; }
+.shared-terms .term-grid h3 { font-size: 1.1rem; text-wrap: balance; }
+.shared-terms .term-grid p:not(.eyebrow) { font-size: .9rem; color: var(--ink-soft); text-wrap: pretty; }
+.shared-terms .scope-note { font-size: .85rem; color: var(--ink-soft); text-wrap: pretty; }
+@media (max-width: 767px) {
+  .shared-service { padding: 1.1rem; }
+  .shared-service-steps, .shared-terms .term-grid { grid-template-columns: minmax(0,1fr); gap: .75rem; }
+  .shared-terms h2 { font-size: 1.4rem; }
+}
