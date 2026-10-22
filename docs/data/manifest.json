@@ -149,13 +149,13 @@
   "playbook/assets/reader-consistency.js": "c38efc76b8583afccd655dddb3d0093f5781cc088987f86e004fcb07d8b34e20",
   "playbook/assets/styles.css": "ade700ff6223b8bc52ec3eeefbf641aeb501c834102aba71399df980caf79147",
   "playbook/downloads/claim-integrity-playbook.md": "4e6217124f7c95c96358a1ff8cf64be65d3382a80a5d126abd79e60ec803af71",
-  "playbook/how-did-i-do-this.html": "c5888d58ffddac34838866e1ad100b3e24c8d499cf371dca5e6778c3f1702ae3",
+  "playbook/how-did-i-do-this.html": "40b71a9c39eeafca9d54c5121c7971effcfa9dbeb4be836eda49228d3244689b",
   "playbook/index.html": "1e15a589bad86ed3ce04589dddb744e397fec7288156f521a0d9122e1cfa6cd0"
  },
  "presentation_review": "evidence/playbook-publication-2026-10-22.json",
- "presentation_revision": "integrated-playbook-opening-points-2026-10-22",
+ "presentation_revision": "integrated-playbook-two-line-process-title-2026-10-22",
  "previous_presentation_review": "evidence/publication-preparation-2026-10-20.json",
  "release_id": "CCI-CANDIDATE-380c7f833ede",
  "schema_version": "web-release-manifest-1",
- "total_bytes": 24727989
+ "total_bytes": 24727966
 }
