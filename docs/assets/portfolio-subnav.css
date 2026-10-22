@@ -1,0 +1,36 @@
+/* Module buttons are the shared subpage-navigation standard. */
+.module-tabs, .playbook-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .25rem;
+  width: 100%;
+  max-width: 76rem;
+  margin-inline: auto;
+  padding: .35rem .25rem;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+.module-tabs a, .playbook-tabs a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0 1 auto;
+  min-height: 2.75rem;
+  padding: .45rem .9rem;
+  border-radius: 999px;
+  background: white;
+  color: #4a5857;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: .9rem;
+  font-weight: 500;
+  line-height: 1.55;
+  text-decoration: none;
+}
+.module-tabs a:hover, .playbook-tabs a:hover { background: var(--paper); color: var(--ink); }
+.module-tabs a[aria-current="page"], .playbook-tabs a[aria-current="page"] { background: var(--ink); color: white; }
+@media (max-width: 767px) {
+  .module-tabs a, .playbook-tabs a { font-size: .8rem; padding: .5rem .65rem; }
+}
