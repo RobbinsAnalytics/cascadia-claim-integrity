@@ -35,3 +35,7 @@ main,.site-footer{margin-left:0}
 @media print{.page-rail{display:none!important}main,.site-footer,body:has(.integrated-header) main,body:has(.integrated-header) .site-footer{margin-left:0}.site-footer{padding-bottom:0}}
 
 @media(min-width:1200px) and (max-width:1439px){.hero.wrap,.process-hero.wrap{width:calc(100% - 64px)}}
+
+.playbook-opening-points{max-width:76ch;padding-left:1.2rem;margin:.8rem 0 1rem;color:var(--soft);font-size:1rem;line-height:1.55}
+.playbook-opening-points li{padding:.3rem 0 .3rem .15rem}
+.playbook-opening-points strong{color:var(--ink)}

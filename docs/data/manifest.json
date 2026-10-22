@@ -86,7 +86,7 @@
   "evidence/page-navigation-opening-checks-2026-10-20.json": "aca8f339bf1b77743212be79669f6a4cf02ef6a679f510a2aacfab0bcd043675",
   "evidence/page-title-checks-2026-10-20.json": "b76ba49179c4bae6055f68b013fcb39a808b4cb65603f55ffb69fdc24ade7bf6",
   "evidence/payment-context-checks-2026-10-19.json": "2ac98ef557a81419408ead602fdab3f33eea3954eab397b9ab98f6e0bb3dcc8e",
-  "evidence/playbook-publication-2026-10-22.json": "4439f19cfc47b77768dbbba41697f7356c9557664d2776d0d3df8794fe1bb09b",
+  "evidence/playbook-publication-2026-10-22.json": "1cac36adc58cff5a9a10b8a990954019f2718c04cf222d96eb3b16339a5d1d7a",
   "evidence/preparation-accounting.jsonl.gz": "7eb88ba7b61840dffcb1723f3aded617de04890f9e6f93b80ea9b64020769d20",
   "evidence/profile-journey-checks-2026-10-20.json": "5f89e395b40d103659561040571a94f6149b38deaf323a318aa54d7b370a3a34",
   "evidence/publication-preparation-2026-10-20.json": "7a81043c4f1bd721f08e8cb78cd56a5184815d4c575c38abb343cbcf295e387d",
@@ -145,17 +145,17 @@
   "playbook/assets/process/mvps/codex/downloads/claim-integrity-playbook.md": "62b8c39689c936b79a32b56dfa24610d8ea96afc5afbc0b37b3fbe79320cce75",
   "playbook/assets/process/mvps/codex/index.html": "eeb9fa781cdf89cebb39ce53eb2505de6c6effa9c36d23762a0e38d9ac085345",
   "playbook/assets/process/refined-v2.png": "62c15328645453319023065729f28cdac215bd1fe76adcb140f3155dc6bf8b74",
-  "playbook/assets/reader-consistency.css": "dfd436a83adf550e996e37ab613e4ab2e6f8d55a6d6ae509b0622936a142f8e6",
+  "playbook/assets/reader-consistency.css": "64b3974faca1dba8371f7258f5d1274df5fa1c361b1bcb9ab8fc84783a0385f0",
   "playbook/assets/reader-consistency.js": "c38efc76b8583afccd655dddb3d0093f5781cc088987f86e004fcb07d8b34e20",
   "playbook/assets/styles.css": "ade700ff6223b8bc52ec3eeefbf641aeb501c834102aba71399df980caf79147",
   "playbook/downloads/claim-integrity-playbook.md": "4e6217124f7c95c96358a1ff8cf64be65d3382a80a5d126abd79e60ec803af71",
-  "playbook/how-did-i-do-this.html": "ab2da18fe25935733e229eba105bb03b0688af6eada19b2171c4e4af53881987",
-  "playbook/index.html": "1e5ca1519b619e9c5e25fc316e65746605273052ea480f9eff2258c9f49f5145"
+  "playbook/how-did-i-do-this.html": "c5888d58ffddac34838866e1ad100b3e24c8d499cf371dca5e6778c3f1702ae3",
+  "playbook/index.html": "1e15a589bad86ed3ce04589dddb744e397fec7288156f521a0d9122e1cfa6cd0"
  },
  "presentation_review": "evidence/playbook-publication-2026-10-22.json",
- "presentation_revision": "integrated-playbook-reader-match-2026-10-22",
+ "presentation_revision": "integrated-playbook-opening-points-2026-10-22",
  "previous_presentation_review": "evidence/publication-preparation-2026-10-20.json",
  "release_id": "CCI-CANDIDATE-380c7f833ede",
  "schema_version": "web-release-manifest-1",
- "total_bytes": 24726797
+ "total_bytes": 24727989
 }

@@ -48,5 +48,18 @@
   "page_viewport_combinations": 12,
   "horizontal_overflow": "none observed",
   "mobile_interactions": "Enter opens; Escape closes; section links close menu; template subsection reveals and opens Trust contract; process navigation selects Refine the choice"
+ },
+ "opening_copy_update": {
+  "change": "Both Playbook openings use a three-line desktop subhead and two supporting bullets matching Module and Case study",
+  "desktop_widths_verified": [
+   1280,
+   1440,
+   1920
+  ],
+  "mobile_widths_verified": [
+   320,
+   390
+  ],
+  "horizontal_overflow": "none observed"
  }
 }
