@@ -27,5 +27,26 @@
  "historical_playbook_acceptance": {
   "ui_ux_checks_passed": 22,
   "manual_checks_unrun": 2
+ },
+ "reader_consistency_update": {
+  "reference": "Case study and Module",
+  "changes": [
+   "Matched reading-rail width, typography, borders, active state and mobile contents panel",
+   "Matched headline weight, size and teal italic emphasis",
+   "Evidence decisions headline fits two lines at 1280, 1440 and 1920px",
+   "Removed introductory source-category line and no-data scope note",
+   "Corrected stale unpublished label in process footer"
+  ],
+  "viewport_widths_css_px": [
+   320,
+   390,
+   768,
+   1280,
+   1440,
+   1920
+  ],
+  "page_viewport_combinations": 12,
+  "horizontal_overflow": "none observed",
+  "mobile_interactions": "Enter opens; Escape closes; section links close menu; template subsection reveals and opens Trust contract; process navigation selects Refine the choice"
  }
 }
