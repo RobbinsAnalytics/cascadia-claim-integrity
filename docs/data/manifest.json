@@ -1,7 +1,7 @@
 {
  "build": "data/derived/bulk-c4",
  "cells_sha256": "05be40e0d23deeef21df3d9f93cbae74e411cb4a93c770870d6ebf38c137d4fa",
- "file_count": 146,
+ "file_count": 148,
  "files": {
   "assets/app.css": "cf05f7a7e3e9c21d6b6c9d3703a840aa62dd8c7ef88564687f33e28f59d907da",
   "assets/app.js": "de4ec2fbf8b299484c3a0f71be0bab0b8bf2e30b5e95c0f67ed31fbe5fa95b81",
@@ -86,7 +86,7 @@
   "evidence/page-navigation-opening-checks-2026-10-20.json": "aca8f339bf1b77743212be79669f6a4cf02ef6a679f510a2aacfab0bcd043675",
   "evidence/page-title-checks-2026-10-20.json": "b76ba49179c4bae6055f68b013fcb39a808b4cb65603f55ffb69fdc24ade7bf6",
   "evidence/payment-context-checks-2026-10-19.json": "2ac98ef557a81419408ead602fdab3f33eea3954eab397b9ab98f6e0bb3dcc8e",
-  "evidence/playbook-publication-2026-10-22.json": "826d5363c3ae97f69dc032f056b082eeebc8c0c69f7f0f3987c489277cc45adb",
+  "evidence/playbook-publication-2026-10-22.json": "4439f19cfc47b77768dbbba41697f7356c9557664d2776d0d3df8794fe1bb09b",
   "evidence/preparation-accounting.jsonl.gz": "7eb88ba7b61840dffcb1723f3aded617de04890f9e6f93b80ea9b64020769d20",
   "evidence/profile-journey-checks-2026-10-20.json": "5f89e395b40d103659561040571a94f6149b38deaf323a318aa54d7b370a3a34",
   "evidence/publication-preparation-2026-10-20.json": "7a81043c4f1bd721f08e8cb78cd56a5184815d4c575c38abb343cbcf295e387d",
@@ -145,15 +145,17 @@
   "playbook/assets/process/mvps/codex/downloads/claim-integrity-playbook.md": "62b8c39689c936b79a32b56dfa24610d8ea96afc5afbc0b37b3fbe79320cce75",
   "playbook/assets/process/mvps/codex/index.html": "eeb9fa781cdf89cebb39ce53eb2505de6c6effa9c36d23762a0e38d9ac085345",
   "playbook/assets/process/refined-v2.png": "62c15328645453319023065729f28cdac215bd1fe76adcb140f3155dc6bf8b74",
+  "playbook/assets/reader-consistency.css": "dfd436a83adf550e996e37ab613e4ab2e6f8d55a6d6ae509b0622936a142f8e6",
+  "playbook/assets/reader-consistency.js": "c38efc76b8583afccd655dddb3d0093f5781cc088987f86e004fcb07d8b34e20",
   "playbook/assets/styles.css": "ade700ff6223b8bc52ec3eeefbf641aeb501c834102aba71399df980caf79147",
   "playbook/downloads/claim-integrity-playbook.md": "4e6217124f7c95c96358a1ff8cf64be65d3382a80a5d126abd79e60ec803af71",
-  "playbook/how-did-i-do-this.html": "890af26f592aa367ac102797e9e3bbf0b8e92c475579858484752d5beb92dd00",
-  "playbook/index.html": "117eab0db6a25856740fa3bdc4eb2d3bda7ba2c14a472f430189274f60e94af6"
+  "playbook/how-did-i-do-this.html": "ab2da18fe25935733e229eba105bb03b0688af6eada19b2171c4e4af53881987",
+  "playbook/index.html": "1e5ca1519b619e9c5e25fc316e65746605273052ea480f9eff2258c9f49f5145"
  },
  "presentation_review": "evidence/playbook-publication-2026-10-22.json",
- "presentation_revision": "integrated-playbook-2026-10-22",
+ "presentation_revision": "integrated-playbook-reader-match-2026-10-22",
  "previous_presentation_review": "evidence/publication-preparation-2026-10-20.json",
  "release_id": "CCI-CANDIDATE-380c7f833ede",
  "schema_version": "web-release-manifest-1",
- "total_bytes": 24721053
+ "total_bytes": 24726797
 }
