@@ -1,0 +1,52 @@
+/* A shared hero frame keeps portfolio summary cards in the same place.
+   Card height remains intrinsic: copy controls height, never a fixed minimum. */
+.hero.hero-split,
+.hero.wrap,
+.process-hero.wrap {
+  grid-template-columns: minmax(0, 1fr) 22rem;
+  column-gap: 2.5rem;
+  align-items: start;
+  padding-top: 3rem;
+}
+.summary-card,
+.playbook-summary {
+  align-self: start;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+.hero.wrap,
+.process-hero.wrap {
+  width: min(1152px, calc(100% - 64px));
+}
+/* With the playbook rail visible, retain the same right content gutter. */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  #case-main.container-x,
+  #app.container-x { max-width: none; }
+}
+@media (min-width: 1440px) {
+  body:has(.integrated-header) main,
+  body:has(.integrated-header) .site-footer { margin-left: 208px; }
+}
+@media (max-width: 999px) {
+  .hero.hero-split,
+  .hero.wrap,
+  .process-hero.wrap {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.4rem;
+  }
+  .process-hero > .playbook-summary { max-width: none; }
+}
+@media (max-width: 767px) {
+  .hero.wrap,
+  .process-hero.wrap { width: calc(100% - 32px); }
+  .hero.hero-split,
+  .hero.wrap,
+  .process-hero.wrap { padding-top: 2rem; }
+}
+@media print {
+  body:has(.integrated-header) main,
+  body:has(.integrated-header) .site-footer { margin-left: 0; }
+}

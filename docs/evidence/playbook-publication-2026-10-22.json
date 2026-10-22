@@ -1,0 +1,31 @@
+{
+ "schema_version": "presentation-publication-1",
+ "presentation_revision": "integrated-playbook-2026-10-22",
+ "scope": "Accepted Claim Integrity playbook and build-process pages integrated with existing Case study and Module navigation. Presentation-only release.",
+ "checks": {
+  "responsive_widths_css_px": [
+   320,
+   390,
+   768,
+   1280,
+   1440
+  ],
+  "page_viewport_combinations": 20,
+  "document_horizontal_overflow": "none observed",
+  "module_views": "all three verified on desktop and mobile",
+  "mobile_menus": "Enter open and Escape close verified across four pages",
+  "templates": "desktop stacked sticky title/headers and mobile contained scrolling verified",
+  "mvp_previews": "both full-screen previews verified",
+  "compact_summary": "393.75px card height at 1440px; width and copy preserved; 320px fit verified"
+ },
+ "limits": [
+  "Physical-device Safari/Android certification not performed",
+  "Native 200% zoom and native print pagination/return-state remain unrun",
+  "Numerical claim-engine checks were not rerun for presentation-only changes"
+ ],
+ "numerical_snapshot_unchanged": true,
+ "historical_playbook_acceptance": {
+  "ui_ux_checks_passed": 22,
+  "manual_checks_unrun": 2
+ }
+}

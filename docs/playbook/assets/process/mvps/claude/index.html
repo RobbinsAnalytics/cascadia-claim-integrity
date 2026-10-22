@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claim Integrity Playbook</title>
+<meta name="description" content="A fictional, local playbook for deciding whether claim evidence can support a decision.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+ <div class="bar">
+  <p class="brand"><span class="brand-mark" aria-hidden="true">CI</span> Claim Integrity <span class="brand-sub">/ Playbook</span></p>
+  <nav aria-label="Playbook sections">
+   <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#decisions">Decisions</a></li>
+    <li><a href="#scenarios">Scenarios</a></li>
+    <li><a href="#templates">Templates</a></li>
+    <li><a href="#sources">Sources</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+<main id="main" tabindex="-1">
+<section id="overview" class="section hero" aria-labelledby="title">
+ <div class="hero-grid">
+  <div>
+   <p class="eyebrow">CASCADIA / CLAIM INTEGRITY</p>
+   <h1 id="title">Can the evidence <em>support</em> the decision?</h1>
+   <p class="lede">A successful sync is not enough. This playbook shows how to assess incoming evidence, contain uncertainty, and establish a defensible path back to reliable decisions.</p>
+   <p class="principle">Technical success is context. Business supportability requires evidence relevant to the decision.</p>
+  </div>
+  <aside class="disclosure" aria-label="Disclosure">
+   <p class="label">Local guide · Fictional · No data</p>
+   <p>Fictional playbook. No operational data. Examples describe decisions and evidence to request; they do not represent executed checks or real incidents.</p>
+  </aside>
+ </div>
+ <h2 class="sub-h">Five decisions: Trust · Diagnosis · Containment · Recovery · Release</h2>
+ <ol class="cards">
+  <li><a class="card" href="#trust"><span class="label">01</span><strong>Trust</strong><span>Can this evidence support this business use now?</span></a></li>
+  <li><a class="card" href="#diagnosis"><span class="label">02</span><strong>Diagnosis</strong><span>At which boundary did the evidence first become missing or altered?</span></a></li>
+  <li><a class="card" href="#containment"><span class="label">03</span><strong>Containment</strong><span>Which decisions could depend on the missing evidence, and what can safely continue?</span></a></li>
+  <li><a class="card" href="#recovery"><span class="label">04</span><strong>Recovery</strong><span>What establishes that recovered evidence is incorporated correctly and consequences are addressed?</span></a></li>
+  <li><a class="card" href="#release"><span class="label">05</span><strong>Release</strong><span>Is there enough evidence to accept this specific pipeline change?</span></a></li>
+ </ol>
+ <p class="scope">For operations and data-platform leads working across source systems, claim readiness and encounter reporting. Start with the decision that is uncertain, then follow the relevant scenario and template. This guide explains a process; it does not operate a claims platform.</p>
+ <noscript><p class="note">Enhancement note: JavaScript is off. All three scenarios are shown below, the scenario selector and Print button are hidden, and sections still open with the browser's native controls.</p></noscript>
+</section>
+
+<section id="decisions" class="section" aria-labelledby="decisions-h">
+ <h2 id="decisions-h">Decision guides</h2>
+ <div class="states" id="evidence-states">
+  <h3>Evidence states</h3>
+  <dl class="state-list">
+   <div class="state"><dt>Supported</dt><dd>Current evidence meets the agreed requirements for the stated use and scope.</dd></div>
+   <div class="state"><dt>Unsupported</dt><dd>Available evidence demonstrates a breach of those requirements.</dd></div>
+   <div class="state"><dt>Unknown</dt><dd>Required evidence is missing, inconclusive or no longer current.</dd></div>
+   <div class="state restricted"><dt>Restricted use</dt><dd>A separately authorized, limited use with a named owner, caveat and expiry. Permission does not turn unknown evidence into supported evidence.</dd></div>
+  </dl>
+  <p>Freshness asks whether evidence is current enough. Completeness asks whether the expected evidence is accounted for. Recent arrivals can hide an earlier gap; a genuinely quiet source can remain trustworthy when its lack of change is independently established. Thresholds belong to the organization's agreed contract, not this example. [<a href="#source-r1">R1</a>, <a href="#source-r5">R5</a>]</p>
+ </div>
+  <details class="guide" id="trust">
+   <summary><h3>Trust</h3><span class="q">Can this evidence support this business use now?</span></summary>
+   <div class="guide-body">
+    <dl class="fields">
+     <div><dt>Question</dt><dd>Can this evidence support this business use now?</dd></div>
+     <div><dt>Trigger</dt><dd>A readiness decision, reporting task or review needs evidence whose coverage or currency is uncertain.</dd></div>
+     <div><dt>Evidence to request</dt><dd>The dataset/use agreement; the health-plan or partition scope; a bounded source observation; arrival and coverage information; relevant missing or invalid facts; and the time that evidence was evaluated.</dd></div>
+     <div><dt>Decision rule</dt><dd>Call the evidence supported only within its demonstrated scope and lifetime. Treat a proven breach as unsupported and a missing observation as unknown. Do not infer completeness from a recent timestamp or connector status.</dd></div>
+     <div><dt>Action</dt><dd>Permit supported work; place targeted holds on unsupported or unknown dependencies. Record any restricted use separately with its caveat and expiry.</dd></div>
+     <div><dt>Accountable owner</dt><dd>Owner of the business use; engineering supplies the evaluation evidence.</dd></div>
+     <div><dt>Exit condition</dt><dd>A scoped decision is recorded with its evidence, owner and next review or expiry.</dd></div>
+     <div><dt>Read next</dt><dd><a href="#scenario-1">Scenario 1</a> and the <a href="#template-trust">Trust contract template</a>.</dd></div>
+    </dl>
+   </div>
+  </details>
+  <details class="guide" id="diagnosis">
+   <summary><h3>Diagnosis</h3><span class="q">At which boundary did the evidence first become missing or altered?</span></summary>
+   <div class="guide-body">
+    <dl class="fields">
+     <div><dt>Question</dt><dd>At which boundary did the evidence first become missing or altered?</dd></div>
+     <div><dt>Trigger</dt><dd>An unexpected missing fact or an unsupported/unknown input.</dd></div>
+     <div><dt>Evidence to request</dt><dd>A key-specific source observation, extraction manifest, staging acceptance/rejection details and downstream consumption evidence, all referring to a comparable source interval or version.</dd></div>
+     <div><dt>Decision rule</dt><dd>Locate the first demonstrated divergence. If the source never contained the fact, record a source/business gap. If an extract contained it but staging did not, inspect landing/rejection. If staging preserved it but the output did not, inspect downstream use. When a boundary cannot be observed, state that diagnosis remains indeterminate.</dd></div>
+     <div><dt>Action</dt><dd>Assign the next investigation to the relevant owner. Keep provisional containment in place while diagnosis continues. Matching counts cannot rule out a changed field value.</dd></div>
+     <div><dt>Accountable owner</dt><dd>Data-platform lead; the source owner confirms a specific source omission.</dd></div>
+     <div><dt>Exit condition</dt><dd>The inspected scope, known cause or bounded uncertainty, and next responsible owner are recorded.</dd></div>
+     <div><dt>Read next</dt><dd><a href="#scenario-1">Scenario 1</a> and the <a href="#template-incident">Incident decision record</a>.</dd></div>
+    </dl>
+   </div>
+  </details>
+  <details class="guide" id="containment">
+   <summary><h3>Containment</h3><span class="q">Which decisions could depend on the missing evidence, and what can safely continue?</span></summary>
+   <div class="guide-body">
+    <dl class="fields">
+     <div><dt>Question</dt><dd>Which decisions could depend on the missing evidence, and what can safely continue?</dd></div>
+     <div><dt>Trigger</dt><dd>Trust breaks; root-cause confirmation is not required first.</dd></div>
+     <div><dt>Evidence to request</dt><dd>Dependency scope, prior decisions, claim/target uses, reporting obligations and deadlines, affected measures, and registered consumers. Include conclusions based on absence, such as “no authorization found”.</dd></div>
+     <div><dt>Decision rule</dt><dd>Separate potential exposure known during the incident from the smaller impact that may be confirmed after recovery. A claim can be exposed for one target while another use remains supportable. Already-submitted or published outcomes require later review even when future actions are held.</dd></div>
+     <div><dt>Action</dt><dd>Hold unsupported actions, continue independently supported work, notify affected consumers and register past actions at risk. Keep obligation clocks running; escalate deadline risk internally rather than claiming the deadline paused.</dd></div>
+     <div><dt>Accountable owner</dt><dd>Incident lead, supported by operations, reporting and metric owners.</dd></div>
+     <div><dt>Exit condition</dt><dd>Exposed decisions have a response, owner and deadline; unaffected uses have a recorded basis for continuation.</dd></div>
+     <div><dt>Read next</dt><dd><a href="#scenario-1">Scenario 1</a> and the <a href="#template-incident">Incident</a> or <a href="#template-communication">Communication</a> template. [<a href="#source-r2">R2</a>]</dd></div>
+    </dl>
+   </div>
+  </details>
+  <details class="guide" id="recovery">
+   <summary><h3>Recovery</h3><span class="q">What establishes that recovered evidence is incorporated correctly and consequences are addressed?</span></summary>
+   <div class="guide-body">
+    <dl class="fields">
+     <div><dt>Question</dt><dd>What establishes that recovered evidence is incorporated correctly and consequences are addressed?</dd></div>
+     <div><dt>Trigger</dt><dd>Missing or corrected evidence becomes available, or a repair is proposed.</dd></div>
+     <div><dt>Evidence to request</dt><dd>Preserved prior state; bounded source-to-output comparison; versions and actual arrival/knowledge times; a replay/effect review; independent expected outcomes; and dispositions for decisions already acted on.</dd></div>
+     <div><dt>Decision rule</dt><dd>Accept only the scope that can be proven. Preserve what was known at earlier decision times. A correction can be effective in the past without pretending it arrived earlier. Agreement between an incremental repair and a full rebuild is a consistency check, not independent proof that both are correct.</dd></div>
+     <div><dt>Action</dt><dd>Retain legitimate versions, prevent duplicate effects, revisit prior actions, obtain domain sign-off, and release holds per supported conclusion. An uncertain acknowledgement requires reconciliation and a safe recipient contract, not a blind resend.</dd></div>
+     <div><dt>Accountable owner</dt><dd>Data-platform lead; operations and finance attest their respective consequences.</dd></div>
+     <div><dt>Exit condition</dt><dd>Proven scope and remaining uncertainty are explicit. Incident closure additionally requires past-action, consumer and obligation follow-up.</dd></div>
+     <div><dt>Read next</dt><dd><a href="#scenario-2">Scenario 2</a> and the <a href="#template-recovery">Recovery review template</a>. [<a href="#source-r3">R3</a>]</dd></div>
+    </dl>
+   </div>
+  </details>
+  <details class="guide" id="release">
+   <summary><h3>Release</h3><span class="q">Is there enough evidence to accept this specific pipeline change?</span></summary>
+   <div class="guide-body">
+    <dl class="fields">
+     <div><dt>Question</dt><dd>Is there enough evidence to accept this specific pipeline change?</dd></div>
+     <div><dt>Trigger</dt><dd>A new or changed implementation, including AI-generated code, is proposed.</dd></div>
+     <div><dt>Evidence to request</dt><dd>Intended behavior; identified candidate/version; independent expected results; relevant regression and ordering checks; known limitations; reviewer; and rollback/observation plan.</dd></div>
+     <div><dt>Decision rule</dt><dd>Require explained differences and independently assessed behavior. Generated tests alone are insufficient. Keep the authoring side separate from independent approval. Software-security guidance is useful context but does not establish claim-data correctness.</dd></div>
+     <div><dt>Action</dt><dd>Accept, reject or return for clarification with reasons. Record the intended operating boundaries and a rollback path; do not infer release readiness from this fictional walkthrough.</dd></div>
+     <div><dt>Accountable owner</dt><dd>Engineering lead, with mandatory independent approval outside the authoring side.</dd></div>
+     <div><dt>Exit condition</dt><dd>A candidate-specific decision, evidence limits, owner and next action are recorded.</dd></div>
+     <div><dt>Read next</dt><dd><a href="#scenario-3">Scenario 3</a> and the <a href="#template-release">Release decision template</a>. [<a href="#source-r4">R4</a>]</dd></div>
+    </dl>
+   </div>
+  </details>
+</section>
+
+<section id="scenarios" class="section" aria-labelledby="scenarios-h">
+ <h2 id="scenarios-h">Scenarios</h2>
+ <p class="tag-line"><span class="chip">Fictional walkthrough</span> Each scenario is an illustration, not an executed test or a real incident.</p>
+ <div class="selector" id="scenario-selector" role="group" aria-label="Choose scenario" hidden>
+  <button type="button" data-scenario="scenario-1" aria-pressed="false">01 Stale authorizations</button>
+  <button type="button" data-scenario="scenario-2" aria-pressed="false">02 Uncertain retry</button>
+  <button type="button" data-scenario="scenario-3" aria-pressed="false">03 AI-assisted change</button>
+ </div>
+  <article class="scenario" id="scenario-1" aria-labelledby="scenario-1-h">
+   <p class="chip">Fictional walkthrough</p>
+   <h3 id="scenario-1-h">Scenario 1: The connector is green; authorization evidence is stale</h3>
+   <p><strong>Setup.</strong> One fictional plan requires authorization support for an audit target. The encounter target has a different requirement. A connector reports success while authorization changes for that plan fail to arrive. Other inputs continue updating. This is an illustrative policy, not a statement about a real plan.</p>
+   <ol class="timeline">
+    <li><strong>Recognize the uncertainty.</strong> A source-side observation indicates changes inside a stated interval. Staging cannot account for them. The connector's green status does not settle supportability.</li>
+    <li><strong>Contain before diagnosing.</strong> Operations holds exposed audit decisions, including conclusions based on “no authorization found”. The independently supported encounter use continues. Reporting deadlines remain visible.</li>
+    <li><strong>Locate the gap.</strong> The team compares the same source interval through extraction and staging. The missing changes are already absent in the extract, so extraction is the first demonstrated break. A source record that never existed would require a different follow-up.</li>
+    <li><strong>Register prior consequences.</strong> An audit package already sent needs review; a readiness summary needs possible restatement; a prior escalation may need withdrawal. Record owners rather than silently replacing history.</li>
+    <li><strong>Review recovery.</strong> Request source-to-output reconciliation, version/arrival evidence, independent expected outcomes and duplicate-effect precautions. Do not declare recovery merely because a backfill finishes.</li>
+    <li><strong>Close deliberately.</strong> Operations revisits prior actions, reporting follows obligations, and the incident lead closes only after the remaining uncertainty and communications are dispositioned.</li>
+   </ol>
+   <p class="lesson"><strong>Decision lesson.</strong> Exposure is what could depend on the gap at detection time. Realized impact is what later evidence confirms changed. Hindsight cannot justify a smaller initial hold.</p>
+   <p><strong>Evidence needed.</strong> Bounded source observation, extract/landing comparison, exposed-decision register, preserved prior state and recovery review.</p>
+   <p><strong>Limit.</strong> No record set, reconciliation or backfill was executed in this example.</p>
+   <p><strong>Related.</strong> <a href="#trust">Trust</a>, <a href="#diagnosis">Diagnosis</a>, <a href="#containment">Containment</a>, <a href="#recovery">Recovery</a>; <a href="#template-incident">Incident decision record</a>.</p>
+  </article>
+  <article class="scenario" id="scenario-2" aria-labelledby="scenario-2-h">
+   <p class="chip">Fictional walkthrough</p>
+   <h3 id="scenario-2-h">Scenario 2: The acknowledgement is missing</h3>
+   <p><strong>Setup.</strong> A recovery redelivers a legitimate correction. Separately, an action may have reached its recipient, but the sender did not retain acknowledgement. These are different identity problems.</p>
+   <ol class="timeline">
+    <li>Keep the correction's entity and immutable version separate from its delivery attempt. Repeated delivery of the same version is different from a valid new correction.</li>
+    <li>Preserve the correction's actual arrival time and earlier business-effective date. Keep the original decision view available.</li>
+    <li>For the uncertain action, identify the original action and inspect the recipient's acceptance evidence under its documented idempotency contract.</li>
+    <li>If acceptance is confirmed, record that result rather than sending a duplicate. If the probe is unavailable or ambiguous, keep the action unresolved. A lookup by itself cannot remove race conditions or guarantee safe retries.</li>
+    <li>Operations or finance reviews the proposed disposition. A recorded replacement decision is separate from authorization to execute it.</li>
+   </ol>
+   <p class="lesson"><strong>Decision lesson.</strong> Correct final tables do not prove that an external action happened only once.</p>
+   <p><strong>Evidence needed.</strong> Version chain, knowledge times, stable action identity, recipient contract and acceptance evidence, and authorized disposition.</p>
+   <p><strong>Limit.</strong> This narrative describes a review; it does not send, reconcile or simulate a payment or submission. [<a href="#source-r3">R3</a>]</p>
+   <p><strong>Related.</strong> <a href="#recovery">Recovery</a>; <a href="#template-recovery">Recovery review</a> and <a href="#template-communication">Communication</a> templates.</p>
+  </article>
+  <article class="scenario" id="scenario-3" aria-labelledby="scenario-3-h">
+   <p class="chip">Fictional walkthrough</p>
+   <h3 id="scenario-3-h">Scenario 3: The faster AI-assisted change</h3>
+   <p><strong>Setup.</strong> An AI-assisted rewrite proposes choosing whichever conflicting revision arrives last. Its own tests pass. The intended business rule instead requires incompatible parallel versions to remain an explicit conflict.</p>
+   <ol class="timeline">
+    <li>State the required conflict behavior before reviewing the candidate.</li>
+    <li>Ask for an independently specified conflicting-version example, input-order variations and comparison with intended outputs.</li>
+    <li>Reject the proposed behavior when it silently chooses a winner. A second check should confirm that connector success cannot suppress the missing-evidence warning.</li>
+    <li>A corrected proposal would retain conflicts and preserve existing checks. Acceptance still requires candidate-specific evidence and independent approval.</li>
+    <li>Record limitations and a rollback plan. Do not represent the fictional corrected proposal as a tested release.</li>
+   </ol>
+   <p class="lesson"><strong>Decision lesson.</strong> Faster implementation and self-authored tests do not replace a behavior specification and independent review.</p>
+   <p><strong>Evidence needed.</strong> Change specification, candidate identifier, independent expectations, check results, reviewer and rollback plan.</p>
+   <p><strong>Limit.</strong> No candidate code, benchmark or test execution is supplied by this playbook.</p>
+   <p><strong>Related.</strong> <a href="#release">Release</a>; <a href="#template-release">Release decision template</a>.</p>
+  </article>
+</section>
+
+<section id="templates" class="section" aria-labelledby="templates-h">
+ <h2 id="templates-h">Blank templates</h2>
+ <p>These templates are prompts for a real team's records. They are intentionally blank and do not submit or store information here.</p>
+  <details class="template" id="template-trust">
+   <summary><h3>Trust contract</h3></summary>
+   <div class="guide-body"><ul class="blank">
+    <li><span>Dataset and business use:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Plan/partition and source interval:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Evidence required and independent source:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Currency/completeness criteria and expiry:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Supported/unsupported/unknown decision and basis:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Restricted-use authorization, caveat and expiry, if any:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Accountable owner and next review:</span> <span class="blank-line">[complete]</span></li>
+   </ul></div>
+  </details>
+  <details class="template" id="template-incident">
+   <summary><h3>Incident decision record</h3></summary>
+   <div class="guide-body"><ul class="blank">
+    <li><span>Incident reference and detection time:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Observation boundary and current uncertainty:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Exposed decisions, including absence-based conclusions:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Supported work continuing and justification:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Prior actions at risk and proposed dispositions:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Holds, owners and unchanged deadlines:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Diagnosis, evidence gaps and next action:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Communication owner and next update:</span> <span class="blank-line">[complete]</span></li>
+   </ul></div>
+  </details>
+  <details class="template" id="template-recovery">
+   <summary><h3>Recovery review</h3></summary>
+   <div class="guide-body"><ul class="blank">
+    <li><span>Recovery scope and retained prior state:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Source versions, payload comparison and unresolved scope:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Effective times versus actual knowledge times:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Independent expected results and rebuild consistency:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Duplicate-effect and uncertain-acknowledgement review:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Past-action dispositions and domain sign-off:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Hold releases, remaining obligations and closure decision:</span> <span class="blank-line">[complete]</span></li>
+   </ul></div>
+  </details>
+  <details class="template" id="template-release">
+   <summary><h3>Release decision</h3></summary>
+   <div class="guide-body"><ul class="blank">
+    <li><span>Candidate/version and intended behavior:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Independent expectations and relevant checks:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Explained differences and unresolved limitations:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Authoring side and independent approver:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Observation/rollback plan:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Accept/reject/clarify decision and reason:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Accountable engineering owner and next action:</span> <span class="blank-line">[complete]</span></li>
+   </ul></div>
+  </details>
+  <details class="template" id="template-communication">
+   <summary><h3>Communication note</h3></summary>
+   <div class="guide-body"><ul class="blank">
+    <li><span>Audience and incident reference:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>What is known, uncertain and affected:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>What continues and what is held:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Deadlines and required recipient action:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Owner and next update:</span> <span class="blank-line">[complete]</span></li>
+    <li><span>Recovery/disposition status without overstating proof:</span> <span class="blank-line">[complete]</span></li>
+   </ul></div>
+  </details>
+ <div class="actions">
+  <a class="btn" href="downloads/claim-integrity-playbook.md" download>Download playbook (.md)</a>
+  <button type="button" class="btn secondary" id="print-btn" hidden>Print</button>
+ </div>
+</section>
+
+<section id="sources" class="section" aria-labelledby="sources-h">
+ <h2 id="sources-h">Sources and limits</h2>
+ <p>Research reviewed: October 21, 2026. Sources inform general engineering practice. The Claim Integrity-specific decisions and fictional policies are original adaptations, not verified production facts or regulatory requirements.</p>
+ <ul class="sources">
+  <li id="source-r1"><strong>R1.</strong> Google SRE, Monitoring Distributed Systems: <a href="https://sre.google/sre-book/monitoring-distributed-systems/" rel="noopener noreferrer">https://sre.google/sre-book/monitoring-distributed-systems/</a></li>
+  <li id="source-r2"><strong>R2.</strong> Google SRE Workbook, Incident Response: <a href="https://sre.google/workbook/incident-response/" rel="noopener noreferrer">https://sre.google/workbook/incident-response/</a></li>
+  <li id="source-r3"><strong>R3.</strong> Amazon Builders&#x27; Library, Making retries safe with idempotent APIs: <a href="https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/" rel="noopener noreferrer">https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/</a></li>
+  <li id="source-r4"><strong>R4.</strong> NIST SP 800-218, SSDF 1.1: <a href="https://csrc.nist.gov/pubs/sp/800/218/final" rel="noopener noreferrer">https://csrc.nist.gov/pubs/sp/800/218/final</a></li>
+  <li id="source-r5"><strong>R5.</strong> dbt documentation, Source freshness: <a href="https://docs.getdbt.com/docs/deploy/source-freshness" rel="noopener noreferrer">https://docs.getdbt.com/docs/deploy/source-freshness</a></li>
+ </ul>
+ <p>General guidance only. Actual contracts, deadlines and authority must be set by the organization. This site contains no operational data, computes no claim outcome and makes no production or compliance assurance claim.</p>
+</section>
+</main>
+<footer class="site-footer"><p>Playbook v2.0 · Research reviewed October 21, 2026 · Fictional examples · No operational data</p></footer>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
